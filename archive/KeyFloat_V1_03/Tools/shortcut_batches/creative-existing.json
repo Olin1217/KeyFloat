@@ -1,0 +1,2030 @@
+{
+  "software": [
+    {
+      "id": "figma",
+      "name": "Figma",
+      "vendor": "Figma",
+      "accent": "#A259FF",
+      "glyph": "F",
+      "group": "design",
+      "dataStatus": "curated",
+      "categories": [
+        {
+          "id": "figma.completion.file-edit",
+          "zh": "文件、编辑与选择",
+          "en": "File, Edit, and Selection",
+          "items": [
+            {
+              "id": "figma.completion.undo",
+              "keys": [
+                "⌘",
+                "Z"
+              ],
+              "zh": "撤销",
+              "en": "Undo",
+              "tags": [
+                "completion",
+                "macOS default",
+                "undo"
+              ]
+            },
+            {
+              "id": "figma.completion.redo",
+              "keys": [
+                "⌘",
+                "⇧",
+                "Z"
+              ],
+              "zh": "重做",
+              "en": "Redo",
+              "tags": [
+                "completion",
+                "macOS default",
+                "redo"
+              ]
+            },
+            {
+              "id": "figma.completion.cut",
+              "keys": [
+                "⌘",
+                "X"
+              ],
+              "zh": "剪切",
+              "en": "Cut",
+              "tags": [
+                "completion",
+                "macOS default",
+                "cut"
+              ]
+            },
+            {
+              "id": "figma.completion.copy",
+              "keys": [
+                "⌘",
+                "C"
+              ],
+              "zh": "复制",
+              "en": "Copy",
+              "tags": [
+                "completion",
+                "macOS default",
+                "copy"
+              ]
+            },
+            {
+              "id": "figma.completion.paste",
+              "keys": [
+                "⌘",
+                "V"
+              ],
+              "zh": "粘贴",
+              "en": "Paste",
+              "tags": [
+                "completion",
+                "macOS default",
+                "paste"
+              ]
+            },
+            {
+              "id": "figma.completion.paste-over-selection",
+              "keys": [
+                "⌘",
+                "⇧",
+                "V"
+              ],
+              "zh": "粘贴到所选对象上方",
+              "en": "Paste over selection",
+              "tags": [
+                "completion",
+                "macOS default",
+                "paste over selection"
+              ]
+            },
+            {
+              "id": "figma.completion.copy-properties",
+              "keys": [
+                "⌘",
+                "⌥",
+                "C"
+              ],
+              "zh": "复制属性",
+              "en": "Copy properties",
+              "tags": [
+                "completion",
+                "macOS default",
+                "copy properties"
+              ]
+            },
+            {
+              "id": "figma.completion.paste-properties",
+              "keys": [
+                "⌘",
+                "⌥",
+                "V"
+              ],
+              "zh": "粘贴属性",
+              "en": "Paste properties",
+              "tags": [
+                "completion",
+                "macOS default",
+                "paste properties"
+              ]
+            },
+            {
+              "id": "figma.completion.select-all",
+              "keys": [
+                "⌘",
+                "A"
+              ],
+              "zh": "全选",
+              "en": "Select all",
+              "tags": [
+                "completion",
+                "macOS default",
+                "select all"
+              ]
+            },
+            {
+              "id": "figma.completion.deselect",
+              "keys": [
+                "Esc"
+              ],
+              "zh": "取消选择或退出当前模式",
+              "en": "Deselect or exit current mode",
+              "tags": [
+                "completion",
+                "macOS default",
+                "deselect or exit current mode"
+              ]
+            },
+            {
+              "id": "figma.completion.delete",
+              "keys": [
+                "Delete"
+              ],
+              "zh": "删除所选对象",
+              "en": "Delete selection",
+              "tags": [
+                "completion",
+                "macOS default",
+                "delete selection"
+              ]
+            },
+            {
+              "id": "figma.completion.rename",
+              "keys": [
+                "⌘",
+                "R"
+              ],
+              "zh": "重命名所选图层",
+              "en": "Rename selection",
+              "tags": [
+                "completion",
+                "macOS default",
+                "rename selection"
+              ]
+            },
+            {
+              "id": "figma.completion.search-layers",
+              "keys": [
+                "⌘",
+                "F"
+              ],
+              "zh": "搜索图层",
+              "en": "Search layers",
+              "tags": [
+                "completion",
+                "macOS default",
+                "search layers"
+              ]
+            },
+            {
+              "id": "figma.completion.quick-actions",
+              "keys": [
+                "⌘",
+                "/"
+              ],
+              "zh": "打开快速操作",
+              "en": "Open quick actions",
+              "tags": [
+                "completion",
+                "macOS default",
+                "open quick actions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "figma.completion.tools",
+          "zh": "工具补充",
+          "en": "Tool Additions",
+          "items": [
+            {
+              "id": "figma.completion.hand-tool",
+              "keys": [
+                "H"
+              ],
+              "zh": "抓手工具",
+              "en": "Hand tool",
+              "tags": [
+                "completion",
+                "macOS default",
+                "hand tool"
+              ]
+            },
+            {
+              "id": "figma.completion.scale-tool",
+              "keys": [
+                "K"
+              ],
+              "zh": "缩放工具",
+              "en": "Scale tool",
+              "tags": [
+                "completion",
+                "macOS default",
+                "scale tool"
+              ]
+            },
+            {
+              "id": "figma.completion.slice-tool",
+              "keys": [
+                "S"
+              ],
+              "zh": "切片工具",
+              "en": "Slice tool",
+              "tags": [
+                "completion",
+                "macOS default",
+                "slice tool"
+              ]
+            },
+            {
+              "id": "figma.completion.pen-tool",
+              "keys": [
+                "P"
+              ],
+              "zh": "钢笔工具",
+              "en": "Pen tool",
+              "tags": [
+                "completion",
+                "macOS default",
+                "pen tool"
+              ]
+            },
+            {
+              "id": "figma.completion.pencil-tool",
+              "keys": [
+                "⇧",
+                "P"
+              ],
+              "zh": "铅笔工具",
+              "en": "Pencil tool",
+              "tags": [
+                "completion",
+                "macOS default",
+                "pencil tool"
+              ]
+            },
+            {
+              "id": "figma.completion.line-tool",
+              "keys": [
+                "L"
+              ],
+              "zh": "直线工具",
+              "en": "Line tool",
+              "tags": [
+                "completion",
+                "macOS default",
+                "line tool"
+              ]
+            },
+            {
+              "id": "figma.completion.arrow-tool",
+              "keys": [
+                "⇧",
+                "L"
+              ],
+              "zh": "箭头工具",
+              "en": "Arrow tool",
+              "tags": [
+                "completion",
+                "macOS default",
+                "arrow tool"
+              ]
+            },
+            {
+              "id": "figma.completion.ellipse-tool",
+              "keys": [
+                "O"
+              ],
+              "zh": "椭圆工具",
+              "en": "Ellipse tool",
+              "tags": [
+                "completion",
+                "macOS default",
+                "ellipse tool"
+              ]
+            },
+            {
+              "id": "figma.completion.color-picker",
+              "keys": [
+                "I"
+              ],
+              "zh": "颜色拾取器",
+              "en": "Color picker",
+              "tags": [
+                "completion",
+                "macOS default",
+                "color picker"
+              ]
+            },
+            {
+              "id": "figma.completion.comment-tool",
+              "keys": [
+                "C"
+              ],
+              "zh": "评论工具",
+              "en": "Comment tool",
+              "tags": [
+                "completion",
+                "macOS default",
+                "comment tool"
+              ]
+            },
+            {
+              "id": "figma.completion.place-image",
+              "keys": [
+                "⌘",
+                "⇧",
+                "K"
+              ],
+              "zh": "置入图像",
+              "en": "Place image",
+              "tags": [
+                "completion",
+                "macOS default",
+                "place image"
+              ]
+            },
+            {
+              "id": "figma.completion.temporary-hand",
+              "keys": [
+                "Space"
+              ],
+              "zh": "临时抓手工具",
+              "en": "Temporarily use Hand tool",
+              "tags": [
+                "completion",
+                "macOS default",
+                "temporarily use hand tool"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "figma.completion.object",
+          "zh": "对象、图层与组件",
+          "en": "Objects, Layers, and Components",
+          "items": [
+            {
+              "id": "figma.completion.ungroup",
+              "keys": [
+                "⌘",
+                "⇧",
+                "G"
+              ],
+              "zh": "取消编组",
+              "en": "Ungroup",
+              "tags": [
+                "completion",
+                "macOS default",
+                "ungroup"
+              ]
+            },
+            {
+              "id": "figma.completion.frame-selection",
+              "keys": [
+                "⌘",
+                "⌥",
+                "G"
+              ],
+              "zh": "为所选对象添加框架",
+              "en": "Frame selection",
+              "tags": [
+                "completion",
+                "macOS default",
+                "frame selection"
+              ]
+            },
+            {
+              "id": "figma.completion.toggle-visibility",
+              "keys": [
+                "⌘",
+                "⇧",
+                "H"
+              ],
+              "zh": "显示或隐藏所选对象",
+              "en": "Toggle selection visibility",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle selection visibility"
+              ]
+            },
+            {
+              "id": "figma.completion.toggle-lock",
+              "keys": [
+                "⌘",
+                "⇧",
+                "L"
+              ],
+              "zh": "锁定或解锁所选对象",
+              "en": "Toggle selection lock",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle selection lock"
+              ]
+            },
+            {
+              "id": "figma.completion.flatten",
+              "keys": [
+                "⌘",
+                "E"
+              ],
+              "zh": "拼合所选对象",
+              "en": "Flatten selection",
+              "tags": [
+                "completion",
+                "macOS default",
+                "flatten selection"
+              ]
+            },
+            {
+              "id": "figma.completion.outline-stroke",
+              "keys": [
+                "⌘",
+                "⇧",
+                "O"
+              ],
+              "zh": "将描边转换为轮廓",
+              "en": "Outline stroke",
+              "tags": [
+                "completion",
+                "macOS default",
+                "outline stroke"
+              ]
+            },
+            {
+              "id": "figma.completion.use-as-mask",
+              "keys": [
+                "⌃",
+                "⌘",
+                "M"
+              ],
+              "zh": "将所选对象用作蒙版",
+              "en": "Use selection as mask",
+              "tags": [
+                "completion",
+                "macOS default",
+                "use selection as mask"
+              ]
+            },
+            {
+              "id": "figma.completion.detach-instance",
+              "keys": [
+                "⌘",
+                "⌥",
+                "B"
+              ],
+              "zh": "分离组件实例",
+              "en": "Detach instance",
+              "tags": [
+                "completion",
+                "macOS default",
+                "detach instance"
+              ]
+            },
+            {
+              "id": "figma.completion.reset-instance",
+              "keys": [
+                "⌘",
+                "⌥",
+                "R"
+              ],
+              "zh": "重置组件实例",
+              "en": "Reset instance",
+              "tags": [
+                "completion",
+                "macOS default",
+                "reset instance"
+              ]
+            },
+            {
+              "id": "figma.completion.bring-forward",
+              "keys": [
+                "⌘",
+                "]"
+              ],
+              "zh": "上移一层",
+              "en": "Bring forward",
+              "tags": [
+                "completion",
+                "macOS default",
+                "bring forward"
+              ]
+            },
+            {
+              "id": "figma.completion.send-backward",
+              "keys": [
+                "⌘",
+                "["
+              ],
+              "zh": "下移一层",
+              "en": "Send backward",
+              "tags": [
+                "completion",
+                "macOS default",
+                "send backward"
+              ]
+            },
+            {
+              "id": "figma.completion.bring-front",
+              "keys": [
+                "⌘",
+                "⌥",
+                "]"
+              ],
+              "zh": "移至最前",
+              "en": "Bring to front",
+              "tags": [
+                "completion",
+                "macOS default",
+                "bring to front"
+              ]
+            },
+            {
+              "id": "figma.completion.send-back",
+              "keys": [
+                "⌘",
+                "⌥",
+                "["
+              ],
+              "zh": "移至最后",
+              "en": "Send to back",
+              "tags": [
+                "completion",
+                "macOS default",
+                "send to back"
+              ]
+            },
+            {
+              "id": "figma.completion.select-child",
+              "keys": [
+                "Return"
+              ],
+              "zh": "选择子图层",
+              "en": "Select child layer",
+              "tags": [
+                "completion",
+                "macOS default",
+                "select child layer"
+              ]
+            },
+            {
+              "id": "figma.completion.select-parent",
+              "keys": [
+                "⇧",
+                "Return"
+              ],
+              "zh": "选择父图层",
+              "en": "Select parent layer",
+              "tags": [
+                "completion",
+                "macOS default",
+                "select parent layer"
+              ]
+            },
+            {
+              "id": "figma.completion.next-sibling",
+              "keys": [
+                "Tab"
+              ],
+              "zh": "选择下一个同级图层",
+              "en": "Select next sibling layer",
+              "tags": [
+                "completion",
+                "macOS default",
+                "select next sibling layer"
+              ]
+            },
+            {
+              "id": "figma.completion.previous-sibling",
+              "keys": [
+                "⇧",
+                "Tab"
+              ],
+              "zh": "选择上一个同级图层",
+              "en": "Select previous sibling layer",
+              "tags": [
+                "completion",
+                "macOS default",
+                "select previous sibling layer"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "figma.completion.layout",
+          "zh": "自动布局、对齐与布尔运算",
+          "en": "Auto Layout, Alignment, and Boolean Operations",
+          "items": [
+            {
+              "id": "figma.completion.add-auto-layout",
+              "keys": [
+                "⇧",
+                "A"
+              ],
+              "zh": "添加自动布局",
+              "en": "Add auto layout",
+              "tags": [
+                "completion",
+                "macOS default",
+                "add auto layout"
+              ]
+            },
+            {
+              "id": "figma.completion.remove-auto-layout",
+              "keys": [
+                "⌥",
+                "⇧",
+                "A"
+              ],
+              "zh": "移除自动布局",
+              "en": "Remove auto layout",
+              "tags": [
+                "completion",
+                "macOS default",
+                "remove auto layout"
+              ]
+            },
+            {
+              "id": "figma.completion.align-left",
+              "keys": [
+                "⌥",
+                "A"
+              ],
+              "zh": "左对齐",
+              "en": "Align left",
+              "tags": [
+                "completion",
+                "macOS default",
+                "align left"
+              ]
+            },
+            {
+              "id": "figma.completion.align-horizontal-center",
+              "keys": [
+                "⌥",
+                "H"
+              ],
+              "zh": "水平居中对齐",
+              "en": "Align horizontal centers",
+              "tags": [
+                "completion",
+                "macOS default",
+                "align horizontal centers"
+              ]
+            },
+            {
+              "id": "figma.completion.align-right",
+              "keys": [
+                "⌥",
+                "D"
+              ],
+              "zh": "右对齐",
+              "en": "Align right",
+              "tags": [
+                "completion",
+                "macOS default",
+                "align right"
+              ]
+            },
+            {
+              "id": "figma.completion.align-top",
+              "keys": [
+                "⌥",
+                "W"
+              ],
+              "zh": "顶端对齐",
+              "en": "Align top",
+              "tags": [
+                "completion",
+                "macOS default",
+                "align top"
+              ]
+            },
+            {
+              "id": "figma.completion.align-vertical-center",
+              "keys": [
+                "⌥",
+                "V"
+              ],
+              "zh": "垂直居中对齐",
+              "en": "Align vertical centers",
+              "tags": [
+                "completion",
+                "macOS default",
+                "align vertical centers"
+              ]
+            },
+            {
+              "id": "figma.completion.align-bottom",
+              "keys": [
+                "⌥",
+                "S"
+              ],
+              "zh": "底端对齐",
+              "en": "Align bottom",
+              "tags": [
+                "completion",
+                "macOS default",
+                "align bottom"
+              ]
+            },
+            {
+              "id": "figma.completion.distribute-horizontal",
+              "keys": [
+                "⌃",
+                "⌥",
+                "H"
+              ],
+              "zh": "水平等距分布",
+              "en": "Distribute horizontal spacing",
+              "tags": [
+                "completion",
+                "macOS default",
+                "distribute horizontal spacing"
+              ]
+            },
+            {
+              "id": "figma.completion.distribute-vertical",
+              "keys": [
+                "⌃",
+                "⌥",
+                "V"
+              ],
+              "zh": "垂直等距分布",
+              "en": "Distribute vertical spacing",
+              "tags": [
+                "completion",
+                "macOS default",
+                "distribute vertical spacing"
+              ]
+            },
+            {
+              "id": "figma.completion.tidy-up",
+              "keys": [
+                "⌃",
+                "⌥",
+                "T"
+              ],
+              "zh": "整理所选对象",
+              "en": "Tidy up selection",
+              "tags": [
+                "completion",
+                "macOS default",
+                "tidy up selection"
+              ]
+            },
+            {
+              "id": "figma.completion.boolean-union",
+              "keys": [
+                "⌘",
+                "⌥",
+                "U"
+              ],
+              "zh": "合并布尔形状",
+              "en": "Union selection",
+              "tags": [
+                "completion",
+                "macOS default",
+                "union selection"
+              ]
+            },
+            {
+              "id": "figma.completion.boolean-subtract",
+              "keys": [
+                "⌘",
+                "⌥",
+                "S"
+              ],
+              "zh": "减去顶层形状",
+              "en": "Subtract selection",
+              "tags": [
+                "completion",
+                "macOS default",
+                "subtract selection"
+              ]
+            },
+            {
+              "id": "figma.completion.boolean-intersect",
+              "keys": [
+                "⌘",
+                "⌥",
+                "I"
+              ],
+              "zh": "交集布尔运算",
+              "en": "Intersect selection",
+              "tags": [
+                "completion",
+                "macOS default",
+                "intersect selection"
+              ]
+            },
+            {
+              "id": "figma.completion.boolean-exclude",
+              "keys": [
+                "⌘",
+                "⌥",
+                "X"
+              ],
+              "zh": "排除重叠区域",
+              "en": "Exclude selection",
+              "tags": [
+                "completion",
+                "macOS default",
+                "exclude selection"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "figma.completion.view-prototype",
+          "zh": "视图与原型",
+          "en": "View and Prototype",
+          "items": [
+            {
+              "id": "figma.completion.zoom-in",
+              "keys": [
+                "+"
+              ],
+              "zh": "放大画布",
+              "en": "Zoom in",
+              "tags": [
+                "completion",
+                "macOS default",
+                "zoom in"
+              ]
+            },
+            {
+              "id": "figma.completion.zoom-out",
+              "keys": [
+                "-"
+              ],
+              "zh": "缩小画布",
+              "en": "Zoom out",
+              "tags": [
+                "completion",
+                "macOS default",
+                "zoom out"
+              ]
+            },
+            {
+              "id": "figma.completion.zoom-100",
+              "keys": [
+                "⇧",
+                "0"
+              ],
+              "zh": "以 100% 显示",
+              "en": "Zoom to 100%",
+              "tags": [
+                "completion",
+                "macOS default",
+                "zoom to 100%"
+              ]
+            },
+            {
+              "id": "figma.completion.zoom-selection",
+              "keys": [
+                "⇧",
+                "2"
+              ],
+              "zh": "缩放至所选对象",
+              "en": "Zoom to selection",
+              "tags": [
+                "completion",
+                "macOS default",
+                "zoom to selection"
+              ]
+            },
+            {
+              "id": "figma.completion.toggle-rulers",
+              "keys": [
+                "⇧",
+                "R"
+              ],
+              "zh": "显示或隐藏标尺",
+              "en": "Toggle rulers",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle rulers"
+              ]
+            },
+            {
+              "id": "figma.completion.toggle-layout-grids",
+              "keys": [
+                "⇧",
+                "G"
+              ],
+              "zh": "显示或隐藏布局网格",
+              "en": "Toggle layout grids",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle layout grids"
+              ]
+            },
+            {
+              "id": "figma.completion.toggle-pixel-grid",
+              "keys": [
+                "⇧",
+                "'"
+              ],
+              "zh": "显示或隐藏像素网格",
+              "en": "Toggle pixel grid",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle pixel grid"
+              ]
+            },
+            {
+              "id": "figma.completion.toggle-outlines",
+              "keys": [
+                "⌘",
+                "Y"
+              ],
+              "zh": "显示或隐藏轮廓",
+              "en": "Toggle outlines",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle outlines"
+              ]
+            },
+            {
+              "id": "figma.completion.toggle-ui",
+              "keys": [
+                "⌘",
+                "\\"
+              ],
+              "zh": "显示或隐藏界面",
+              "en": "Toggle user interface",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle user interface"
+              ]
+            },
+            {
+              "id": "figma.completion.present-prototype",
+              "keys": [
+                "⌘",
+                "⌥",
+                "Return"
+              ],
+              "zh": "演示原型",
+              "en": "Present prototype",
+              "tags": [
+                "completion",
+                "macOS default",
+                "present prototype"
+              ]
+            }
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceURL": "https://shortcut-tools.com/en/shortcuts/figma/mac/",
+        "sourceTitle": "Figma Keyboard Shortcuts for Mac (2026) — browser secondary source",
+        "appVersion": "Figma current desktop/web edition",
+        "verifiedAt": "2026-07-22",
+        "coverage": "curated-comprehensive-defaults",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "photoshop",
+      "name": "Photoshop",
+      "vendor": "Adobe",
+      "accent": "#31A8FF",
+      "glyph": "Ps",
+      "bundleIdentifiers": [
+        "com.adobe.Photoshop"
+      ],
+      "group": "design",
+      "dataStatus": "curated",
+      "categories": [
+        {
+          "id": "photoshop.completion.file-application",
+          "zh": "文件与应用补充",
+          "en": "File and Application Additions",
+          "items": [
+            {
+              "id": "photoshop.completion.quit",
+              "keys": [
+                "⌘",
+                "Q"
+              ],
+              "zh": "退出 Photoshop",
+              "en": "Quit Photoshop",
+              "tags": [
+                "completion",
+                "macOS default",
+                "quit photoshop"
+              ]
+            },
+            {
+              "id": "photoshop.completion.print",
+              "keys": [
+                "⌘",
+                "P"
+              ],
+              "zh": "打印",
+              "en": "Print",
+              "tags": [
+                "completion",
+                "macOS default",
+                "print"
+              ]
+            },
+            {
+              "id": "photoshop.completion.close-all",
+              "keys": [
+                "⌘",
+                "⌥",
+                "W"
+              ],
+              "zh": "关闭全部文档",
+              "en": "Close all documents",
+              "tags": [
+                "completion",
+                "macOS default",
+                "close all documents"
+              ]
+            },
+            {
+              "id": "photoshop.completion.open-as",
+              "keys": [
+                "⌘",
+                "⌥",
+                "⇧",
+                "O"
+              ],
+              "zh": "打开为",
+              "en": "Open as",
+              "tags": [
+                "completion",
+                "macOS default",
+                "open as"
+              ]
+            },
+            {
+              "id": "photoshop.completion.browse-bridge",
+              "keys": [
+                "⌘",
+                "⌥",
+                "O"
+              ],
+              "zh": "在 Bridge 中浏览",
+              "en": "Browse in Bridge",
+              "tags": [
+                "completion",
+                "macOS default",
+                "browse in bridge"
+              ]
+            },
+            {
+              "id": "photoshop.completion.revert",
+              "keys": [
+                "F12"
+              ],
+              "zh": "恢复到上次保存状态",
+              "en": "Revert to last saved version",
+              "tags": [
+                "completion",
+                "macOS default",
+                "revert to last saved version"
+              ]
+            },
+            {
+              "id": "photoshop.completion.preferences",
+              "keys": [
+                "⌘",
+                "K"
+              ],
+              "zh": "打开首选项",
+              "en": "Open Preferences",
+              "tags": [
+                "completion",
+                "macOS default",
+                "open preferences"
+              ]
+            },
+            {
+              "id": "photoshop.completion.keyboard-shortcuts",
+              "keys": [
+                "⌘",
+                "⌥",
+                "⇧",
+                "K"
+              ],
+              "zh": "打开键盘快捷键设置",
+              "en": "Open Keyboard Shortcuts",
+              "tags": [
+                "completion",
+                "macOS default",
+                "open keyboard shortcuts"
+              ]
+            },
+            {
+              "id": "photoshop.completion.menus",
+              "keys": [
+                "⌘",
+                "⌥",
+                "⇧",
+                "M"
+              ],
+              "zh": "打开菜单设置",
+              "en": "Open Menus",
+              "tags": [
+                "completion",
+                "macOS default",
+                "open menus"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "photoshop.completion.edit-history",
+          "zh": "编辑与历史补充",
+          "en": "Edit and History Additions",
+          "items": [
+            {
+              "id": "photoshop.completion.redo",
+              "keys": [
+                "⌘",
+                "⇧",
+                "Z"
+              ],
+              "zh": "重做",
+              "en": "Redo",
+              "tags": [
+                "completion",
+                "macOS default",
+                "redo"
+              ]
+            },
+            {
+              "id": "photoshop.completion.step-backward",
+              "keys": [
+                "⌘",
+                "⌥",
+                "Z"
+              ],
+              "zh": "后退一步",
+              "en": "Step backward",
+              "tags": [
+                "completion",
+                "macOS default",
+                "step backward"
+              ]
+            },
+            {
+              "id": "photoshop.completion.fade",
+              "keys": [
+                "⌘",
+                "⇧",
+                "F"
+              ],
+              "zh": "渐隐上一个操作",
+              "en": "Fade last operation",
+              "tags": [
+                "completion",
+                "macOS default",
+                "fade last operation"
+              ]
+            },
+            {
+              "id": "photoshop.completion.fill",
+              "keys": [
+                "⇧",
+                "F5"
+              ],
+              "zh": "填充",
+              "en": "Fill",
+              "tags": [
+                "completion",
+                "macOS default",
+                "fill"
+              ]
+            },
+            {
+              "id": "photoshop.completion.transform-again",
+              "keys": [
+                "⌘",
+                "⇧",
+                "T"
+              ],
+              "zh": "再次变换",
+              "en": "Transform again",
+              "tags": [
+                "completion",
+                "macOS default",
+                "transform again"
+              ]
+            },
+            {
+              "id": "photoshop.completion.transform-again-copy",
+              "keys": [
+                "⌘",
+                "⌥",
+                "⇧",
+                "T"
+              ],
+              "zh": "复制并再次变换",
+              "en": "Transform again with copy",
+              "tags": [
+                "completion",
+                "macOS default",
+                "transform again with copy"
+              ]
+            },
+            {
+              "id": "photoshop.completion.clear",
+              "keys": [
+                "Delete"
+              ],
+              "zh": "清除所选内容",
+              "en": "Clear selection contents",
+              "tags": [
+                "completion",
+                "macOS default",
+                "clear selection contents"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "photoshop.completion.layers-selection",
+          "zh": "图层与选择补充",
+          "en": "Layer and Selection Additions",
+          "items": [
+            {
+              "id": "photoshop.completion.new-layer-via-cut",
+              "keys": [
+                "⌘",
+                "⇧",
+                "J"
+              ],
+              "zh": "通过剪切新建图层",
+              "en": "New layer via cut",
+              "tags": [
+                "completion",
+                "macOS default",
+                "new layer via cut"
+              ]
+            },
+            {
+              "id": "photoshop.completion.stamp-visible",
+              "keys": [
+                "⌘",
+                "⌥",
+                "⇧",
+                "E"
+              ],
+              "zh": "将可见内容盖印到新图层",
+              "en": "Stamp visible layers",
+              "tags": [
+                "completion",
+                "macOS default",
+                "stamp visible layers"
+              ]
+            },
+            {
+              "id": "photoshop.completion.move-layer-up",
+              "keys": [
+                "⌘",
+                "]"
+              ],
+              "zh": "上移图层",
+              "en": "Move layer up",
+              "tags": [
+                "completion",
+                "macOS default",
+                "move layer up"
+              ]
+            },
+            {
+              "id": "photoshop.completion.move-layer-down",
+              "keys": [
+                "⌘",
+                "["
+              ],
+              "zh": "下移图层",
+              "en": "Move layer down",
+              "tags": [
+                "completion",
+                "macOS default",
+                "move layer down"
+              ]
+            },
+            {
+              "id": "photoshop.completion.select-layer-above",
+              "keys": [
+                "⌥",
+                "]"
+              ],
+              "zh": "选择上方图层",
+              "en": "Select layer above",
+              "tags": [
+                "completion",
+                "macOS default",
+                "select layer above"
+              ]
+            },
+            {
+              "id": "photoshop.completion.select-layer-below",
+              "keys": [
+                "⌥",
+                "["
+              ],
+              "zh": "选择下方图层",
+              "en": "Select layer below",
+              "tags": [
+                "completion",
+                "macOS default",
+                "select layer below"
+              ]
+            },
+            {
+              "id": "photoshop.completion.select-all-layers",
+              "keys": [
+                "⌘",
+                "⌥",
+                "A"
+              ],
+              "zh": "选择全部图层",
+              "en": "Select all layers",
+              "tags": [
+                "completion",
+                "macOS default",
+                "select all layers"
+              ]
+            },
+            {
+              "id": "photoshop.completion.quick-mask",
+              "keys": [
+                "Q"
+              ],
+              "zh": "切换快速蒙版模式",
+              "en": "Toggle Quick Mask mode",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle quick mask mode"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "photoshop.completion.image-adjustments",
+          "zh": "图像与调整",
+          "en": "Image and Adjustments",
+          "items": [
+            {
+              "id": "photoshop.completion.levels",
+              "keys": [
+                "⌘",
+                "L"
+              ],
+              "zh": "色阶",
+              "en": "Levels",
+              "tags": [
+                "completion",
+                "macOS default",
+                "levels"
+              ]
+            },
+            {
+              "id": "photoshop.completion.curves",
+              "keys": [
+                "⌘",
+                "M"
+              ],
+              "zh": "曲线",
+              "en": "Curves",
+              "tags": [
+                "completion",
+                "macOS default",
+                "curves"
+              ]
+            },
+            {
+              "id": "photoshop.completion.hue-saturation",
+              "keys": [
+                "⌘",
+                "U"
+              ],
+              "zh": "色相与饱和度",
+              "en": "Hue and Saturation",
+              "tags": [
+                "completion",
+                "macOS default",
+                "hue and saturation"
+              ]
+            },
+            {
+              "id": "photoshop.completion.color-balance",
+              "keys": [
+                "⌘",
+                "B"
+              ],
+              "zh": "色彩平衡",
+              "en": "Color Balance",
+              "tags": [
+                "completion",
+                "macOS default",
+                "color balance"
+              ]
+            },
+            {
+              "id": "photoshop.completion.invert",
+              "keys": [
+                "⌘",
+                "I"
+              ],
+              "zh": "反相",
+              "en": "Invert",
+              "tags": [
+                "completion",
+                "macOS default",
+                "invert"
+              ]
+            },
+            {
+              "id": "photoshop.completion.desaturate",
+              "keys": [
+                "⌘",
+                "⇧",
+                "U"
+              ],
+              "zh": "去色",
+              "en": "Desaturate",
+              "tags": [
+                "completion",
+                "macOS default",
+                "desaturate"
+              ]
+            },
+            {
+              "id": "photoshop.completion.auto-tone",
+              "keys": [
+                "⌘",
+                "⇧",
+                "L"
+              ],
+              "zh": "自动色调",
+              "en": "Auto Tone",
+              "tags": [
+                "completion",
+                "macOS default",
+                "auto tone"
+              ]
+            },
+            {
+              "id": "photoshop.completion.auto-contrast",
+              "keys": [
+                "⌘",
+                "⌥",
+                "⇧",
+                "L"
+              ],
+              "zh": "自动对比度",
+              "en": "Auto Contrast",
+              "tags": [
+                "completion",
+                "macOS default",
+                "auto contrast"
+              ]
+            },
+            {
+              "id": "photoshop.completion.auto-color",
+              "keys": [
+                "⌘",
+                "⇧",
+                "B"
+              ],
+              "zh": "自动颜色",
+              "en": "Auto Color",
+              "tags": [
+                "completion",
+                "macOS default",
+                "auto color"
+              ]
+            },
+            {
+              "id": "photoshop.completion.black-white",
+              "keys": [
+                "⌘",
+                "⌥",
+                "⇧",
+                "B"
+              ],
+              "zh": "黑白调整",
+              "en": "Black and White",
+              "tags": [
+                "completion",
+                "macOS default",
+                "black and white"
+              ]
+            },
+            {
+              "id": "photoshop.completion.image-size",
+              "keys": [
+                "⌘",
+                "⌥",
+                "I"
+              ],
+              "zh": "图像大小",
+              "en": "Image Size",
+              "tags": [
+                "completion",
+                "macOS default",
+                "image size"
+              ]
+            },
+            {
+              "id": "photoshop.completion.canvas-size",
+              "keys": [
+                "⌘",
+                "⌥",
+                "C"
+              ],
+              "zh": "画布大小",
+              "en": "Canvas Size",
+              "tags": [
+                "completion",
+                "macOS default",
+                "canvas size"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "photoshop.completion.filters",
+          "zh": "滤镜补充",
+          "en": "Filter Additions",
+          "items": [
+            {
+              "id": "photoshop.completion.last-filter",
+              "keys": [
+                "⌘",
+                "F"
+              ],
+              "zh": "再次应用上次滤镜",
+              "en": "Apply last filter again",
+              "tags": [
+                "completion",
+                "macOS default",
+                "apply last filter again"
+              ]
+            },
+            {
+              "id": "photoshop.completion.camera-raw",
+              "keys": [
+                "⌘",
+                "⇧",
+                "A"
+              ],
+              "zh": "打开 Camera Raw 滤镜",
+              "en": "Open Camera Raw Filter",
+              "tags": [
+                "completion",
+                "macOS default",
+                "open camera raw filter"
+              ]
+            },
+            {
+              "id": "photoshop.completion.liquify",
+              "keys": [
+                "⌘",
+                "⇧",
+                "X"
+              ],
+              "zh": "液化",
+              "en": "Liquify",
+              "tags": [
+                "completion",
+                "macOS default",
+                "liquify"
+              ]
+            },
+            {
+              "id": "photoshop.completion.vanishing-point",
+              "keys": [
+                "⌘",
+                "⌥",
+                "V"
+              ],
+              "zh": "消失点",
+              "en": "Vanishing Point",
+              "tags": [
+                "completion",
+                "macOS default",
+                "vanishing point"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "photoshop.completion.painting-tools",
+          "zh": "绘画与工具补充",
+          "en": "Painting and Tool Additions",
+          "items": [
+            {
+              "id": "photoshop.completion.history-brush",
+              "keys": [
+                "Y"
+              ],
+              "zh": "历史记录画笔工具",
+              "en": "History Brush tool",
+              "tags": [
+                "completion",
+                "macOS default",
+                "history brush tool"
+              ]
+            },
+            {
+              "id": "photoshop.completion.blur-group",
+              "keys": [
+                "R"
+              ],
+              "zh": "模糊、锐化或涂抹工具",
+              "en": "Blur, Sharpen, or Smudge tool",
+              "tags": [
+                "completion",
+                "macOS default",
+                "blur, sharpen, or smudge tool"
+              ]
+            },
+            {
+              "id": "photoshop.completion.default-colors",
+              "keys": [
+                "D"
+              ],
+              "zh": "恢复默认前景色和背景色",
+              "en": "Reset foreground and background colors",
+              "tags": [
+                "completion",
+                "macOS default",
+                "reset foreground and background colors"
+              ]
+            },
+            {
+              "id": "photoshop.completion.swap-colors",
+              "keys": [
+                "X"
+              ],
+              "zh": "交换前景色和背景色",
+              "en": "Swap foreground and background colors",
+              "tags": [
+                "completion",
+                "macOS default",
+                "swap foreground and background colors"
+              ]
+            },
+            {
+              "id": "photoshop.completion.smaller-brush",
+              "keys": [
+                "["
+              ],
+              "zh": "减小画笔大小",
+              "en": "Decrease brush size",
+              "tags": [
+                "completion",
+                "macOS default",
+                "decrease brush size"
+              ]
+            },
+            {
+              "id": "photoshop.completion.larger-brush",
+              "keys": [
+                "]"
+              ],
+              "zh": "增大画笔大小",
+              "en": "Increase brush size",
+              "tags": [
+                "completion",
+                "macOS default",
+                "increase brush size"
+              ]
+            },
+            {
+              "id": "photoshop.completion.softer-brush",
+              "keys": [
+                "⇧",
+                "["
+              ],
+              "zh": "降低画笔硬度",
+              "en": "Decrease brush hardness",
+              "tags": [
+                "completion",
+                "macOS default",
+                "decrease brush hardness"
+              ]
+            },
+            {
+              "id": "photoshop.completion.harder-brush",
+              "keys": [
+                "⇧",
+                "]"
+              ],
+              "zh": "提高画笔硬度",
+              "en": "Increase brush hardness",
+              "tags": [
+                "completion",
+                "macOS default",
+                "increase brush hardness"
+              ]
+            },
+            {
+              "id": "photoshop.completion.precise-cursor",
+              "keys": [
+                "⇪"
+              ],
+              "zh": "切换精确光标",
+              "en": "Toggle precise cursor",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle precise cursor"
+              ]
+            },
+            {
+              "id": "photoshop.completion.temporary-hand",
+              "keys": [
+                "Space"
+              ],
+              "zh": "临时启用抓手工具",
+              "en": "Temporarily use Hand tool",
+              "tags": [
+                "completion",
+                "macOS default",
+                "temporarily use hand tool"
+              ]
+            },
+            {
+              "id": "photoshop.completion.next-blend-mode",
+              "keys": [
+                "⇧",
+                "+"
+              ],
+              "zh": "切换到下一个混合模式",
+              "en": "Select next blend mode",
+              "tags": [
+                "completion",
+                "macOS default",
+                "select next blend mode"
+              ]
+            },
+            {
+              "id": "photoshop.completion.previous-blend-mode",
+              "keys": [
+                "⇧",
+                "-"
+              ],
+              "zh": "切换到上一个混合模式",
+              "en": "Select previous blend mode",
+              "tags": [
+                "completion",
+                "macOS default",
+                "select previous blend mode"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "photoshop.completion.view-panels",
+          "zh": "视图与面板补充",
+          "en": "View and Panel Additions",
+          "items": [
+            {
+              "id": "photoshop.completion.zoom-in",
+              "keys": [
+                "⌘",
+                "+"
+              ],
+              "zh": "放大",
+              "en": "Zoom in",
+              "tags": [
+                "completion",
+                "macOS default",
+                "zoom in"
+              ]
+            },
+            {
+              "id": "photoshop.completion.print-size",
+              "keys": [
+                "⌘",
+                "⌥",
+                "0"
+              ],
+              "zh": "按打印尺寸显示",
+              "en": "View at print size",
+              "tags": [
+                "completion",
+                "macOS default",
+                "view at print size"
+              ]
+            },
+            {
+              "id": "photoshop.completion.screen-mode",
+              "keys": [
+                "F"
+              ],
+              "zh": "循环切换屏幕模式",
+              "en": "Cycle screen modes",
+              "tags": [
+                "completion",
+                "macOS default",
+                "cycle screen modes"
+              ]
+            },
+            {
+              "id": "photoshop.completion.hide-panels",
+              "keys": [
+                "Tab"
+              ],
+              "zh": "显示或隐藏全部面板",
+              "en": "Toggle all panels",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle all panels"
+              ]
+            },
+            {
+              "id": "photoshop.completion.hide-side-panels",
+              "keys": [
+                "⇧",
+                "Tab"
+              ],
+              "zh": "显示或隐藏侧面板",
+              "en": "Toggle side panels",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle side panels"
+              ]
+            },
+            {
+              "id": "photoshop.completion.proof-colors",
+              "keys": [
+                "⌘",
+                "Y"
+              ],
+              "zh": "校样颜色",
+              "en": "Proof Colors",
+              "tags": [
+                "completion",
+                "macOS default",
+                "proof colors"
+              ]
+            },
+            {
+              "id": "photoshop.completion.gamut-warning",
+              "keys": [
+                "⌘",
+                "⇧",
+                "Y"
+              ],
+              "zh": "色域警告",
+              "en": "Gamut Warning",
+              "tags": [
+                "completion",
+                "macOS default",
+                "gamut warning"
+              ]
+            },
+            {
+              "id": "photoshop.completion.toggle-snap",
+              "keys": [
+                "⌘",
+                "⇧",
+                ";"
+              ],
+              "zh": "切换吸附",
+              "en": "Toggle Snap",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle snap"
+              ]
+            },
+            {
+              "id": "photoshop.completion.lock-guides",
+              "keys": [
+                "⌘",
+                "⌥",
+                ";"
+              ],
+              "zh": "锁定或解锁参考线",
+              "en": "Toggle guide lock",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle guide lock"
+              ]
+            },
+            {
+              "id": "photoshop.completion.brushes-panel",
+              "keys": [
+                "F5"
+              ],
+              "zh": "显示或隐藏画笔面板",
+              "en": "Toggle Brushes panel",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle brushes panel"
+              ]
+            },
+            {
+              "id": "photoshop.completion.color-panel",
+              "keys": [
+                "F6"
+              ],
+              "zh": "显示或隐藏颜色面板",
+              "en": "Toggle Color panel",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle color panel"
+              ]
+            },
+            {
+              "id": "photoshop.completion.layers-panel",
+              "keys": [
+                "F7"
+              ],
+              "zh": "显示或隐藏图层面板",
+              "en": "Toggle Layers panel",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle layers panel"
+              ]
+            },
+            {
+              "id": "photoshop.completion.info-panel",
+              "keys": [
+                "F8"
+              ],
+              "zh": "显示或隐藏信息面板",
+              "en": "Toggle Info panel",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle info panel"
+              ]
+            },
+            {
+              "id": "photoshop.completion.actions-panel",
+              "keys": [
+                "F9"
+              ],
+              "zh": "显示或隐藏动作面板",
+              "en": "Toggle Actions panel",
+              "tags": [
+                "completion",
+                "macOS default",
+                "toggle actions panel"
+              ]
+            }
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceURL": "https://helpx.adobe.com/photoshop/desktop/get-started/settings-and-preferences/view-keyboard-shortcuts.html",
+        "sourceTitle": "Photoshop 2026 installed Keyboard Shortcuts and Menus export",
+        "appVersion": "Photoshop 2026",
+        "verifiedAt": "2026-07-22",
+        "coverage": "curated-comprehensive-defaults",
+        "platform": "macOS"
+      }
+    }
+  ]
+}

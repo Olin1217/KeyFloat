@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <RootNamespace>KeyFloat.Win</RootNamespace>
+    <AssemblyName>KeyFloat</AssemblyName>
+    <ApplicationIcon>Assets\KeyFloat.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Version>1.0.5</Version>
+    <AssemblyVersion>1.0.5.0</AssemblyVersion>
+    <FileVersion>1.0.5.0</FileVersion>
+    <Platforms>AnyCPU;x64;ARM64</Platforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KeyFloat.Core\KeyFloat.Core.csproj" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="8.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\shortcuts-windows.json" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    <Content Include="Assets\SoftwareIcons\*.png" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    <Content Include="Assets\KeyFloat Logo.png" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    <Content Include="Assets\KeyFloat White Logo.png" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    <Content Include="Assets\KeyFloat.ico" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Assets\SoftwareIcons\*.svg" />
+    <None Remove="Assets\SoftwareIcons\*.jpg" />
+    <None Remove="Assets\SoftwareIcons\*.jpeg" />
+    <None Remove="Assets\SoftwareIcons\*.ico" />
+    <None Remove="Assets\KeyFloat Logo.svg" />
+    <None Remove="Assets\KeyFloat White Logo.svg" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+{
+  "macos": {
+    "latestVersion": "1.0.5",
+    "build": "5",
+    "downloadURL": "https://keyfloat.cn/downloads/KeyFloat-macOS-1.0.5-universal.dmg",
+    "publishedAt": "2026-08-07T09:20:00.000Z",
+    "minimumSystemVersion": "13.0",
+    "releaseNotes": {
+      "zh": "规范全部快捷键说明文字并完善数据质量校验",
+      "en": "Normalizes shortcut descriptions and improves data quality validation"
+    }
+  },
+  "windows": {
+    "latestVersion": "1.0.5",
+    "build": "5",
+    "downloadURL": "https://keyfloat.cn/downloads/KeyFloat-Windows-1.0.5-x64-Setup.exe",
+    "publishedAt": "2026-08-07T09:20:00.000Z",
+    "minimumSystemVersion": "Windows 10",
+    "releaseNotes": {
+      "zh": "更新 KeyFloat Windows 1.0.5 稳定安装包",
+      "en": "Updates the stable KeyFloat Windows 1.0.5 installer"
+    }
+  }
+}

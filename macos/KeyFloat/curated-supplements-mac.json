@@ -1,0 +1,1075 @@
+{
+  "schemaVersion": 1,
+  "platform": "macOS",
+  "generatedAt": "2026-07-27",
+  "generationPolicy": "Third-pass completion for previously non-empty low-coverage software packs.",
+  "software": [
+    {
+      "id": "avogadro",
+      "name": "Avogadro",
+      "vendor": "Open Chemistry",
+      "accent": "#2D7DD2",
+      "glyph": "Av",
+      "group": "chemistry",
+      "dataStatus": "curated",
+      "categories": [
+        {
+          "id": "completion-navigation-aliases",
+          "zh": "补全 · 导航别名",
+          "en": "Completion · Navigation Aliases",
+          "items": [
+            {
+              "id": "academic-existing.avogadro.completion.navigation.rotate-up-w",
+              "keys": [
+                "W"
+              ],
+              "zh": "使用导航工具向上旋转",
+              "en": "Rotate upward with the Navigation tool",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "navigation tool",
+                "WASD alias"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.navigation.rotate-down-j",
+              "keys": [
+                "J"
+              ],
+              "zh": "使用导航工具向下旋转",
+              "en": "Rotate downward with the Navigation tool",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "navigation tool",
+                "HJKL alias"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.navigation.rotate-left-h",
+              "keys": [
+                "H"
+              ],
+              "zh": "使用导航工具向左旋转",
+              "en": "Rotate left with the Navigation tool",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "navigation tool",
+                "HJKL alias"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.navigation.rotate-right-d",
+              "keys": [
+                "D"
+              ],
+              "zh": "使用导航工具向右旋转",
+              "en": "Rotate right with the Navigation tool",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "navigation tool",
+                "WASD alias"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.navigation.rotate-right-l",
+              "keys": [
+                "L"
+              ],
+              "zh": "使用导航工具向右旋转",
+              "en": "Rotate right with the Navigation tool",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "navigation tool",
+                "HJKL alias"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.previous-tab-bracket",
+              "keys": [
+                "["
+              ],
+              "zh": "切换到上一个模板标签",
+              "en": "Switch to the previous template tab",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "tab alias"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.next-tab-bracket",
+              "keys": [
+                "]"
+              ],
+              "zh": "切换到下一个模板标签",
+              "en": "Switch to the next template tab",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "tab alias"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "completion-ligand-templates",
+          "zh": "补全 · 配体模板",
+          "en": "Completion · Ligand Templates",
+          "items": [
+            {
+              "id": "academic-existing.avogadro.completion.templates.aqua-o",
+              "keys": [
+                "O"
+              ],
+              "zh": "插入水配体",
+              "en": "Insert an aqua ligand",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "centers tab"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.dimethylglyoxime",
+              "keys": [
+                "D",
+                "M",
+                "G"
+              ],
+              "zh": "插入二甲基乙二肟配体",
+              "en": "Insert a dimethylglyoxime ligand",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "ligands tab"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.dmpe",
+              "keys": [
+                "D",
+                "M",
+                "P",
+                "E"
+              ],
+              "zh": "插入二甲基膦基乙烷配体",
+              "en": "Insert a dimethylphosphinoethane ligand",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "ligands tab"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.dppe",
+              "keys": [
+                "D",
+                "P",
+                "P",
+                "E"
+              ],
+              "zh": "插入二苯基膦基乙烷配体",
+              "en": "Insert a diphenylphosphinoethane ligand",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "ligands tab"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.phthalocyanine",
+              "keys": [
+                "P",
+                "C"
+              ],
+              "zh": "插入酞菁配体",
+              "en": "Insert a phthalocyanine ligand",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "ligands tab"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.porphin",
+              "keys": [
+                "P",
+                "O",
+                "R"
+              ],
+              "zh": "插入卟吩配体",
+              "en": "Insert a porphin ligand",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "ligands tab"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.salen",
+              "keys": [
+                "S",
+                "A",
+                "L"
+              ],
+              "zh": "插入席夫碱配体",
+              "en": "Insert a salen ligand",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "ligands tab"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.allyl",
+              "keys": [
+                "E",
+                "3"
+              ],
+              "zh": "插入烯丙基配体",
+              "en": "Insert an allyl ligand",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "ligands tab"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.cyclooctadiene",
+              "keys": [
+                "E",
+                "4"
+              ],
+              "zh": "插入环辛二烯配体",
+              "en": "Insert a cyclooctadiene ligand",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "ligands tab"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.cyclopentadienyl-cp",
+              "keys": [
+                "C",
+                "P"
+              ],
+              "zh": "插入环戊二烯基配体",
+              "en": "Insert a cyclopentadienyl ligand",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "ligands tab",
+                "alternate sequence"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "completion-functional-and-protecting-groups",
+          "zh": "补全 · 官能团与保护基",
+          "en": "Completion · Functional and Protecting Groups",
+          "items": [
+            {
+              "id": "academic-existing.avogadro.completion.templates.ester",
+              "keys": [
+                "E"
+              ],
+              "zh": "插入酯基",
+              "en": "Insert an ester group",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "groups tab"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.trifluoromethyl",
+              "keys": [
+                "F"
+              ],
+              "zh": "插入三氟甲基",
+              "en": "Insert a trifluoromethyl group",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "groups tab"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.methoxy",
+              "keys": [
+                "O",
+                "M"
+              ],
+              "zh": "插入甲氧基",
+              "en": "Insert a methoxy group",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "groups tab"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.mesyl",
+              "keys": [
+                "M",
+                "S"
+              ],
+              "zh": "插入甲磺酰保护基",
+              "en": "Insert a mesyl protecting group",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "groups tab"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.trityl",
+              "keys": [
+                "T",
+                "R"
+              ],
+              "zh": "插入三苯甲基保护基",
+              "en": "Insert a trityl protecting group",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "groups tab"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.troc",
+              "keys": [
+                "T",
+                "R",
+                "O",
+                "C"
+              ],
+              "zh": "插入三氯乙氧羰基保护基",
+              "en": "Insert a TROC protecting group",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "groups tab"
+              ]
+            },
+            {
+              "id": "academic-existing.avogadro.completion.templates.tosyl-ts",
+              "keys": [
+                "T",
+                "S"
+              ],
+              "zh": "插入对甲苯磺酰保护基",
+              "en": "Insert a tosyl protecting group",
+              "tags": [
+                "curated",
+                "macOS",
+                "official",
+                "completion",
+                "template tool",
+                "groups tab",
+                "alternate sequence"
+              ]
+            }
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceURL": "https://raw.githubusercontent.com/avogadro/two.avogadro.cc/main/source/docs/tools/keyboard-shortcuts.md",
+        "sourceTitle": "Avogadro Official Keyboard Shortcuts",
+        "appVersion": "Avogadro 2 documentation main branch",
+        "verifiedAt": "2026-07-22",
+        "coverage": "curated-comprehensive-defaults",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.openchemistry.Avogadro2"
+      ]
+    },
+    {
+      "id": "finder",
+      "name": "Finder",
+      "vendor": "Apple",
+      "accent": "#1687F8",
+      "glyph": "F",
+      "provenance": {
+        "sourceURL": "https://support.apple.com/en-us/102650",
+        "sourceTitle": "Mac keyboard shortcuts - Finder and system shortcuts",
+        "appVersion": "macOS 26",
+        "verifiedAt": "2026-07-22",
+        "coverage": "curated-comprehensive-defaults",
+        "platform": "macOS"
+      },
+      "dataStatus": "curated",
+      "categories": [
+        {
+          "id": "completion",
+          "zh": "补充",
+          "en": "Completion",
+          "items": [
+            {
+              "id": "finder.completion.round3.applications",
+              "keys": [
+                "⇧",
+                "⌘",
+                "A"
+              ],
+              "zh": "打开应用程序文件夹",
+              "en": "Open Applications folder",
+              "tags": [
+                "folder"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.close-window",
+              "keys": [
+                "⌘",
+                "W"
+              ],
+              "zh": "关闭窗口",
+              "en": "Close window",
+              "tags": [
+                "window"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.close-all-windows",
+              "keys": [
+                "⌥",
+                "⌘",
+                "W"
+              ],
+              "zh": "关闭全部窗口",
+              "en": "Close all windows",
+              "tags": [
+                "window"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.select-all",
+              "keys": [
+                "⌘",
+                "A"
+              ],
+              "zh": "选择全部项目",
+              "en": "Select all items",
+              "tags": [
+                "selection"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.copy",
+              "keys": [
+                "⌘",
+                "C"
+              ],
+              "zh": "复制所选项目",
+              "en": "Copy selected items",
+              "tags": [
+                "clipboard"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.paste",
+              "keys": [
+                "⌘",
+                "V"
+              ],
+              "zh": "粘贴项目",
+              "en": "Paste items",
+              "tags": [
+                "clipboard"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.undo",
+              "keys": [
+                "⌘",
+                "Z"
+              ],
+              "zh": "撤销上一个操作",
+              "en": "Undo previous action",
+              "tags": [
+                "edit"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.redo",
+              "keys": [
+                "⇧",
+                "⌘",
+                "Z"
+              ],
+              "zh": "重做上一个操作",
+              "en": "Redo previous action",
+              "tags": [
+                "edit"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.rename",
+              "keys": [
+                "Return"
+              ],
+              "zh": "重命名所选项目",
+              "en": "Rename selected item",
+              "tags": [
+                "file"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.quick-look",
+              "keys": [
+                "Space"
+              ],
+              "zh": "快速查看所选项目",
+              "en": "Quick Look selected item",
+              "tags": [
+                "preview"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.hidden-files",
+              "keys": [
+                "⇧",
+                "⌘",
+                "."
+              ],
+              "zh": "显示或隐藏隐藏文件",
+              "en": "Show or hide hidden files",
+              "tags": [
+                "view"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.next-tab",
+              "keys": [
+                "⌃",
+                "Tab"
+              ],
+              "zh": "切换到下一个标签页",
+              "en": "Switch to next tab",
+              "tags": [
+                "tab"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.previous-tab",
+              "keys": [
+                "⌃",
+                "⇧",
+                "Tab"
+              ],
+              "zh": "切换到上一个标签页",
+              "en": "Switch to previous tab",
+              "tags": [
+                "tab"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.tab-overview",
+              "keys": [
+                "⇧",
+                "⌘",
+                "\\"
+              ],
+              "zh": "显示标签页概览",
+              "en": "Show tab overview",
+              "tags": [
+                "tab",
+                "view"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.delete-immediately",
+              "keys": [
+                "⌥",
+                "⌘",
+                "Delete"
+              ],
+              "zh": "立即删除所选项目",
+              "en": "Delete selected item immediately",
+              "tags": [
+                "delete"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.open-selection",
+              "keys": [
+                "⌘",
+                "O"
+              ],
+              "zh": "打开所选项目",
+              "en": "Open selected item",
+              "tags": [
+                "file"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.fullscreen",
+              "keys": [
+                "⌃",
+                "⌘",
+                "F"
+              ],
+              "zh": "切换全屏",
+              "en": "Toggle full screen",
+              "tags": [
+                "view"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.minimize",
+              "keys": [
+                "⌘",
+                "M"
+              ],
+              "zh": "最小化窗口",
+              "en": "Minimize window",
+              "tags": [
+                "window"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.settings",
+              "keys": [
+                "⌘",
+                ","
+              ],
+              "zh": "打开访达设置",
+              "en": "Open Finder settings",
+              "tags": [
+                "settings"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.hide-finder",
+              "keys": [
+                "⌘",
+                "H"
+              ],
+              "zh": "隐藏访达",
+              "en": "Hide Finder",
+              "tags": [
+                "window"
+              ]
+            },
+            {
+              "id": "finder.completion.round3.hide-others",
+              "keys": [
+                "⌥",
+                "⌘",
+                "H"
+              ],
+              "zh": "隐藏其他应用",
+              "en": "Hide other applications",
+              "tags": [
+                "window"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safari",
+      "name": "Safari",
+      "vendor": "Apple",
+      "accent": "#0FB5EE",
+      "glyph": "S",
+      "provenance": {
+        "sourceURL": "https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac",
+        "sourceTitle": "Keyboard and other shortcuts in Safari on Mac",
+        "appVersion": "macOS 26",
+        "verifiedAt": "2026-07-22",
+        "coverage": "curated-comprehensive-defaults",
+        "platform": "macOS"
+      },
+      "dataStatus": "curated",
+      "categories": [
+        {
+          "id": "completion",
+          "zh": "补充",
+          "en": "Completion",
+          "items": [
+            {
+              "id": "safari.completion.round3.new-window",
+              "keys": [
+                "⌘",
+                "N"
+              ],
+              "zh": "新建窗口",
+              "en": "New window",
+              "tags": [
+                "window"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.private-window",
+              "keys": [
+                "⇧",
+                "⌘",
+                "N"
+              ],
+              "zh": "新建隐私浏览窗口",
+              "en": "New private browsing window",
+              "tags": [
+                "privacy",
+                "window"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.new-tab",
+              "keys": [
+                "⌘",
+                "T"
+              ],
+              "zh": "新建标签页",
+              "en": "New tab",
+              "tags": [
+                "tab"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.close-window",
+              "keys": [
+                "⇧",
+                "⌘",
+                "W"
+              ],
+              "zh": "关闭窗口",
+              "en": "Close window",
+              "tags": [
+                "window"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.close-other-tabs",
+              "keys": [
+                "⌥",
+                "⌘",
+                "W"
+              ],
+              "zh": "关闭其他标签页",
+              "en": "Close other tabs",
+              "tags": [
+                "tab"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.reload",
+              "keys": [
+                "⌘",
+                "R"
+              ],
+              "zh": "重新载入页面",
+              "en": "Reload page",
+              "tags": [
+                "reload"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.reload-origin",
+              "keys": [
+                "⌥",
+                "⌘",
+                "R"
+              ],
+              "zh": "从原始服务器重新载入页面",
+              "en": "Reload page from origin",
+              "tags": [
+                "reload",
+                "cache"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.find-next",
+              "keys": [
+                "⌘",
+                "G"
+              ],
+              "zh": "查找下一个匹配项",
+              "en": "Find next match",
+              "tags": [
+                "search"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.find-previous",
+              "keys": [
+                "⇧",
+                "⌘",
+                "G"
+              ],
+              "zh": "查找上一个匹配项",
+              "en": "Find previous match",
+              "tags": [
+                "search"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.downloads",
+              "keys": [
+                "⌥",
+                "⌘",
+                "L"
+              ],
+              "zh": "显示下载列表",
+              "en": "Show downloads",
+              "tags": [
+                "download"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.history",
+              "keys": [
+                "⌘",
+                "Y"
+              ],
+              "zh": "显示全部历史记录",
+              "en": "Show all history",
+              "tags": [
+                "history"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.add-bookmark",
+              "keys": [
+                "⌘",
+                "D"
+              ],
+              "zh": "添加书签",
+              "en": "Add bookmark",
+              "tags": [
+                "bookmark"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.favorites-bar",
+              "keys": [
+                "⇧",
+                "⌘",
+                "B"
+              ],
+              "zh": "显示或隐藏个人收藏栏",
+              "en": "Show or hide Favorites bar",
+              "tags": [
+                "bookmark",
+                "view"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.actual-size",
+              "keys": [
+                "⌘",
+                "0"
+              ],
+              "zh": "恢复实际大小",
+              "en": "Return to actual size",
+              "tags": [
+                "zoom",
+                "view"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.open-file",
+              "keys": [
+                "⌘",
+                "O"
+              ],
+              "zh": "打开文件",
+              "en": "Open file",
+              "tags": [
+                "file"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.save-page",
+              "keys": [
+                "⌘",
+                "S"
+              ],
+              "zh": "存储页面",
+              "en": "Save page",
+              "tags": [
+                "file"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.sidebar",
+              "keys": [
+                "⇧",
+                "⌘",
+                "L"
+              ],
+              "zh": "显示或隐藏边栏",
+              "en": "Show or hide sidebar",
+              "tags": [
+                "view"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.fullscreen",
+              "keys": [
+                "⌃",
+                "⌘",
+                "F"
+              ],
+              "zh": "切换全屏",
+              "en": "Toggle full screen",
+              "tags": [
+                "view"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.web-inspector",
+              "keys": [
+                "⌥",
+                "⌘",
+                "I"
+              ],
+              "zh": "显示网页检查器",
+              "en": "Show Web Inspector",
+              "tags": [
+                "developer"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.javascript-console",
+              "keys": [
+                "⌥",
+                "⌘",
+                "C"
+              ],
+              "zh": "显示控制台",
+              "en": "Show JavaScript Console",
+              "tags": [
+                "developer"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.page-source",
+              "keys": [
+                "⌥",
+                "⌘",
+                "U"
+              ],
+              "zh": "显示页面源代码",
+              "en": "Show page source",
+              "tags": [
+                "developer"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.responsive-design",
+              "keys": [
+                "⌃",
+                "⌘",
+                "R"
+              ],
+              "zh": "进入响应式设计模式",
+              "en": "Enter Responsive Design Mode",
+              "tags": [
+                "developer"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.minimize",
+              "keys": [
+                "⌘",
+                "M"
+              ],
+              "zh": "最小化窗口",
+              "en": "Minimize window",
+              "tags": [
+                "window"
+              ]
+            },
+            {
+              "id": "safari.completion.round3.quit",
+              "keys": [
+                "⌘",
+                "Q"
+              ],
+              "zh": "退出浏览器",
+              "en": "Quit Safari",
+              "tags": [
+                "quit"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

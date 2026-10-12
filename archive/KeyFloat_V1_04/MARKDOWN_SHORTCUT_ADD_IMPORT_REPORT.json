@@ -1,0 +1,129 @@
+{
+  "importedAt": "2026-07-25",
+  "sourceDirectory": "/Users/hualong/Downloads/快捷键md add",
+  "dryRun": false,
+  "policy": {
+    "platform": "Only macOS columns, macOS-only chapters, and explicitly shared cross-platform defaults are eligible.",
+    "exclusions": "Windows, Linux, mobile, Web-only, compatibility notes, custom suggestions, troubleshooting tables, and unassigned commands are excluded.",
+    "replacement": "A high-coverage official pack is retained unless the new macOS-only candidate is more complete; low-coverage curated packs are replaced."
+  },
+  "software": [
+    {
+      "id": "aftereffects",
+      "source": "Adobe_After_Effects快捷键大全_Windows_macOS.md",
+      "output": "verified-shortcuts-mac.json",
+      "previousShortcuts": 717,
+      "candidateShortcuts": 386,
+      "categories": 20,
+      "addedShortcuts": 343,
+      "removedExactDuplicates": 0,
+      "skippedNoKey": 95,
+      "skippedPlatform": 100,
+      "decision": "merged-with-existing-official-pack"
+    },
+    {
+      "id": "cinema4d",
+      "source": "Cinema4D_C4D快捷键大全_Windows_macOS.md",
+      "output": "curated-shortcuts-mac.json",
+      "previousShortcuts": 34,
+      "candidateShortcuts": 356,
+      "categories": 22,
+      "addedShortcuts": 322,
+      "removedExactDuplicates": 0,
+      "skippedNoKey": 34,
+      "skippedPlatform": 70,
+      "decision": "applied"
+    },
+    {
+      "id": "excel",
+      "source": "Excel快捷键大全_Windows_macOS_Web_移动端.md",
+      "output": "supplemental-shortcuts-mac.json",
+      "previousShortcuts": 273,
+      "candidateShortcuts": 211,
+      "categories": 7,
+      "addedShortcuts": 192,
+      "removedExactDuplicates": 0,
+      "skippedNoKey": 6,
+      "skippedPlatform": 437,
+      "decision": "merged-with-existing-official-pack"
+    },
+    {
+      "id": "figma",
+      "source": "Figma_快捷键大全_Windows_macOS.md",
+      "output": "curated-shortcuts-mac.json",
+      "previousShortcuts": 76,
+      "candidateShortcuts": 349,
+      "categories": 22,
+      "addedShortcuts": 273,
+      "removedExactDuplicates": 0,
+      "skippedNoKey": 117,
+      "skippedPlatform": 88,
+      "decision": "applied"
+    },
+    {
+      "id": "powerpoint",
+      "source": "PowerPoint快捷键大全.md",
+      "output": "supplemental-shortcuts-mac.json",
+      "previousShortcuts": 135,
+      "candidateShortcuts": 169,
+      "categories": 11,
+      "addedShortcuts": 160,
+      "removedExactDuplicates": 0,
+      "skippedNoKey": 8,
+      "skippedPlatform": 373,
+      "decision": "merged-with-existing-official-pack"
+    },
+    {
+      "id": "premiere",
+      "source": "Premiere快捷键大全.md",
+      "output": "curated-shortcuts-mac.json",
+      "previousShortcuts": 45,
+      "candidateShortcuts": 229,
+      "categories": 12,
+      "addedShortcuts": 184,
+      "removedExactDuplicates": 0,
+      "skippedNoKey": 9,
+      "skippedPlatform": 52,
+      "decision": "applied"
+    },
+    {
+      "id": "sketch",
+      "source": "Sketch快捷键大全_macOS与Web(1).md",
+      "output": "curated-shortcuts-mac.json",
+      "previousShortcuts": 34,
+      "candidateShortcuts": 206,
+      "categories": 20,
+      "addedShortcuts": 172,
+      "removedExactDuplicates": 0,
+      "skippedNoKey": 49,
+      "skippedPlatform": 93,
+      "decision": "applied"
+    },
+    {
+      "id": "vscode",
+      "source": "VSCode快捷键大全_Windows_macOS_Linux.md",
+      "output": "curated-shortcuts-mac.json",
+      "previousShortcuts": 50,
+      "candidateShortcuts": 200,
+      "categories": 20,
+      "addedShortcuts": 150,
+      "removedExactDuplicates": 0,
+      "skippedNoKey": 18,
+      "skippedPlatform": 50,
+      "decision": "applied"
+    },
+    {
+      "id": "word",
+      "source": "Word快捷键大全.md",
+      "output": "supplemental-shortcuts-mac.json",
+      "previousShortcuts": 216,
+      "candidateShortcuts": 224,
+      "categories": 13,
+      "addedShortcuts": 212,
+      "removedExactDuplicates": 0,
+      "skippedNoKey": 12,
+      "skippedPlatform": 488,
+      "decision": "merged-with-existing-official-pack"
+    }
+  ]
+}

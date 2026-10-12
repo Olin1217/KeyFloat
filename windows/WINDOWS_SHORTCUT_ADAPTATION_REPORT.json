@@ -1,0 +1,1942 @@
+{
+  "generatedAt": "2026-07-26",
+  "sourceSoftware": 209,
+  "windowsAvailableSoftware": 185,
+  "windowsUnavailableSoftware": 24,
+  "windowsShortcutRows": 10969,
+  "policy": {
+    "priority": [
+      "Bundled Windows markdown tables",
+      "Reviewed legacy Windows pairs",
+      "Explicit Windows convention mapping"
+    ],
+    "unavailable": "Software without a supported Windows edition remains visible in the catalog but exposes no fabricated shortcuts.",
+    "sourceIntegrity": "The macOS source project is read-only; all transformations occur inside KeyFloat Win V1.04."
+  },
+  "markdownSources": {
+    "photoshop": {
+      "source": "Photoshop_快捷键大全_Windows_macOS.md",
+      "parsedWindowsRows": 635,
+      "matchedRows": 497
+    },
+    "illustrator": {
+      "source": "Illustrator_快捷键大全_Windows_macOS.md",
+      "parsedWindowsRows": 426,
+      "matchedRows": 357
+    },
+    "autocad": {
+      "source": "AutoCAD_2026_快捷键大全_Windows_macOS.md",
+      "parsedWindowsRows": 189,
+      "matchedRows": 93
+    },
+    "sketchup": {
+      "source": "SketchUp_2026_快捷键大全_Windows_macOS.md",
+      "parsedWindowsRows": 308,
+      "matchedRows": 150
+    },
+    "blender": {
+      "source": "Blender_5.2_LTS_快捷键大全_Windows_macOS.md",
+      "parsedWindowsRows": 855,
+      "matchedRows": 481
+    },
+    "aftereffects": {
+      "source": "Adobe_After_Effects快捷键大全_Windows_macOS.md",
+      "parsedWindowsRows": 537,
+      "matchedRows": 390
+    },
+    "cinema4d": {
+      "source": "Cinema4D_C4D快捷键大全_Windows_macOS.md",
+      "parsedWindowsRows": 263,
+      "matchedRows": 226
+    },
+    "excel": {
+      "source": "Excel快捷键大全_Windows_macOS_Web_移动端.md",
+      "parsedWindowsRows": 401,
+      "matchedRows": 91
+    },
+    "figma": {
+      "source": "Figma_快捷键大全_Windows_macOS.md",
+      "parsedWindowsRows": 510,
+      "matchedRows": 349
+    },
+    "powerpoint": {
+      "source": "PowerPoint快捷键大全.md",
+      "parsedWindowsRows": 662,
+      "matchedRows": 168
+    },
+    "premiere": {
+      "source": "Premiere快捷键大全.md",
+      "parsedWindowsRows": 282,
+      "matchedRows": 229
+    },
+    "vscode": {
+      "source": "VSCode快捷键大全_Windows_macOS_Linux.md",
+      "parsedWindowsRows": 246,
+      "matchedRows": 200
+    },
+    "word": {
+      "source": "Word快捷键大全.md",
+      "parsedWindowsRows": 815,
+      "matchedRows": 228
+    }
+  },
+  "software": {
+    "figma": {
+      "name": "Figma",
+      "shortcuts": 347,
+      "exactMarkdown": 349,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "photoshop": {
+      "name": "Photoshop",
+      "shortcuts": 652,
+      "exactMarkdown": 497,
+      "exactLegacy": 0,
+      "conventionMapped": 142,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "illustrator": {
+      "name": "Illustrator",
+      "shortcuts": 393,
+      "exactMarkdown": 357,
+      "exactLegacy": 0,
+      "conventionMapped": 36,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "aftereffects": {
+      "name": "After Effects",
+      "shortcuts": 1005,
+      "exactMarkdown": 390,
+      "exactLegacy": 1,
+      "conventionMapped": 538,
+      "windowsSpecificAdditions": 98,
+      "availability": "available"
+    },
+    "premiere": {
+      "name": "Premiere Pro",
+      "shortcuts": 229,
+      "exactMarkdown": 229,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "blender": {
+      "name": "Blender",
+      "shortcuts": 914,
+      "exactMarkdown": 481,
+      "exactLegacy": 9,
+      "conventionMapped": 399,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "word": {
+      "name": "Word",
+      "shortcuts": 445,
+      "exactMarkdown": 228,
+      "exactLegacy": 0,
+      "conventionMapped": 200,
+      "windowsSpecificAdditions": 17,
+      "availability": "available"
+    },
+    "excel": {
+      "name": "Excel",
+      "shortcuts": 411,
+      "exactMarkdown": 91,
+      "exactLegacy": 0,
+      "conventionMapped": 372,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "powerpoint": {
+      "name": "PowerPoint",
+      "shortcuts": 306,
+      "exactMarkdown": 168,
+      "exactLegacy": 0,
+      "conventionMapped": 127,
+      "windowsSpecificAdditions": 12,
+      "availability": "available"
+    },
+    "outlook": {
+      "name": "Microsoft Outlook",
+      "shortcuts": 29,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 29,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "onenote": {
+      "name": "Microsoft OneNote",
+      "shortcuts": 83,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 84,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "autocad": {
+      "name": "AutoCAD",
+      "shortcuts": 554,
+      "exactMarkdown": 93,
+      "exactLegacy": 0,
+      "conventionMapped": 454,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "sketchup": {
+      "name": "SketchUp",
+      "shortcuts": 280,
+      "exactMarkdown": 150,
+      "exactLegacy": 0,
+      "conventionMapped": 120,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "rhino": {
+      "name": "Rhino",
+      "shortcuts": 291,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 267,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "fusion360": {
+      "name": "Fusion 360",
+      "shortcuts": 33,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 33,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "freecad": {
+      "name": "FreeCAD",
+      "shortcuts": 29,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 29,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "shapr3d": {
+      "name": "Shapr3D",
+      "shortcuts": 26,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 26,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "maya": {
+      "name": "Maya",
+      "shortcuts": 42,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 42,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "cinema4d": {
+      "name": "Cinema 4D",
+      "shortcuts": 362,
+      "exactMarkdown": 226,
+      "exactLegacy": 0,
+      "conventionMapped": 130,
+      "windowsSpecificAdditions": 18,
+      "availability": "available"
+    },
+    "comsol": {
+      "name": "COMSOL Multiphysics",
+      "shortcuts": 21,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 21,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "matlab": {
+      "name": "MATLAB",
+      "shortcuts": 84,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 84,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "simulink": {
+      "name": "Simulink",
+      "shortcuts": 26,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 26,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "davinci": {
+      "name": "DaVinci Resolve",
+      "shortcuts": 50,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 50,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "vscode": {
+      "name": "Visual Studio Code",
+      "shortcuts": 200,
+      "exactMarkdown": 200,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "xcode": {
+      "name": "Xcode",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "androidstudio": {
+      "name": "Android Studio",
+      "shortcuts": 44,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 44,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "intellij": {
+      "name": "IntelliJ IDEA",
+      "shortcuts": 44,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 44,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "jupyter": {
+      "name": "JupyterLab",
+      "shortcuts": 30,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 30,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "spss": {
+      "name": "IBM SPSS Statistics",
+      "shortcuts": 29,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 29,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "rstudio": {
+      "name": "RStudio",
+      "shortcuts": 37,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 37,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "chrome": {
+      "name": "Google Chrome",
+      "shortcuts": 39,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 39,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "safari": {
+      "name": "Safari",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "notion": {
+      "name": "Notion",
+      "shortcuts": 28,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 28,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "obsidian": {
+      "name": "Obsidian",
+      "shortcuts": 28,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 28,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "sketch": {
+      "name": "Sketch",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "adobexd": {
+      "name": "Adobe XD",
+      "shortcuts": 30,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 30,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "framer": {
+      "name": "Framer",
+      "shortcuts": 24,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 24,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "axure": {
+      "name": "Axure RP",
+      "shortcuts": 23,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 23,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "mastergo": {
+      "name": "MasterGo",
+      "shortcuts": 23,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 23,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "jsdesign": {
+      "name": "即时设计",
+      "shortcuts": 23,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 23,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "indesign": {
+      "name": "Adobe InDesign",
+      "shortcuts": 30,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 30,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "lightroom": {
+      "name": "Adobe Lightroom",
+      "shortcuts": 25,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 25,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "rive": {
+      "name": "Rive",
+      "shortcuts": 21,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 21,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "lottiefiles": {
+      "name": "LottieFiles",
+      "shortcuts": 15,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 15,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "protopie": {
+      "name": "ProtoPie",
+      "shortcuts": 28,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 28,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "finalcut": {
+      "name": "Final Cut Pro",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "zbrush": {
+      "name": "ZBrush",
+      "shortcuts": 26,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 26,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "archicad": {
+      "name": "Archicad",
+      "shortcuts": 19,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 19,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "enscape": {
+      "name": "Enscape",
+      "shortcuts": 10,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 10,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "twinmotion": {
+      "name": "Twinmotion",
+      "shortcuts": 19,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 19,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "unity": {
+      "name": "Unity",
+      "shortcuts": 23,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 23,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "unrealengine": {
+      "name": "Unreal Engine",
+      "shortcuts": 19,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 19,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "logicpro": {
+      "name": "Logic Pro",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "garageband": {
+      "name": "GarageBand",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "qgis": {
+      "name": "QGIS",
+      "shortcuts": 18,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 18,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "chemdraw": {
+      "name": "ChemDraw",
+      "shortcuts": 21,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 21,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "pymol": {
+      "name": "PyMOL",
+      "shortcuts": 23,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 23,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "imagej": {
+      "name": "ImageJ / Fiji",
+      "shortcuts": 36,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 36,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "paraview": {
+      "name": "ParaView",
+      "shortcuts": 30,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 30,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "kicad": {
+      "name": "KiCad",
+      "shortcuts": 20,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 20,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "arduinoide": {
+      "name": "Arduino IDE",
+      "shortcuts": 20,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 20,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "ltspice": {
+      "name": "LTspice",
+      "shortcuts": 25,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 25,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "mathematica": {
+      "name": "Wolfram Mathematica",
+      "shortcuts": 23,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 23,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "stata": {
+      "name": "Stata",
+      "shortcuts": 23,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 23,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "jmp": {
+      "name": "JMP",
+      "shortcuts": 21,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 21,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "graphpadprism": {
+      "name": "GraphPad Prism",
+      "shortcuts": 21,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 21,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "cursor": {
+      "name": "Cursor",
+      "shortcuts": 55,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 55,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "pycharm": {
+      "name": "PyCharm",
+      "shortcuts": 44,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 44,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "webstorm": {
+      "name": "WebStorm",
+      "shortcuts": 44,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 44,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "goland": {
+      "name": "GoLand",
+      "shortcuts": 44,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 44,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "clion": {
+      "name": "CLion",
+      "shortcuts": 44,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 44,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "githubdesktop": {
+      "name": "GitHub Desktop",
+      "shortcuts": 16,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 16,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "sourcetree": {
+      "name": "Sourcetree",
+      "shortcuts": 12,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 12,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "tower": {
+      "name": "Tower",
+      "shortcuts": 10,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 10,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "github": {
+      "name": "GitHub",
+      "shortcuts": 14,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 14,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "gitlab": {
+      "name": "GitLab",
+      "shortcuts": 14,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 14,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "bitbucket": {
+      "name": "Bitbucket",
+      "shortcuts": 10,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 10,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "postman": {
+      "name": "Postman",
+      "shortcuts": 17,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 17,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "insomnia": {
+      "name": "Insomnia",
+      "shortcuts": 13,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 13,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "apifox": {
+      "name": "Apifox",
+      "shortcuts": 10,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 10,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "swaggerui": {
+      "name": "Swagger UI",
+      "shortcuts": 8,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 8,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "hoppscotch": {
+      "name": "Hoppscotch",
+      "shortcuts": 10,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 10,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "dockerdesktop": {
+      "name": "Docker Desktop",
+      "shortcuts": 4,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 4,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "dbeaver": {
+      "name": "DBeaver",
+      "shortcuts": 23,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 23,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "datagrip": {
+      "name": "DataGrip",
+      "shortcuts": 49,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 49,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "mysqlworkbench": {
+      "name": "MySQL / MySQL Workbench",
+      "shortcuts": 18,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 18,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "pgadmin": {
+      "name": "PostgreSQL / pgAdmin",
+      "shortcuts": 11,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 11,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "mongodbcompass": {
+      "name": "MongoDB Compass",
+      "shortcuts": 10,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 10,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "redisinsight": {
+      "name": "Redis Insight",
+      "shortcuts": 7,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 7,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "sqlitestudio": {
+      "name": "SQLite / SQLiteStudio",
+      "shortcuts": 15,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 15,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "tableplus": {
+      "name": "TablePlus",
+      "shortcuts": 16,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 16,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "iterm2": {
+      "name": "iTerm2",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "warp": {
+      "name": "Warp",
+      "shortcuts": 18,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 18,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "arc": {
+      "name": "Arc",
+      "shortcuts": 30,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 30,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "firefox": {
+      "name": "Mozilla Firefox",
+      "shortcuts": 41,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 41,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "edge": {
+      "name": "Microsoft Edge",
+      "shortcuts": 39,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 39,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "supabase": {
+      "name": "Supabase",
+      "shortcuts": 4,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 4,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "vercel": {
+      "name": "Vercel",
+      "shortcuts": 3,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 3,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "netlify": {
+      "name": "Netlify",
+      "shortcuts": 6,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 6,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "cloudflare": {
+      "name": "Cloudflare",
+      "shortcuts": 6,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 6,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "pages": {
+      "name": "Apple Pages",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "numbers": {
+      "name": "Apple Numbers",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "keynote": {
+      "name": "Apple Keynote",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "preview": {
+      "name": "Preview",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "pdfexpert": {
+      "name": "PDF Expert",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "zotero": {
+      "name": "Zotero",
+      "shortcuts": 22,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 22,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "mendeley": {
+      "name": "Mendeley Reference Manager",
+      "shortcuts": 17,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 17,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "endnote": {
+      "name": "EndNote",
+      "shortcuts": 21,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 21,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "anki": {
+      "name": "Anki",
+      "shortcuts": 22,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 22,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "goodnotes": {
+      "name": "Goodnotes",
+      "shortcuts": 28,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 28,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "overleaf": {
+      "name": "Overleaf",
+      "shortcuts": 17,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 17,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "texstudio": {
+      "name": "TeXstudio",
+      "shortcuts": 25,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 25,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "drawio": {
+      "name": "draw.io / diagrams.net",
+      "shortcuts": 22,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 22,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "xmind": {
+      "name": "XMind",
+      "shortcuts": 21,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 21,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "mindnode": {
+      "name": "MindNode",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "canva": {
+      "name": "Canva",
+      "shortcuts": 22,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 22,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "miro": {
+      "name": "Miro",
+      "shortcuts": 27,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 27,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "confluence": {
+      "name": "Confluence",
+      "shortcuts": 17,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 17,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "jira": {
+      "name": "Jira",
+      "shortcuts": 16,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 16,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "linear": {
+      "name": "Linear",
+      "shortcuts": 19,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 19,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "trello": {
+      "name": "Trello",
+      "shortcuts": 20,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 20,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "feishu": {
+      "name": "飞书 / Lark",
+      "shortcuts": 14,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 14,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "yuque": {
+      "name": "语雀",
+      "shortcuts": 11,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 11,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "teams": {
+      "name": "Microsoft Teams",
+      "shortcuts": 18,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 18,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "zoom": {
+      "name": "Zoom",
+      "shortcuts": 16,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 16,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "slack": {
+      "name": "Slack",
+      "shortcuts": 24,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 24,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "discord": {
+      "name": "Discord",
+      "shortcuts": 17,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 17,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "wechat": {
+      "name": "WeChat",
+      "shortcuts": 8,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 8,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "raycast": {
+      "name": "Raycast",
+      "shortcuts": 12,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 12,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "alfred": {
+      "name": "Alfred",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "cleanshot": {
+      "name": "CleanShot X",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "bartender": {
+      "name": "Bartender",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "rectangle": {
+      "name": "Rectangle",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "magnet": {
+      "name": "Magnet",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "paste": {
+      "name": "Paste",
+      "shortcuts": 8,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 8,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "onepassword": {
+      "name": "1Password",
+      "shortcuts": 12,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 12,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "tableau": {
+      "name": "Tableau",
+      "shortcuts": 23,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 23,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "powerbiweb": {
+      "name": "Power BI (Web)",
+      "shortcuts": 8,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 8,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "amplitude": {
+      "name": "Amplitude",
+      "shortcuts": 3,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 3,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "mixpanel": {
+      "name": "Mixpanel",
+      "shortcuts": 3,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 3,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "chatgpt": {
+      "name": "ChatGPT",
+      "shortcuts": 18,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 18,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "claude": {
+      "name": "Claude",
+      "shortcuts": 6,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 6,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "codex": {
+      "name": "Codex",
+      "shortcuts": 7,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 7,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "lmstudio": {
+      "name": "LM Studio",
+      "shortcuts": 10,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 10,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "comfyui": {
+      "name": "ComfyUI",
+      "shortcuts": 17,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 17,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "stablediffusion": {
+      "name": "Stable Diffusion WebUI",
+      "shortcuts": 5,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 5,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "runway": {
+      "name": "Runway",
+      "shortcuts": 18,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 18,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "midjourney": {
+      "name": "Midjourney",
+      "shortcuts": 4,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 4,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "adobefirefly": {
+      "name": "Adobe Firefly",
+      "shortcuts": 24,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 24,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "pika": {
+      "name": "Pika",
+      "shortcuts": 3,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 3,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "capcut": {
+      "name": "CapCut",
+      "shortcuts": 20,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 20,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "audacity": {
+      "name": "Audacity",
+      "shortcuts": 24,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 24,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "obsstudio": {
+      "name": "OBS Studio",
+      "shortcuts": 5,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 5,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "iina": {
+      "name": "IINA",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "vlc": {
+      "name": "VLC media player",
+      "shortcuts": 19,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 19,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "handbrake": {
+      "name": "HandBrake",
+      "shortcuts": 9,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 9,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "googledocs": {
+      "name": "Google Docs",
+      "shortcuts": 31,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 31,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "googlesheets": {
+      "name": "Google Sheets",
+      "shortcuts": 35,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 35,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "googleslides": {
+      "name": "Google Slides",
+      "shortcuts": 28,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 28,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "wpsoffice": {
+      "name": "WPS Office",
+      "shortcuts": 33,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 33,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "adobeacrobat": {
+      "name": "Adobe Acrobat",
+      "shortcuts": 29,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 29,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "evernote": {
+      "name": "Evernote",
+      "shortcuts": 19,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 19,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "ulysses": {
+      "name": "Ulysses",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "scrivener": {
+      "name": "Scrivener",
+      "shortcuts": 24,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 24,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "dropbox": {
+      "name": "Dropbox",
+      "shortcuts": 9,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 9,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "googledrive": {
+      "name": "Google Drive",
+      "shortcuts": 16,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 16,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "onedrive": {
+      "name": "Microsoft OneDrive",
+      "shortcuts": 11,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 11,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "tencentmeeting": {
+      "name": "腾讯会议",
+      "shortcuts": 9,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 9,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "dingtalk": {
+      "name": "钉钉",
+      "shortcuts": 10,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 10,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "qq": {
+      "name": "QQ",
+      "shortcuts": 8,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 8,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "eclipse": {
+      "name": "Eclipse IDE",
+      "shortcuts": 28,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 28,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "sublimetext": {
+      "name": "Sublime Text",
+      "shortcuts": 29,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 29,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "onshape": {
+      "name": "Onshape",
+      "shortcuts": 24,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 24,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "vectorworks": {
+      "name": "Vectorworks",
+      "shortcuts": 21,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 21,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "calibre": {
+      "name": "Calibre",
+      "shortcuts": 21,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 21,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "deepl": {
+      "name": "DeepL",
+      "shortcuts": 8,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 8,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "grammarly": {
+      "name": "Grammarly",
+      "shortcuts": 7,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 7,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "todoist": {
+      "name": "Todoist",
+      "shortcuts": 20,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 20,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "ticktick": {
+      "name": "TickTick",
+      "shortcuts": 16,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 16,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "brave": {
+      "name": "Brave",
+      "shortcuts": 39,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 39,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "affinitydesigner": {
+      "name": "Affinity Designer 2",
+      "shortcuts": 256,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 255,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "affinityphoto": {
+      "name": "Affinity Photo 2",
+      "shortcuts": 273,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 272,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "affinitypublisher": {
+      "name": "Affinity Publisher 2",
+      "shortcuts": 204,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 204,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "terminal": {
+      "name": "Terminal",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "finder": {
+      "name": "Finder",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "labview": {
+      "name": "LabVIEW",
+      "shortcuts": 61,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 61,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "plecs": {
+      "name": "PLECS",
+      "shortcuts": 5,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 5,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "benchling": {
+      "name": "Benchling",
+      "shortcuts": 30,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 30,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "geneious": {
+      "name": "Geneious Prime",
+      "shortcuts": 11,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 11,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "vmd": {
+      "name": "VMD",
+      "shortcuts": 47,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 47,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "avogadro": {
+      "name": "Avogadro",
+      "shortcuts": 97,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 97,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "slicer": {
+      "name": "3D Slicer",
+      "shortcuts": 53,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 53,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "godot": {
+      "name": "Godot Engine",
+      "shortcuts": 62,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 62,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "eagle": {
+      "name": "Eagle",
+      "shortcuts": 23,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 23,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "stm32cubeide": {
+      "name": "STM32CubeIDE",
+      "shortcuts": 35,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 35,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "mplabx": {
+      "name": "MPLAB X IDE",
+      "shortcuts": 24,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 24,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "snapgene": {
+      "name": "SnapGene",
+      "shortcuts": 25,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 25,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "mega": {
+      "name": "MEGA",
+      "shortcuts": 21,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 21,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "clcgenomics": {
+      "name": "CLC Genomics Workbench",
+      "shortcuts": 22,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 22,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "chimerax": {
+      "name": "ChimeraX",
+      "shortcuts": 19,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 19,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "flowjo": {
+      "name": "FlowJo",
+      "shortcuts": 20,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 20,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "marvinsketch": {
+      "name": "MarvinSketch",
+      "shortcuts": 23,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 23,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "maple": {
+      "name": "Maple",
+      "shortcuts": 21,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 21,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "sasstudio": {
+      "name": "SAS Studio",
+      "shortcuts": 19,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 19,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "osirix": {
+      "name": "OsiriX",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "horos": {
+      "name": "Horos",
+      "shortcuts": 0,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 0,
+      "availability": "unavailable"
+    },
+    "envi": {
+      "name": "ENVI",
+      "shortcuts": 13,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 13,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "substancepainter": {
+      "name": "Substance 3D Painter",
+      "shortcuts": 24,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 24,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    },
+    "houdini": {
+      "name": "Houdini",
+      "shortcuts": 29,
+      "exactMarkdown": 0,
+      "exactLegacy": 0,
+      "conventionMapped": 29,
+      "windowsSpecificAdditions": 0,
+      "availability": "available"
+    }
+  }
+}

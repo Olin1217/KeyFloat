@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="KeyFloat is a desktop shortcut companion for engineers, designers, writers, and students." />
+    <title>KeyFloat — desktop shortcuts for creative flow</title>
+    <link rel="icon" href="assets/keyfloat-logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css?v=1.1.0" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "KeyFloat",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "macOS 13 or later; Windows version coming soon",
+        "offers": { "@type": "Offer", "price": "6", "priceCurrency": "CNY" }
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary" data-i18n-aria="a11y.primary">
+        <a class="brand" href="#top" aria-label="KeyFloat home" data-i18n-aria="a11y.home">
+          <img src="assets/keyfloat-logo-white.svg" alt="" width="30" height="30" />
+          <span>KeyFloat</span>
+        </a>
+        <div class="nav-links">
+          <a href="#features" data-i18n="nav.features">Features</a>
+          <a href="#coverage" data-i18n="nav.coverage">Coverage</a>
+          <a href="#download" data-i18n="nav.download">Download</a>
+          <button class="nav-link-button" type="button" data-contact-dialog data-i18n="nav.contact">Contact developer</button>
+          <a href="#faq" data-i18n="nav.faq">FAQ</a>
+        </div>
+        <div class="nav-actions">
+          <button class="text-button" id="language-toggle" type="button" aria-label="Switch language">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+            <span data-i18n="nav.language">Language</span>
+          </button>
+          <button class="button button-small button-primary" type="button" data-purchase data-i18n="nav.buy">Buy KeyFloat</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="container hero-copy">
+          <h1 data-i18n="hero.title">Desktop shortcut tools that amplify your creativity.</h1>
+          <p class="hero-lede" data-i18n="hero.lede">A productivity tool built for engineers, designers, writers, and students.</p>
+        </div>
+
+        <div class="logo-field-wrap container">
+          <div class="logo-field" id="logo-field" role="list" aria-label="Supported software" data-i18n-aria="a11y.logoField"></div>
+        </div>
+
+        <div class="container hero-footer">
+          <div class="hero-actions">
+            <button class="button button-primary" type="button" data-purchase data-i18n="hero.buy">Get KeyFloat</button>
+            <a class="button button-secondary" href="#download" data-i18n="hero.download">Choose a desktop version</a>
+          </div>
+          <div class="trust-row" aria-label="Product assurances" data-i18n-aria="a11y.assurances">
+            <span data-i18n="hero.trust1">One-time purchase</span>
+            <span data-i18n="hero.trust2">Runs locally</span>
+            <span data-i18n="hero.trust3">No subscription</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="proof-band" aria-label="Product coverage" data-i18n-aria="a11y.coverage">
+        <div class="container proof-grid">
+          <div><strong data-stat="software" data-counter-target="209">209</strong><span data-i18n="proof.software">software titles</span></div>
+          <div><strong data-stat="shortcuts" data-counter-target="8432">8,432</strong><span data-i18n="proof.shortcuts">shortcut references</span></div>
+          <div><strong data-counter-target="21">21</strong><span data-i18n="proof.categories">clear categories</span></div>
+          <div><strong data-counter-target="2">2</strong><span data-i18n="proof.platforms">desktop platforms</span></div>
+        </div>
+      </section>
+
+      <section class="section container" id="features">
+        <div class="section-heading">
+          <h2 data-i18n="features.title">Reference without leaving your work.</h2>
+          <p data-i18n="features.lede">Every product decision shortens the distance between remembering a command and using it.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card" tabindex="0"><span class="feature-number">01</span><h3 data-i18n="features.float.title">Always within reach</h3><p data-i18n="features.float.body">Keep a compact shortcut window above your active workspace and collapse it without breaking focus.</p></article>
+          <article class="feature-card" tabindex="0"><span class="feature-number">02</span><h3 data-i18n="features.search.title">Fast, ranked search</h3><p data-i18n="features.search.body">Search by action, key, tag, or category. Exact matches surface first.</p></article>
+          <article class="feature-card" tabindex="0"><span class="feature-number">03</span><h3 data-i18n="features.language.title">Complete language modes</h3><p data-i18n="features.language.body">English and Chinese remain independent throughout the interface and shortcut library.</p></article>
+          <article class="feature-card" tabindex="0"><span class="feature-number">04</span><h3 data-i18n="features.local.title">Private by default</h3><p data-i18n="features.local.body">Shortcut browsing, search, preferences, favorites, and activation stay on your device.</p></article>
+        </div>
+      </section>
+
+      <section class="section section-inset" id="coverage">
+        <div class="container">
+          <div class="section-heading split-heading">
+            <div><h2 data-i18n="coverage.title">From coursework to professional production.</h2></div>
+            <p data-i18n="coverage.lede">The catalog is organized by task rather than vendor, so software remains easy to find as the library grows.</p>
+          </div>
+          <div class="coverage-grid">
+            <article tabindex="0"><h3 data-i18n="coverage.design">Design</h3><p class="coverage-tools"><span>Figma · Photoshop · Illustrator</span><span>Sketch · InDesign · Affinity Designer</span><span>Canva · CorelDRAW · ...</span></p><div class="coverage-icons" aria-hidden="true"><img src="assets/software-icons/figma.svg" alt=""/><img src="assets/software-icons/photoshop.svg" alt=""/><img src="assets/software-icons/illustrator.svg" alt=""/></div></article>
+            <article tabindex="0"><h3 data-i18n="coverage.media">Media</h3><p class="coverage-tools"><span>After Effects · Premiere Pro · DaVinci Resolve</span><span>Final Cut Pro · Audition · OBS Studio</span><span>Media Encoder · CapCut · ...</span></p><div class="coverage-icons" aria-hidden="true"><img src="assets/software-icons/aftereffects.svg" alt=""/><img src="assets/software-icons/premiere.svg" alt=""/><img src="assets/software-icons/obsstudio.svg" alt=""/></div></article>
+            <article tabindex="0"><h3 data-i18n="coverage.engineering">Engineering</h3><p class="coverage-tools"><span>AutoCAD · Revit · SolidWorks</span><span>CATIA · Siemens NX · Fusion 360</span><span>KiCad · QGIS · ...</span></p><div class="coverage-icons" aria-hidden="true"><img src="assets/software-icons/kicad.svg" alt=""/><img src="assets/software-icons/qgis.svg" alt=""/><img src="assets/software-icons/drawio.svg" alt=""/></div></article>
+            <article tabindex="0"><h3 data-i18n="coverage.modeling">3D and animation</h3><p class="coverage-tools"><span>Blender · Maya · 3ds Max</span><span>Cinema 4D · Rhino · ZBrush</span><span>Substance 3D Painter · Godot · ...</span></p><div class="coverage-icons" aria-hidden="true"><img src="assets/software-icons/blender.svg" alt=""/><img src="assets/software-icons/substancepainter.svg" alt=""/><img src="assets/software-icons/godot.svg" alt=""/></div></article>
+            <article tabindex="0"><h3 data-i18n="coverage.development">Development</h3><p class="coverage-tools"><span>VS Code · Xcode · Android Studio</span><span>IntelliJ IDEA · PyCharm · WebStorm</span><span>GitHub Desktop · Docker · ...</span></p><div class="coverage-icons" aria-hidden="true"><img src="assets/software-icons/vscode.svg" alt=""/><img src="assets/software-icons/intellij.svg" alt=""/><img src="assets/software-icons/github.svg" alt=""/></div></article>
+            <article tabindex="0"><h3 data-i18n="coverage.research">Study and research</h3><p class="coverage-tools"><span>Word · Excel · PowerPoint</span><span>MATLAB · Jupyter · SPSS</span><span>Zotero · Anki · Notion · ...</span></p><div class="coverage-icons" aria-hidden="true"><img src="assets/software-icons/jupyter.svg" alt=""/><img src="assets/software-icons/zotero.svg" alt=""/><img src="assets/software-icons/anki.svg" alt=""/></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="download">
+        <div class="section-heading platform-heading">
+          <p class="eyebrow" data-i18n="platform.eyebrow">DESKTOP EDITIONS</p>
+          <h2 data-i18n="platform.title">Choose your platform.</h2>
+          <p data-i18n="platform.lede">The macOS edition is available now. The Windows edition is in development and is shown here so you can follow its release status.</p>
+        </div>
+        <div class="platform-grid">
+          <article class="platform-card available">
+            <div class="platform-card-top">
+              <span class="platform-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.7-1.7-3.3-1.7-1.4-.1-2.7.8-3.4.8-.7 0-1.8-.8-3-.8-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3.1-.7 1.4 0 1.9.7 3.1.7 1.3 0 2.1-1.1 2.8-2.2.9-1.3 1.2-2.6 1.2-2.7-.1 0-2.7-1-2.7-3.9ZM14.8 5.9c.6-.8 1.1-1.9 1-3-1 .1-2.2.7-2.9 1.5-.6.7-1.1 1.8-1 2.9 1.1.1 2.2-.6 2.9-1.4Z"/></svg></span>
+              <span class="status-badge" data-i18n="platform.available">Available now</span>
+            </div>
+            <h3>macOS</h3>
+            <p data-i18n="platform.macos.body">Native floating-window edition for macOS 13 and later.</p>
+            <button class="button button-primary button-full" type="button" data-purchase data-platform="macos" data-i18n="platform.macos.cta">Buy and download</button>
+          </article>
+          <article class="platform-card upcoming">
+            <div class="platform-card-top">
+              <span class="platform-icon windows-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h8.25v8.25H3V3Zm9.75 0H21v8.25h-8.25V3ZM3 12.75h8.25V21H3v-8.25Zm9.75 0H21V21h-8.25v-8.25Z"/></svg></span>
+              <span class="status-badge" data-i18n="platform.developing">In development</span>
+            </div>
+            <h3>Windows</h3>
+            <p data-i18n="platform.windows.body">A Windows desktop edition is being developed. Download will open after the release is ready.</p>
+            <button class="button button-secondary button-full" type="button" disabled data-i18n="platform.windows.cta">Coming soon</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="section pricing-section" id="buy">
+        <div class="container pricing-card">
+          <div>
+            <p class="eyebrow" data-i18n="pricing.eyebrow">ONE PURCHASE</p>
+            <h2 data-i18n="pricing.title">Unlock KeyFloat with one voucher.</h2>
+            <p data-i18n="pricing.lede">Pay once with Alipay. No account subscription and no recurring charge.</p>
+            <ul>
+              <li data-i18n="pricing.item1">Current desktop release</li>
+              <li data-i18n="pricing.item2">English and Chinese interface</li>
+              <li data-i18n="pricing.item3">A signed activation voucher</li>
+            </ul>
+          </div>
+          <div class="price-panel">
+            <div class="price"><small>¥</small><strong data-price>6</strong><span data-i18n="pricing.once">one time</span></div>
+            <button class="button button-primary button-full" type="button" data-purchase data-i18n="pricing.cta">Pay with Alipay</button>
+            <p data-i18n="pricing.note">After payment is verified, your activation voucher appears once.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="contact.eyebrow">CONTACT THE DEVELOPER</p>
+          <h2 data-i18n="contact.title">Questions, feedback, or a lost voucher?</h2>
+          <p data-i18n="contact.lede">Contact the KeyFloat developer directly. Please include your payment reference when asking about a lost voucher.</p>
+        </div>
+        <button class="button button-primary" type="button" data-contact-dialog data-i18n="contact.cta">Contact developer</button>
+      </section>
+
+      <section class="section container" id="faq">
+        <div class="section-heading"><p class="eyebrow" data-i18n="faq.eyebrow">QUESTIONS</p><h2 data-i18n="faq.title">Before you download.</h2></div>
+        <div class="faq-list">
+          <details><summary data-i18n="faq.q1">Does KeyFloat require an internet connection?</summary><p data-i18n="faq.a1">No. The installed application reads its shortcut library, activation, search, and preferences locally.</p></details>
+          <details><summary data-i18n="faq.q2">Which platforms are supported?</summary><p data-i18n="faq.a2">The macOS edition is available now. The Windows edition is in development and will be added to this page after release.</p></details>
+          <details><summary data-i18n="faq.q3">How does activation work?</summary><p data-i18n="faq.a3">After payment verification, the website displays a signed voucher. Enter that voucher when KeyFloat first opens.</p></details>
+          <details><summary data-i18n="faq.q4">Why is the voucher displayed only once?</summary><p data-i18n="faq.a4">The voucher is intentionally not stored by the public page. Copy it immediately and keep it in a secure place.</p></details>
+          <details><summary data-i18n="faq.q5">What if I lose the voucher?</summary><p data-i18n="faq.a5">Contact the developer by email and provide the corresponding Alipay transaction number.</p></details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="brand"><img src="assets/keyfloat-logo-white.svg" alt="" width="28" height="28"/><span>KeyFloat</span></div>
+        <p data-i18n="footer.tagline">A desktop shortcut companion for focused work.</p>
+        <div class="footer-links"><button type="button" data-contact-dialog data-i18n="footer.support">Contact developer</button><a href="#download" data-i18n="footer.download">Download</a><a href="#faq" data-i18n="footer.faq">FAQ</a></div>
+        <p class="copyright">© <span id="year"></span> KeyFloat</p>
+      </div>
+    </footer>
+
+    <dialog class="contact-dialog" id="contact-dialog" aria-labelledby="contact-dialog-title">
+      <div class="contact-dialog-card">
+        <button class="dialog-close" type="button" aria-label="Close" data-i18n-aria="a11y.close" data-contact-dialog-close>×</button>
+        <div class="dialog-heading">
+          <p class="eyebrow" data-i18n="contact.dialogEyebrow">DEVELOPER CONTACT</p>
+          <h2 id="contact-dialog-title" data-i18n="contact.dialogTitle">Contact the KeyFloat developer</h2>
+          <p data-i18n="contact.dialogLede">For activation, payment, or product support, contact the developer by email below.</p>
+        </div>
+        <div class="contact-dialog-list">
+          <div class="contact-dialog-row">
+            <span data-i18n="contact.email">Email</span>
+            <strong data-contact-email>SHL7450702@gmail.com</strong>
+            <a class="button button-secondary" href="mailto:SHL7450702@gmail.com" data-support-email data-i18n="contact.emailCta">Send email</a>
+          </div>
+        </div>
+        <p class="contact-reply" data-i18n="contact.replyTime">The developer will reply within 1 business day.</p>
+      </div>
+    </dialog>
+
+    <dialog class="purchase-dialog" id="purchase-dialog" aria-labelledby="purchase-title">
+      <form class="dialog-card" id="purchase-form">
+        <button class="dialog-close" type="button" aria-label="Close" data-i18n-aria="a11y.close" data-purchase-dialog-close>×</button>
+        <div class="dialog-heading">
+          <p class="eyebrow" data-i18n="purchase.eyebrow">ALIPAY CHECKOUT</p>
+          <h2 id="purchase-title" data-i18n="purchase.title">Purchase KeyFloat</h2>
+          <p data-i18n="purchase.lede">Scan the code, complete the ¥6 payment, then submit the transaction number for verification.</p>
+        </div>
+        <div class="checkout-grid" id="checkout-grid">
+          <div class="qr-panel">
+            <img id="payment-qr" alt="Alipay payment QR code" data-i18n-alt="a11y.qr" hidden />
+            <div class="qr-placeholder" id="qr-placeholder"><span>QR</span><p id="qr-placeholder-message" data-i18n="purchase.qrMissing">Alipay checkout is being prepared and is not open yet.</p></div>
+            <a class="button button-secondary button-full" id="open-alipay" href="#" hidden data-i18n="purchase.openAlipay">Open Alipay</a>
+            <p class="qr-price"><span data-i18n="purchase.amount">Amount</span><strong>¥<span data-price>6</span></strong></p>
+          </div>
+          <div class="claim-panel" id="claim-panel">
+            <p class="checkout-unavailable" id="checkout-unavailable" data-i18n="purchase.unavailable">Purchasing is temporarily unavailable while the payment channel is being configured.</p>
+            <label><span data-i18n="purchase.reference">Alipay transaction number</span><input id="payment-reference" name="paymentReference" autocomplete="off" required disabled data-i18n-placeholder="purchase.referencePlaceholder" placeholder="Enter the transaction number" /></label>
+            <label><span data-i18n="purchase.email">Contact email</span><input id="delivery-email" name="email" type="email" autocomplete="email" required disabled data-i18n-placeholder="purchase.emailPlaceholder" placeholder="name@example.com" /></label>
+            <label class="consent"><input id="purchase-consent" type="checkbox" required disabled /><span data-i18n="purchase.consent">I confirm that the payment information is accurate.</span></label>
+            <button class="button button-primary button-full" type="submit" disabled data-i18n="purchase.submit">Verify payment and get voucher</button>
+            <p class="form-status" id="purchase-status" aria-live="polite"></p>
+            <p class="claim-note" data-i18n="purchase.note">Payment details are used only to verify this order and issue the voucher.</p>
+          </div>
+        </div>
+        <section class="voucher-panel" id="voucher-panel" hidden aria-labelledby="voucher-title">
+          <span class="voucher-success" aria-hidden="true">✓</span>
+          <p class="eyebrow" data-i18n="voucher.eyebrow">PAYMENT VERIFIED</p>
+          <h3 id="voucher-title" data-i18n="voucher.title">Your KeyFloat activation voucher</h3>
+          <div class="voucher-code-row"><code id="voucher-code"></code><button class="button button-primary" id="copy-voucher" type="button" data-i18n="voucher.copy">Copy voucher</button></div>
+          <p class="voucher-warning" data-i18n="voucher.warning">This voucher is shown only once. Copy it now and keep it safe. If it is lost, contact the product developer.</p>
+          <a class="button button-secondary" id="voucher-download" href="#" hidden data-i18n="voucher.download">Download desktop installer</a>
+          <p class="form-status" id="voucher-copy-status" aria-live="polite"></p>
+        </section>
+      </form>
+    </dialog>
+
+    <script src="site-config.js?v=1.1.0"></script>
+    <script src="app.js?v=1.1.0"></script>
+  </body>
+</html>

@@ -1,0 +1,1361 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KeyFloat — 设计师的桌面快捷键悬浮窗</title>
+    <meta
+      name="description"
+      content="覆盖 Figma、Adobe 全家桶、Blender 等主流设计软件的全部快捷键。桌面悬浮、中英双语、macOS & Windows。"
+    />
+    <style>
+      :root {
+        color-scheme: dark;
+        /* 只使用四色系：纯黑 / 深灰 / 浅灰 / 白 */
+        --bg: #000000;              /* 纯黑 —— 页面底 */
+        --bg-elevated: #0f0f0f;     /* 稍浅一点的黑 —— hero 预览底 */
+        --bg-card: #141414;         /* 深灰 —— 卡片底 */
+        --bg-hover: #1f1f1f;        /* 深灰 hover */
+        --border: #2a2a2a;          /* 深灰描边 */
+        --border-strong: #3d3d3d;   /* 深灰描边（稍亮） */
+        --text: #ffffff;            /* 白 —— 主文本 */
+        --text-muted: #a3a3a3;      /* 浅灰 —— 次要文本 */
+        --text-dim: #6b6b6b;        /* 浅灰（更弱） */
+        --accent: #ffffff;          /* 强调色 = 白 */
+        --accent-bg: #1f1f1f;       /* 强调背景 = 深灰 */
+        --accent-border: #3d3d3d;   /* 强调描边 = 深灰 */
+        --key-bg: #1f1f1f;
+        --key-border: #3d3d3d;
+        --radius-sm: 6px;
+        --radius: 10px;
+        --radius-lg: 16px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family:
+          -apple-system, BlinkMacSystemFont, "SF Pro SC", "SF Pro Display",
+          "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI",
+          sans-serif;
+        line-height: 1.6;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      /* 背景（纯色，无渐变） */
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      /* ============ 顶部导航 ============ */
+      nav {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background: var(--bg);
+        border-bottom: 1px solid var(--border);
+      }
+
+      .nav-inner {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 14px 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 32px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: 0.2px;
+      }
+
+      /* 品牌 logo：内联 KeyFloat SVG（原始灰度渐变） */
+      .brand-dot {
+        width: 22px;
+        height: 22px;
+        flex-shrink: 0;
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'><g clip-path='url(%23clip0_2145_7864)'><path d='M32 0H0V32H32V0Z' fill='black'/><path d='M23.6564 6.24732C24.2454 6.85762 24.4479 7.80407 24.2434 8.60327C24.1069 9.1351 24.0168 9.46931 23.9741 9.6059C23.9151 9.79093 23.8211 10.1116 23.6922 10.5688C23.4346 11.4823 23.0345 12.8502 22.4901 14.6733C22.0115 16.2775 21.5349 17.8759 21.066 19.4666C21.0321 19.5809 20.9498 19.7698 20.819 20.0323C20.6185 20.4343 20.3153 20.7957 19.9995 21.0563C19.6313 21.3614 19.2167 21.56 18.7546 21.653C18.5735 21.6889 18.2218 21.7073 17.6997 21.7053C16.1604 21.7014 12.89 21.6898 7.88841 21.6714C7.44376 21.6695 7.14249 21.6511 6.98362 21.6152C5.80661 21.3517 4.99482 20.3888 4.92313 19.1847C4.91345 19.0278 4.93088 18.8059 4.97448 18.5182C4.99482 18.3835 5.0481 18.1675 5.13625 17.8692C6.01198 14.8777 6.82571 11.833 7.72276 8.90551C7.92328 8.25065 8.06956 7.83022 8.16062 7.64519C8.36018 7.24027 8.6198 6.88087 8.94142 6.56797C9.11482 6.39844 9.31825 6.23666 9.54978 6.0807C9.95761 5.80752 10.4042 5.62927 10.8915 5.54499C11.0474 5.51787 11.4504 5.50334 12.1004 5.50043C15.9017 5.48299 18.9513 5.47137 21.2501 5.46459C21.6647 5.46265 22.0609 5.45781 22.4203 5.54402C22.9027 5.6593 23.3144 5.89373 23.6564 6.24829V6.24732Z' fill='url(%23paint0_linear_2145_7864)'/><path d='M25.3439 10.0331C25.3468 10.0263 25.3546 10.0234 25.3614 10.0254C25.3633 10.0254 25.3652 10.0273 25.3672 10.0292L26.8154 11.835C26.8154 11.835 26.8222 11.8437 26.8241 11.8485C26.9898 12.1372 27.0741 12.4404 27.0779 12.7572C27.0799 12.9025 27.0305 13.1737 26.9297 13.5709C26.3262 15.9617 25.8138 17.9728 25.3924 19.6032C25.2965 19.9771 25.2112 20.3133 25.1386 20.6136C25.0368 21.034 24.908 21.4864 24.7937 21.9572C24.6774 22.4357 24.5205 23.049 24.3229 23.7949C24.2522 24.0632 24.1185 24.38 23.9218 24.7452C23.6671 25.2189 23.3377 25.6122 22.9328 25.9261C22.6906 26.114 22.4542 26.2525 22.2246 26.3407C21.9107 26.4608 21.6492 26.5238 21.439 26.5277C21.1484 26.5335 20.9478 26.5354 20.8374 26.5354C20.5439 26.5354 17.4808 26.5286 11.6471 26.516C11.4039 26.516 11.2576 26.5131 11.2092 26.5083C10.8595 26.4763 10.5456 26.3765 10.2676 26.208C10.1359 26.1285 9.93533 25.9522 9.66505 25.679C9.02666 25.0319 8.20034 24.2124 7.18705 23.2185C7.17639 23.2078 7.16767 23.1962 7.16283 23.1817C7.15992 23.1739 7.1638 23.1652 7.17155 23.1623C7.17349 23.1623 7.17445 23.1623 7.17639 23.1623C11.3836 23.1584 15.3089 23.1574 18.9503 23.1594C19.4289 23.1594 19.766 23.14 19.9626 23.1003C20.9023 22.9124 21.655 22.3021 22.0735 21.4535C22.1626 21.2723 22.2634 20.9817 22.3748 20.5816C23.3164 17.1911 23.9664 14.8496 24.3248 13.5564C24.568 12.6797 24.8663 11.6276 25.2199 10.4012C25.2577 10.2695 25.2994 10.1474 25.3439 10.0331Z' fill='url(%23paint1_linear_2145_7864)'/><path d='M20.5979 10.2558H13.474L18.7228 16.0693L17.8125 18.8902L10.2686 10.2774L10.938 8.04041H21.3121L20.5979 10.2558Z' fill='url(%23paint2_linear_2145_7864)'/></g><defs><linearGradient id='paint0_linear_2145_7864' x1='6.49984' y1='5.46381' x2='22.7415' y2='21.7055' gradientUnits='userSpaceOnUse'><stop offset='0.214767' stop-color='white'/><stop offset='1' stop-color='%23D5D5D5'/></linearGradient><linearGradient id='paint1_linear_2145_7864' x1='8.86462' y1='10.0248' x2='25.3752' y2='26.5354' gradientUnits='userSpaceOnUse'><stop stop-color='%23FCFCFC'/><stop offset='1' stop-color='%23424242'/></linearGradient><linearGradient id='paint2_linear_2145_7864' x1='10.3242' y1='8.04041' x2='21.1737' y2='18.9722' gradientUnits='userSpaceOnUse'><stop/><stop offset='1' stop-color='%23454545'/></linearGradient><clipPath id='clip0_2145_7864'><rect width='32' height='32' fill='white'/></clipPath></defs></svg>");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        border-radius: 4px;
+        border: 1px solid var(--border);
+      }
+
+      .brand-dot--sm {
+        width: 14px;
+        height: 14px;
+        border-radius: 3px;
+      }
+
+      .brand-dot--md {
+        width: 18px;
+        height: 18px;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 28px;
+        font-size: 14px;
+        color: var(--text-muted);
+      }
+
+      .nav-links a {
+        transition: color 0.15s ease;
+      }
+
+      .nav-links a:hover {
+        color: var(--text);
+      }
+
+      .nav-cta {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .lang-switch {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        padding: 4px;
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-sm);
+        font-size: 12px;
+      }
+
+      .lang-switch button {
+        background: var(--bg-card);
+        border: none;
+        color: var(--text-muted);
+        padding: 4px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        font: inherit;
+        transition: all 0.15s ease;
+      }
+
+      .lang-switch button.active {
+        background: var(--accent);
+        color: #fff;
+      }
+
+      /* ============ Hero ============ */
+      .hero {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 100px 32px 80px;
+        text-align: center;
+        position: relative;
+      }
+
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 14px;
+        background: var(--accent-bg);
+        border: 1px solid var(--accent-border);
+        border-radius: 100px;
+        font-size: 12px;
+        color: #ffffff;
+        margin-bottom: 28px;
+      }
+
+      .badge::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--accent);
+        animation: pulse 2s ease-in-out infinite;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.4;
+        }
+      }
+
+      h1 {
+        font-size: clamp(40px, 6vw, 72px);
+        font-weight: 700;
+        letter-spacing: -0.03em;
+        line-height: 1.05;
+        margin-bottom: 24px;
+        color: #6b6b6b;             /* 主标题第一行：浅灰 */
+      }
+
+      h1 .grad {
+        color: #ffffff;              /* 强调词：纯白 */
+      }
+
+      .hero-sub {
+        font-size: clamp(15px, 1.8vw, 19px);
+        color: var(--text-muted);
+        max-width: 640px;
+        margin: 0 auto 40px;
+        line-height: 1.6;
+      }
+
+      .hero-actions {
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 14px 22px;
+        border-radius: var(--radius);
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        border: 1px solid var(--bg);
+        transition: all 0.15s ease;
+        text-align: left;
+        font-family: inherit;
+      }
+
+      .btn svg {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+      }
+
+      .btn-primary {
+        background: #fff;
+        color: #000000;
+        border-color: #fff;
+      }
+
+      .btn-primary:hover {
+        transform: translateY(-1px);
+      }
+
+      .btn-secondary {
+        background: var(--bg-card);
+        color: var(--text);
+        border-color: var(--border-strong);
+      }
+
+      .btn-secondary:hover {
+        background: var(--bg-hover);
+        border-color: #4d4d4d;
+      }
+
+      .btn-meta {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.2;
+      }
+
+      .btn-meta .top {
+        font-size: 11px;
+        color: #6b6b6b;
+        font-weight: 400;
+      }
+
+      .btn-meta .bot {
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      /* Hero 悬浮窗预览 */
+      .hero-preview {
+        position: relative;
+        max-width: 780px;
+        margin: 0 auto;
+        aspect-ratio: 16 / 10;
+        border-radius: var(--radius-lg);
+        background: var(--bg-elevated);
+        border: 1px solid var(--border);
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* 模拟悬浮窗 */
+      .float-mock {
+        width: 320px;
+        background: var(--bg-card);
+        border: 1px solid var(--border-strong);
+        border-radius: 12px;
+        overflow: hidden;
+        position: relative;
+        z-index: 2;
+      }
+
+      .float-mock-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 12px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .float-mock-header .left {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 12.5px;
+        font-weight: 600;
+      }
+
+      .float-mock-header .right {
+        display: flex;
+        gap: 6px;
+      }
+
+      .mock-lang {
+        padding: 2px 8px;
+        font-size: 10px;
+        border-radius: 4px;
+        border: 1px solid var(--border);
+        color: var(--text-muted);
+      }
+      .mock-lang .on {
+        color: var(--accent);
+      }
+
+      .float-mock-tabs {
+        display: flex;
+        gap: 4px;
+        padding: 8px 12px;
+        overflow-x: auto;
+        border-bottom: 1px solid var(--border);
+        scrollbar-width: none;
+      }
+      .float-mock-tabs::-webkit-scrollbar {
+        display: none;
+      }
+
+      .mock-tab {
+        flex: none;
+        padding: 3px 9px;
+        font-size: 10.5px;
+        color: var(--text-muted);
+        border-radius: 10px;
+        white-space: nowrap;
+      }
+      .mock-tab.active {
+        color: #fff;
+        background: var(--accent);
+      }
+
+      .float-mock-list {
+        padding: 6px 8px;
+      }
+
+      .mock-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 7px 8px;
+        font-size: 11.5px;
+        color: var(--text);
+      }
+
+      .mock-row + .mock-row {
+        border-top: 1px solid var(--border);
+      }
+
+      .mock-keys {
+        display: inline-flex;
+        gap: 3px;
+      }
+
+      .mock-key {
+        min-width: 18px;
+        padding: 1px 5px;
+        background: var(--key-bg);
+        border: 1px solid var(--key-border);
+        border-radius: 3px;
+        font-size: 9.5px;
+        font-family:
+          "SF Mono", ui-monospace, Menlo, monospace;
+        color: #fafafa;
+        text-align: center;
+        line-height: 1.4;
+      }
+
+      /* ============ Section 通用 ============ */
+      section {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 100px 32px;
+      }
+
+      .section-header {
+        text-align: center;
+        margin-bottom: 56px;
+      }
+
+      .eyebrow {
+        color: var(--text-muted);
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+      }
+
+      h2 {
+        font-size: clamp(28px, 4vw, 44px);
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        line-height: 1.15;
+        margin-bottom: 16px;
+      }
+
+      .section-sub {
+        color: var(--text-muted);
+        font-size: 16px;
+        max-width: 560px;
+        margin: 0 auto;
+      }
+
+      /* ============ 功能卡片 ============ */
+      .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 16px;
+      }
+
+      .feature {
+        padding: 32px 28px;
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        transition:
+          border-color 0.2s ease,
+          transform 0.2s ease;
+      }
+
+      .feature:hover {
+        border-color: var(--border-strong);
+        transform: translateY(-2px);
+      }
+
+      .feature-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        background: var(--accent-bg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        color: var(--accent);
+      }
+
+      .feature h3 {
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+
+      .feature p {
+        color: var(--text-muted);
+        font-size: 14px;
+        line-height: 1.6;
+      }
+
+      /* ============ 快捷键预览 ============ */
+      .shortcuts-preview {
+        max-width: 900px;
+        margin: 0 auto;
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-lg);
+        overflow: hidden;
+      }
+
+      .sp-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 24px;
+        border-bottom: 1px solid var(--border);
+        flex-wrap: wrap;
+        gap: 16px;
+      }
+
+      .sp-tabs {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+      }
+
+      .sp-tab {
+        padding: 6px 14px;
+        font-size: 13px;
+        color: var(--text-muted);
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 100px;
+        cursor: pointer;
+        transition: all 0.15s ease;
+        font-family: inherit;
+      }
+
+      .sp-tab:hover {
+        color: var(--text);
+        border-color: var(--border-strong);
+      }
+
+      .sp-tab.active {
+        color: #fff;
+        background: var(--accent);
+        border-color: var(--accent);
+      }
+
+      .sp-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+        gap: 4px;
+        padding: 16px;
+      }
+
+      .sp-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 14px;
+        border-radius: 8px;
+        font-size: 13.5px;
+        gap: 12px;
+        transition: background 0.1s ease;
+      }
+
+      .sp-row:hover {
+        background: var(--bg-hover);
+      }
+
+      .sp-desc {
+        color: var(--text);
+        flex: 1;
+        min-width: 0;
+      }
+
+      .sp-keys {
+        display: inline-flex;
+        gap: 4px;
+        flex-shrink: 0;
+      }
+
+      .sp-key {
+        min-width: 22px;
+        padding: 3px 7px;
+        background: var(--key-bg);
+        border: 1px solid var(--key-border);
+        border-radius: 4px;
+        font-size: 11.5px;
+        font-family:
+          "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+        color: #fafafa;
+        text-align: center;
+        line-height: 1.4;
+      }
+
+      /* ============ 下载区 ============ */
+      .download-wrap {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      .download-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 16px;
+      }
+
+      .dl-card {
+        padding: 32px;
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-lg);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        transition: all 0.2s ease;
+      }
+
+      .dl-card:hover {
+        border-color: var(--border-strong);
+      }
+
+      .dl-icon {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px;
+        background: var(--bg-elevated);
+        color: var(--text);
+      }
+
+      .dl-icon svg {
+        width: 26px;
+        height: 26px;
+      }
+
+      .dl-title {
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .dl-meta {
+        color: var(--text-dim);
+        font-size: 13px;
+      }
+
+      .dl-buttons {
+        display: flex;
+        gap: 10px;
+        margin-top: auto;
+        flex-wrap: wrap;
+      }
+
+      .dl-btn {
+        flex: 1;
+        min-width: 120px;
+        padding: 11px 16px;
+        border: 1px solid var(--border-strong);
+        border-radius: var(--radius-sm);
+        background: var(--bg-card);
+        color: var(--text);
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: inherit;
+        transition: all 0.15s ease;
+        text-align: center;
+        line-height: 1.4;
+      }
+
+      .dl-btn:hover {
+        background: var(--bg-hover);
+        border-color: #4d4d4d;
+      }
+
+      .dl-btn.primary {
+        background: #fff;
+        color: #000000;
+        border-color: #fff;
+      }
+
+      .dl-btn.primary:hover {
+        transform: translateY(-1px);
+      }
+
+      .dl-note {
+        font-size: 12px;
+        color: var(--text-dim);
+        margin-top: 4px;
+      }
+
+      /* ============ FAQ ============ */
+      .faq {
+        max-width: 780px;
+        margin: 0 auto;
+      }
+
+      details {
+        border-top: 1px solid var(--border);
+        padding: 20px 0;
+      }
+
+      details:last-of-type {
+        border-bottom: 1px solid var(--border);
+      }
+
+      summary {
+        cursor: pointer;
+        list-style: none;
+        font-size: 16px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+      }
+
+      summary::-webkit-details-marker {
+        display: none;
+      }
+
+      summary::after {
+        content: "+";
+        font-size: 24px;
+        font-weight: 300;
+        color: var(--text-muted);
+        transition: transform 0.2s ease;
+      }
+
+      details[open] summary::after {
+        transform: rotate(45deg);
+      }
+
+      details p {
+        color: var(--text-muted);
+        padding-top: 12px;
+        font-size: 14.5px;
+        line-height: 1.7;
+      }
+
+      details code {
+        font-family:
+          "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+        font-size: 12.5px;
+        padding: 2px 6px;
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        color: #ffffff;
+      }
+
+      /* ============ Footer ============ */
+      footer {
+        border-top: 1px solid var(--border);
+        margin-top: 60px;
+      }
+
+      .footer-inner {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        flex-wrap: wrap;
+        color: var(--text-dim);
+        font-size: 13px;
+      }
+
+      .footer-inner .brand {
+        color: var(--text-muted);
+        font-size: 13px;
+      }
+
+      .footer-links {
+        display: flex;
+        gap: 24px;
+      }
+
+      .footer-links a:hover {
+        color: var(--text);
+      }
+
+      /* 响应式 */
+      @media (max-width: 768px) {
+        .nav-links {
+          display: none;
+        }
+        .hero {
+          padding: 60px 20px 40px;
+        }
+        section {
+          padding: 60px 20px;
+        }
+        .footer-inner {
+          padding: 32px 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 顶部导航 -->
+    <nav>
+      <div class="nav-inner">
+        <a href="#top" class="brand">
+          <span class="brand-dot"></span>
+          <span>KeyFloat</span>
+        </a>
+        <div class="nav-cta">
+          <div class="lang-switch" role="group" aria-label="Language">
+            <button data-lang="zh" class="active">中</button>
+            <button data-lang="en">EN</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero" id="top">
+      <h1>
+        <span data-i18n="hero.title1">设计快捷键</span>
+        <br />
+        <span class="grad" data-i18n="hero.title2">常伴左右</span>
+      </h1>
+      <p class="hero-sub" data-i18n="hero.sub">
+        KeyFloat 是一个桌面悬浮窗，收纳 Figma、Adobe 全家桶、Blender 等主流设计软件的全部快捷键。点击展开、点击收起、始终置顶。中英双语随手切换。
+      </p>
+      <div class="hero-actions">
+        <a href="#download" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15.5 2H8.62c-.98 0-1.79.79-1.79 1.75s.81 1.75 1.79 1.75h.42c1.9 0 3.5 1.6 3.5 3.5s-1.6 3.5-3.5 3.5c-1.9 0-3.5 1.6-3.5 3.5S7.14 19.5 9.04 19.5c1.9 0 3.5-1.6 3.5-3.5 0-1.9 1.6-3.5 3.5-3.5s3.5 1.6 3.5 3.5"/>
+          </svg>
+          <span class="btn-meta">
+            <span class="top" data-i18n="hero.dlTopMac">下载</span>
+            <span class="bot">macOS</span>
+          </span>
+        </a>
+        <a href="#download" class="btn btn-secondary">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M3 5.5L10 4.5v7H3v-6zm0 7h7v7L3 18.5v-6zM11 4.35L21 3v9H11V4.35zM11 13h10v9l-10-1.35V13z"/>
+          </svg>
+          <span class="btn-meta">
+            <span class="top" data-i18n="hero.dlTopWin">下载</span>
+            <span class="bot">Windows</span>
+          </span>
+        </a>
+      </div>
+
+      <!-- Hero 视觉：模拟悬浮窗 -->
+      <div class="hero-preview">
+        <div class="float-mock">
+          <div class="float-mock-header">
+            <div class="left">
+              <span class="brand-dot brand-dot--sm"></span>
+              <span data-i18n="mock.title">KeyFloat · Figma</span>
+            </div>
+            <div class="right">
+              <span class="mock-lang"><span class="on">中</span> / EN</span>
+            </div>
+          </div>
+          <div class="float-mock-tabs">
+            <span class="mock-tab active" data-i18n="mock.tab1">基础</span>
+            <span class="mock-tab" data-i18n="mock.tab2">工具</span>
+            <span class="mock-tab" data-i18n="mock.tab3">文本</span>
+            <span class="mock-tab" data-i18n="mock.tab4">选择</span>
+            <span class="mock-tab" data-i18n="mock.tab5">变换</span>
+          </div>
+          <div class="float-mock-list">
+            <div class="mock-row">
+              <span data-i18n="mock.r1">显示/隐藏侧边栏</span>
+              <span class="mock-keys"><span class="mock-key">⌘</span><span class="mock-key">\</span></span>
+            </div>
+            <div class="mock-row">
+              <span data-i18n="mock.r2">缩放至适合屏幕</span>
+              <span class="mock-keys"><span class="mock-key">⇧</span><span class="mock-key">1</span></span>
+            </div>
+            <div class="mock-row">
+              <span data-i18n="mock.r3">缩放至 100%</span>
+              <span class="mock-keys"><span class="mock-key">⇧</span><span class="mock-key">0</span></span>
+            </div>
+            <div class="mock-row">
+              <span data-i18n="mock.r4">像素预览</span>
+              <span class="mock-keys"><span class="mock-key">⌥</span><span class="mock-key">⇧</span><span class="mock-key">P</span></span>
+            </div>
+            <div class="mock-row">
+              <span data-i18n="mock.r5">显示轮廓</span>
+              <span class="mock-keys"><span class="mock-key">⇧</span><span class="mock-key">O</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- 功能 -->
+    <section id="features">
+      <div class="section-header">
+        <div class="eyebrow" data-i18n="features.eyebrow">FEATURES</div>
+        <h2 data-i18n="features.title">为什么在设计里离不开它</h2>
+        <p class="section-sub" data-i18n="features.sub">
+          它就在屏幕角落，一点即开，一点即收。设计师不用离开画布，也不用记住所有组合键。
+        </p>
+      </div>
+
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 3v18"/></svg>
+          </div>
+          <h3 data-i18n="f1.title">悬浮置顶</h3>
+          <p data-i18n="f1.desc">始终在设计软件之上。哪怕全屏工作也不会被覆盖，一秒可查、随手可关。</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 12 5-5v3h10V7l5 5-5 5v-3H7v3z"/></svg>
+          </div>
+          <h3 data-i18n="f2.title">中英双语</h3>
+          <p data-i18n="f2.desc">默认中文说明，一键切换英文。中文设计师和外企同事都能看得懂。</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.35-4.35"/></svg>
+          </div>
+          <h3 data-i18n="f3.title">覆盖主流设计软件</h3>
+          <p data-i18n="f3.desc">Figma、Photoshop、Illustrator、Blender、Cinema 4D……一个悬浮窗覆盖你日常在用的所有设计软件。</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="M4 4l16 16"/></svg>
+          </div>
+          <h3 data-i18n="f4.title">收放自如</h3>
+          <p data-i18n="f4.desc">展开是完整面板，收起是屏幕边缘的细长条。你可以让它常驻，不占地方。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 快捷键预览 -->
+    <section id="shortcuts">
+      <div class="section-header">
+        <div class="eyebrow" data-i18n="sp.eyebrow">SHORTCUTS</div>
+        <h2 data-i18n="sp.title">先在这里预览一下</h2>
+        <p class="section-sub" data-i18n="sp.sub">
+          这里是产品内的部分快捷键。真实产品支持全部 100+ 条、分类过滤和实时搜索。
+        </p>
+      </div>
+
+      <div class="shortcuts-preview">
+        <div class="sp-header">
+          <div class="sp-tabs" id="sp-tabs"></div>
+        </div>
+        <div class="sp-grid" id="sp-grid"></div>
+      </div>
+    </section>
+
+    <!-- 下载区 -->
+    <section id="download">
+      <div class="section-header">
+        <div class="eyebrow" data-i18n="dl.eyebrow">DOWNLOAD</div>
+        <h2 data-i18n="dl.title">下载 KeyFloat</h2>
+        <p class="section-sub" data-i18n="dl.sub">
+          一次性 ¥10，无广告、无订阅。完全在本地运行，不上传任何数据。
+        </p>
+      </div>
+
+      <div class="download-wrap">
+        <div class="download-grid">
+          <!-- Mac -->
+          <div class="dl-card">
+            <div class="dl-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            </div>
+            <div>
+              <div class="dl-title">macOS</div>
+              <div class="dl-meta" data-i18n="dl.macMeta">支持 macOS 11 及以上 · Apple Silicon / Intel</div>
+            </div>
+            <div class="dl-buttons">
+              <a href="#" class="dl-btn primary" data-i18n="dl.macArm">Apple Silicon (.dmg)</a>
+              <a href="#" class="dl-btn" data-i18n="dl.macIntel">Intel (.dmg)</a>
+            </div>
+            <div class="dl-note" data-i18n="dl.macNote">
+              首次启动如提示"未知开发者"，请在 系统设置 → 隐私与安全 → 仍要打开。
+            </div>
+          </div>
+
+          <!-- Windows -->
+          <div class="dl-card">
+            <div class="dl-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.5L10 4.5v7H3v-6zm0 7h7v7L3 18.5v-6zM11 4.35L21 3v9H11V4.35zM11 13h10v9l-10-1.35V13z"/></svg>
+            </div>
+            <div>
+              <div class="dl-title">Windows</div>
+              <div class="dl-meta" data-i18n="dl.winMeta">支持 Windows 10 及以上 · x64 / ARM64</div>
+            </div>
+            <div class="dl-buttons">
+              <a href="#" class="dl-btn primary" data-i18n="dl.winX64">Windows x64 (.exe)</a>
+              <a href="#" class="dl-btn" data-i18n="dl.winArm">Windows ARM64 (.exe)</a>
+            </div>
+            <div class="dl-note" data-i18n="dl.winNote">
+              安装包基于 Electron，首次运行会在系统托盘出现。
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+      <div class="section-header">
+        <div class="eyebrow" data-i18n="faq.eyebrow">FAQ</div>
+        <h2 data-i18n="faq.title">常见问题</h2>
+      </div>
+
+      <div class="faq">
+        <details>
+          <summary data-i18n="faq.q1">这个软件是免费的吗？会不会有广告？</summary>
+          <p data-i18n="faq.a1">软件仅需一次性支付 10 元，之后不会再向你收取任何费用，也不会有任何广告。</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.q2">会收集我的数据吗？</summary>
+          <p data-i18n="faq.a2">不会。产品完全在本地运行，不联网、不上报任何数据。</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.q3">macOS 提示"无法验证开发者"怎么办？</summary>
+          <p data-i18n="faq.a3">这是 Apple 对未签名应用的默认提示。打开 系统设置 → 隐私与安全性 → 拉到底，会看到"已阻止使用 KeyFloat"，点 <code>仍要打开</code> 即可。</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.q4">如何默认置顶显示在设计软件之上？</summary>
+          <p data-i18n="faq.a4">安装后默认就是置顶。如果被覆盖，检查是否是全屏应用 —— 全屏模式会隐藏所有其它窗口。使用分屏或普通窗口模式即可。</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.q5">Windows 版本什么时候发布？</summary>
+          <p data-i18n="faq.a5">macOS 版已就绪，Windows 版本正在打包中。因为核心代码基于 Electron，两个平台的构建是相通的。</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.q6">支持自定义快捷键吗？</summary>
+          <p data-i18n="faq.a6">当前版本内置 Figma、Adobe 全家桶、Blender、Cinema 4D 等主流设计软件的官方快捷键。自定义功能已列入下一版本计划。</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-inner">
+        <div class="brand">
+          <span class="brand-dot brand-dot--md"></span>
+          <span>KeyFloat</span>
+        </div>
+        <div class="footer-links">
+          <a href="#" data-i18n="footer.github">GitHub</a>
+          <a href="#faq" data-i18n="footer.help">帮助</a>
+          <a href="mailto:hello@example.com" data-i18n="footer.contact">联系我们</a>
+        </div>
+        <div data-i18n="footer.copyright">© 2026 · 一个给设计师的小工具</div>
+      </div>
+    </footer>
+
+    <script>
+      // ================== 国际化 ==================
+      const I18N = {
+        zh: {
+          "hero.title1": "设计快捷键",
+          "hero.title2": "常伴左右",
+          "hero.sub":
+            "KeyFloat 是一个桌面悬浮窗，收纳 Figma、Adobe 全家桶、Blender 等主流设计软件的全部快捷键。点击展开、点击收起、始终置顶。中英双语随手切换。",
+          "hero.dlTopMac": "下载",
+          "hero.dlTopWin": "下载",
+          "mock.title": "KeyFloat · Figma",
+          "mock.tab1": "基础",
+          "mock.tab2": "工具",
+          "mock.tab3": "文本",
+          "mock.tab4": "选择",
+          "mock.tab5": "变换",
+          "mock.r1": "显示/隐藏侧边栏",
+          "mock.r2": "缩放至适合屏幕",
+          "mock.r3": "缩放至 100%",
+          "mock.r4": "像素预览",
+          "mock.r5": "显示轮廓",
+          "features.eyebrow": "功能",
+          "features.title": "为什么在设计里离不开它",
+          "features.sub":
+            "它就在屏幕角落，一点即开，一点即收。设计师不用离开画布，也不用记住所有组合键。",
+          "f1.title": "悬浮置顶",
+          "f1.desc":
+            "始终在设计软件之上。哪怕全屏工作也不会被覆盖，一秒可查、随手可关。",
+          "f2.title": "中英双语",
+          "f2.desc":
+            "默认中文说明，一键切换英文。中文设计师和外企同事都能看得懂。",
+          "f3.title": "覆盖主流设计软件",
+          "f3.desc":
+            "Figma、Photoshop、Illustrator、Blender、Cinema 4D……一个悬浮窗覆盖你日常在用的所有设计软件。",
+          "f4.title": "收放自如",
+          "f4.desc":
+            "展开是完整面板，收起是屏幕边缘的细长条。你可以让它常驻，不占地方。",
+          "sp.eyebrow": "快捷键预览",
+          "sp.title": "先在这里预览一下",
+          "sp.sub":
+            "这里是产品内的部分快捷键。真实产品支持全部 100+ 条、分类过滤和实时搜索。",
+          "dl.eyebrow": "下载",
+          "dl.title": "下载 KeyFloat",
+          "dl.sub": "一次性 ¥10，无广告、无订阅。完全在本地运行，不上传任何数据。",
+          "dl.macMeta": "支持 macOS 11 及以上 · Apple Silicon / Intel",
+          "dl.macArm": "Apple Silicon (.dmg)",
+          "dl.macIntel": "Intel (.dmg)",
+          "dl.macNote":
+            "首次启动如提示\"未知开发者\"，请在 系统设置 → 隐私与安全 → 仍要打开。",
+          "dl.winMeta": "支持 Windows 10 及以上 · x64 / ARM64",
+          "dl.winX64": "Windows x64 (.exe)",
+          "dl.winArm": "Windows ARM64 (.exe)",
+          "dl.winNote": "安装包基于 Electron，首次运行会在系统托盘出现。",
+          "faq.eyebrow": "常见问题",
+          "faq.title": "常见问题",
+          "faq.q1": "这个软件是免费的吗？会不会有广告？",
+          "faq.a1":
+            "软件仅需一次性支付 10 元，之后不会再向你收取任何费用，也不会有任何广告。",
+          "faq.q2": "会收集我的数据吗？",
+          "faq.a2": "不会。产品完全在本地运行，不联网、不上报任何数据。",
+          "faq.q3": "macOS 提示\"无法验证开发者\"怎么办？",
+          "faq.a3":
+            "这是 Apple 对未签名应用的默认提示。打开 系统设置 → 隐私与安全性 → 拉到底，会看到\"已阻止使用 KeyFloat\"，点 <code>仍要打开</code> 即可。",
+          "faq.q4": "如何默认置顶显示在设计软件之上？",
+          "faq.a4":
+            "安装后默认就是置顶。如果被覆盖，检查是否是全屏应用 —— 全屏模式会隐藏所有其它窗口。使用分屏或普通窗口模式即可。",
+          "faq.q5": "Windows 版本什么时候发布？",
+          "faq.a5":
+            "macOS 版已就绪，Windows 版本正在打包中。因为核心代码基于 Electron，两个平台的构建是相通的。",
+          "faq.q6": "支持自定义快捷键吗？",
+          "faq.a6":
+            "当前版本内置 Figma、Adobe 全家桶、Blender、Cinema 4D 等主流设计软件的官方快捷键。自定义功能已列入下一版本计划。",
+          "footer.github": "GitHub",
+          "footer.help": "帮助",
+          "footer.contact": "联系我们",
+          "footer.copyright": "© 2026 · 一个给设计师的小工具",
+        },
+        en: {
+          "hero.title1": "Design shortcuts,",
+          "hero.title2": "always at hand",
+          "hero.sub":
+            "KeyFloat is a floating desktop panel that holds every shortcut from Figma, the Adobe suite, Blender and other major design tools. Click to expand, click to collapse, always on top. Toggle Chinese / English anytime.",
+          "hero.dlTopMac": "Download for",
+          "hero.dlTopWin": "Download for",
+          "mock.title": "KeyFloat · Figma",
+          "mock.tab1": "Essential",
+          "mock.tab2": "Tools",
+          "mock.tab3": "Text",
+          "mock.tab4": "Select",
+          "mock.tab5": "Transform",
+          "mock.r1": "Show / Hide UI",
+          "mock.r2": "Zoom to Fit",
+          "mock.r3": "Zoom to 100%",
+          "mock.r4": "Pixel Preview",
+          "mock.r5": "Show Outlines",
+          "features.eyebrow": "FEATURES",
+          "features.title": "Why designers keep it open all day",
+          "features.sub":
+            "It sits in the corner of your screen. Click to see, click to hide. You never leave the canvas.",
+          "f1.title": "Always on Top",
+          "f1.desc":
+            "Floats above your design app, even in full window mode. Available in a second, dismissed just as fast.",
+          "f2.title": "Bilingual",
+          "f2.desc":
+            "Ships with Chinese by default, English one tap away. Great for mixed teams.",
+          "f3.title": "Covers every major design app",
+          "f3.desc":
+            "Figma, Photoshop, Illustrator, Blender, Cinema 4D… one floating panel covers every design tool in your daily workflow.",
+          "f4.title": "Expand & Collapse",
+          "f4.desc":
+            "Full panel when expanded. A thin bar at the screen edge when collapsed. Keep it around without clutter.",
+          "sp.eyebrow": "SHORTCUTS",
+          "sp.title": "Preview it right here",
+          "sp.sub":
+            "A slice of what ships in the app. The real one has all 100+ shortcuts, live search, and category filters.",
+          "dl.eyebrow": "DOWNLOAD",
+          "dl.title": "Download KeyFloat",
+          "dl.sub":
+            "One-time ¥10. No ads, no subscription. Runs locally, no data collection.",
+          "dl.macMeta": "macOS 11+ · Apple Silicon / Intel",
+          "dl.macArm": "Apple Silicon (.dmg)",
+          "dl.macIntel": "Intel (.dmg)",
+          "dl.macNote":
+            "On first launch, if you see \"unknown developer\", go to System Settings → Privacy & Security → Open Anyway.",
+          "dl.winMeta": "Windows 10+ · x64 / ARM64",
+          "dl.winX64": "Windows x64 (.exe)",
+          "dl.winArm": "Windows ARM64 (.exe)",
+          "dl.winNote": "Built on Electron. Shows up in the system tray on first launch.",
+          "faq.eyebrow": "FAQ",
+          "faq.title": "Frequently asked",
+          "faq.q1": "Is it really free? Any ads?",
+          "faq.a1":
+            "A one-time payment of ¥10 (about US$1.40). After that we never charge you again, and there are no ads.",
+          "faq.q2": "Does it collect my data?",
+          "faq.a2":
+            "No. It runs entirely on your machine, no network calls, no telemetry.",
+          "faq.q3": "macOS says the developer cannot be verified. What do I do?",
+          "faq.a3":
+            "That's Apple's default warning for unsigned apps. Open System Settings → Privacy & Security → scroll to the bottom → click <code>Open Anyway</code> next to KeyFloat.",
+          "faq.q4": "How does it stay on top of my design app?",
+          "faq.a4":
+            "It's set to always-on-top out of the box. If it disappears, you're likely in fullscreen mode — macOS fullscreen hides every other window. Use split view or a regular window instead.",
+          "faq.q5": "When is the Windows version out?",
+          "faq.a5":
+            "macOS is ready. Windows build is next — same Electron codebase, just a different packaging target.",
+          "faq.q6": "Can I add my own shortcuts?",
+          "faq.a6":
+            "Not yet. The current version ships with the official shortcuts of Figma, the Adobe suite, Blender, Cinema 4D and more. Custom shortcuts are on the roadmap.",
+          "footer.github": "GitHub",
+          "footer.help": "Help",
+          "footer.contact": "Contact",
+          "footer.copyright": "© 2026 · A small tool for designers",
+        },
+      };
+
+      let currentLang = "zh";
+
+      function applyI18n(lang) {
+        currentLang = lang;
+        const dict = I18N[lang];
+        document.querySelectorAll("[data-i18n]").forEach((el) => {
+          const key = el.getAttribute("data-i18n");
+          if (dict[key]) {
+            el.innerHTML = dict[key];
+          }
+        });
+        document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+        // 切换语言按钮 active
+        document.querySelectorAll(".lang-switch button").forEach((btn) => {
+          btn.classList.toggle("active", btn.dataset.lang === lang);
+        });
+        // 重新渲染快捷键预览
+        renderShortcuts();
+      }
+
+      document.querySelectorAll(".lang-switch button").forEach((btn) => {
+        btn.addEventListener("click", () => applyI18n(btn.dataset.lang));
+      });
+
+      // ================== 快捷键数据（网站预览用，精选） ==================
+      const SP_DATA = [
+        {
+          id: "essential",
+          zh: "基础操作",
+          en: "Essentials",
+          items: [
+            { keys: ["⌘", "\\"], zh: "显示/隐藏侧边栏", en: "Show/Hide UI" },
+            { keys: ["⌘", "?"], zh: "显示快捷键面板", en: "Show Shortcuts" },
+            { keys: ["⇧", "1"], zh: "缩放至适合屏幕", en: "Zoom to Fit" },
+            { keys: ["⇧", "0"], zh: "缩放至 100%", en: "Zoom to 100%" },
+            { keys: ["⇧", "O"], zh: "显示轮廓", en: "Show Outlines" },
+            { keys: ["⌥", "⇧", "P"], zh: "像素预览", en: "Pixel Preview" },
+            { keys: ["⇧", "R"], zh: "显示标尺", en: "Show Rulers" },
+            { keys: ["⌃", "G"], zh: "显示布局网格", en: "Show Grid" },
+          ],
+        },
+        {
+          id: "tools",
+          zh: "工具",
+          en: "Tools",
+          items: [
+            { keys: ["V"], zh: "移动工具", en: "Move Tool" },
+            { keys: ["F"], zh: "画板工具", en: "Frame Tool" },
+            { keys: ["R"], zh: "矩形", en: "Rectangle" },
+            { keys: ["O"], zh: "椭圆", en: "Ellipse" },
+            { keys: ["P"], zh: "钢笔", en: "Pen" },
+            { keys: ["T"], zh: "文本", en: "Text" },
+            { keys: ["I"], zh: "拾色器", en: "Eyedropper" },
+            { keys: ["H"], zh: "抓手", en: "Hand" },
+            { keys: ["C"], zh: "评论", en: "Comment" },
+          ],
+        },
+        {
+          id: "text",
+          zh: "文本",
+          en: "Text",
+          items: [
+            { keys: ["⌘", "B"], zh: "加粗", en: "Bold" },
+            { keys: ["⌘", "I"], zh: "斜体", en: "Italic" },
+            { keys: ["⌘", "U"], zh: "下划线", en: "Underline" },
+            { keys: ["⌘", "⌥", "L"], zh: "左对齐", en: "Align Left" },
+            { keys: ["⌘", "⌥", "T"], zh: "居中对齐", en: "Align Center" },
+            { keys: ["⌘", "⌥", "R"], zh: "右对齐", en: "Align Right" },
+            { keys: ["⌥", "⇧", ">"], zh: "增大字号", en: "Bigger Text" },
+            { keys: ["⌥", "⇧", "<"], zh: "减小字号", en: "Smaller Text" },
+          ],
+        },
+        {
+          id: "select",
+          zh: "选择",
+          en: "Selection",
+          items: [
+            { keys: ["⌘", "A"], zh: "全选", en: "Select All" },
+            { keys: ["⌘", "G"], zh: "编组", en: "Group" },
+            { keys: ["⌘", "⇧", "G"], zh: "取消编组", en: "Ungroup" },
+            { keys: ["⌘", "⌥", "G"], zh: "转为画板", en: "Frame Selection" },
+            { keys: ["⌘", "D"], zh: "复制选中项", en: "Duplicate" },
+            { keys: ["⌘", "R"], zh: "重命名图层", en: "Rename Layer" },
+            { keys: ["Enter"], zh: "选择子级", en: "Select Child" },
+            { keys: ["⇧", "Enter"], zh: "选择父级", en: "Select Parent" },
+          ],
+        },
+        {
+          id: "transform",
+          zh: "变换",
+          en: "Transform",
+          items: [
+            { keys: ["⌘", "]"], zh: "上移一层", en: "Bring Forward" },
+            { keys: ["⌘", "["], zh: "下移一层", en: "Send Backward" },
+            { keys: ["⌘", "⌥", "]"], zh: "置于顶层", en: "Bring to Front" },
+            { keys: ["⌘", "⌥", "["], zh: "置于底层", en: "Send to Back" },
+            { keys: ["⌥", "A"], zh: "左对齐", en: "Align Left" },
+            { keys: ["⌥", "D"], zh: "右对齐", en: "Align Right" },
+            { keys: ["⌥", "H"], zh: "水平居中", en: "Align H Centers" },
+            { keys: ["⌥", "V"], zh: "垂直居中", en: "Align V Centers" },
+            { keys: ["⇧", "H"], zh: "水平翻转", en: "Flip Horizontal" },
+            { keys: ["⇧", "V"], zh: "垂直翻转", en: "Flip Vertical" },
+          ],
+        },
+      ];
+
+      let currentCat = "essential";
+
+      function renderShortcuts() {
+        const tabs = document.getElementById("sp-tabs");
+        const grid = document.getElementById("sp-grid");
+        tabs.innerHTML = "";
+        SP_DATA.forEach((cat) => {
+          const btn = document.createElement("button");
+          btn.className = "sp-tab" + (cat.id === currentCat ? " active" : "");
+          btn.textContent = currentLang === "zh" ? cat.zh : cat.en;
+          btn.addEventListener("click", () => {
+            currentCat = cat.id;
+            renderShortcuts();
+          });
+          tabs.appendChild(btn);
+        });
+
+        const cat = SP_DATA.find((c) => c.id === currentCat);
+        grid.innerHTML = "";
+        cat.items.forEach((it) => {
+          const row = document.createElement("div");
+          row.className = "sp-row";
+          const desc = document.createElement("span");
+          desc.className = "sp-desc";
+          desc.textContent = currentLang === "zh" ? it.zh : it.en;
+          const keys = document.createElement("span");
+          keys.className = "sp-keys";
+          it.keys.forEach((k) => {
+            const kn = document.createElement("span");
+            kn.className = "sp-key";
+            kn.textContent = k;
+            keys.appendChild(kn);
+          });
+          row.appendChild(desc);
+          row.appendChild(keys);
+          grid.appendChild(row);
+        });
+      }
+
+      // 初始化
+      applyI18n("zh");
+    </script>
+  </body>
+</html>

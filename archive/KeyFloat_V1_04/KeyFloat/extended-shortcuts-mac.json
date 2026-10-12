@@ -1,0 +1,4573 @@
+{
+  "software": [
+    {
+      "id": "labview",
+      "name": "LabVIEW",
+      "vendor": "National Instruments",
+      "accent": "#FFDB00",
+      "glyph": "LV",
+      "group": "electronics",
+      "dataStatus": "sourceBacked",
+      "categories": [
+        {
+          "id": "file",
+          "zh": "文件",
+          "en": "File",
+          "items": [
+            {
+              "id": "open-a-blank-vi",
+              "keys": [
+                "⌘",
+                "N"
+              ],
+              "zh": "新建空白虚拟仪器",
+              "en": "Open a blank VI",
+              "tags": [
+                "open a blank vi"
+              ]
+            },
+            {
+              "id": "open-an-existing-vi",
+              "keys": [
+                "⌘",
+                "O"
+              ],
+              "zh": "打开虚拟仪器",
+              "en": "Open an existing VI",
+              "tags": [
+                "open an existing vi"
+              ]
+            },
+            {
+              "id": "open-quick-open",
+              "keys": [
+                "⌘",
+                "⇧",
+                "O"
+              ],
+              "zh": "打开快速打开对话框",
+              "en": "Open Quick Open",
+              "tags": [
+                "open quick open"
+              ]
+            },
+            {
+              "id": "close-vi",
+              "keys": [
+                "⌘",
+                "W"
+              ],
+              "zh": "关闭虚拟仪器",
+              "en": "Close VI",
+              "tags": [
+                "close vi"
+              ]
+            },
+            {
+              "id": "save-vi",
+              "keys": [
+                "⌘",
+                "S"
+              ],
+              "zh": "保存虚拟仪器",
+              "en": "Save VI",
+              "tags": [
+                "save vi"
+              ]
+            },
+            {
+              "id": "save-all-open-files",
+              "keys": [
+                "⌘",
+                "⇧",
+                "S"
+              ],
+              "zh": "保存全部文件",
+              "en": "Save all open files",
+              "tags": [
+                "save all open files"
+              ]
+            },
+            {
+              "id": "print-window",
+              "keys": [
+                "⌘",
+                "P"
+              ],
+              "zh": "打印窗口",
+              "en": "Print window",
+              "tags": [
+                "print window"
+              ]
+            },
+            {
+              "id": "quit-application",
+              "keys": [
+                "⌘",
+                "Q"
+              ],
+              "zh": "退出应用",
+              "en": "Quit application",
+              "tags": [
+                "quit application"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "editing",
+          "zh": "编辑",
+          "en": "Editing",
+          "items": [
+            {
+              "id": "undo",
+              "keys": [
+                "⌘",
+                "Z"
+              ],
+              "zh": "撤销",
+              "en": "Undo",
+              "tags": [
+                "undo"
+              ]
+            },
+            {
+              "id": "redo",
+              "keys": [
+                "⌘",
+                "⇧",
+                "Z"
+              ],
+              "zh": "重做",
+              "en": "Redo",
+              "tags": [
+                "redo"
+              ]
+            },
+            {
+              "id": "cut-selected-objects",
+              "keys": [
+                "⌘",
+                "X"
+              ],
+              "zh": "剪切所选对象",
+              "en": "Cut selected objects",
+              "tags": [
+                "cut selected objects"
+              ]
+            },
+            {
+              "id": "copy-selected-objects",
+              "keys": [
+                "⌘",
+                "C"
+              ],
+              "zh": "复制所选对象",
+              "en": "Copy selected objects",
+              "tags": [
+                "copy selected objects"
+              ]
+            },
+            {
+              "id": "paste-objects",
+              "keys": [
+                "⌘",
+                "V"
+              ],
+              "zh": "粘贴对象",
+              "en": "Paste objects",
+              "tags": [
+                "paste objects"
+              ]
+            },
+            {
+              "id": "select-all-objects",
+              "keys": [
+                "⌘",
+                "A"
+              ],
+              "zh": "选择全部对象",
+              "en": "Select all objects",
+              "tags": [
+                "select all objects"
+              ]
+            },
+            {
+              "id": "rewire-and-clean-up-diagram",
+              "keys": [
+                "⌘",
+                "U"
+              ],
+              "zh": "重新连接并整理程序框图",
+              "en": "Rewire and clean up diagram",
+              "tags": [
+                "rewire and clean up diagram"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "layout",
+          "zh": "对象与布局",
+          "en": "Objects & Layout",
+          "items": [
+            {
+              "id": "move-selected-objects-forward",
+              "keys": [
+                "⌘",
+                "K"
+              ],
+              "zh": "将所选对象前移一层",
+              "en": "Move selected objects forward",
+              "tags": [
+                "move selected objects forward"
+              ]
+            },
+            {
+              "id": "move-selected-objects-backward",
+              "keys": [
+                "⌘",
+                "J"
+              ],
+              "zh": "将所选对象后移一层",
+              "en": "Move selected objects backward",
+              "tags": [
+                "move selected objects backward"
+              ]
+            },
+            {
+              "id": "move-selected-objects-to-front",
+              "keys": [
+                "⌘",
+                "⇧",
+                "K"
+              ],
+              "zh": "将所选对象移至顶层",
+              "en": "Move selected objects to front",
+              "tags": [
+                "move selected objects to front"
+              ]
+            },
+            {
+              "id": "move-selected-objects-to-back",
+              "keys": [
+                "⌘",
+                "⇧",
+                "J"
+              ],
+              "zh": "将所选对象移至底层",
+              "en": "Move selected objects to back",
+              "tags": [
+                "move selected objects to back"
+              ]
+            },
+            {
+              "id": "rotate-selected-objects",
+              "keys": [
+                "⌘",
+                "R"
+              ],
+              "zh": "旋转所选对象",
+              "en": "Rotate selected objects",
+              "tags": [
+                "rotate selected objects"
+              ]
+            },
+            {
+              "id": "flip-selected-objects",
+              "keys": [
+                "⌘",
+                "F"
+              ],
+              "zh": "翻转所选对象",
+              "en": "Flip selected objects",
+              "tags": [
+                "flip selected objects"
+              ]
+            },
+            {
+              "id": "zoom-in-block-diagram",
+              "keys": [
+                "⌘",
+                "="
+              ],
+              "zh": "放大程序框图",
+              "en": "Zoom in block diagram",
+              "tags": [
+                "zoom in block diagram"
+              ]
+            },
+            {
+              "id": "zoom-out-block-diagram",
+              "keys": [
+                "⌘",
+                "-"
+              ],
+              "zh": "缩小程序框图",
+              "en": "Zoom out block diagram",
+              "tags": [
+                "zoom out block diagram"
+              ]
+            },
+            {
+              "id": "zoom-to-actual-size",
+              "keys": [
+                "⌘",
+                "0"
+              ],
+              "zh": "恢复实际大小",
+              "en": "Zoom to actual size",
+              "tags": [
+                "zoom to actual size"
+              ]
+            },
+            {
+              "id": "toggle-full-diagram-view",
+              "keys": [
+                "F2"
+              ],
+              "zh": "切换完整程序框图视图",
+              "en": "Toggle full diagram view",
+              "tags": [
+                "toggle full diagram view"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "zh": "导航与视图",
+          "en": "Navigation & View",
+          "items": [
+            {
+              "id": "search-objects-or-text",
+              "keys": [
+                "⌘",
+                "F"
+              ],
+              "zh": "搜索对象或文本",
+              "en": "Search objects or text",
+              "tags": [
+                "search objects or text"
+              ]
+            },
+            {
+              "id": "show-search-results",
+              "keys": [
+                "⌘",
+                "⇧",
+                "F"
+              ],
+              "zh": "显示搜索结果",
+              "en": "Show search results",
+              "tags": [
+                "show search results"
+              ]
+            },
+            {
+              "id": "find-next-result",
+              "keys": [
+                "⌘",
+                "G"
+              ],
+              "zh": "查找下一个结果",
+              "en": "Find next result",
+              "tags": [
+                "find next result"
+              ]
+            },
+            {
+              "id": "find-previous-result",
+              "keys": [
+                "⌘",
+                "⇧",
+                "G"
+              ],
+              "zh": "查找上一个结果",
+              "en": "Find previous result",
+              "tags": [
+                "find previous result"
+              ]
+            },
+            {
+              "id": "cycle-to-next-window",
+              "keys": [
+                "⌘",
+                "Tab"
+              ],
+              "zh": "切换至下一个窗口",
+              "en": "Cycle to next window",
+              "tags": [
+                "cycle to next window"
+              ]
+            },
+            {
+              "id": "cycle-to-previous-window",
+              "keys": [
+                "⌘",
+                "⇧",
+                "Tab"
+              ],
+              "zh": "切换至上一个窗口",
+              "en": "Cycle to previous window",
+              "tags": [
+                "cycle to previous window"
+              ]
+            },
+            {
+              "id": "show-error-list",
+              "keys": [
+                "⌘",
+                "L"
+              ],
+              "zh": "显示错误列表",
+              "en": "Show error list",
+              "tags": [
+                "show error list"
+              ]
+            },
+            {
+              "id": "show-current-vi-in-project",
+              "keys": [
+                "⌘",
+                "⇧",
+                "E"
+              ],
+              "zh": "在项目中显示当前虚拟仪器",
+              "en": "Show current VI in project",
+              "tags": [
+                "show current vi in project"
+              ]
+            },
+            {
+              "id": "show-all-windows",
+              "keys": [
+                "⌘",
+                "⇧",
+                "W"
+              ],
+              "zh": "显示全部窗口",
+              "en": "Show all windows",
+              "tags": [
+                "show all windows"
+              ]
+            },
+            {
+              "id": "toggle-front-panel-and-block-diagram",
+              "keys": [
+                "⌘",
+                "E"
+              ],
+              "zh": "切换前面板与程序框图",
+              "en": "Toggle front panel and block diagram",
+              "tags": [
+                "toggle front panel and block diagram"
+              ]
+            },
+            {
+              "id": "show-quick-drop",
+              "keys": [
+                "⌘",
+                "⇧",
+                "Space"
+              ],
+              "zh": "显示快速放置对话框",
+              "en": "Show Quick Drop",
+              "tags": [
+                "show quick drop"
+              ]
+            },
+            {
+              "id": "maximize-or-restore-window",
+              "keys": [
+                "⌘",
+                "/"
+              ],
+              "zh": "最大化或还原窗口",
+              "en": "Maximize or restore window",
+              "tags": [
+                "maximize or restore window"
+              ]
+            },
+            {
+              "id": "tile-front-panel-and-block-diagram",
+              "keys": [
+                "⌘",
+                "T"
+              ],
+              "zh": "分栏显示前面板与程序框图",
+              "en": "Tile front panel and block diagram",
+              "tags": [
+                "tile front panel and block diagram"
+              ]
+            },
+            {
+              "id": "show-vi-properties",
+              "keys": [
+                "⌘",
+                "I"
+              ],
+              "zh": "显示虚拟仪器属性",
+              "en": "Show VI properties",
+              "tags": [
+                "show vi properties"
+              ]
+            },
+            {
+              "id": "show-history-window",
+              "keys": [
+                "⌘",
+                "Y"
+              ],
+              "zh": "显示历史窗口",
+              "en": "Show history window",
+              "tags": [
+                "show history window"
+              ]
+            },
+            {
+              "id": "show-context-help",
+              "keys": [
+                "⌘",
+                "⇧",
+                "H"
+              ],
+              "zh": "显示即时帮助",
+              "en": "Show context help",
+              "tags": [
+                "show context help"
+              ]
+            },
+            {
+              "id": "show-application-help",
+              "keys": [
+                "F1"
+              ],
+              "zh": "显示应用帮助",
+              "en": "Show application help",
+              "tags": [
+                "show application help"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "run",
+          "zh": "运行与调试",
+          "en": "Run & Debug",
+          "items": [
+            {
+              "id": "run-vi",
+              "keys": [
+                "⌘",
+                "R"
+              ],
+              "zh": "运行虚拟仪器",
+              "en": "Run VI",
+              "tags": [
+                "run vi"
+              ]
+            },
+            {
+              "id": "abort-execution",
+              "keys": [
+                "⌘",
+                "."
+              ],
+              "zh": "停止运行",
+              "en": "Abort execution",
+              "tags": [
+                "abort execution"
+              ]
+            },
+            {
+              "id": "toggle-run-and-edit-mode",
+              "keys": [
+                "⌘",
+                "M"
+              ],
+              "zh": "切换运行与编辑模式",
+              "en": "Toggle run and edit mode",
+              "tags": [
+                "toggle run and edit mode"
+              ]
+            },
+            {
+              "id": "open-debugging-window",
+              "keys": [
+                "⌘",
+                "D"
+              ],
+              "zh": "打开调试窗口",
+              "en": "Open debugging window",
+              "tags": [
+                "open debugging window"
+              ]
+            },
+            {
+              "id": "step-into",
+              "keys": [
+                "⌘",
+                "↓"
+              ],
+              "zh": "单步步入",
+              "en": "Step into",
+              "tags": [
+                "step into"
+              ]
+            },
+            {
+              "id": "step-over",
+              "keys": [
+                "⌘",
+                "→"
+              ],
+              "zh": "单步步过",
+              "en": "Step over",
+              "tags": [
+                "step over"
+              ]
+            },
+            {
+              "id": "step-out",
+              "keys": [
+                "⌘",
+                "↑"
+              ],
+              "zh": "单步步出",
+              "en": "Step out",
+              "tags": [
+                "step out"
+              ]
+            },
+            {
+              "id": "remove-all-broken-wires",
+              "keys": [
+                "⌘",
+                "B"
+              ],
+              "zh": "删除所有断线",
+              "en": "Remove all broken wires",
+              "tags": [
+                "remove all broken wires"
+              ]
+            },
+            {
+              "id": "cancel-wiring",
+              "keys": [
+                "Esc"
+              ],
+              "zh": "取消当前连线",
+              "en": "Cancel wiring",
+              "tags": [
+                "cancel wiring"
+              ]
+            },
+            {
+              "id": "toggle-wiring-direction",
+              "keys": [
+                "Space"
+              ],
+              "zh": "切换连线方向",
+              "en": "Toggle wiring direction",
+              "tags": [
+                "toggle wiring direction"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "text",
+          "zh": "文本与代码",
+          "en": "Text & Code",
+          "items": [
+            {
+              "id": "select-all-text-in-field",
+              "keys": [
+                "⌘",
+                "A"
+              ],
+              "zh": "选择当前文本字段的全部文本",
+              "en": "Select all text in field",
+              "tags": [
+                "select all text in field"
+              ]
+            },
+            {
+              "id": "move-forward-one-word",
+              "keys": [
+                "⌘",
+                "→"
+              ],
+              "zh": "向前移动一个词",
+              "en": "Move forward one word",
+              "tags": [
+                "move forward one word"
+              ]
+            },
+            {
+              "id": "move-backward-one-word",
+              "keys": [
+                "⌘",
+                "←"
+              ],
+              "zh": "向后移动一个词",
+              "en": "Move backward one word",
+              "tags": [
+                "move backward one word"
+              ]
+            },
+            {
+              "id": "move-to-start-of-text",
+              "keys": [
+                "⌘",
+                "Home"
+              ],
+              "zh": "移至文本开始位置",
+              "en": "Move to start of text",
+              "tags": [
+                "move to start of text"
+              ]
+            },
+            {
+              "id": "move-to-end-of-text",
+              "keys": [
+                "⌘",
+                "End"
+              ],
+              "zh": "移至文本结束位置",
+              "en": "Move to end of text",
+              "tags": [
+                "move to end of text"
+              ]
+            },
+            {
+              "id": "finish-string-entry",
+              "keys": [
+                "⌘",
+                "Return"
+              ],
+              "zh": "结束字符串输入",
+              "en": "Finish string entry",
+              "tags": [
+                "finish string entry"
+              ]
+            },
+            {
+              "id": "bold-text",
+              "keys": [
+                "⌘",
+                "B"
+              ],
+              "zh": "加粗文本",
+              "en": "Bold text",
+              "tags": [
+                "bold text"
+              ]
+            },
+            {
+              "id": "italicize-text",
+              "keys": [
+                "⌘",
+                "I"
+              ],
+              "zh": "设为斜体",
+              "en": "Italicize text",
+              "tags": [
+                "italicize text"
+              ]
+            },
+            {
+              "id": "underline-text",
+              "keys": [
+                "⌘",
+                "U"
+              ],
+              "zh": "添加下划线",
+              "en": "Underline text",
+              "tags": [
+                "underline text"
+              ]
+            }
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceURL": "https://www.ni.com/docs/en-US/bundle/labview/page/keyboard-shortcuts.html",
+        "sourceTitle": "NI LabVIEW Keyboard Shortcuts",
+        "appVersion": "LabVIEW current documentation",
+        "verifiedAt": "2026-07-21",
+        "coverage": "official-table-macos-normalized",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "plecs",
+      "name": "PLECS",
+      "vendor": "Plexim",
+      "accent": "#00A6D6",
+      "glyph": "PL",
+      "group": "electronics",
+      "dataStatus": "sourceBacked",
+      "categories": [
+        {
+          "id": "layout",
+          "zh": "对象与布局",
+          "en": "Objects & Layout",
+          "items": [
+            {
+              "id": "rotate-selected-components",
+              "keys": [
+                "⌘",
+                "R"
+              ],
+              "zh": "旋转所选元件",
+              "en": "Rotate selected components",
+              "tags": [
+                "rotate selected components"
+              ]
+            },
+            {
+              "id": "flip-selected-components-horizontally",
+              "keys": [
+                "⌘",
+                "F"
+              ],
+              "zh": "水平翻转所选元件",
+              "en": "Flip selected components horizontally",
+              "tags": [
+                "flip selected components horizontally"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simulation",
+          "zh": "仿真",
+          "en": "Simulation",
+          "items": [
+            {
+              "id": "start-simulation",
+              "keys": [
+                "⌘",
+                "T"
+              ],
+              "zh": "开始仿真",
+              "en": "Start simulation",
+              "tags": [
+                "start simulation"
+              ]
+            },
+            {
+              "id": "open-simulation-parameters",
+              "keys": [
+                "⌘",
+                "E"
+              ],
+              "zh": "打开仿真参数",
+              "en": "Open simulation parameters",
+              "tags": [
+                "open simulation parameters"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "editing",
+          "zh": "编辑",
+          "en": "Editing",
+          "items": [
+            {
+              "id": "paste-image-snapshot",
+              "keys": [
+                "⌘",
+                "V"
+              ],
+              "zh": "粘贴图像快照",
+              "en": "Paste image snapshot",
+              "tags": [
+                "paste image snapshot"
+              ]
+            }
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceURL": "https://www.plexim.com/sites/default/files/plecsmanual.pdf",
+        "sourceTitle": "PLECS User Manual",
+        "appVersion": "PLECS manual, 2026-04-01",
+        "verifiedAt": "2026-07-21",
+        "coverage": "official-manual-explicit-macos-selection",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "benchling",
+      "name": "Benchling",
+      "vendor": "Benchling",
+      "accent": "#6A5AE0",
+      "glyph": "Be",
+      "group": "biology",
+      "dataStatus": "sourceBacked",
+      "categories": [
+        {
+          "id": "notebook",
+          "zh": "实验记录",
+          "en": "Notebook",
+          "items": [
+            {
+              "id": "copy",
+              "keys": [
+                "⌘",
+                "C"
+              ],
+              "zh": "复制",
+              "en": "Copy",
+              "tags": [
+                "copy"
+              ]
+            },
+            {
+              "id": "cut",
+              "keys": [
+                "⌘",
+                "X"
+              ],
+              "zh": "剪切",
+              "en": "Cut",
+              "tags": [
+                "cut"
+              ]
+            },
+            {
+              "id": "paste",
+              "keys": [
+                "⌘",
+                "V"
+              ],
+              "zh": "粘贴",
+              "en": "Paste",
+              "tags": [
+                "paste"
+              ]
+            },
+            {
+              "id": "undo",
+              "keys": [
+                "⌘",
+                "Z"
+              ],
+              "zh": "撤销",
+              "en": "Undo",
+              "tags": [
+                "undo"
+              ]
+            },
+            {
+              "id": "redo-command-y",
+              "keys": [
+                "⌘",
+                "Y"
+              ],
+              "zh": "重做",
+              "en": "Redo",
+              "tags": [
+                "redo"
+              ]
+            },
+            {
+              "id": "redo-command-shift-z",
+              "keys": [
+                "⌘",
+                "⇧",
+                "Z"
+              ],
+              "zh": "重做",
+              "en": "Redo",
+              "tags": [
+                "redo"
+              ]
+            },
+            {
+              "id": "bold",
+              "keys": [
+                "⌘",
+                "B"
+              ],
+              "zh": "粗体",
+              "en": "Bold",
+              "tags": [
+                "bold"
+              ]
+            },
+            {
+              "id": "italic",
+              "keys": [
+                "⌘",
+                "I"
+              ],
+              "zh": "斜体",
+              "en": "Italic",
+              "tags": [
+                "italic"
+              ]
+            },
+            {
+              "id": "underline",
+              "keys": [
+                "⌘",
+                "U"
+              ],
+              "zh": "下划线",
+              "en": "Underline",
+              "tags": [
+                "underline"
+              ]
+            },
+            {
+              "id": "strikethrough",
+              "keys": [
+                "⌘",
+                "⇧",
+                "X"
+              ],
+              "zh": "删除线",
+              "en": "Strikethrough",
+              "tags": [
+                "strikethrough"
+              ]
+            },
+            {
+              "id": "hyperlink",
+              "keys": [
+                "⌘",
+                "K"
+              ],
+              "zh": "插入链接",
+              "en": "Hyperlink",
+              "tags": [
+                "hyperlink"
+              ]
+            },
+            {
+              "id": "monospace",
+              "keys": [
+                "⌘",
+                "⇧",
+                "K"
+              ],
+              "zh": "等宽文本",
+              "en": "Monospace",
+              "tags": [
+                "monospace"
+              ]
+            },
+            {
+              "id": "insert-symbol",
+              "keys": [
+                "⌘",
+                ";"
+              ],
+              "zh": "插入符号",
+              "en": "Insert symbol",
+              "tags": [
+                "insert symbol"
+              ]
+            },
+            {
+              "id": "superscript",
+              "keys": [
+                "⌘",
+                "."
+              ],
+              "zh": "上标",
+              "en": "Superscript",
+              "tags": [
+                "superscript"
+              ]
+            },
+            {
+              "id": "subscript",
+              "keys": [
+                "⌘",
+                "⇧",
+                "."
+              ],
+              "zh": "下标",
+              "en": "Subscript",
+              "tags": [
+                "subscript"
+              ]
+            },
+            {
+              "id": "insert-section-or-day",
+              "keys": [
+                "⌘",
+                "\\"
+              ],
+              "zh": "插入章节或日期",
+              "en": "Insert section or day",
+              "tags": [
+                "insert section or day"
+              ]
+            },
+            {
+              "id": "cycle-header-style",
+              "keys": [
+                "⌃",
+                "`"
+              ],
+              "zh": "切换标题样式",
+              "en": "Cycle header style",
+              "tags": [
+                "cycle header style"
+              ]
+            },
+            {
+              "id": "switch-to-next-tab",
+              "keys": [
+                "⌘",
+                "⇧",
+                "0"
+              ],
+              "zh": "切换到下一个标签页",
+              "en": "Switch to next tab",
+              "tags": [
+                "switch to next tab"
+              ]
+            },
+            {
+              "id": "switch-to-previous-tab",
+              "keys": [
+                "⌘",
+                "⇧",
+                "9"
+              ],
+              "zh": "切换到上一个标签页",
+              "en": "Switch to previous tab",
+              "tags": [
+                "switch to previous tab"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "table",
+          "zh": "表格",
+          "en": "Tables",
+          "items": [
+            {
+              "id": "move-to-next-cell",
+              "keys": [
+                "Tab"
+              ],
+              "zh": "移动到右侧单元格",
+              "en": "Move to next cell",
+              "tags": [
+                "move to next cell"
+              ]
+            },
+            {
+              "id": "move-to-previous-cell",
+              "keys": [
+                "⇧",
+                "Tab"
+              ],
+              "zh": "移动到左侧单元格",
+              "en": "Move to previous cell",
+              "tags": [
+                "move to previous cell"
+              ]
+            },
+            {
+              "id": "edit-cell-or-move-down",
+              "keys": [
+                "Return"
+              ],
+              "zh": "编辑单元格或向下移动",
+              "en": "Edit cell or move down",
+              "tags": [
+                "edit cell or move down"
+              ]
+            },
+            {
+              "id": "finish-edit-and-move-up",
+              "keys": [
+                "⇧",
+                "Return"
+              ],
+              "zh": "完成编辑并向上移动",
+              "en": "Finish edit and move up",
+              "tags": [
+                "finish edit and move up"
+              ]
+            },
+            {
+              "id": "edit-cell",
+              "keys": [
+                "F2"
+              ],
+              "zh": "编辑单元格",
+              "en": "Edit cell",
+              "tags": [
+                "edit cell"
+              ]
+            },
+            {
+              "id": "cancel-editing-or-clear-selection",
+              "keys": [
+                "Esc"
+              ],
+              "zh": "取消编辑或清除选择",
+              "en": "Cancel editing or clear selection",
+              "tags": [
+                "cancel editing or clear selection"
+              ]
+            },
+            {
+              "id": "move-selection-in-arrow-direction",
+              "keys": [
+                "方向键"
+              ],
+              "zh": "按方向移动选择",
+              "en": "Move selection in arrow direction",
+              "tags": [
+                "move selection in arrow direction"
+              ],
+              "keysZh": [
+                "方向键"
+              ],
+              "keysEn": [
+                "Arrow keys"
+              ]
+            },
+            {
+              "id": "extend-selection-in-arrow-direction",
+              "keys": [
+                "⇧",
+                "方向键"
+              ],
+              "zh": "按方向扩展选择",
+              "en": "Extend selection in arrow direction",
+              "tags": [
+                "extend selection in arrow direction"
+              ],
+              "keysZh": [
+                "⇧",
+                "方向键"
+              ],
+              "keysEn": [
+                "⇧",
+                "Arrow keys"
+              ]
+            },
+            {
+              "id": "move-to-edge-of-data-region",
+              "keys": [
+                "⌘",
+                "方向键"
+              ],
+              "zh": "移动到数据区域边缘",
+              "en": "Move to edge of data region",
+              "tags": [
+                "move to edge of data region"
+              ],
+              "keysZh": [
+                "⌘",
+                "方向键"
+              ],
+              "keysEn": [
+                "⌘",
+                "Arrow keys"
+              ]
+            },
+            {
+              "id": "extend-selection-to-edge-of-data-region",
+              "keys": [
+                "⌘",
+                "⇧",
+                "方向键"
+              ],
+              "zh": "将选择扩展到数据区域边缘",
+              "en": "Extend selection to edge of data region",
+              "tags": [
+                "extend selection to edge of data region"
+              ],
+              "keysZh": [
+                "⌘",
+                "⇧",
+                "方向键"
+              ],
+              "keysEn": [
+                "⌘",
+                "⇧",
+                "Arrow keys"
+              ]
+            },
+            {
+              "id": "select-all-cells",
+              "keys": [
+                "⌘",
+                "A"
+              ],
+              "zh": "选择全部单元格",
+              "en": "Select all cells",
+              "tags": [
+                "select all cells"
+              ]
+            }
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceURL": "https://help.benchling.com/hc/en-us/articles/39971013709965-Plan-experiments-and-collect-data-in-the-Notebook",
+        "sourceTitle": "Benchling Notebook Shortcuts",
+        "appVersion": "Benchling web, article updated 2026",
+        "verifiedAt": "2026-07-21",
+        "coverage": "complete-official-macos-tables",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "geneious",
+      "name": "Geneious Prime",
+      "vendor": "Dotmatics",
+      "accent": "#7CC043",
+      "glyph": "Ge",
+      "group": "biology",
+      "dataStatus": "sourceBacked",
+      "categories": [
+        {
+          "id": "editing",
+          "zh": "编辑",
+          "en": "Editing",
+          "items": [
+            {
+              "id": "cut-document-or-sequence",
+              "keys": [
+                "⌘",
+                "X"
+              ],
+              "zh": "剪切文档或序列",
+              "en": "Cut document or sequence",
+              "tags": [
+                "cut document or sequence"
+              ]
+            },
+            {
+              "id": "copy-document-or-sequence",
+              "keys": [
+                "⌘",
+                "C"
+              ],
+              "zh": "复制文档或序列",
+              "en": "Copy document or sequence",
+              "tags": [
+                "copy document or sequence"
+              ]
+            },
+            {
+              "id": "paste-document-or-sequence",
+              "keys": [
+                "⌘",
+                "V"
+              ],
+              "zh": "粘贴文档或序列",
+              "en": "Paste document or sequence",
+              "tags": [
+                "paste document or sequence"
+              ]
+            },
+            {
+              "id": "paste-without-annotations",
+              "keys": [
+                "⌘",
+                "⇧",
+                "V"
+              ],
+              "zh": "粘贴但不包含注释",
+              "en": "Paste without annotations",
+              "tags": [
+                "paste without annotations"
+              ]
+            },
+            {
+              "id": "undo-sequence-edit",
+              "keys": [
+                "⌘",
+                "Z"
+              ],
+              "zh": "撤销序列编辑",
+              "en": "Undo sequence edit",
+              "tags": [
+                "undo sequence edit"
+              ]
+            },
+            {
+              "id": "select-all-in-current-panel",
+              "keys": [
+                "⌘",
+                "A"
+              ],
+              "zh": "选择当前面板的全部内容",
+              "en": "Select all in current panel",
+              "tags": [
+                "select all in current panel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "zh": "导航与视图",
+          "en": "Navigation & View",
+          "items": [
+            {
+              "id": "open-user-preferences",
+              "keys": [
+                "⌘",
+                "⇧",
+                "P"
+              ],
+              "zh": "打开用户偏好设置",
+              "en": "Open user preferences",
+              "tags": [
+                "open user preferences"
+              ]
+            },
+            {
+              "id": "zoom-in-sequence-view",
+              "keys": [
+                "⌥",
+                "点击"
+              ],
+              "zh": "放大序列视图",
+              "en": "Zoom in sequence view",
+              "tags": [
+                "zoom in sequence view"
+              ],
+              "keysZh": [
+                "⌥",
+                "点击"
+              ],
+              "keysEn": [
+                "⌥",
+                "Click"
+              ]
+            },
+            {
+              "id": "zoom-out-sequence-view",
+              "keys": [
+                "⌥",
+                "⇧",
+                "点击"
+              ],
+              "zh": "缩小序列视图",
+              "en": "Zoom out sequence view",
+              "tags": [
+                "zoom out sequence view"
+              ],
+              "keysZh": [
+                "⌥",
+                "⇧",
+                "点击"
+              ],
+              "keysEn": [
+                "⌥",
+                "⇧",
+                "Click"
+              ]
+            },
+            {
+              "id": "pan-sequence-view",
+              "keys": [
+                "⌘",
+                "⌥",
+                "点击拖动"
+              ],
+              "zh": "平移序列视图",
+              "en": "Pan sequence view",
+              "tags": [
+                "pan sequence view"
+              ],
+              "keysZh": [
+                "⌘",
+                "⌥",
+                "点击拖动"
+              ],
+              "keysEn": [
+                "⌘",
+                "⌥",
+                "Click-drag"
+              ]
+            },
+            {
+              "id": "zoom-sequence-view-with-wheel",
+              "keys": [
+                "⌥",
+                "滚轮"
+              ],
+              "zh": "缩放序列视图",
+              "en": "Zoom sequence view with wheel",
+              "tags": [
+                "zoom sequence view with wheel"
+              ],
+              "keysZh": [
+                "⌥",
+                "滚轮"
+              ],
+              "keysEn": [
+                "⌥",
+                "Wheel"
+              ]
+            }
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceURL": "https://manual.geneious.com/en/latest/GettingStarted.html#keyboard-shortcuts",
+        "sourceTitle": "Geneious Prime User Manual",
+        "appVersion": "Geneious Prime latest manual",
+        "verifiedAt": "2026-07-21",
+        "coverage": "official-manual-explicit-macos-selection",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "vmd",
+      "name": "VMD",
+      "vendor": "University of Illinois",
+      "accent": "#315C9B",
+      "glyph": "VMD",
+      "group": "biology",
+      "dataStatus": "sourceBacked",
+      "categories": [
+        {
+          "id": "molecule",
+          "zh": "分子视图",
+          "en": "Molecule View",
+          "items": [
+            {
+              "id": "enter-rotate-mode-or-stop-rotation",
+              "keys": [
+                "R"
+              ],
+              "zh": "进入旋转模式或停止旋转",
+              "en": "Enter rotate mode or stop rotation",
+              "tags": [
+                "enter rotate mode or stop rotation"
+              ]
+            },
+            {
+              "id": "enter-translate-mode",
+              "keys": [
+                "T"
+              ],
+              "zh": "进入平移模式",
+              "en": "Enter translate mode",
+              "tags": [
+                "enter translate mode"
+              ]
+            },
+            {
+              "id": "enter-scale-mode",
+              "keys": [
+                "S"
+              ],
+              "zh": "进入缩放模式",
+              "en": "Enter scale mode",
+              "tags": [
+                "enter scale mode"
+              ]
+            },
+            {
+              "id": "query-item",
+              "keys": [
+                "0"
+              ],
+              "zh": "查询项目",
+              "en": "Query item",
+              "tags": [
+                "query item"
+              ]
+            },
+            {
+              "id": "set-rotation-center",
+              "keys": [
+                "C"
+              ],
+              "zh": "设置旋转中心",
+              "en": "Set rotation center",
+              "tags": [
+                "set rotation center"
+              ]
+            },
+            {
+              "id": "pick-atom",
+              "keys": [
+                "1"
+              ],
+              "zh": "拾取原子",
+              "en": "Pick atom",
+              "tags": [
+                "pick atom"
+              ]
+            },
+            {
+              "id": "pick-bond",
+              "keys": [
+                "2"
+              ],
+              "zh": "拾取化学键",
+              "en": "Pick bond",
+              "tags": [
+                "pick bond"
+              ]
+            },
+            {
+              "id": "pick-angle",
+              "keys": [
+                "3"
+              ],
+              "zh": "拾取键角",
+              "en": "Pick angle",
+              "tags": [
+                "pick angle"
+              ]
+            },
+            {
+              "id": "pick-dihedral",
+              "keys": [
+                "4"
+              ],
+              "zh": "拾取二面角",
+              "en": "Pick dihedral",
+              "tags": [
+                "pick dihedral"
+              ]
+            },
+            {
+              "id": "move-atom",
+              "keys": [
+                "5"
+              ],
+              "zh": "移动原子",
+              "en": "Move atom",
+              "tags": [
+                "move atom"
+              ]
+            },
+            {
+              "id": "move-residue",
+              "keys": [
+                "6"
+              ],
+              "zh": "移动残基",
+              "en": "Move residue",
+              "tags": [
+                "move residue"
+              ]
+            },
+            {
+              "id": "move-fragment",
+              "keys": [
+                "7"
+              ],
+              "zh": "移动片段",
+              "en": "Move fragment",
+              "tags": [
+                "move fragment"
+              ]
+            },
+            {
+              "id": "move-molecule",
+              "keys": [
+                "8"
+              ],
+              "zh": "移动分子",
+              "en": "Move molecule",
+              "tags": [
+                "move molecule"
+              ]
+            },
+            {
+              "id": "move-highlighted-representation",
+              "keys": [
+                "9"
+              ],
+              "zh": "移动高亮表示",
+              "en": "Move highlighted representation",
+              "tags": [
+                "move highlighted representation"
+              ]
+            },
+            {
+              "id": "apply-force-to-atom",
+              "keys": [
+                "%"
+              ],
+              "zh": "对原子施加力",
+              "en": "Apply force to atom",
+              "tags": [
+                "apply force to atom"
+              ]
+            },
+            {
+              "id": "apply-force-to-residue",
+              "keys": [
+                "^"
+              ],
+              "zh": "对残基施加力",
+              "en": "Apply force to residue",
+              "tags": [
+                "apply force to residue"
+              ]
+            },
+            {
+              "id": "apply-force-to-fragment",
+              "keys": [
+                "&"
+              ],
+              "zh": "对片段施加力",
+              "en": "Apply force to fragment",
+              "tags": [
+                "apply force to fragment"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "zh": "导航与视图",
+          "en": "Navigation & View",
+          "items": [
+            {
+              "id": "spin-about-x-axis",
+              "keys": [
+                "X"
+              ],
+              "zh": "绕横轴连续旋转",
+              "en": "Spin about X axis",
+              "tags": [
+                "spin about x axis"
+              ]
+            },
+            {
+              "id": "rock-about-x-axis",
+              "keys": [
+                "⇧",
+                "X"
+              ],
+              "zh": "绕横轴往复旋转",
+              "en": "Rock about X axis",
+              "tags": [
+                "rock about x axis"
+              ]
+            },
+            {
+              "id": "spin-about-y-axis",
+              "keys": [
+                "Y"
+              ],
+              "zh": "绕纵轴连续旋转",
+              "en": "Spin about Y axis",
+              "tags": [
+                "spin about y axis"
+              ]
+            },
+            {
+              "id": "rock-about-y-axis",
+              "keys": [
+                "⇧",
+                "Y"
+              ],
+              "zh": "绕纵轴往复旋转",
+              "en": "Rock about Y axis",
+              "tags": [
+                "rock about y axis"
+              ]
+            },
+            {
+              "id": "spin-about-z-axis",
+              "keys": [
+                "Z"
+              ],
+              "zh": "绕深度轴连续旋转",
+              "en": "Spin about Z axis",
+              "tags": [
+                "spin about z axis"
+              ]
+            },
+            {
+              "id": "rock-about-z-axis",
+              "keys": [
+                "⇧",
+                "Z"
+              ],
+              "zh": "绕深度轴往复旋转",
+              "en": "Rock about Z axis",
+              "tags": [
+                "rock about z axis"
+              ]
+            },
+            {
+              "id": "rotate-positively-about-x",
+              "keys": [
+                "J"
+              ],
+              "zh": "沿横轴正向旋转",
+              "en": "Rotate positively about X",
+              "tags": [
+                "rotate positively about x"
+              ]
+            },
+            {
+              "id": "rotate-negatively-about-x",
+              "keys": [
+                "K"
+              ],
+              "zh": "沿横轴反向旋转",
+              "en": "Rotate negatively about X",
+              "tags": [
+                "rotate negatively about x"
+              ]
+            },
+            {
+              "id": "rotate-positively-about-y",
+              "keys": [
+                "L"
+              ],
+              "zh": "沿纵轴正向旋转",
+              "en": "Rotate positively about Y",
+              "tags": [
+                "rotate positively about y"
+              ]
+            },
+            {
+              "id": "rotate-negatively-about-y",
+              "keys": [
+                "H"
+              ],
+              "zh": "沿纵轴反向旋转",
+              "en": "Rotate negatively about Y",
+              "tags": [
+                "rotate negatively about y"
+              ]
+            },
+            {
+              "id": "rotate-positively-about-z",
+              "keys": [
+                "G"
+              ],
+              "zh": "沿深度轴正向旋转",
+              "en": "Rotate positively about Z",
+              "tags": [
+                "rotate positively about z"
+              ]
+            },
+            {
+              "id": "rotate-negatively-about-z",
+              "keys": [
+                "⇧",
+                "G"
+              ],
+              "zh": "沿深度轴反向旋转",
+              "en": "Rotate negatively about Z",
+              "tags": [
+                "rotate negatively about z"
+              ]
+            },
+            {
+              "id": "enlarge-by-ten-percent",
+              "keys": [
+                "⌃",
+                "A"
+              ],
+              "zh": "放大百分之十",
+              "en": "Enlarge by ten percent",
+              "tags": [
+                "enlarge by ten percent"
+              ]
+            },
+            {
+              "id": "shrink-by-ten-percent",
+              "keys": [
+                "⌃",
+                "Z"
+              ],
+              "zh": "缩小百分之十",
+              "en": "Shrink by ten percent",
+              "tags": [
+                "shrink by ten percent"
+              ]
+            },
+            {
+              "id": "reset-display",
+              "keys": [
+                "⌃",
+                "R"
+              ],
+              "zh": "重置显示",
+              "en": "Reset display",
+              "tags": [
+                "reset display"
+              ]
+            },
+            {
+              "id": "show-main-menu",
+              "keys": [
+                "⌥",
+                "M"
+              ],
+              "zh": "显示主菜单",
+              "en": "Show main menu",
+              "tags": [
+                "show main menu"
+              ]
+            },
+            {
+              "id": "show-files-menu",
+              "keys": [
+                "⌥",
+                "F"
+              ],
+              "zh": "显示文件菜单",
+              "en": "Show files menu",
+              "tags": [
+                "show files menu"
+              ]
+            },
+            {
+              "id": "show-graphics-menu",
+              "keys": [
+                "⌥",
+                "G"
+              ],
+              "zh": "显示图形菜单",
+              "en": "Show graphics menu",
+              "tags": [
+                "show graphics menu"
+              ]
+            },
+            {
+              "id": "show-labels-menu",
+              "keys": [
+                "⌥",
+                "L"
+              ],
+              "zh": "显示标签菜单",
+              "en": "Show labels menu",
+              "tags": [
+                "show labels menu"
+              ]
+            },
+            {
+              "id": "show-render-menu",
+              "keys": [
+                "⌥",
+                "R"
+              ],
+              "zh": "显示渲染菜单",
+              "en": "Show render menu",
+              "tags": [
+                "show render menu"
+              ]
+            },
+            {
+              "id": "show-display-menu",
+              "keys": [
+                "⌥",
+                "D"
+              ],
+              "zh": "显示显示设置菜单",
+              "en": "Show display menu",
+              "tags": [
+                "show display menu"
+              ]
+            },
+            {
+              "id": "show-color-menu",
+              "keys": [
+                "⌥",
+                "C"
+              ],
+              "zh": "显示颜色菜单",
+              "en": "Show color menu",
+              "tags": [
+                "show color menu"
+              ]
+            },
+            {
+              "id": "quit-with-confirmation",
+              "keys": [
+                "⌥",
+                "Q"
+              ],
+              "zh": "确认后退出",
+              "en": "Quit with confirmation",
+              "tags": [
+                "quit with confirmation"
+              ]
+            },
+            {
+              "id": "quit-immediately",
+              "keys": [
+                "⌥",
+                "⇧",
+                "Q"
+              ],
+              "zh": "直接退出",
+              "en": "Quit immediately",
+              "tags": [
+                "quit immediately"
+              ]
+            },
+            {
+              "id": "toggle-hypertext-mode",
+              "keys": [
+                "⌥",
+                "H"
+              ],
+              "zh": "切换超文本模式",
+              "en": "Toggle hypertext mode",
+              "tags": [
+                "toggle hypertext mode"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animation",
+          "zh": "动画",
+          "en": "Animation",
+          "items": [
+            {
+              "id": "move-to-next-frame",
+              "keys": [
+                "+"
+              ],
+              "zh": "移动到下一帧",
+              "en": "Move to next frame",
+              "tags": [
+                "move to next frame"
+              ]
+            },
+            {
+              "id": "move-to-previous-frame",
+              "keys": [
+                "-"
+              ],
+              "zh": "移动到上一帧",
+              "en": "Move to previous frame",
+              "tags": [
+                "move to previous frame"
+              ]
+            },
+            {
+              "id": "play-animation-forward",
+              "keys": [
+                "."
+              ],
+              "zh": "正向播放动画",
+              "en": "Play animation forward",
+              "tags": [
+                "play animation forward"
+              ]
+            },
+            {
+              "id": "play-animation-in-reverse",
+              "keys": [
+                ","
+              ],
+              "zh": "反向播放动画",
+              "en": "Play animation in reverse",
+              "tags": [
+                "play animation in reverse"
+              ]
+            },
+            {
+              "id": "pause-animation",
+              "keys": [
+                "/"
+              ],
+              "zh": "暂停动画",
+              "en": "Pause animation",
+              "tags": [
+                "pause animation"
+              ]
+            }
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceURL": "https://www.ks.uiuc.edu/Research/vmd/current/ug/node34.html",
+        "sourceTitle": "VMD User's Guide - Hot Keys",
+        "appVersion": "VMD current user guide",
+        "verifiedAt": "2026-07-21",
+        "coverage": "complete-official-hotkey-tables",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "avogadro",
+      "name": "Avogadro",
+      "vendor": "Open Chemistry",
+      "accent": "#2D7DD2",
+      "glyph": "Av",
+      "group": "chemistry",
+      "dataStatus": "sourceBacked",
+      "categories": [
+        {
+          "id": "tools",
+          "zh": "工具",
+          "en": "Tools",
+          "items": [
+            {
+              "id": "navigation-tool",
+              "keys": [
+                "⌘",
+                "1"
+              ],
+              "zh": "导航工具",
+              "en": "Navigation tool",
+              "tags": [
+                "navigation tool"
+              ]
+            },
+            {
+              "id": "draw-tool",
+              "keys": [
+                "⌘",
+                "2"
+              ],
+              "zh": "绘制工具",
+              "en": "Draw tool",
+              "tags": [
+                "draw tool"
+              ]
+            },
+            {
+              "id": "template-tool",
+              "keys": [
+                "⌘",
+                "3"
+              ],
+              "zh": "模板工具",
+              "en": "Template tool",
+              "tags": [
+                "template tool"
+              ]
+            },
+            {
+              "id": "selection-tool",
+              "keys": [
+                "⌘",
+                "4"
+              ],
+              "zh": "选择工具",
+              "en": "Selection tool",
+              "tags": [
+                "selection tool"
+              ]
+            },
+            {
+              "id": "manipulation-tool",
+              "keys": [
+                "⌘",
+                "5"
+              ],
+              "zh": "操作工具",
+              "en": "Manipulation tool",
+              "tags": [
+                "manipulation tool"
+              ]
+            },
+            {
+              "id": "bond-centric-manipulation-tool",
+              "keys": [
+                "⌘",
+                "6"
+              ],
+              "zh": "化学键中心操作工具",
+              "en": "Bond-centric manipulation tool",
+              "tags": [
+                "bond centric manipulation tool"
+              ]
+            },
+            {
+              "id": "auto-optimization-tool",
+              "keys": [
+                "⌘",
+                "7"
+              ],
+              "zh": "自动优化工具",
+              "en": "Auto-optimization tool",
+              "tags": [
+                "auto optimization tool"
+              ]
+            },
+            {
+              "id": "measure-tool",
+              "keys": [
+                "⌘",
+                "8"
+              ],
+              "zh": "测量工具",
+              "en": "Measure tool",
+              "tags": [
+                "measure tool"
+              ]
+            },
+            {
+              "id": "animation-tool",
+              "keys": [
+                "⌘",
+                "9"
+              ],
+              "zh": "动画工具",
+              "en": "Animation tool",
+              "tags": [
+                "animation tool"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "selection",
+          "zh": "选择",
+          "en": "Selection",
+          "items": [
+            {
+              "id": "select-all-atoms",
+              "keys": [
+                "⌘",
+                "A"
+              ],
+              "zh": "选择全部原子",
+              "en": "Select all atoms",
+              "tags": [
+                "select all atoms"
+              ]
+            },
+            {
+              "id": "deselect-all-atoms",
+              "keys": [
+                "⌘",
+                "⇧",
+                "A"
+              ],
+              "zh": "取消选择全部原子",
+              "en": "Deselect all atoms",
+              "tags": [
+                "deselect all atoms"
+              ]
+            },
+            {
+              "id": "optimize-geometry",
+              "keys": [
+                "⌘",
+                "⌥",
+                "O"
+              ],
+              "zh": "优化几何结构",
+              "en": "Optimize geometry",
+              "tags": [
+                "optimize geometry"
+              ]
+            },
+            {
+              "id": "set-single-bond-order",
+              "keys": [
+                "1"
+              ],
+              "zh": "设置单键",
+              "en": "Set single bond order",
+              "tags": [
+                "set single bond order"
+              ]
+            },
+            {
+              "id": "set-double-bond-order",
+              "keys": [
+                "2"
+              ],
+              "zh": "设置双键",
+              "en": "Set double bond order",
+              "tags": [
+                "set double bond order"
+              ]
+            },
+            {
+              "id": "set-triple-bond-order",
+              "keys": [
+                "3"
+              ],
+              "zh": "设置三键",
+              "en": "Set triple bond order",
+              "tags": [
+                "set triple bond order"
+              ]
+            },
+            {
+              "id": "previous-template-tab",
+              "keys": [
+                "←"
+              ],
+              "zh": "切换到上一个模板标签",
+              "en": "Previous template tab",
+              "tags": [
+                "previous template tab"
+              ]
+            },
+            {
+              "id": "next-template-tab",
+              "keys": [
+                "→"
+              ],
+              "zh": "切换到下一个模板标签",
+              "en": "Next template tab",
+              "tags": [
+                "next template tab"
+              ]
+            },
+            {
+              "id": "increase-formal-charge",
+              "keys": [
+                "+"
+              ],
+              "zh": "增加形式电荷",
+              "en": "Increase formal charge",
+              "tags": [
+                "increase formal charge"
+              ]
+            },
+            {
+              "id": "decrease-formal-charge",
+              "keys": [
+                "-"
+              ],
+              "zh": "减少形式电荷",
+              "en": "Decrease formal charge",
+              "tags": [
+                "decrease formal charge"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "zh": "导航与视图",
+          "en": "Navigation & View",
+          "items": [
+            {
+              "id": "rotate-molecule",
+              "keys": [
+                "方向键"
+              ],
+              "zh": "旋转分子",
+              "en": "Rotate molecule",
+              "tags": [
+                "rotate molecule"
+              ],
+              "keysZh": [
+                "方向键"
+              ],
+              "keysEn": [
+                "Arrow keys"
+              ]
+            },
+            {
+              "id": "rotate-left-about-z-axis",
+              "keys": [
+                "⇧",
+                "←"
+              ],
+              "zh": "绕深度轴向左旋转",
+              "en": "Rotate left about Z axis",
+              "tags": [
+                "rotate left about z axis"
+              ]
+            },
+            {
+              "id": "rotate-right-about-z-axis",
+              "keys": [
+                "⇧",
+                "→"
+              ],
+              "zh": "绕深度轴向右旋转",
+              "en": "Rotate right about Z axis",
+              "tags": [
+                "rotate right about z axis"
+              ]
+            },
+            {
+              "id": "pan-molecule",
+              "keys": [
+                "⌘",
+                "方向键"
+              ],
+              "zh": "平移分子",
+              "en": "Pan molecule",
+              "tags": [
+                "pan molecule"
+              ],
+              "keysZh": [
+                "⌘",
+                "方向键"
+              ],
+              "keysEn": [
+                "⌘",
+                "Arrow keys"
+              ]
+            },
+            {
+              "id": "zoom-in-molecule",
+              "keys": [
+                "⇧",
+                "↑"
+              ],
+              "zh": "放大分子",
+              "en": "Zoom in molecule",
+              "tags": [
+                "zoom in molecule"
+              ]
+            },
+            {
+              "id": "zoom-out-molecule",
+              "keys": [
+                "⇧",
+                "↓"
+              ],
+              "zh": "缩小分子",
+              "en": "Zoom out molecule",
+              "tags": [
+                "zoom out molecule"
+              ]
+            },
+            {
+              "id": "align-to-x-axis",
+              "keys": [
+                "X"
+              ],
+              "zh": "沿横轴对齐",
+              "en": "Align to X axis",
+              "tags": [
+                "align to x axis"
+              ]
+            },
+            {
+              "id": "align-to-y-axis",
+              "keys": [
+                "Y"
+              ],
+              "zh": "沿纵轴对齐",
+              "en": "Align to Y axis",
+              "tags": [
+                "align to y axis"
+              ]
+            },
+            {
+              "id": "align-to-z-axis",
+              "keys": [
+                "Z"
+              ],
+              "zh": "沿深度轴对齐",
+              "en": "Align to Z axis",
+              "tags": [
+                "align to z axis"
+              ]
+            },
+            {
+              "id": "confirm-label",
+              "keys": [
+                "Return"
+              ],
+              "zh": "确认标签",
+              "en": "Confirm label",
+              "tags": [
+                "confirm label"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "templates",
+          "zh": "结构模板",
+          "en": "Templates",
+          "items": [
+            {
+              "id": "linear-terminal-geometry",
+              "keys": [
+                "1"
+              ],
+              "zh": "线形端点",
+              "en": "Linear terminal geometry",
+              "tags": [
+                "linear terminal geometry"
+              ]
+            },
+            {
+              "id": "linear-geometry",
+              "keys": [
+                "2"
+              ],
+              "zh": "线形",
+              "en": "Linear geometry",
+              "tags": [
+                "linear geometry"
+              ]
+            },
+            {
+              "id": "trigonal-planar-geometry",
+              "keys": [
+                "3"
+              ],
+              "zh": "平面三角形",
+              "en": "Trigonal planar geometry",
+              "tags": [
+                "trigonal planar geometry"
+              ]
+            },
+            {
+              "id": "tetrahedral-geometry",
+              "keys": [
+                "4"
+              ],
+              "zh": "四面体",
+              "en": "Tetrahedral geometry",
+              "tags": [
+                "tetrahedral geometry"
+              ]
+            },
+            {
+              "id": "square-planar-geometry",
+              "keys": [
+                "4",
+                "4"
+              ],
+              "zh": "平面正方形",
+              "en": "Square planar geometry",
+              "tags": [
+                "square planar geometry"
+              ]
+            },
+            {
+              "id": "trigonal-bipyramidal-geometry",
+              "keys": [
+                "5"
+              ],
+              "zh": "三角双锥",
+              "en": "Trigonal bipyramidal geometry",
+              "tags": [
+                "trigonal bipyramidal geometry"
+              ]
+            },
+            {
+              "id": "square-pyramidal-geometry",
+              "keys": [
+                "5",
+                "5"
+              ],
+              "zh": "四方锥",
+              "en": "Square pyramidal geometry",
+              "tags": [
+                "square pyramidal geometry"
+              ]
+            },
+            {
+              "id": "octahedral-geometry",
+              "keys": [
+                "6"
+              ],
+              "zh": "八面体",
+              "en": "Octahedral geometry",
+              "tags": [
+                "octahedral geometry"
+              ]
+            },
+            {
+              "id": "trigonal-prismatic-geometry",
+              "keys": [
+                "6",
+                "6"
+              ],
+              "zh": "三棱柱",
+              "en": "Trigonal prismatic geometry",
+              "tags": [
+                "trigonal prismatic geometry"
+              ]
+            },
+            {
+              "id": "pentagonal-bipyramidal-geometry",
+              "keys": [
+                "7"
+              ],
+              "zh": "五角双锥",
+              "en": "Pentagonal bipyramidal geometry",
+              "tags": [
+                "pentagonal bipyramidal geometry"
+              ]
+            },
+            {
+              "id": "square-antiprismatic-geometry",
+              "keys": [
+                "8"
+              ],
+              "zh": "四方反棱柱",
+              "en": "Square antiprismatic geometry",
+              "tags": [
+                "square antiprismatic geometry"
+              ]
+            },
+            {
+              "id": "aqua-ligand",
+              "keys": [
+                "A"
+              ],
+              "zh": "水配体",
+              "en": "Aqua ligand",
+              "tags": [
+                "aqua ligand"
+              ]
+            },
+            {
+              "id": "carbonyl-ligand",
+              "keys": [
+                "C",
+                "O"
+              ],
+              "zh": "羰基配体",
+              "en": "Carbonyl ligand",
+              "tags": [
+                "carbonyl ligand"
+              ]
+            },
+            {
+              "id": "cyano-ligand",
+              "keys": [
+                "C",
+                "N"
+              ],
+              "zh": "氰基配体",
+              "en": "Cyano ligand",
+              "tags": [
+                "cyano ligand"
+              ]
+            },
+            {
+              "id": "ammine-ligand",
+              "keys": [
+                "N"
+              ],
+              "zh": "氨配体",
+              "en": "Ammine ligand",
+              "tags": [
+                "ammine ligand"
+              ]
+            },
+            {
+              "id": "phosphine-ligand",
+              "keys": [
+                "P"
+              ],
+              "zh": "膦配体",
+              "en": "Phosphine ligand",
+              "tags": [
+                "phosphine ligand"
+              ]
+            },
+            {
+              "id": "pyridyl-ligand",
+              "keys": [
+                "P",
+                "Y",
+                "R"
+              ],
+              "zh": "吡啶基配体",
+              "en": "Pyridyl ligand",
+              "tags": [
+                "pyridyl ligand"
+              ]
+            },
+            {
+              "id": "thiol-ligand",
+              "keys": [
+                "S"
+              ],
+              "zh": "硫醇配体",
+              "en": "Thiol ligand",
+              "tags": [
+                "thiol ligand"
+              ]
+            },
+            {
+              "id": "acetylacetonate-ligand",
+              "keys": [
+                "A",
+                "C",
+                "A",
+                "C"
+              ],
+              "zh": "乙酰丙酮配体",
+              "en": "Acetylacetonate ligand",
+              "tags": [
+                "acetylacetonate ligand"
+              ]
+            },
+            {
+              "id": "bipyridine-ligand",
+              "keys": [
+                "B",
+                "P",
+                "Y"
+              ],
+              "zh": "联吡啶配体",
+              "en": "Bipyridine ligand",
+              "tags": [
+                "bipyridine ligand"
+              ]
+            },
+            {
+              "id": "ethylenediamine-ligand",
+              "keys": [
+                "E",
+                "N"
+              ],
+              "zh": "乙二胺配体",
+              "en": "Ethylenediamine ligand",
+              "tags": [
+                "ethylenediamine ligand"
+              ]
+            },
+            {
+              "id": "oxalate-ligand",
+              "keys": [
+                "O",
+                "X"
+              ],
+              "zh": "草酸配体",
+              "en": "Oxalate ligand",
+              "tags": [
+                "oxalate ligand"
+              ]
+            },
+            {
+              "id": "phenanthroline-ligand",
+              "keys": [
+                "P",
+                "H",
+                "E",
+                "N"
+              ],
+              "zh": "邻菲罗啉配体",
+              "en": "Phenanthroline ligand",
+              "tags": [
+                "phenanthroline ligand"
+              ]
+            },
+            {
+              "id": "terpyridine-ligand",
+              "keys": [
+                "T",
+                "P",
+                "Y"
+              ],
+              "zh": "三联吡啶配体",
+              "en": "Terpyridine ligand",
+              "tags": [
+                "terpyridine ligand"
+              ]
+            },
+            {
+              "id": "edta-ligand",
+              "keys": [
+                "E",
+                "D",
+                "T",
+                "A"
+              ],
+              "zh": "乙二胺四乙酸配体",
+              "en": "EDTA ligand",
+              "tags": [
+                "edta ligand"
+              ]
+            },
+            {
+              "id": "ethylene-ligand",
+              "keys": [
+                "E",
+                "2"
+              ],
+              "zh": "乙烯配体",
+              "en": "Ethylene ligand",
+              "tags": [
+                "ethylene ligand"
+              ]
+            },
+            {
+              "id": "cyclopentadienyl-ligand",
+              "keys": [
+                "E",
+                "5"
+              ],
+              "zh": "环戊二烯基配体",
+              "en": "Cyclopentadienyl ligand",
+              "tags": [
+                "cyclopentadienyl ligand"
+              ]
+            },
+            {
+              "id": "benzene-ligand",
+              "keys": [
+                "E",
+                "6"
+              ],
+              "zh": "苯配体",
+              "en": "Benzene ligand",
+              "tags": [
+                "benzene ligand"
+              ]
+            },
+            {
+              "id": "methyl-group",
+              "keys": [
+                "C",
+                "1"
+              ],
+              "zh": "甲基",
+              "en": "Methyl group",
+              "tags": [
+                "methyl group"
+              ]
+            },
+            {
+              "id": "ethyl-group",
+              "keys": [
+                "C",
+                "2"
+              ],
+              "zh": "乙基",
+              "en": "Ethyl group",
+              "tags": [
+                "ethyl group"
+              ]
+            },
+            {
+              "id": "propyl-group",
+              "keys": [
+                "C",
+                "3"
+              ],
+              "zh": "丙基",
+              "en": "Propyl group",
+              "tags": [
+                "propyl group"
+              ]
+            },
+            {
+              "id": "butyl-group",
+              "keys": [
+                "C",
+                "4"
+              ],
+              "zh": "丁基",
+              "en": "Butyl group",
+              "tags": [
+                "butyl group"
+              ]
+            },
+            {
+              "id": "pentyl-group",
+              "keys": [
+                "C",
+                "5"
+              ],
+              "zh": "戊基",
+              "en": "Pentyl group",
+              "tags": [
+                "pentyl group"
+              ]
+            },
+            {
+              "id": "hexyl-group",
+              "keys": [
+                "C",
+                "6"
+              ],
+              "zh": "己基",
+              "en": "Hexyl group",
+              "tags": [
+                "hexyl group"
+              ]
+            },
+            {
+              "id": "heptyl-group",
+              "keys": [
+                "C",
+                "7"
+              ],
+              "zh": "庚基",
+              "en": "Heptyl group",
+              "tags": [
+                "heptyl group"
+              ]
+            },
+            {
+              "id": "octyl-group",
+              "keys": [
+                "C",
+                "8"
+              ],
+              "zh": "辛基",
+              "en": "Octyl group",
+              "tags": [
+                "octyl group"
+              ]
+            },
+            {
+              "id": "nonyl-group",
+              "keys": [
+                "C",
+                "9"
+              ],
+              "zh": "壬基",
+              "en": "Nonyl group",
+              "tags": [
+                "nonyl group"
+              ]
+            },
+            {
+              "id": "decyl-group",
+              "keys": [
+                "C",
+                "0"
+              ],
+              "zh": "癸基",
+              "en": "Decyl group",
+              "tags": [
+                "decyl group"
+              ]
+            },
+            {
+              "id": "isopropyl-group",
+              "keys": [
+                "I"
+              ],
+              "zh": "异丙基",
+              "en": "Isopropyl group",
+              "tags": [
+                "isopropyl group"
+              ]
+            },
+            {
+              "id": "tert-butyl-group",
+              "keys": [
+                "K"
+              ],
+              "zh": "叔丁基",
+              "en": "Tert-butyl group",
+              "tags": [
+                "tert butyl group"
+              ]
+            },
+            {
+              "id": "boc-protecting-group",
+              "keys": [
+                "B",
+                "O",
+                "C"
+              ],
+              "zh": "叔丁氧羰基保护基",
+              "en": "BOC protecting group",
+              "tags": [
+                "boc protecting group"
+              ]
+            },
+            {
+              "id": "cbz-protecting-group",
+              "keys": [
+                "C",
+                "B",
+                "Z"
+              ],
+              "zh": "苄氧羰基保护基",
+              "en": "CBZ protecting group",
+              "tags": [
+                "cbz protecting group"
+              ]
+            },
+            {
+              "id": "fmoc-protecting-group",
+              "keys": [
+                "F",
+                "M",
+                "O",
+                "C"
+              ],
+              "zh": "芴甲氧羰基保护基",
+              "en": "FMOC protecting group",
+              "tags": [
+                "fmoc protecting group"
+              ]
+            },
+            {
+              "id": "tosyl-protecting-group",
+              "keys": [
+                "T",
+                "O",
+                "S"
+              ],
+              "zh": "对甲苯磺酰保护基",
+              "en": "Tosyl protecting group",
+              "tags": [
+                "tosyl protecting group"
+              ]
+            }
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceURL": "https://raw.githubusercontent.com/avogadro/two.avogadro.cc/main/source/docs/tools/keyboard-shortcuts.md",
+        "sourceTitle": "Avogadro Official Keyboard Shortcuts",
+        "appVersion": "Avogadro 2 documentation main branch",
+        "verifiedAt": "2026-07-21",
+        "coverage": "official-page-selection",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.openchemistry.Avogadro2"
+      ]
+    },
+    {
+      "id": "slicer",
+      "name": "3D Slicer",
+      "vendor": "Slicer Community",
+      "accent": "#F37C20",
+      "glyph": "3D",
+      "group": "medical",
+      "dataStatus": "sourceBacked",
+      "categories": [
+        {
+          "id": "navigation",
+          "zh": "导航与视图",
+          "en": "Navigation & View",
+          "items": [
+            {
+              "id": "find-module-by-name",
+              "keys": [
+                "⌘",
+                "F"
+              ],
+              "zh": "按名称查找模块",
+              "en": "Find module by name",
+              "tags": [
+                "find module by name"
+              ]
+            },
+            {
+              "id": "add-data-from-file",
+              "keys": [
+                "⌘",
+                "O"
+              ],
+              "zh": "从文件添加数据",
+              "en": "Add data from file",
+              "tags": [
+                "add data from file"
+              ]
+            },
+            {
+              "id": "save-data-to-files",
+              "keys": [
+                "⌘",
+                "S"
+              ],
+              "zh": "将数据保存到文件",
+              "en": "Save data to files",
+              "tags": [
+                "save data to files"
+              ]
+            },
+            {
+              "id": "close-scene",
+              "keys": [
+                "⌘",
+                "W"
+              ],
+              "zh": "关闭场景",
+              "en": "Close scene",
+              "tags": [
+                "close scene"
+              ]
+            },
+            {
+              "id": "show-error-log",
+              "keys": [
+                "⌘",
+                "0"
+              ],
+              "zh": "显示错误日志",
+              "en": "Show error log",
+              "tags": [
+                "show error log"
+              ]
+            },
+            {
+              "id": "show-application-help",
+              "keys": [
+                "⌘",
+                "1"
+              ],
+              "zh": "显示应用帮助",
+              "en": "Show application help",
+              "tags": [
+                "show application help"
+              ]
+            },
+            {
+              "id": "show-application-settings",
+              "keys": [
+                "⌘",
+                "2"
+              ],
+              "zh": "显示应用设置",
+              "en": "Show application settings",
+              "tags": [
+                "show application settings"
+              ]
+            },
+            {
+              "id": "toggle-script-console",
+              "keys": [
+                "⌘",
+                "3"
+              ],
+              "zh": "显示或隐藏脚本控制台",
+              "en": "Toggle script console",
+              "tags": [
+                "toggle script console"
+              ]
+            },
+            {
+              "id": "show-extensions-manager",
+              "keys": [
+                "⌘",
+                "4"
+              ],
+              "zh": "显示扩展管理器",
+              "en": "Show extensions manager",
+              "tags": [
+                "show extensions manager"
+              ]
+            },
+            {
+              "id": "toggle-module-panel",
+              "keys": [
+                "⌘",
+                "5"
+              ],
+              "zh": "显示或隐藏模块面板",
+              "en": "Toggle module panel",
+              "tags": [
+                "toggle module panel"
+              ]
+            },
+            {
+              "id": "open-default-startup-module",
+              "keys": [
+                "⌘",
+                "H"
+              ],
+              "zh": "打开默认启动模块",
+              "en": "Open default startup module",
+              "tags": [
+                "open default startup module"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "slices",
+          "zh": "切片视图",
+          "en": "Slice Views",
+          "items": [
+            {
+              "id": "zoom-slice-image",
+              "keys": [
+                "⌘",
+                "滚轮"
+              ],
+              "zh": "缩放切片图像",
+              "en": "Zoom slice image",
+              "tags": [
+                "zoom slice image"
+              ],
+              "keysZh": [
+                "⌘",
+                "滚轮"
+              ],
+              "keysEn": [
+                "⌘",
+                "Wheel"
+              ]
+            },
+            {
+              "id": "pan-slice-view",
+              "keys": [
+                "中键拖动"
+              ],
+              "zh": "平移切片视图",
+              "en": "Pan slice view",
+              "tags": [
+                "pan slice view"
+              ],
+              "keysZh": [
+                "中键拖动"
+              ],
+              "keysEn": [
+                "Middle-drag"
+              ]
+            },
+            {
+              "id": "pan-slice-view-with-modifier",
+              "keys": [
+                "⇧",
+                "点击拖动"
+              ],
+              "zh": "平移切片视图",
+              "en": "Pan slice view with modifier",
+              "tags": [
+                "pan slice view with modifier"
+              ],
+              "keysZh": [
+                "⇧",
+                "点击拖动"
+              ],
+              "keysEn": [
+                "⇧",
+                "Click-drag"
+              ]
+            },
+            {
+              "id": "move-to-previous-slice",
+              "keys": [
+                "←"
+              ],
+              "zh": "移动到上一个切片",
+              "en": "Move to previous slice",
+              "tags": [
+                "move to previous slice"
+              ]
+            },
+            {
+              "id": "move-to-next-slice",
+              "keys": [
+                "→"
+              ],
+              "zh": "移动到下一个切片",
+              "en": "Move to next slice",
+              "tags": [
+                "move to next slice"
+              ]
+            },
+            {
+              "id": "move-crosshair-in-all-views",
+              "keys": [
+                "⇧",
+                "移动鼠标"
+              ],
+              "zh": "在全部视图中移动十字线",
+              "en": "Move crosshair in all views",
+              "tags": [
+                "move crosshair in all views"
+              ],
+              "keysZh": [
+                "⇧",
+                "移动鼠标"
+              ],
+              "keysEn": [
+                "⇧",
+                "Move pointer"
+              ]
+            },
+            {
+              "id": "toggle-slice-visibility-in-3d",
+              "keys": [
+                "V"
+              ],
+              "zh": "切换切片在三维视图中的可见性",
+              "en": "Toggle slice visibility in 3D",
+              "tags": [
+                "toggle slice visibility in 3d"
+              ]
+            },
+            {
+              "id": "reset-zoom-and-pan",
+              "keys": [
+                "R"
+              ],
+              "zh": "重置缩放和平移",
+              "en": "Reset zoom and pan",
+              "tags": [
+                "reset zoom and pan"
+              ]
+            },
+            {
+              "id": "toggle-segmentation-or-labelmap",
+              "keys": [
+                "G"
+              ],
+              "zh": "切换分割或标签图可见性",
+              "en": "Toggle segmentation or labelmap",
+              "tags": [
+                "toggle segmentation or labelmap"
+              ]
+            },
+            {
+              "id": "toggle-foreground-volume",
+              "keys": [
+                "T"
+              ],
+              "zh": "切换前景体数据可见性",
+              "en": "Toggle foreground volume",
+              "tags": [
+                "toggle foreground volume"
+              ]
+            },
+            {
+              "id": "previous-background-volume",
+              "keys": [
+                "["
+              ],
+              "zh": "选择上一个背景体数据",
+              "en": "Previous background volume",
+              "tags": [
+                "previous background volume"
+              ]
+            },
+            {
+              "id": "next-background-volume",
+              "keys": [
+                "]"
+              ],
+              "zh": "选择下一个背景体数据",
+              "en": "Next background volume",
+              "tags": [
+                "next background volume"
+              ]
+            },
+            {
+              "id": "previous-foreground-volume",
+              "keys": [
+                "{"
+              ],
+              "zh": "选择上一个前景体数据",
+              "en": "Previous foreground volume",
+              "tags": [
+                "previous foreground volume"
+              ]
+            },
+            {
+              "id": "next-foreground-volume",
+              "keys": [
+                "}"
+              ],
+              "zh": "选择下一个前景体数据",
+              "en": "Next foreground volume",
+              "tags": [
+                "next foreground volume"
+              ]
+            },
+            {
+              "id": "maximize-view-or-restore-layout",
+              "keys": [
+                "双击"
+              ],
+              "zh": "最大化视图或还原布局",
+              "en": "Maximize view or restore layout",
+              "tags": [
+                "maximize view or restore layout"
+              ],
+              "keysZh": [
+                "双击"
+              ],
+              "keysEn": [
+                "Double click"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "volume3d",
+          "zh": "三维视图",
+          "en": "3D Views",
+          "items": [
+            {
+              "id": "move-crosshair-in-all-views-from-3d-view",
+              "keys": [
+                "⇧",
+                "移动鼠标"
+              ],
+              "zh": "从三维视图移动全部视图的十字线",
+              "en": "Move crosshair in all views from 3D view",
+              "tags": [
+                "move crosshair in all views from 3d view"
+              ],
+              "keysZh": [
+                "⇧",
+                "移动鼠标"
+              ],
+              "keysEn": [
+                "⇧",
+                "Move pointer"
+              ]
+            },
+            {
+              "id": "rotate-3d-view",
+              "keys": [
+                "点击拖动"
+              ],
+              "zh": "旋转三维视图",
+              "en": "Rotate 3D view",
+              "tags": [
+                "rotate 3d view"
+              ],
+              "keysZh": [
+                "点击拖动"
+              ],
+              "keysEn": [
+                "Click-drag"
+              ]
+            },
+            {
+              "id": "rotate-view-left",
+              "keys": [
+                "←"
+              ],
+              "zh": "向左旋转视图",
+              "en": "Rotate view left",
+              "tags": [
+                "rotate view left"
+              ]
+            },
+            {
+              "id": "rotate-view-right",
+              "keys": [
+                "→"
+              ],
+              "zh": "向右旋转视图",
+              "en": "Rotate view right",
+              "tags": [
+                "rotate view right"
+              ]
+            },
+            {
+              "id": "rotate-view-up",
+              "keys": [
+                "↑"
+              ],
+              "zh": "向上旋转视图",
+              "en": "Rotate view up",
+              "tags": [
+                "rotate view up"
+              ]
+            },
+            {
+              "id": "rotate-view-down",
+              "keys": [
+                "↓"
+              ],
+              "zh": "向下旋转视图",
+              "en": "Rotate view down",
+              "tags": [
+                "rotate view down"
+              ]
+            },
+            {
+              "id": "view-from-anterior",
+              "keys": [
+                "End"
+              ],
+              "zh": "切换到前侧视图",
+              "en": "View from anterior",
+              "tags": [
+                "view from anterior"
+              ]
+            },
+            {
+              "id": "view-from-posterior",
+              "keys": [
+                "⇧",
+                "End"
+              ],
+              "zh": "切换到后侧视图",
+              "en": "View from posterior",
+              "tags": [
+                "view from posterior"
+              ]
+            },
+            {
+              "id": "view-from-left",
+              "keys": [
+                "PageDown"
+              ],
+              "zh": "切换到左侧视图",
+              "en": "View from left",
+              "tags": [
+                "view from left"
+              ]
+            },
+            {
+              "id": "view-from-right",
+              "keys": [
+                "⇧",
+                "PageDown"
+              ],
+              "zh": "切换到右侧视图",
+              "en": "View from right",
+              "tags": [
+                "view from right"
+              ]
+            },
+            {
+              "id": "view-from-superior",
+              "keys": [
+                "Home"
+              ],
+              "zh": "切换到上侧视图",
+              "en": "View from superior",
+              "tags": [
+                "view from superior"
+              ]
+            },
+            {
+              "id": "view-from-inferior",
+              "keys": [
+                "⇧",
+                "Home"
+              ],
+              "zh": "切换到下侧视图",
+              "en": "View from inferior",
+              "tags": [
+                "view from inferior"
+              ]
+            },
+            {
+              "id": "toggle-tilt-lock",
+              "keys": [
+                "⌘",
+                "B"
+              ],
+              "zh": "切换倾斜锁定",
+              "en": "Toggle tilt lock",
+              "tags": [
+                "toggle tilt lock"
+              ]
+            },
+            {
+              "id": "zoom-in-3d-view",
+              "keys": [
+                "+"
+              ],
+              "zh": "放大三维视图",
+              "en": "Zoom in 3D view",
+              "tags": [
+                "zoom in 3d view"
+              ]
+            },
+            {
+              "id": "zoom-out-3d-view",
+              "keys": [
+                "-"
+              ],
+              "zh": "缩小三维视图",
+              "en": "Zoom out 3D view",
+              "tags": [
+                "zoom out 3d view"
+              ]
+            },
+            {
+              "id": "pan-view-left",
+              "keys": [
+                "⇧",
+                "←"
+              ],
+              "zh": "向左平移视图",
+              "en": "Pan view left",
+              "tags": [
+                "pan view left"
+              ]
+            },
+            {
+              "id": "pan-view-right",
+              "keys": [
+                "⇧",
+                "→"
+              ],
+              "zh": "向右平移视图",
+              "en": "Pan view right",
+              "tags": [
+                "pan view right"
+              ]
+            },
+            {
+              "id": "pan-view-up",
+              "keys": [
+                "⇧",
+                "↑"
+              ],
+              "zh": "向上平移视图",
+              "en": "Pan view up",
+              "tags": [
+                "pan view up"
+              ]
+            },
+            {
+              "id": "pan-view-down",
+              "keys": [
+                "⇧",
+                "↓"
+              ],
+              "zh": "向下平移视图",
+              "en": "Pan view down",
+              "tags": [
+                "pan view down"
+              ]
+            },
+            {
+              "id": "reset-3d-view",
+              "keys": [
+                "Insert"
+              ],
+              "zh": "重置三维视图",
+              "en": "Reset 3D view",
+              "tags": [
+                "reset 3d view"
+              ]
+            },
+            {
+              "id": "maximize-3d-view-or-restore-layout",
+              "keys": [
+                "双击"
+              ],
+              "zh": "最大化三维视图或还原布局",
+              "en": "Maximize 3D view or restore layout",
+              "tags": [
+                "maximize 3d view or restore layout"
+              ],
+              "keysZh": [
+                "双击"
+              ],
+              "keysEn": [
+                "Double click"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "console",
+          "zh": "控制台",
+          "en": "Console",
+          "items": [
+            {
+              "id": "auto-complete",
+              "keys": [
+                "Tab"
+              ],
+              "zh": "自动补全",
+              "en": "Auto-complete",
+              "tags": [
+                "auto complete"
+              ]
+            },
+            {
+              "id": "previous-command",
+              "keys": [
+                "↑"
+              ],
+              "zh": "上一条命令",
+              "en": "Previous command",
+              "tags": [
+                "previous command"
+              ]
+            },
+            {
+              "id": "next-command",
+              "keys": [
+                "↓"
+              ],
+              "zh": "下一条命令",
+              "en": "Next command",
+              "tags": [
+                "next command"
+              ]
+            },
+            {
+              "id": "clear-current-command-line",
+              "keys": [
+                "Esc"
+              ],
+              "zh": "清除当前命令行",
+              "en": "Clear current command line",
+              "tags": [
+                "clear current command line"
+              ]
+            },
+            {
+              "id": "run-script-from-file",
+              "keys": [
+                "⌘",
+                "G"
+              ],
+              "zh": "从文件运行脚本",
+              "en": "Run script from file",
+              "tags": [
+                "run script from file"
+              ]
+            },
+            {
+              "id": "paste-and-run-script",
+              "keys": [
+                "⌘",
+                "V"
+              ],
+              "zh": "粘贴并运行脚本",
+              "en": "Paste and run script",
+              "tags": [
+                "paste and run script"
+              ]
+            }
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceURL": "https://slicer.readthedocs.io/en/latest/user_guide/user_interface.html#mouse-keyboard-shortcuts",
+        "sourceTitle": "3D Slicer Mouse & Keyboard Shortcuts",
+        "appVersion": "3D Slicer latest documentation",
+        "verifiedAt": "2026-07-21",
+        "coverage": "complete-official-macos-section",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.slicer.slicer"
+      ]
+    },
+    {
+      "id": "godot",
+      "name": "Godot Engine",
+      "vendor": "Godot Foundation",
+      "accent": "#478CBF",
+      "glyph": "Go",
+      "group": "gameDevelopment",
+      "dataStatus": "sourceBacked",
+      "categories": [
+        {
+          "id": "scene",
+          "zh": "场景与节点",
+          "en": "Scenes & Nodes",
+          "items": [
+            {
+              "id": "lock-selected-nodes",
+              "keys": [
+                "⌘",
+                "L"
+              ],
+              "zh": "锁定所选节点",
+              "en": "Lock selected nodes",
+              "tags": [
+                "lock selected nodes"
+              ]
+            },
+            {
+              "id": "unlock-selected-nodes",
+              "keys": [
+                "⌘",
+                "⇧",
+                "L"
+              ],
+              "zh": "解锁所选节点",
+              "en": "Unlock selected nodes",
+              "tags": [
+                "unlock selected nodes"
+              ]
+            },
+            {
+              "id": "group-selected-nodes",
+              "keys": [
+                "⌘",
+                "G"
+              ],
+              "zh": "组合所选节点",
+              "en": "Group selected nodes",
+              "tags": [
+                "group selected nodes"
+              ]
+            },
+            {
+              "id": "ungroup-selected-nodes",
+              "keys": [
+                "⌘",
+                "⇧",
+                "G"
+              ],
+              "zh": "取消组合所选节点",
+              "en": "Ungroup selected nodes",
+              "tags": [
+                "ungroup selected nodes"
+              ]
+            },
+            {
+              "id": "toggle-selected-nodes-visibility",
+              "keys": [
+                "H"
+              ],
+              "zh": "切换所选节点可见性",
+              "en": "Toggle selected nodes visibility",
+              "tags": [
+                "toggle selected nodes visibility"
+              ]
+            },
+            {
+              "id": "pan-view",
+              "keys": [
+                "Space"
+              ],
+              "zh": "平移视图",
+              "en": "Pan view",
+              "tags": [
+                "pan view"
+              ]
+            },
+            {
+              "id": "add-child-node",
+              "keys": [
+                "⌘",
+                "A"
+              ],
+              "zh": "添加子节点",
+              "en": "Add child node",
+              "tags": [
+                "add child node"
+              ]
+            },
+            {
+              "id": "instantiate-child-scene",
+              "keys": [
+                "⌘",
+                "⇧",
+                "A"
+              ],
+              "zh": "实例化子场景",
+              "en": "Instantiate child scene",
+              "tags": [
+                "instantiate child scene"
+              ]
+            },
+            {
+              "id": "duplicate-node",
+              "keys": [
+                "⌘",
+                "D"
+              ],
+              "zh": "复制节点",
+              "en": "Duplicate node",
+              "tags": [
+                "duplicate node"
+              ]
+            },
+            {
+              "id": "move-node-up",
+              "keys": [
+                "⌘",
+                "↑"
+              ],
+              "zh": "向上移动节点",
+              "en": "Move node up",
+              "tags": [
+                "move node up"
+              ]
+            },
+            {
+              "id": "move-node-down",
+              "keys": [
+                "⌘",
+                "↓"
+              ],
+              "zh": "向下移动节点",
+              "en": "Move node down",
+              "tags": [
+                "move node down"
+              ]
+            },
+            {
+              "id": "delete-node",
+              "keys": [
+                "Delete"
+              ],
+              "zh": "删除节点",
+              "en": "Delete node",
+              "tags": [
+                "delete node"
+              ]
+            },
+            {
+              "id": "rename-node",
+              "keys": [
+                "Return"
+              ],
+              "zh": "重命名节点",
+              "en": "Rename node",
+              "tags": [
+                "rename node"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "zh": "导航与视图",
+          "en": "Navigation & View",
+          "items": [
+            {
+              "id": "open-command-palette",
+              "keys": [
+                "⌘",
+                "⇧",
+                "P"
+              ],
+              "zh": "打开命令面板",
+              "en": "Open command palette",
+              "tags": [
+                "open command palette"
+              ]
+            },
+            {
+              "id": "focus-search-bar",
+              "keys": [
+                "⌘",
+                "F"
+              ],
+              "zh": "聚焦搜索栏",
+              "en": "Focus search bar",
+              "tags": [
+                "focus search bar"
+              ]
+            },
+            {
+              "id": "close-scene",
+              "keys": [
+                "⌘",
+                "W"
+              ],
+              "zh": "关闭场景",
+              "en": "Close scene",
+              "tags": [
+                "close scene"
+              ]
+            },
+            {
+              "id": "toggle-full-screen-mode",
+              "keys": [
+                "⌘",
+                "⌃",
+                "F"
+              ],
+              "zh": "切换全屏模式",
+              "en": "Toggle full screen mode",
+              "tags": [
+                "toggle full screen mode"
+              ]
+            },
+            {
+              "id": "toggle-distraction-free-mode",
+              "keys": [
+                "⌘",
+                "⇧",
+                "D"
+              ],
+              "zh": "切换无干扰模式",
+              "en": "Toggle distraction-free mode",
+              "tags": [
+                "toggle distraction free mode"
+              ]
+            },
+            {
+              "id": "switch-to-2d-editor",
+              "keys": [
+                "⌘",
+                "⌃",
+                "1"
+              ],
+              "zh": "切换到二维编辑器",
+              "en": "Switch to 2D editor",
+              "tags": [
+                "switch to 2d editor"
+              ]
+            },
+            {
+              "id": "switch-to-3d-editor",
+              "keys": [
+                "⌘",
+                "⌃",
+                "2"
+              ],
+              "zh": "切换到三维编辑器",
+              "en": "Switch to 3D editor",
+              "tags": [
+                "switch to 3d editor"
+              ]
+            },
+            {
+              "id": "switch-to-script-editor",
+              "keys": [
+                "⌘",
+                "⌃",
+                "3"
+              ],
+              "zh": "切换到脚本编辑器",
+              "en": "Switch to script editor",
+              "tags": [
+                "switch to script editor"
+              ]
+            },
+            {
+              "id": "switch-to-game-view",
+              "keys": [
+                "⌘",
+                "⌃",
+                "4"
+              ],
+              "zh": "切换到游戏视图",
+              "en": "Switch to game view",
+              "tags": [
+                "switch to game view"
+              ]
+            },
+            {
+              "id": "switch-to-asset-store",
+              "keys": [
+                "⌘",
+                "⌃",
+                "5"
+              ],
+              "zh": "切换到资源商店",
+              "en": "Switch to asset store",
+              "tags": [
+                "switch to asset store"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "run",
+          "zh": "运行与调试",
+          "en": "Run & Debug",
+          "items": [
+            {
+              "id": "run-project",
+              "keys": [
+                "⌘",
+                "B"
+              ],
+              "zh": "运行项目",
+              "en": "Run project",
+              "tags": [
+                "run project"
+              ]
+            },
+            {
+              "id": "run-current-scene",
+              "keys": [
+                "⌘",
+                "R"
+              ],
+              "zh": "运行当前场景",
+              "en": "Run current scene",
+              "tags": [
+                "run current scene"
+              ]
+            },
+            {
+              "id": "run-specific-scene",
+              "keys": [
+                "⌘",
+                "⇧",
+                "R"
+              ],
+              "zh": "运行指定场景",
+              "en": "Run specific scene",
+              "tags": [
+                "run specific scene"
+              ]
+            },
+            {
+              "id": "stop-running-project",
+              "keys": [
+                "⌘",
+                "."
+              ],
+              "zh": "停止运行项目",
+              "en": "Stop running project",
+              "tags": [
+                "stop running project"
+              ]
+            },
+            {
+              "id": "pause-running-project",
+              "keys": [
+                "⌘",
+                "⌃",
+                "Y"
+              ],
+              "zh": "暂停运行项目",
+              "en": "Pause running project",
+              "tags": [
+                "pause running project"
+              ]
+            },
+            {
+              "id": "step-over",
+              "keys": [
+                "F10"
+              ],
+              "zh": "单步步过",
+              "en": "Step over",
+              "tags": [
+                "step over"
+              ]
+            },
+            {
+              "id": "step-into",
+              "keys": [
+                "F11"
+              ],
+              "zh": "单步步入",
+              "en": "Step into",
+              "tags": [
+                "step into"
+              ]
+            },
+            {
+              "id": "step-out",
+              "keys": [
+                "⌥",
+                "F11"
+              ],
+              "zh": "单步步出",
+              "en": "Step out",
+              "tags": [
+                "step out"
+              ]
+            },
+            {
+              "id": "continue-debugging",
+              "keys": [
+                "F12"
+              ],
+              "zh": "继续调试",
+              "en": "Continue debugging",
+              "tags": [
+                "continue debugging"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "script",
+          "zh": "脚本编辑",
+          "en": "Script Editing",
+          "items": [
+            {
+              "id": "go-to-line",
+              "keys": [
+                "⌘",
+                "L"
+              ],
+              "zh": "转到指定行",
+              "en": "Go to line",
+              "tags": [
+                "go to line"
+              ]
+            },
+            {
+              "id": "find-next",
+              "keys": [
+                "⌘",
+                "G"
+              ],
+              "zh": "查找下一个",
+              "en": "Find next",
+              "tags": [
+                "find next"
+              ]
+            },
+            {
+              "id": "find-previous",
+              "keys": [
+                "⌘",
+                "⇧",
+                "G"
+              ],
+              "zh": "查找上一个",
+              "en": "Find previous",
+              "tags": [
+                "find previous"
+              ]
+            },
+            {
+              "id": "replace",
+              "keys": [
+                "⌘",
+                "⌥",
+                "F"
+              ],
+              "zh": "替换",
+              "en": "Replace",
+              "tags": [
+                "replace"
+              ]
+            },
+            {
+              "id": "toggle-breakpoint",
+              "keys": [
+                "⌘",
+                "⇧",
+                "B"
+              ],
+              "zh": "切换断点",
+              "en": "Toggle breakpoint",
+              "tags": [
+                "toggle breakpoint"
+              ]
+            },
+            {
+              "id": "duplicate-selection",
+              "keys": [
+                "⌘",
+                "⇧",
+                "C"
+              ],
+              "zh": "复制所选内容",
+              "en": "Duplicate selection",
+              "tags": [
+                "duplicate selection"
+              ]
+            },
+            {
+              "id": "duplicate-line",
+              "keys": [
+                "⌘",
+                "⇧",
+                "↓"
+              ],
+              "zh": "复制当前行",
+              "en": "Duplicate line",
+              "tags": [
+                "duplicate line"
+              ]
+            }
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceURL": "https://github.com/godotengine/godot/blob/master/editor/editor_node.cpp",
+        "sourceTitle": "Godot official editor source shortcuts and macOS overrides",
+        "appVersion": "Godot master source, 2026-07-21 snapshot",
+        "verifiedAt": "2026-07-21",
+        "coverage": "official-source-macos-selection",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.godotengine.godot"
+      ]
+    },
+    {
+      "id": "eagle",
+      "name": "Eagle",
+      "vendor": "Autodesk",
+      "accent": "#F5A623",
+      "glyph": "Ea",
+      "group": "electronics",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://help.autodesk.com/view/fusion360/ENU/?guid=ECD-OVERVIEW",
+        "sourceTitle": "Autodesk Eagle and Fusion Electronics documentation",
+        "appVersion": "Current macOS or web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "stm32cubeide",
+      "name": "STM32CubeIDE",
+      "vendor": "STMicroelectronics",
+      "accent": "#03234B",
+      "glyph": "ST",
+      "group": "electronics",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.st.com/en/development-tools/stm32cubeide.html",
+        "sourceTitle": "STM32CubeIDE product page",
+        "appVersion": "Current macOS or web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "mplabx",
+      "name": "MPLAB X IDE",
+      "vendor": "Microchip Technology",
+      "accent": "#EE1C25",
+      "glyph": "MX",
+      "group": "electronics",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide",
+        "sourceTitle": "MPLAB X IDE product page",
+        "appVersion": "Current macOS or web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "snapgene",
+      "name": "SnapGene",
+      "vendor": "Dotmatics",
+      "accent": "#2C9AB7",
+      "glyph": "SG",
+      "group": "biology",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.snapgene.com/",
+        "sourceTitle": "SnapGene product page",
+        "appVersion": "Current macOS or web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "mega",
+      "name": "MEGA",
+      "vendor": "MEGA Software",
+      "accent": "#21409A",
+      "glyph": "ME",
+      "group": "biology",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.megasoftware.net/",
+        "sourceTitle": "MEGA molecular evolutionary genetics analysis",
+        "appVersion": "Current macOS or web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "clcgenomics",
+      "name": "CLC Genomics Workbench",
+      "vendor": "QIAGEN",
+      "accent": "#5C2483",
+      "glyph": "CLC",
+      "group": "biology",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://digitalinsights.qiagen.com/products-overview/discovery-insights-portfolio/analysis-and-visualization/qiagen-clc-genomics-workbench/",
+        "sourceTitle": "QIAGEN CLC Genomics Workbench product page",
+        "appVersion": "Current macOS or web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "chimerax",
+      "name": "ChimeraX",
+      "vendor": "UCSF RBVI",
+      "accent": "#3D8C40",
+      "glyph": "CX",
+      "group": "biology",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.cgl.ucsf.edu/chimerax/",
+        "sourceTitle": "UCSF ChimeraX product page",
+        "appVersion": "Current macOS or web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "flowjo",
+      "name": "FlowJo",
+      "vendor": "BD Biosciences",
+      "accent": "#F58220",
+      "glyph": "FJ",
+      "group": "biology",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.flowjo.com/",
+        "sourceTitle": "FlowJo product page",
+        "appVersion": "Current macOS or web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "marvinsketch",
+      "name": "MarvinSketch",
+      "vendor": "Chemaxon",
+      "accent": "#008BD2",
+      "glyph": "MS",
+      "group": "chemistry",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://chemaxon.com/marvin",
+        "sourceTitle": "Chemaxon Marvin product page",
+        "appVersion": "Current macOS or web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "maple",
+      "name": "Maple",
+      "vendor": "Maplesoft",
+      "accent": "#D71920",
+      "glyph": "Mp",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.maplesoft.com/products/Maple/",
+        "sourceTitle": "Maplesoft Maple product page",
+        "appVersion": "Current macOS or web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "sasstudio",
+      "name": "SAS Studio",
+      "vendor": "SAS",
+      "accent": "#007CC3",
+      "glyph": "SAS",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.sas.com/en_us/software/studio.html",
+        "sourceTitle": "SAS Studio product page",
+        "appVersion": "Current macOS or web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "osirix",
+      "name": "OsiriX",
+      "vendor": "Pixmeo",
+      "accent": "#00A7E1",
+      "glyph": "OX",
+      "group": "medical",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.osirix-viewer.com/",
+        "sourceTitle": "OsiriX product page",
+        "appVersion": "Current macOS or web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "horos",
+      "name": "Horos",
+      "vendor": "Horos Project",
+      "accent": "#3B8CFF",
+      "glyph": "Ho",
+      "group": "medical",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://horosproject.org/",
+        "sourceTitle": "Horos Project product page",
+        "appVersion": "Current macOS or web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "envi",
+      "name": "ENVI",
+      "vendor": "NV5 Geospatial",
+      "accent": "#4A8F3A",
+      "glyph": "EN",
+      "group": "architecture",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.nv5geospatialsoftware.com/Products/ENVI",
+        "sourceTitle": "NV5 ENVI product page",
+        "appVersion": "Current macOS or web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "substancepainter",
+      "name": "Substance 3D Painter",
+      "vendor": "Adobe",
+      "accent": "#FF8A00",
+      "glyph": "SP",
+      "group": "gameDevelopment",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.adobe.com/products/substance3d/apps/painter.html",
+        "sourceTitle": "Adobe Substance 3D Painter product page",
+        "appVersion": "Current macOS or web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "houdini",
+      "name": "Houdini",
+      "vendor": "SideFX",
+      "accent": "#FF5A00",
+      "glyph": "Ho",
+      "group": "gameDevelopment",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.sidefx.com/products/houdini/",
+        "sourceTitle": "SideFX Houdini product page",
+        "appVersion": "Current macOS or web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4126 @@
+{
+  "software": [
+    {
+      "id": "word",
+      "name": "Microsoft Word",
+      "vendor": "Microsoft",
+      "accent": "#2B579A",
+      "glyph": "W",
+      "categories": [
+        {
+          "id": "file",
+          "zh": "文件与窗口",
+          "en": "File & Window",
+          "items": [
+            {
+              "id": "word.new",
+              "keys": [
+                "⌘",
+                "N"
+              ],
+              "zh": "新建文档",
+              "en": "New document",
+              "tags": [
+                "file"
+              ]
+            },
+            {
+              "id": "word.open",
+              "keys": [
+                "⌘",
+                "O"
+              ],
+              "zh": "打开文档",
+              "en": "Open document",
+              "tags": [
+                "file"
+              ]
+            },
+            {
+              "id": "word.close",
+              "keys": [
+                "⌘",
+                "W"
+              ],
+              "zh": "关闭文档",
+              "en": "Close document",
+              "tags": [
+                "window"
+              ]
+            },
+            {
+              "id": "word.save",
+              "keys": [
+                "⌘",
+                "S"
+              ],
+              "zh": "保存文档",
+              "en": "Save document",
+              "tags": [
+                "file"
+              ]
+            },
+            {
+              "id": "word.save-as",
+              "keys": [
+                "⌘",
+                "⇧",
+                "S"
+              ],
+              "zh": "另存为",
+              "en": "Save as",
+              "tags": [
+                "file"
+              ]
+            },
+            {
+              "id": "word.print",
+              "keys": [
+                "⌘",
+                "P"
+              ],
+              "zh": "打印文档",
+              "en": "Print document",
+              "tags": [
+                "file"
+              ]
+            },
+            {
+              "id": "word.properties",
+              "keys": [
+                "⌘",
+                "⇧",
+                "I"
+              ],
+              "zh": "查看文档属性",
+              "en": "View document properties",
+              "tags": [
+                "info"
+              ]
+            },
+            {
+              "id": "word.minimize",
+              "keys": [
+                "⌘",
+                "M"
+              ],
+              "zh": "最小化窗口",
+              "en": "Minimize window",
+              "tags": [
+                "window"
+              ]
+            },
+            {
+              "id": "word.next-window",
+              "keys": [
+                "⌘",
+                "`"
+              ],
+              "zh": "切换到下一个文档窗口",
+              "en": "Switch to next document window",
+              "tags": [
+                "window"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "edit",
+          "zh": "编辑与查找",
+          "en": "Edit & Find",
+          "items": [
+            {
+              "id": "word.undo",
+              "keys": [
+                "⌘",
+                "Z"
+              ],
+              "zh": "撤销",
+              "en": "Undo",
+              "tags": []
+            },
+            {
+              "id": "word.redo",
+              "keys": [
+                "⌘",
+                "Y"
+              ],
+              "zh": "重做或重复",
+              "en": "Redo or repeat",
+              "tags": []
+            },
+            {
+              "id": "word.cut",
+              "keys": [
+                "⌘",
+                "X"
+              ],
+              "zh": "剪切",
+              "en": "Cut",
+              "tags": []
+            },
+            {
+              "id": "word.copy",
+              "keys": [
+                "⌘",
+                "C"
+              ],
+              "zh": "复制",
+              "en": "Copy",
+              "tags": []
+            },
+            {
+              "id": "word.paste",
+              "keys": [
+                "⌘",
+                "V"
+              ],
+              "zh": "粘贴",
+              "en": "Paste",
+              "tags": []
+            },
+            {
+              "id": "word.paste-special",
+              "keys": [
+                "⌘",
+                "⌃",
+                "V"
+              ],
+              "zh": "选择性粘贴",
+              "en": "Paste Special",
+              "tags": []
+            },
+            {
+              "id": "word.select-all",
+              "keys": [
+                "⌘",
+                "A"
+              ],
+              "zh": "全选",
+              "en": "Select all",
+              "tags": []
+            },
+            {
+              "id": "word.find",
+              "keys": [
+                "⌘",
+                "F"
+              ],
+              "zh": "查找",
+              "en": "Find",
+              "tags": [
+                "search"
+              ]
+            },
+            {
+              "id": "word.replace",
+              "keys": [
+                "⌃",
+                "H"
+              ],
+              "zh": "查找并替换",
+              "en": "Find and replace",
+              "tags": [
+                "search"
+              ]
+            },
+            {
+              "id": "word.goto",
+              "keys": [
+                "⌥",
+                "⌘",
+                "G"
+              ],
+              "zh": "定位到指定位置",
+              "en": "Go to a location",
+              "tags": [
+                "navigate"
+              ]
+            },
+            {
+              "id": "word.copy-format",
+              "keys": [
+                "⌘",
+                "⇧",
+                "C"
+              ],
+              "zh": "复制格式",
+              "en": "Copy formatting",
+              "tags": [
+                "format"
+              ]
+            },
+            {
+              "id": "word.paste-format",
+              "keys": [
+                "⌘",
+                "⇧",
+                "V"
+              ],
+              "zh": "粘贴格式",
+              "en": "Paste formatting",
+              "tags": [
+                "format"
+              ]
+            },
+            {
+              "id": "word.hyperlink",
+              "keys": [
+                "⌘",
+                "K"
+              ],
+              "zh": "插入超链接",
+              "en": "Insert hyperlink",
+              "tags": [
+                "link"
+              ]
+            },
+            {
+              "id": "word.page-break",
+              "keys": [
+                "⌘",
+                "Return"
+              ],
+              "zh": "插入分页符",
+              "en": "Insert page break",
+              "tags": [
+                "page"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "text-format",
+          "zh": "文字格式",
+          "en": "Text Formatting",
+          "items": [
+            {
+              "id": "word.bold",
+              "keys": [
+                "⌘",
+                "B"
+              ],
+              "zh": "加粗",
+              "en": "Bold",
+              "tags": []
+            },
+            {
+              "id": "word.italic",
+              "keys": [
+                "⌘",
+                "I"
+              ],
+              "zh": "斜体",
+              "en": "Italic",
+              "tags": []
+            },
+            {
+              "id": "word.underline",
+              "keys": [
+                "⌘",
+                "U"
+              ],
+              "zh": "下划线",
+              "en": "Underline",
+              "tags": []
+            },
+            {
+              "id": "word.double-underline",
+              "keys": [
+                "⌘",
+                "⇧",
+                "D"
+              ],
+              "zh": "双下划线",
+              "en": "Double underline",
+              "tags": []
+            },
+            {
+              "id": "word.all-caps",
+              "keys": [
+                "⌘",
+                "⇧",
+                "A"
+              ],
+              "zh": "全部大写",
+              "en": "All caps",
+              "tags": []
+            },
+            {
+              "id": "word.small-caps",
+              "keys": [
+                "⌘",
+                "⇧",
+                "K"
+              ],
+              "zh": "小型大写字母",
+              "en": "Small caps",
+              "tags": []
+            },
+            {
+              "id": "word.subscript",
+              "keys": [
+                "⌘",
+                "="
+              ],
+              "zh": "下标",
+              "en": "Subscript",
+              "tags": []
+            },
+            {
+              "id": "word.superscript",
+              "keys": [
+                "⌘",
+                "⇧",
+                "="
+              ],
+              "zh": "上标",
+              "en": "Superscript",
+              "tags": []
+            },
+            {
+              "id": "word.font-dialog",
+              "keys": [
+                "⌘",
+                "D"
+              ],
+              "zh": "打开字体对话框",
+              "en": "Open Font dialog",
+              "tags": []
+            },
+            {
+              "id": "word.font-grow",
+              "keys": [
+                "⌘",
+                "⇧",
+                ">"
+              ],
+              "zh": "增大字号",
+              "en": "Increase font size",
+              "tags": []
+            },
+            {
+              "id": "word.font-shrink",
+              "keys": [
+                "⌘",
+                "⇧",
+                "<"
+              ],
+              "zh": "减小字号",
+              "en": "Decrease font size",
+              "tags": []
+            },
+            {
+              "id": "word.font-grow-point",
+              "keys": [
+                "⌘",
+                "]"
+              ],
+              "zh": "增大一磅字号",
+              "en": "Increase font size one point",
+              "tags": []
+            },
+            {
+              "id": "word.font-shrink-point",
+              "keys": [
+                "⌘",
+                "["
+              ],
+              "zh": "减小一磅字号",
+              "en": "Decrease font size one point",
+              "tags": []
+            },
+            {
+              "id": "word.clear-char-format",
+              "keys": [
+                "⌘",
+                "⇧",
+                "Z"
+              ],
+              "zh": "清除字符格式",
+              "en": "Clear character formatting",
+              "tags": []
+            },
+            {
+              "id": "word.change-case",
+              "keys": [
+                "⇧",
+                "F3"
+              ],
+              "zh": "切换字母大小写",
+              "en": "Change letter case",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "paragraph",
+          "zh": "段落与样式",
+          "en": "Paragraph & Styles",
+          "items": [
+            {
+              "id": "word.align-left",
+              "keys": [
+                "⌘",
+                "L"
+              ],
+              "zh": "左对齐",
+              "en": "Align left",
+              "tags": []
+            },
+            {
+              "id": "word.align-center",
+              "keys": [
+                "⌘",
+                "E"
+              ],
+              "zh": "居中对齐",
+              "en": "Center align",
+              "tags": []
+            },
+            {
+              "id": "word.align-right",
+              "keys": [
+                "⌘",
+                "R"
+              ],
+              "zh": "右对齐",
+              "en": "Align right",
+              "tags": []
+            },
+            {
+              "id": "word.justify",
+              "keys": [
+                "⌘",
+                "J"
+              ],
+              "zh": "两端对齐",
+              "en": "Justify",
+              "tags": []
+            },
+            {
+              "id": "word.indent",
+              "keys": [
+                "⌘",
+                "M"
+              ],
+              "zh": "增加段落缩进",
+              "en": "Indent paragraph",
+              "tags": []
+            },
+            {
+              "id": "word.outdent",
+              "keys": [
+                "⌘",
+                "⇧",
+                "M"
+              ],
+              "zh": "减少段落缩进",
+              "en": "Outdent paragraph",
+              "tags": []
+            },
+            {
+              "id": "word.hanging-indent",
+              "keys": [
+                "⌘",
+                "T"
+              ],
+              "zh": "增加悬挂缩进",
+              "en": "Create hanging indent",
+              "tags": []
+            },
+            {
+              "id": "word.reduce-hanging",
+              "keys": [
+                "⌘",
+                "⇧",
+                "T"
+              ],
+              "zh": "减少悬挂缩进",
+              "en": "Reduce hanging indent",
+              "tags": []
+            },
+            {
+              "id": "word.single-space",
+              "keys": [
+                "⌘",
+                "1"
+              ],
+              "zh": "单倍行距",
+              "en": "Single line spacing",
+              "tags": []
+            },
+            {
+              "id": "word.double-space",
+              "keys": [
+                "⌘",
+                "2"
+              ],
+              "zh": "双倍行距",
+              "en": "Double line spacing",
+              "tags": []
+            },
+            {
+              "id": "word.one-half-space",
+              "keys": [
+                "⌘",
+                "5"
+              ],
+              "zh": "一点五倍行距",
+              "en": "1.5 line spacing",
+              "tags": []
+            },
+            {
+              "id": "word.bullets",
+              "keys": [
+                "⌘",
+                "⇧",
+                "L"
+              ],
+              "zh": "应用项目符号列表",
+              "en": "Apply bulleted list",
+              "tags": [
+                "list"
+              ]
+            },
+            {
+              "id": "word.normal-style",
+              "keys": [
+                "⌘",
+                "⇧",
+                "N"
+              ],
+              "zh": "应用正文样式",
+              "en": "Apply Normal style",
+              "tags": [
+                "style"
+              ]
+            },
+            {
+              "id": "word.heading-one",
+              "keys": [
+                "⌘",
+                "⌥",
+                "1"
+              ],
+              "zh": "应用一级标题",
+              "en": "Apply Heading 1",
+              "tags": [
+                "style"
+              ]
+            },
+            {
+              "id": "word.heading-two",
+              "keys": [
+                "⌘",
+                "⌥",
+                "2"
+              ],
+              "zh": "应用二级标题",
+              "en": "Apply Heading 2",
+              "tags": [
+                "style"
+              ]
+            },
+            {
+              "id": "word.heading-three",
+              "keys": [
+                "⌘",
+                "⌥",
+                "3"
+              ],
+              "zh": "应用三级标题",
+              "en": "Apply Heading 3",
+              "tags": [
+                "style"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "zh": "导航与选择",
+          "en": "Navigation & Selection",
+          "items": [
+            {
+              "id": "word.word-left",
+              "keys": [
+                "⌥",
+                "←"
+              ],
+              "zh": "向左移动一个单词",
+              "en": "Move one word left",
+              "tags": []
+            },
+            {
+              "id": "word.word-right",
+              "keys": [
+                "⌥",
+                "→"
+              ],
+              "zh": "向右移动一个单词",
+              "en": "Move one word right",
+              "tags": []
+            },
+            {
+              "id": "word.paragraph-up",
+              "keys": [
+                "⌘",
+                "↑"
+              ],
+              "zh": "移到上一段开头",
+              "en": "Move to previous paragraph",
+              "tags": []
+            },
+            {
+              "id": "word.paragraph-down",
+              "keys": [
+                "⌘",
+                "↓"
+              ],
+              "zh": "移到下一段开头",
+              "en": "Move to next paragraph",
+              "tags": []
+            },
+            {
+              "id": "word.line-start",
+              "keys": [
+                "Home"
+              ],
+              "zh": "移到行首",
+              "en": "Move to beginning of line",
+              "tags": []
+            },
+            {
+              "id": "word.line-end",
+              "keys": [
+                "End"
+              ],
+              "zh": "移到行尾",
+              "en": "Move to end of line",
+              "tags": []
+            },
+            {
+              "id": "word.doc-start",
+              "keys": [
+                "⌘",
+                "Home"
+              ],
+              "zh": "移到文档开头",
+              "en": "Move to beginning of document",
+              "tags": []
+            },
+            {
+              "id": "word.doc-end",
+              "keys": [
+                "⌘",
+                "End"
+              ],
+              "zh": "移到文档结尾",
+              "en": "Move to end of document",
+              "tags": []
+            },
+            {
+              "id": "word.select-word-left",
+              "keys": [
+                "⌥",
+                "⇧",
+                "←"
+              ],
+              "zh": "向左选择一个单词",
+              "en": "Select one word left",
+              "tags": []
+            },
+            {
+              "id": "word.select-word-right",
+              "keys": [
+                "⌥",
+                "⇧",
+                "→"
+              ],
+              "zh": "向右选择一个单词",
+              "en": "Select one word right",
+              "tags": []
+            },
+            {
+              "id": "word.select-line-start",
+              "keys": [
+                "⇧",
+                "Home"
+              ],
+              "zh": "选择到行首",
+              "en": "Select to beginning of line",
+              "tags": []
+            },
+            {
+              "id": "word.select-line-end",
+              "keys": [
+                "⇧",
+                "End"
+              ],
+              "zh": "选择到行尾",
+              "en": "Select to end of line",
+              "tags": []
+            },
+            {
+              "id": "word.delete-word-left",
+              "keys": [
+                "⌥",
+                "Delete"
+              ],
+              "zh": "删除左侧单词",
+              "en": "Delete word to the left",
+              "tags": []
+            },
+            {
+              "id": "word.delete-word-right",
+              "keys": [
+                "⌥",
+                "Fn",
+                "Delete"
+              ],
+              "zh": "删除右侧单词",
+              "en": "Delete word to the right",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "review",
+          "zh": "审阅与辅助",
+          "en": "Review & Accessibility",
+          "items": [
+            {
+              "id": "word.spelling",
+              "keys": [
+                "F7"
+              ],
+              "zh": "检查拼写和语法",
+              "en": "Check spelling and grammar",
+              "tags": [
+                "review"
+              ]
+            },
+            {
+              "id": "word.thesaurus",
+              "keys": [
+                "⇧",
+                "F7"
+              ],
+              "zh": "打开同义词库",
+              "en": "Open thesaurus",
+              "tags": [
+                "review"
+              ]
+            },
+            {
+              "id": "word.track-changes",
+              "keys": [
+                "⌘",
+                "⇧",
+                "E"
+              ],
+              "zh": "启用或关闭修订",
+              "en": "Turn Track Changes on or off",
+              "tags": [
+                "review"
+              ]
+            },
+            {
+              "id": "word.new-comment",
+              "keys": [
+                "⌘",
+                "⌥",
+                "A"
+              ],
+              "zh": "添加新批注",
+              "en": "Add a new comment",
+              "tags": [
+                "comment"
+              ]
+            },
+            {
+              "id": "word.word-count",
+              "keys": [
+                "⌘",
+                "⇧",
+                "G"
+              ],
+              "zh": "显示字数统计",
+              "en": "Show word count",
+              "tags": [
+                "review"
+              ]
+            },
+            {
+              "id": "word.field",
+              "keys": [
+                "⌘",
+                "F9"
+              ],
+              "zh": "插入空域",
+              "en": "Insert an empty field",
+              "tags": []
+            },
+            {
+              "id": "word.update-fields",
+              "keys": [
+                "F9"
+              ],
+              "zh": "更新选中的域",
+              "en": "Update selected fields",
+              "tags": []
+            },
+            {
+              "id": "word.show-marks",
+              "keys": [
+                "⌘",
+                "8"
+              ],
+              "zh": "显示或隐藏格式标记",
+              "en": "Show or hide formatting marks",
+              "tags": [
+                "view"
+              ]
+            },
+            {
+              "id": "word.full-screen",
+              "keys": [
+                "⌃",
+                "⌘",
+                "F"
+              ],
+              "zh": "切换全屏显示",
+              "en": "Toggle full screen",
+              "tags": [
+                "view"
+              ]
+            },
+            {
+              "id": "word.help",
+              "keys": [
+                "F1"
+              ],
+              "zh": "打开帮助",
+              "en": "Open Help",
+              "tags": [
+                "help"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "table",
+          "zh": "表格",
+          "en": "Tables",
+          "items": [
+            {
+              "id": "word.table-next-cell",
+              "keys": [
+                "Tab"
+              ],
+              "zh": "移到下一个单元格",
+              "en": "Move to next cell",
+              "tags": [
+                "table"
+              ]
+            },
+            {
+              "id": "word.table-prev-cell",
+              "keys": [
+                "⇧",
+                "Tab"
+              ],
+              "zh": "移到上一个单元格",
+              "en": "Move to previous cell",
+              "tags": [
+                "table"
+              ]
+            },
+            {
+              "id": "word.table-new-row",
+              "keys": [
+                "Tab"
+              ],
+              "zh": "在表格末尾添加新行",
+              "en": "Add a new row at end of table",
+              "tags": [
+                "table"
+              ]
+            },
+            {
+              "id": "word.table-tab",
+              "keys": [
+                "⌥",
+                "Tab"
+              ],
+              "zh": "在单元格中插入制表符",
+              "en": "Insert a tab in a cell",
+              "tags": [
+                "table"
+              ]
+            },
+            {
+              "id": "word.table-cell-start",
+              "keys": [
+                "⌃",
+                "Home"
+              ],
+              "zh": "移到当前单元格开头",
+              "en": "Move to beginning of current cell",
+              "tags": [
+                "table"
+              ]
+            },
+            {
+              "id": "word.table-cell-end",
+              "keys": [
+                "⌃",
+                "End"
+              ],
+              "zh": "移到当前单元格末尾",
+              "en": "Move to end of current cell",
+              "tags": [
+                "table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "excel",
+      "name": "Microsoft Excel",
+      "vendor": "Microsoft",
+      "accent": "#217346",
+      "glyph": "X",
+      "categories": [
+        {
+          "id": "file",
+          "zh": "文件与工作簿",
+          "en": "File & Workbook",
+          "items": [
+            {
+              "id": "excel.new",
+              "keys": [
+                "⌘",
+                "N"
+              ],
+              "zh": "新建工作簿",
+              "en": "New workbook",
+              "tags": []
+            },
+            {
+              "id": "excel.open",
+              "keys": [
+                "⌘",
+                "O"
+              ],
+              "zh": "打开工作簿",
+              "en": "Open workbook",
+              "tags": []
+            },
+            {
+              "id": "excel.close",
+              "keys": [
+                "⌘",
+                "W"
+              ],
+              "zh": "关闭工作簿",
+              "en": "Close workbook",
+              "tags": []
+            },
+            {
+              "id": "excel.save",
+              "keys": [
+                "⌘",
+                "S"
+              ],
+              "zh": "保存工作簿",
+              "en": "Save workbook",
+              "tags": []
+            },
+            {
+              "id": "excel.save-as",
+              "keys": [
+                "⌘",
+                "⇧",
+                "S"
+              ],
+              "zh": "另存为",
+              "en": "Save as",
+              "tags": []
+            },
+            {
+              "id": "excel.print",
+              "keys": [
+                "⌘",
+                "P"
+              ],
+              "zh": "打印",
+              "en": "Print",
+              "tags": []
+            },
+            {
+              "id": "excel.print-preview",
+              "keys": [
+                "⌘",
+                "⇧",
+                "P"
+              ],
+              "zh": "打印预览",
+              "en": "Print preview",
+              "tags": []
+            },
+            {
+              "id": "excel.minimize",
+              "keys": [
+                "⌘",
+                "M"
+              ],
+              "zh": "最小化窗口",
+              "en": "Minimize window",
+              "tags": []
+            },
+            {
+              "id": "excel.next-workbook",
+              "keys": [
+                "⌘",
+                "`"
+              ],
+              "zh": "切换到下一个工作簿",
+              "en": "Switch to next workbook",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "edit",
+          "zh": "编辑",
+          "en": "Editing",
+          "items": [
+            {
+              "id": "excel.undo",
+              "keys": [
+                "⌘",
+                "Z"
+              ],
+              "zh": "撤销",
+              "en": "Undo",
+              "tags": []
+            },
+            {
+              "id": "excel.redo",
+              "keys": [
+                "⌘",
+                "Y"
+              ],
+              "zh": "重做或重复",
+              "en": "Redo or repeat",
+              "tags": []
+            },
+            {
+              "id": "excel.cut",
+              "keys": [
+                "⌘",
+                "X"
+              ],
+              "zh": "剪切",
+              "en": "Cut",
+              "tags": []
+            },
+            {
+              "id": "excel.copy",
+              "keys": [
+                "⌘",
+                "C"
+              ],
+              "zh": "复制",
+              "en": "Copy",
+              "tags": []
+            },
+            {
+              "id": "excel.paste",
+              "keys": [
+                "⌘",
+                "V"
+              ],
+              "zh": "粘贴",
+              "en": "Paste",
+              "tags": []
+            },
+            {
+              "id": "excel.paste-special",
+              "keys": [
+                "⌘",
+                "⌃",
+                "V"
+              ],
+              "zh": "选择性粘贴",
+              "en": "Paste Special",
+              "tags": []
+            },
+            {
+              "id": "excel.fill-down",
+              "keys": [
+                "⌘",
+                "D"
+              ],
+              "zh": "向下填充",
+              "en": "Fill down",
+              "tags": []
+            },
+            {
+              "id": "excel.fill-right",
+              "keys": [
+                "⌘",
+                "R"
+              ],
+              "zh": "向右填充",
+              "en": "Fill right",
+              "tags": []
+            },
+            {
+              "id": "excel.clear",
+              "keys": [
+                "Delete"
+              ],
+              "zh": "清除单元格内容",
+              "en": "Clear cell contents",
+              "tags": []
+            },
+            {
+              "id": "excel.find",
+              "keys": [
+                "⌘",
+                "F"
+              ],
+              "zh": "查找",
+              "en": "Find",
+              "tags": []
+            },
+            {
+              "id": "excel.replace",
+              "keys": [
+                "⌃",
+                "H"
+              ],
+              "zh": "查找并替换",
+              "en": "Find and replace",
+              "tags": []
+            },
+            {
+              "id": "excel.hyperlink",
+              "keys": [
+                "⌘",
+                "K"
+              ],
+              "zh": "插入超链接",
+              "en": "Insert hyperlink",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "zh": "导航",
+          "en": "Navigation",
+          "items": [
+            {
+              "id": "excel.cell-left",
+              "keys": [
+                "←"
+              ],
+              "zh": "向左移动一个单元格",
+              "en": "Move one cell left",
+              "tags": []
+            },
+            {
+              "id": "excel.cell-right",
+              "keys": [
+                "→"
+              ],
+              "zh": "向右移动一个单元格",
+              "en": "Move one cell right",
+              "tags": []
+            },
+            {
+              "id": "excel.cell-up",
+              "keys": [
+                "↑"
+              ],
+              "zh": "向上移动一个单元格",
+              "en": "Move one cell up",
+              "tags": []
+            },
+            {
+              "id": "excel.cell-down",
+              "keys": [
+                "↓"
+              ],
+              "zh": "向下移动一个单元格",
+              "en": "Move one cell down",
+              "tags": []
+            },
+            {
+              "id": "excel.edge-left",
+              "keys": [
+                "⌘",
+                "←"
+              ],
+              "zh": "移到当前数据区域左边缘",
+              "en": "Move to left edge of data region",
+              "tags": []
+            },
+            {
+              "id": "excel.edge-right",
+              "keys": [
+                "⌘",
+                "→"
+              ],
+              "zh": "移到当前数据区域右边缘",
+              "en": "Move to right edge of data region",
+              "tags": []
+            },
+            {
+              "id": "excel.edge-up",
+              "keys": [
+                "⌘",
+                "↑"
+              ],
+              "zh": "移到当前数据区域上边缘",
+              "en": "Move to top edge of data region",
+              "tags": []
+            },
+            {
+              "id": "excel.edge-down",
+              "keys": [
+                "⌘",
+                "↓"
+              ],
+              "zh": "移到当前数据区域下边缘",
+              "en": "Move to bottom edge of data region",
+              "tags": []
+            },
+            {
+              "id": "excel.row-start",
+              "keys": [
+                "Home"
+              ],
+              "zh": "移到行首",
+              "en": "Move to beginning of row",
+              "tags": []
+            },
+            {
+              "id": "excel.sheet-start",
+              "keys": [
+                "⌃",
+                "Home"
+              ],
+              "zh": "移到工作表开头",
+              "en": "Move to beginning of sheet",
+              "tags": []
+            },
+            {
+              "id": "excel.last-cell",
+              "keys": [
+                "⌃",
+                "End"
+              ],
+              "zh": "移到最后使用的单元格",
+              "en": "Move to last used cell",
+              "tags": []
+            },
+            {
+              "id": "excel.page-up",
+              "keys": [
+                "Page Up"
+              ],
+              "zh": "向上移动一屏",
+              "en": "Move one screen up",
+              "tags": []
+            },
+            {
+              "id": "excel.page-down",
+              "keys": [
+                "Page Down"
+              ],
+              "zh": "向下移动一屏",
+              "en": "Move one screen down",
+              "tags": []
+            },
+            {
+              "id": "excel.next-sheet",
+              "keys": [
+                "⌥",
+                "→"
+              ],
+              "zh": "切换到下一张工作表",
+              "en": "Move to next sheet",
+              "tags": []
+            },
+            {
+              "id": "excel.prev-sheet",
+              "keys": [
+                "⌥",
+                "←"
+              ],
+              "zh": "切换到上一张工作表",
+              "en": "Move to previous sheet",
+              "tags": []
+            },
+            {
+              "id": "excel.goto",
+              "keys": [
+                "⌃",
+                "G"
+              ],
+              "zh": "定位单元格",
+              "en": "Go to a cell",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "selection",
+          "zh": "选择",
+          "en": "Selection",
+          "items": [
+            {
+              "id": "excel.select-all",
+              "keys": [
+                "⌘",
+                "A"
+              ],
+              "zh": "选择当前区域或全部单元格",
+              "en": "Select current region or all cells",
+              "tags": []
+            },
+            {
+              "id": "excel.select-column",
+              "keys": [
+                "⌃",
+                "Space"
+              ],
+              "zh": "选择整列",
+              "en": "Select entire column",
+              "tags": []
+            },
+            {
+              "id": "excel.select-row",
+              "keys": [
+                "⇧",
+                "Space"
+              ],
+              "zh": "选择整行",
+              "en": "Select entire row",
+              "tags": []
+            },
+            {
+              "id": "excel.extend-left",
+              "keys": [
+                "⇧",
+                "←"
+              ],
+              "zh": "向左扩展选择",
+              "en": "Extend selection left",
+              "tags": []
+            },
+            {
+              "id": "excel.extend-right",
+              "keys": [
+                "⇧",
+                "→"
+              ],
+              "zh": "向右扩展选择",
+              "en": "Extend selection right",
+              "tags": []
+            },
+            {
+              "id": "excel.extend-up",
+              "keys": [
+                "⇧",
+                "↑"
+              ],
+              "zh": "向上扩展选择",
+              "en": "Extend selection up",
+              "tags": []
+            },
+            {
+              "id": "excel.extend-down",
+              "keys": [
+                "⇧",
+                "↓"
+              ],
+              "zh": "向下扩展选择",
+              "en": "Extend selection down",
+              "tags": []
+            },
+            {
+              "id": "excel.extend-edge-left",
+              "keys": [
+                "⌘",
+                "⇧",
+                "←"
+              ],
+              "zh": "向左扩展到数据边缘",
+              "en": "Extend selection to left edge",
+              "tags": []
+            },
+            {
+              "id": "excel.extend-edge-right",
+              "keys": [
+                "⌘",
+                "⇧",
+                "→"
+              ],
+              "zh": "向右扩展到数据边缘",
+              "en": "Extend selection to right edge",
+              "tags": []
+            },
+            {
+              "id": "excel.extend-edge-up",
+              "keys": [
+                "⌘",
+                "⇧",
+                "↑"
+              ],
+              "zh": "向上扩展到数据边缘",
+              "en": "Extend selection to top edge",
+              "tags": []
+            },
+            {
+              "id": "excel.extend-edge-down",
+              "keys": [
+                "⌘",
+                "⇧",
+                "↓"
+              ],
+              "zh": "向下扩展到数据边缘",
+              "en": "Extend selection to bottom edge",
+              "tags": []
+            },
+            {
+              "id": "excel.visible-only",
+              "keys": [
+                "⌘",
+                "⇧",
+                "Z"
+              ],
+              "zh": "仅选择可见单元格",
+              "en": "Select visible cells only",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "entry",
+          "zh": "数据输入",
+          "en": "Data Entry",
+          "items": [
+            {
+              "id": "excel.edit-cell",
+              "keys": [
+                "⌃",
+                "U"
+              ],
+              "zh": "编辑活动单元格",
+              "en": "Edit active cell",
+              "tags": []
+            },
+            {
+              "id": "excel.confirm",
+              "keys": [
+                "Return"
+              ],
+              "zh": "完成输入并下移",
+              "en": "Complete entry and move down",
+              "tags": []
+            },
+            {
+              "id": "excel.confirm-up",
+              "keys": [
+                "⇧",
+                "Return"
+              ],
+              "zh": "完成输入并上移",
+              "en": "Complete entry and move up",
+              "tags": []
+            },
+            {
+              "id": "excel.confirm-right",
+              "keys": [
+                "Tab"
+              ],
+              "zh": "完成输入并右移",
+              "en": "Complete entry and move right",
+              "tags": []
+            },
+            {
+              "id": "excel.confirm-left",
+              "keys": [
+                "⇧",
+                "Tab"
+              ],
+              "zh": "完成输入并左移",
+              "en": "Complete entry and move left",
+              "tags": []
+            },
+            {
+              "id": "excel.same-data",
+              "keys": [
+                "⌃",
+                "Return"
+              ],
+              "zh": "在所选单元格中输入相同数据",
+              "en": "Enter same data in selected cells",
+              "tags": []
+            },
+            {
+              "id": "excel.line-break",
+              "keys": [
+                "⌃",
+                "⌥",
+                "Return"
+              ],
+              "zh": "在单元格中换行",
+              "en": "Start a new line in a cell",
+              "tags": []
+            },
+            {
+              "id": "excel.current-date",
+              "keys": [
+                "⌃",
+                ";"
+              ],
+              "zh": "输入当前日期",
+              "en": "Enter current date",
+              "tags": [
+                "date"
+              ]
+            },
+            {
+              "id": "excel.current-time",
+              "keys": [
+                "⌘",
+                ";"
+              ],
+              "zh": "输入当前时间",
+              "en": "Enter current time",
+              "tags": [
+                "time"
+              ]
+            },
+            {
+              "id": "excel.flash-fill",
+              "keys": [
+                "⌃",
+                "E"
+              ],
+              "zh": "快速填充",
+              "en": "Flash Fill",
+              "tags": [
+                "data"
+              ]
+            },
+            {
+              "id": "excel.dropdown",
+              "keys": [
+                "⌥",
+                "↓"
+              ],
+              "zh": "打开单元格下拉列表",
+              "en": "Open cell drop-down list",
+              "tags": []
+            },
+            {
+              "id": "excel.cancel-entry",
+              "keys": [
+                "Esc"
+              ],
+              "zh": "取消单元格输入",
+              "en": "Cancel cell entry",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "format",
+          "zh": "格式",
+          "en": "Formatting",
+          "items": [
+            {
+              "id": "excel.format-cells",
+              "keys": [
+                "⌘",
+                "1"
+              ],
+              "zh": "打开设置单元格格式",
+              "en": "Open Format Cells",
+              "tags": []
+            },
+            {
+              "id": "excel.bold",
+              "keys": [
+                "⌘",
+                "B"
+              ],
+              "zh": "加粗",
+              "en": "Bold",
+              "tags": []
+            },
+            {
+              "id": "excel.italic",
+              "keys": [
+                "⌘",
+                "I"
+              ],
+              "zh": "斜体",
+              "en": "Italic",
+              "tags": []
+            },
+            {
+              "id": "excel.underline",
+              "keys": [
+                "⌘",
+                "U"
+              ],
+              "zh": "下划线",
+              "en": "Underline",
+              "tags": []
+            },
+            {
+              "id": "excel.strikethrough",
+              "keys": [
+                "⌘",
+                "⇧",
+                "X"
+              ],
+              "zh": "删除线",
+              "en": "Strikethrough",
+              "tags": []
+            },
+            {
+              "id": "excel.currency",
+              "keys": [
+                "⌃",
+                "⇧",
+                "$"
+              ],
+              "zh": "应用货币格式",
+              "en": "Apply currency format",
+              "tags": []
+            },
+            {
+              "id": "excel.percent",
+              "keys": [
+                "⌃",
+                "⇧",
+                "%"
+              ],
+              "zh": "应用百分比格式",
+              "en": "Apply percentage format",
+              "tags": []
+            },
+            {
+              "id": "excel.number",
+              "keys": [
+                "⌃",
+                "⇧",
+                "!"
+              ],
+              "zh": "应用数字格式",
+              "en": "Apply number format",
+              "tags": []
+            },
+            {
+              "id": "excel.date",
+              "keys": [
+                "⌃",
+                "⇧",
+                "#"
+              ],
+              "zh": "应用日期格式",
+              "en": "Apply date format",
+              "tags": []
+            },
+            {
+              "id": "excel.time",
+              "keys": [
+                "⌃",
+                "⇧",
+                "@"
+              ],
+              "zh": "应用时间格式",
+              "en": "Apply time format",
+              "tags": []
+            },
+            {
+              "id": "excel.general",
+              "keys": [
+                "⌃",
+                "⇧",
+                "~"
+              ],
+              "zh": "应用常规格式",
+              "en": "Apply general format",
+              "tags": []
+            },
+            {
+              "id": "excel.outer-border",
+              "keys": [
+                "⌘",
+                "⌥",
+                "0"
+              ],
+              "zh": "添加外边框",
+              "en": "Add outline border",
+              "tags": []
+            },
+            {
+              "id": "excel.remove-border",
+              "keys": [
+                "⌘",
+                "⌥",
+                "-"
+              ],
+              "zh": "移除外边框",
+              "en": "Remove outline border",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "formula",
+          "zh": "公式与计算",
+          "en": "Formulas & Calculation",
+          "items": [
+            {
+              "id": "excel.formula-start",
+              "keys": [
+                "="
+              ],
+              "zh": "开始输入公式",
+              "en": "Start a formula",
+              "tags": []
+            },
+            {
+              "id": "excel.autosum",
+              "keys": [
+                "⌘",
+                "⇧",
+                "T"
+              ],
+              "zh": "插入自动求和公式",
+              "en": "Insert AutoSum formula",
+              "tags": []
+            },
+            {
+              "id": "excel.insert-function",
+              "keys": [
+                "⇧",
+                "F3"
+              ],
+              "zh": "打开插入函数",
+              "en": "Open Insert Function",
+              "tags": []
+            },
+            {
+              "id": "excel.absolute-ref",
+              "keys": [
+                "⌘",
+                "T"
+              ],
+              "zh": "切换公式引用类型",
+              "en": "Toggle formula reference type",
+              "tags": []
+            },
+            {
+              "id": "excel.show-formulas",
+              "keys": [
+                "⌃",
+                "`"
+              ],
+              "zh": "显示或隐藏公式",
+              "en": "Show or hide formulas",
+              "tags": []
+            },
+            {
+              "id": "excel.calculate-all",
+              "keys": [
+                "F9"
+              ],
+              "zh": "计算所有工作簿",
+              "en": "Calculate all workbooks",
+              "tags": []
+            },
+            {
+              "id": "excel.calculate-sheet",
+              "keys": [
+                "⇧",
+                "F9"
+              ],
+              "zh": "计算活动工作表",
+              "en": "Calculate active sheet",
+              "tags": []
+            },
+            {
+              "id": "excel.expand-formula",
+              "keys": [
+                "⌃",
+                "A"
+              ],
+              "zh": "在公式中显示函数参数",
+              "en": "Display function arguments",
+              "tags": []
+            },
+            {
+              "id": "excel.name-manager",
+              "keys": [
+                "⌘",
+                "F3"
+              ],
+              "zh": "打开名称管理器",
+              "en": "Open Name Manager",
+              "tags": []
+            },
+            {
+              "id": "excel.define-name",
+              "keys": [
+                "⌘",
+                "⌥",
+                "F3"
+              ],
+              "zh": "定义名称",
+              "en": "Define a name",
+              "tags": []
+            },
+            {
+              "id": "excel.error-menu",
+              "keys": [
+                "⌃",
+                "⇧",
+                "I"
+              ],
+              "zh": "打开错误检查菜单",
+              "en": "Open error checking menu",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "rows-columns",
+          "zh": "行列与工作表",
+          "en": "Rows, Columns & Sheets",
+          "items": [
+            {
+              "id": "excel.insert-cells",
+              "keys": [
+                "⌃",
+                "⇧",
+                "+"
+              ],
+              "zh": "插入单元格、行或列",
+              "en": "Insert cells, rows, or columns",
+              "tags": []
+            },
+            {
+              "id": "excel.delete-cells",
+              "keys": [
+                "⌃",
+                "-"
+              ],
+              "zh": "删除单元格、行或列",
+              "en": "Delete cells, rows, or columns",
+              "tags": []
+            },
+            {
+              "id": "excel.hide-row",
+              "keys": [
+                "⌃",
+                "9"
+              ],
+              "zh": "隐藏选中行",
+              "en": "Hide selected rows",
+              "tags": []
+            },
+            {
+              "id": "excel.unhide-row",
+              "keys": [
+                "⌃",
+                "⇧",
+                "("
+              ],
+              "zh": "取消隐藏行",
+              "en": "Unhide rows",
+              "tags": []
+            },
+            {
+              "id": "excel.hide-column",
+              "keys": [
+                "⌃",
+                "0"
+              ],
+              "zh": "隐藏选中列",
+              "en": "Hide selected columns",
+              "tags": []
+            },
+            {
+              "id": "excel.unhide-column",
+              "keys": [
+                "⌃",
+                "⇧",
+                ")"
+              ],
+              "zh": "取消隐藏列",
+              "en": "Unhide columns",
+              "tags": []
+            },
+            {
+              "id": "excel.new-sheet",
+              "keys": [
+                "⇧",
+                "F11"
+              ],
+              "zh": "插入新工作表",
+              "en": "Insert a new worksheet",
+              "tags": []
+            },
+            {
+              "id": "excel.group",
+              "keys": [
+                "⌘",
+                "⇧",
+                "K"
+              ],
+              "zh": "组合行或列",
+              "en": "Group rows or columns",
+              "tags": []
+            },
+            {
+              "id": "excel.ungroup",
+              "keys": [
+                "⌘",
+                "⇧",
+                "J"
+              ],
+              "zh": "取消组合行或列",
+              "en": "Ungroup rows or columns",
+              "tags": []
+            },
+            {
+              "id": "excel.filter",
+              "keys": [
+                "⌘",
+                "⇧",
+                "F"
+              ],
+              "zh": "启用或关闭筛选",
+              "en": "Toggle filter",
+              "tags": [
+                "data"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "powerpoint",
+      "name": "Microsoft PowerPoint",
+      "vendor": "Microsoft",
+      "accent": "#D24726",
+      "glyph": "P",
+      "categories": [
+        {
+          "id": "file",
+          "zh": "文件与窗口",
+          "en": "File & Window",
+          "items": [
+            {
+              "id": "ppt.new",
+              "keys": [
+                "⌘",
+                "N"
+              ],
+              "zh": "新建演示文稿",
+              "en": "New presentation",
+              "tags": []
+            },
+            {
+              "id": "ppt.open",
+              "keys": [
+                "⌘",
+                "O"
+              ],
+              "zh": "打开演示文稿",
+              "en": "Open presentation",
+              "tags": []
+            },
+            {
+              "id": "ppt.close",
+              "keys": [
+                "⌘",
+                "W"
+              ],
+              "zh": "关闭演示文稿",
+              "en": "Close presentation",
+              "tags": []
+            },
+            {
+              "id": "ppt.save",
+              "keys": [
+                "⌘",
+                "S"
+              ],
+              "zh": "保存演示文稿",
+              "en": "Save presentation",
+              "tags": []
+            },
+            {
+              "id": "ppt.save-as",
+              "keys": [
+                "⌘",
+                "⇧",
+                "S"
+              ],
+              "zh": "另存为",
+              "en": "Save as",
+              "tags": []
+            },
+            {
+              "id": "ppt.print",
+              "keys": [
+                "⌘",
+                "P"
+              ],
+              "zh": "打印",
+              "en": "Print",
+              "tags": []
+            },
+            {
+              "id": "ppt.minimize",
+              "keys": [
+                "⌘",
+                "M"
+              ],
+              "zh": "最小化窗口",
+              "en": "Minimize window",
+              "tags": []
+            },
+            {
+              "id": "ppt.next-window",
+              "keys": [
+                "⌘",
+                "`"
+              ],
+              "zh": "切换到下一个演示窗口",
+              "en": "Switch to next presentation window",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "edit",
+          "zh": "编辑",
+          "en": "Editing",
+          "items": [
+            {
+              "id": "ppt.undo",
+              "keys": [
+                "⌘",
+                "Z"
+              ],
+              "zh": "撤销",
+              "en": "Undo",
+              "tags": []
+            },
+            {
+              "id": "ppt.redo",
+              "keys": [
+                "⌘",
+                "Y"
+              ],
+              "zh": "重做或重复",
+              "en": "Redo or repeat",
+              "tags": []
+            },
+            {
+              "id": "ppt.cut",
+              "keys": [
+                "⌘",
+                "X"
+              ],
+              "zh": "剪切",
+              "en": "Cut",
+              "tags": []
+            },
+            {
+              "id": "ppt.copy",
+              "keys": [
+                "⌘",
+                "C"
+              ],
+              "zh": "复制",
+              "en": "Copy",
+              "tags": []
+            },
+            {
+              "id": "ppt.paste",
+              "keys": [
+                "⌘",
+                "V"
+              ],
+              "zh": "粘贴",
+              "en": "Paste",
+              "tags": []
+            },
+            {
+              "id": "ppt.paste-special",
+              "keys": [
+                "⌘",
+                "⌃",
+                "V"
+              ],
+              "zh": "选择性粘贴",
+              "en": "Paste Special",
+              "tags": []
+            },
+            {
+              "id": "ppt.duplicate",
+              "keys": [
+                "⌘",
+                "D"
+              ],
+              "zh": "复制选中对象或幻灯片",
+              "en": "Duplicate selected object or slide",
+              "tags": []
+            },
+            {
+              "id": "ppt.select-all",
+              "keys": [
+                "⌘",
+                "A"
+              ],
+              "zh": "全选",
+              "en": "Select all",
+              "tags": []
+            },
+            {
+              "id": "ppt.find",
+              "keys": [
+                "⌘",
+                "F"
+              ],
+              "zh": "查找",
+              "en": "Find",
+              "tags": []
+            },
+            {
+              "id": "ppt.replace",
+              "keys": [
+                "⌃",
+                "H"
+              ],
+              "zh": "查找并替换",
+              "en": "Find and replace",
+              "tags": []
+            },
+            {
+              "id": "ppt.hyperlink",
+              "keys": [
+                "⌘",
+                "K"
+              ],
+              "zh": "插入超链接",
+              "en": "Insert hyperlink",
+              "tags": []
+            },
+            {
+              "id": "ppt.group",
+              "keys": [
+                "⌘",
+                "⌥",
+                "G"
+              ],
+              "zh": "组合对象",
+              "en": "Group objects",
+              "tags": []
+            },
+            {
+              "id": "ppt.ungroup",
+              "keys": [
+                "⌘",
+                "⌥",
+                "⇧",
+                "G"
+              ],
+              "zh": "取消组合对象",
+              "en": "Ungroup objects",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "slides",
+          "zh": "幻灯片",
+          "en": "Slides",
+          "items": [
+            {
+              "id": "ppt.new-slide",
+              "keys": [
+                "⌘",
+                "⇧",
+                "N"
+              ],
+              "zh": "插入新幻灯片",
+              "en": "Insert new slide",
+              "tags": []
+            },
+            {
+              "id": "ppt.new-slide-same",
+              "keys": [
+                "⌘",
+                "M"
+              ],
+              "zh": "使用相同版式插入幻灯片",
+              "en": "Insert slide with same layout",
+              "tags": []
+            },
+            {
+              "id": "ppt.next-slide",
+              "keys": [
+                "Page Down"
+              ],
+              "zh": "选择下一张幻灯片",
+              "en": "Select next slide",
+              "tags": []
+            },
+            {
+              "id": "ppt.prev-slide",
+              "keys": [
+                "Page Up"
+              ],
+              "zh": "选择上一张幻灯片",
+              "en": "Select previous slide",
+              "tags": []
+            },
+            {
+              "id": "ppt.first-slide",
+              "keys": [
+                "⌘",
+                "Home"
+              ],
+              "zh": "选择第一张幻灯片",
+              "en": "Select first slide",
+              "tags": []
+            },
+            {
+              "id": "ppt.last-slide",
+              "keys": [
+                "⌘",
+                "End"
+              ],
+              "zh": "选择最后一张幻灯片",
+              "en": "Select last slide",
+              "tags": []
+            },
+            {
+              "id": "ppt.move-slide-up",
+              "keys": [
+                "⌘",
+                "↑"
+              ],
+              "zh": "向前移动幻灯片",
+              "en": "Move slide earlier",
+              "tags": []
+            },
+            {
+              "id": "ppt.move-slide-down",
+              "keys": [
+                "⌘",
+                "↓"
+              ],
+              "zh": "向后移动幻灯片",
+              "en": "Move slide later",
+              "tags": []
+            },
+            {
+              "id": "ppt.move-slide-first",
+              "keys": [
+                "⌘",
+                "⇧",
+                "↑"
+              ],
+              "zh": "将幻灯片移到开头",
+              "en": "Move slide to beginning",
+              "tags": []
+            },
+            {
+              "id": "ppt.move-slide-last",
+              "keys": [
+                "⌘",
+                "⇧",
+                "↓"
+              ],
+              "zh": "将幻灯片移到末尾",
+              "en": "Move slide to end",
+              "tags": []
+            },
+            {
+              "id": "ppt.layout",
+              "keys": [
+                "⌘",
+                "⇧",
+                "L"
+              ],
+              "zh": "更改幻灯片版式",
+              "en": "Change slide layout",
+              "tags": []
+            },
+            {
+              "id": "ppt.section",
+              "keys": [
+                "⌘",
+                "⇧",
+                "G"
+              ],
+              "zh": "添加节",
+              "en": "Add a section",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "objects",
+          "zh": "对象与排列",
+          "en": "Objects & Arrange",
+          "items": [
+            {
+              "id": "ppt.move-left",
+              "keys": [
+                "←"
+              ],
+              "zh": "向左微移对象",
+              "en": "Nudge object left",
+              "tags": []
+            },
+            {
+              "id": "ppt.move-right",
+              "keys": [
+                "→"
+              ],
+              "zh": "向右微移对象",
+              "en": "Nudge object right",
+              "tags": []
+            },
+            {
+              "id": "ppt.move-up",
+              "keys": [
+                "↑"
+              ],
+              "zh": "向上微移对象",
+              "en": "Nudge object up",
+              "tags": []
+            },
+            {
+              "id": "ppt.move-down",
+              "keys": [
+                "↓"
+              ],
+              "zh": "向下微移对象",
+              "en": "Nudge object down",
+              "tags": []
+            },
+            {
+              "id": "ppt.resize-left",
+              "keys": [
+                "⇧",
+                "←"
+              ],
+              "zh": "缩小对象宽度",
+              "en": "Decrease object width",
+              "tags": []
+            },
+            {
+              "id": "ppt.resize-right",
+              "keys": [
+                "⇧",
+                "→"
+              ],
+              "zh": "增大对象宽度",
+              "en": "Increase object width",
+              "tags": []
+            },
+            {
+              "id": "ppt.resize-up",
+              "keys": [
+                "⇧",
+                "↑"
+              ],
+              "zh": "增大对象高度",
+              "en": "Increase object height",
+              "tags": []
+            },
+            {
+              "id": "ppt.resize-down",
+              "keys": [
+                "⇧",
+                "↓"
+              ],
+              "zh": "缩小对象高度",
+              "en": "Decrease object height",
+              "tags": []
+            },
+            {
+              "id": "ppt.bring-front",
+              "keys": [
+                "⌘",
+                "⌥",
+                "⇧",
+                ">"
+              ],
+              "zh": "置于顶层",
+              "en": "Bring to front",
+              "tags": []
+            },
+            {
+              "id": "ppt.send-back",
+              "keys": [
+                "⌘",
+                "⌥",
+                "⇧",
+                "<"
+              ],
+              "zh": "置于底层",
+              "en": "Send to back",
+              "tags": []
+            },
+            {
+              "id": "ppt.bring-forward",
+              "keys": [
+                "⌘",
+                "⌥",
+                ">"
+              ],
+              "zh": "上移一层",
+              "en": "Bring forward",
+              "tags": []
+            },
+            {
+              "id": "ppt.send-backward",
+              "keys": [
+                "⌘",
+                "⌥",
+                "<"
+              ],
+              "zh": "下移一层",
+              "en": "Send backward",
+              "tags": []
+            },
+            {
+              "id": "ppt.rotate-clockwise",
+              "keys": [
+                "⌥",
+                "→"
+              ],
+              "zh": "顺时针旋转十五度",
+              "en": "Rotate clockwise 15 degrees",
+              "tags": []
+            },
+            {
+              "id": "ppt.rotate-counter",
+              "keys": [
+                "⌥",
+                "←"
+              ],
+              "zh": "逆时针旋转十五度",
+              "en": "Rotate counterclockwise 15 degrees",
+              "tags": []
+            },
+            {
+              "id": "ppt.format-object",
+              "keys": [
+                "⌘",
+                "⇧",
+                "1"
+              ],
+              "zh": "打开对象格式窗格",
+              "en": "Open Format Object pane",
+              "tags": []
+            },
+            {
+              "id": "ppt.copy-format",
+              "keys": [
+                "⌘",
+                "⇧",
+                "C"
+              ],
+              "zh": "复制格式",
+              "en": "Copy formatting",
+              "tags": []
+            },
+            {
+              "id": "ppt.paste-format",
+              "keys": [
+                "⌘",
+                "⇧",
+                "V"
+              ],
+              "zh": "粘贴格式",
+              "en": "Paste formatting",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "text",
+          "zh": "文字格式",
+          "en": "Text Formatting",
+          "items": [
+            {
+              "id": "ppt.bold",
+              "keys": [
+                "⌘",
+                "B"
+              ],
+              "zh": "加粗",
+              "en": "Bold",
+              "tags": []
+            },
+            {
+              "id": "ppt.italic",
+              "keys": [
+                "⌘",
+                "I"
+              ],
+              "zh": "斜体",
+              "en": "Italic",
+              "tags": []
+            },
+            {
+              "id": "ppt.underline",
+              "keys": [
+                "⌘",
+                "U"
+              ],
+              "zh": "下划线",
+              "en": "Underline",
+              "tags": []
+            },
+            {
+              "id": "ppt.align-left",
+              "keys": [
+                "⌘",
+                "L"
+              ],
+              "zh": "左对齐",
+              "en": "Align left",
+              "tags": []
+            },
+            {
+              "id": "ppt.align-center",
+              "keys": [
+                "⌘",
+                "E"
+              ],
+              "zh": "居中对齐",
+              "en": "Center align",
+              "tags": []
+            },
+            {
+              "id": "ppt.align-right",
+              "keys": [
+                "⌘",
+                "R"
+              ],
+              "zh": "右对齐",
+              "en": "Align right",
+              "tags": []
+            },
+            {
+              "id": "ppt.justify",
+              "keys": [
+                "⌘",
+                "J"
+              ],
+              "zh": "两端对齐",
+              "en": "Justify",
+              "tags": []
+            },
+            {
+              "id": "ppt.font-grow",
+              "keys": [
+                "⌘",
+                "⇧",
+                ">"
+              ],
+              "zh": "增大字号",
+              "en": "Increase font size",
+              "tags": []
+            },
+            {
+              "id": "ppt.font-shrink",
+              "keys": [
+                "⌘",
+                "⇧",
+                "<"
+              ],
+              "zh": "减小字号",
+              "en": "Decrease font size",
+              "tags": []
+            },
+            {
+              "id": "ppt.bullets",
+              "keys": [
+                "⌘",
+                "⇧",
+                "L"
+              ],
+              "zh": "应用项目符号列表",
+              "en": "Apply bulleted list",
+              "tags": []
+            },
+            {
+              "id": "ppt.line-break",
+              "keys": [
+                "⇧",
+                "Return"
+              ],
+              "zh": "插入换行符",
+              "en": "Insert line break",
+              "tags": []
+            },
+            {
+              "id": "ppt.clear-format",
+              "keys": [
+                "⌘",
+                "⇧",
+                "Z"
+              ],
+              "zh": "清除文字格式",
+              "en": "Clear text formatting",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "slideshow",
+          "zh": "放映",
+          "en": "Slide Show",
+          "items": [
+            {
+              "id": "ppt.start-show",
+              "keys": [
+                "⌘",
+                "⇧",
+                "Return"
+              ],
+              "zh": "从头开始放映",
+              "en": "Start slide show from beginning",
+              "tags": []
+            },
+            {
+              "id": "ppt.start-current",
+              "keys": [
+                "⌘",
+                "Return"
+              ],
+              "zh": "从当前幻灯片开始放映",
+              "en": "Start slide show from current slide",
+              "tags": []
+            },
+            {
+              "id": "ppt.presenter-view",
+              "keys": [
+                "⌥",
+                "Return"
+              ],
+              "zh": "使用演示者视图放映",
+              "en": "Start Presenter View",
+              "tags": []
+            },
+            {
+              "id": "ppt.show-next",
+              "keys": [
+                "→"
+              ],
+              "zh": "显示下一个动画或幻灯片",
+              "en": "Next animation or slide",
+              "tags": []
+            },
+            {
+              "id": "ppt.show-prev",
+              "keys": [
+                "←"
+              ],
+              "zh": "显示上一个动画或幻灯片",
+              "en": "Previous animation or slide",
+              "tags": []
+            },
+            {
+              "id": "ppt.show-first",
+              "keys": [
+                "Home"
+              ],
+              "zh": "跳到第一张幻灯片",
+              "en": "Go to first slide",
+              "tags": []
+            },
+            {
+              "id": "ppt.show-last",
+              "keys": [
+                "End"
+              ],
+              "zh": "跳到最后一张幻灯片",
+              "en": "Go to last slide",
+              "tags": []
+            },
+            {
+              "id": "ppt.show-slide-number",
+              "keys": [
+                "数字",
+                "Return"
+              ],
+              "zh": "跳到指定编号幻灯片",
+              "en": "Go to a numbered slide",
+              "tags": []
+            },
+            {
+              "id": "ppt.black-screen",
+              "keys": [
+                "B"
+              ],
+              "zh": "显示或隐藏黑屏",
+              "en": "Toggle black screen",
+              "tags": []
+            },
+            {
+              "id": "ppt.white-screen",
+              "keys": [
+                "W"
+              ],
+              "zh": "显示或隐藏白屏",
+              "en": "Toggle white screen",
+              "tags": []
+            },
+            {
+              "id": "ppt.pen",
+              "keys": [
+                "⌘",
+                "P"
+              ],
+              "zh": "切换为笔工具",
+              "en": "Switch to pen tool",
+              "tags": []
+            },
+            {
+              "id": "ppt.arrow",
+              "keys": [
+                "⌘",
+                "A"
+              ],
+              "zh": "切换为箭头工具",
+              "en": "Switch to arrow tool",
+              "tags": []
+            },
+            {
+              "id": "ppt.end-show",
+              "keys": [
+                "Esc"
+              ],
+              "zh": "结束放映",
+              "en": "End slide show",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outlook",
+      "name": "Microsoft Outlook",
+      "vendor": "Microsoft",
+      "accent": "#0078D4",
+      "glyph": "O",
+      "categories": [
+        {
+          "id": "general",
+          "zh": "通用",
+          "en": "General",
+          "items": [
+            {
+              "id": "outlook.new-item",
+              "keys": [
+                "⌘",
+                "N"
+              ],
+              "zh": "新建当前类型项目",
+              "en": "Create a new item",
+              "tags": []
+            },
+            {
+              "id": "outlook.open",
+              "keys": [
+                "⌘",
+                "O"
+              ],
+              "zh": "打开所选项目",
+              "en": "Open selected item",
+              "tags": []
+            },
+            {
+              "id": "outlook.close",
+              "keys": [
+                "⌘",
+                "W"
+              ],
+              "zh": "关闭当前窗口",
+              "en": "Close current window",
+              "tags": []
+            },
+            {
+              "id": "outlook.print",
+              "keys": [
+                "⌘",
+                "P"
+              ],
+              "zh": "打印当前项目",
+              "en": "Print current item",
+              "tags": []
+            },
+            {
+              "id": "outlook.undo",
+              "keys": [
+                "⌘",
+                "Z"
+              ],
+              "zh": "撤销",
+              "en": "Undo",
+              "tags": []
+            },
+            {
+              "id": "outlook.cut",
+              "keys": [
+                "⌘",
+                "X"
+              ],
+              "zh": "剪切",
+              "en": "Cut",
+              "tags": []
+            },
+            {
+              "id": "outlook.copy",
+              "keys": [
+                "⌘",
+                "C"
+              ],
+              "zh": "复制",
+              "en": "Copy",
+              "tags": []
+            },
+            {
+              "id": "outlook.paste",
+              "keys": [
+                "⌘",
+                "V"
+              ],
+              "zh": "粘贴",
+              "en": "Paste",
+              "tags": []
+            },
+            {
+              "id": "outlook.select-all",
+              "keys": [
+                "⌘",
+                "A"
+              ],
+              "zh": "全选",
+              "en": "Select all",
+              "tags": []
+            },
+            {
+              "id": "outlook.search",
+              "keys": [
+                "⌘",
+                "⌥",
+                "F"
+              ],
+              "zh": "搜索当前文件夹",
+              "en": "Search current folder",
+              "tags": [
+                "search"
+              ]
+            },
+            {
+              "id": "outlook.help",
+              "keys": [
+                "⌘",
+                "?"
+              ],
+              "zh": "打开帮助",
+              "en": "Open Help",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "mail",
+          "zh": "邮件",
+          "en": "Mail",
+          "items": [
+            {
+              "id": "outlook.new-message",
+              "keys": [
+                "⌘",
+                "N"
+              ],
+              "zh": "新建邮件",
+              "en": "New email message",
+              "tags": []
+            },
+            {
+              "id": "outlook.reply",
+              "keys": [
+                "⌘",
+                "R"
+              ],
+              "zh": "回复邮件",
+              "en": "Reply to email",
+              "tags": []
+            },
+            {
+              "id": "outlook.reply-all",
+              "keys": [
+                "⌘",
+                "⇧",
+                "R"
+              ],
+              "zh": "全部回复",
+              "en": "Reply all",
+              "tags": []
+            },
+            {
+              "id": "outlook.forward",
+              "keys": [
+                "⌘",
+                "J"
+              ],
+              "zh": "转发邮件",
+              "en": "Forward email",
+              "tags": []
+            },
+            {
+              "id": "outlook.send",
+              "keys": [
+                "⌘",
+                "Return"
+              ],
+              "zh": "发送邮件",
+              "en": "Send email",
+              "tags": []
+            },
+            {
+              "id": "outlook.delete",
+              "keys": [
+                "Delete"
+              ],
+              "zh": "删除所选邮件",
+              "en": "Delete selected email",
+              "tags": []
+            },
+            {
+              "id": "outlook.permanent-delete",
+              "keys": [
+                "⇧",
+                "Delete"
+              ],
+              "zh": "永久删除所选邮件",
+              "en": "Permanently delete selected email",
+              "tags": []
+            },
+            {
+              "id": "outlook.mark-unread",
+              "keys": [
+                "⌘",
+                "⇧",
+                "U"
+              ],
+              "zh": "标记为未读",
+              "en": "Mark as unread",
+              "tags": []
+            },
+            {
+              "id": "outlook.mark-read",
+              "keys": [
+                "⌘",
+                "T"
+              ],
+              "zh": "标记为已读",
+              "en": "Mark as read",
+              "tags": []
+            },
+            {
+              "id": "outlook.flag",
+              "keys": [
+                "⌘",
+                "⇧",
+                "G"
+              ],
+              "zh": "添加后续标志",
+              "en": "Add a follow-up flag",
+              "tags": []
+            },
+            {
+              "id": "outlook.junk",
+              "keys": [
+                "⌘",
+                "⇧",
+                "J"
+              ],
+              "zh": "标记为垃圾邮件",
+              "en": "Mark as junk",
+              "tags": []
+            },
+            {
+              "id": "outlook.move",
+              "keys": [
+                "⌘",
+                "⇧",
+                "M"
+              ],
+              "zh": "移动到文件夹",
+              "en": "Move to folder",
+              "tags": []
+            },
+            {
+              "id": "outlook.next-message",
+              "keys": [
+                "⌃",
+                "]"
+              ],
+              "zh": "打开下一封邮件",
+              "en": "Open next message",
+              "tags": []
+            },
+            {
+              "id": "outlook.prev-message",
+              "keys": [
+                "⌃",
+                "["
+              ],
+              "zh": "打开上一封邮件",
+              "en": "Open previous message",
+              "tags": []
+            },
+            {
+              "id": "outlook.next-unread",
+              "keys": [
+                "⌥",
+                "⌘",
+                "]"
+              ],
+              "zh": "转到下一封未读邮件",
+              "en": "Go to next unread message",
+              "tags": []
+            },
+            {
+              "id": "outlook.download",
+              "keys": [
+                "⌘",
+                "⇧",
+                "K"
+              ],
+              "zh": "发送并接收所有邮件",
+              "en": "Send and receive all mail",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "compose",
+          "zh": "撰写邮件",
+          "en": "Compose Mail",
+          "items": [
+            {
+              "id": "outlook.save-draft",
+              "keys": [
+                "⌘",
+                "S"
+              ],
+              "zh": "保存草稿",
+              "en": "Save draft",
+              "tags": []
+            },
+            {
+              "id": "outlook.attach",
+              "keys": [
+                "⌘",
+                "E"
+              ],
+              "zh": "添加附件",
+              "en": "Add an attachment",
+              "tags": []
+            },
+            {
+              "id": "outlook.check-names",
+              "keys": [
+                "⌘",
+                "⌃",
+                "K"
+              ],
+              "zh": "检查收件人姓名",
+              "en": "Check recipient names",
+              "tags": []
+            },
+            {
+              "id": "outlook.bold",
+              "keys": [
+                "⌘",
+                "B"
+              ],
+              "zh": "加粗",
+              "en": "Bold",
+              "tags": []
+            },
+            {
+              "id": "outlook.italic",
+              "keys": [
+                "⌘",
+                "I"
+              ],
+              "zh": "斜体",
+              "en": "Italic",
+              "tags": []
+            },
+            {
+              "id": "outlook.underline",
+              "keys": [
+                "⌘",
+                "U"
+              ],
+              "zh": "下划线",
+              "en": "Underline",
+              "tags": []
+            },
+            {
+              "id": "outlook.align-left",
+              "keys": [
+                "⌘",
+                "L"
+              ],
+              "zh": "左对齐",
+              "en": "Align left",
+              "tags": []
+            },
+            {
+              "id": "outlook.align-center",
+              "keys": [
+                "⌘",
+                "E"
+              ],
+              "zh": "居中对齐",
+              "en": "Center align",
+              "tags": []
+            },
+            {
+              "id": "outlook.align-right",
+              "keys": [
+                "⌘",
+                "R"
+              ],
+              "zh": "右对齐",
+              "en": "Align right",
+              "tags": []
+            },
+            {
+              "id": "outlook.hyperlink",
+              "keys": [
+                "⌘",
+                "K"
+              ],
+              "zh": "插入超链接",
+              "en": "Insert hyperlink",
+              "tags": []
+            },
+            {
+              "id": "outlook.spelling",
+              "keys": [
+                "⌘",
+                ":"
+              ],
+              "zh": "检查拼写和语法",
+              "en": "Check spelling and grammar",
+              "tags": []
+            },
+            {
+              "id": "outlook.increase-indent",
+              "keys": [
+                "⌘",
+                "]"
+              ],
+              "zh": "增加缩进",
+              "en": "Increase indent",
+              "tags": []
+            },
+            {
+              "id": "outlook.decrease-indent",
+              "keys": [
+                "⌘",
+                "["
+              ],
+              "zh": "减少缩进",
+              "en": "Decrease indent",
+              "tags": []
+            },
+            {
+              "id": "outlook.cancel-compose",
+              "keys": [
+                "Esc"
+              ],
+              "zh": "关闭正在撰写的邮件",
+              "en": "Close message being composed",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "zh": "模块导航",
+          "en": "Module Navigation",
+          "items": [
+            {
+              "id": "outlook.mail-view",
+              "keys": [
+                "⌘",
+                "1"
+              ],
+              "zh": "切换到邮件",
+              "en": "Switch to Mail",
+              "tags": []
+            },
+            {
+              "id": "outlook.calendar-view",
+              "keys": [
+                "⌘",
+                "2"
+              ],
+              "zh": "切换到日历",
+              "en": "Switch to Calendar",
+              "tags": []
+            },
+            {
+              "id": "outlook.people-view",
+              "keys": [
+                "⌘",
+                "3"
+              ],
+              "zh": "切换到联系人",
+              "en": "Switch to People",
+              "tags": []
+            },
+            {
+              "id": "outlook.tasks-view",
+              "keys": [
+                "⌘",
+                "4"
+              ],
+              "zh": "切换到任务",
+              "en": "Switch to Tasks",
+              "tags": []
+            },
+            {
+              "id": "outlook.notes-view",
+              "keys": [
+                "⌘",
+                "5"
+              ],
+              "zh": "切换到便笺",
+              "en": "Switch to Notes",
+              "tags": []
+            },
+            {
+              "id": "outlook.next-pane",
+              "keys": [
+                "Tab"
+              ],
+              "zh": "移到下一个窗格",
+              "en": "Move to next pane",
+              "tags": []
+            },
+            {
+              "id": "outlook.prev-pane",
+              "keys": [
+                "⇧",
+                "Tab"
+              ],
+              "zh": "移到上一个窗格",
+              "en": "Move to previous pane",
+              "tags": []
+            },
+            {
+              "id": "outlook.folder-list",
+              "keys": [
+                "⌘",
+                "⇧",
+                "L"
+              ],
+              "zh": "显示或隐藏文件夹列表",
+              "en": "Show or hide folder list",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "calendar",
+          "zh": "日历",
+          "en": "Calendar",
+          "items": [
+            {
+              "id": "outlook.new-appointment",
+              "keys": [
+                "⌘",
+                "N"
+              ],
+              "zh": "新建约会",
+              "en": "New appointment",
+              "tags": []
+            },
+            {
+              "id": "outlook.new-meeting",
+              "keys": [
+                "⌘",
+                "⇧",
+                "Q"
+              ],
+              "zh": "新建会议",
+              "en": "New meeting",
+              "tags": []
+            },
+            {
+              "id": "outlook.today",
+              "keys": [
+                "⌘",
+                "T"
+              ],
+              "zh": "转到今天",
+              "en": "Go to today",
+              "tags": []
+            },
+            {
+              "id": "outlook.day-view",
+              "keys": [
+                "⌘",
+                "⌥",
+                "1"
+              ],
+              "zh": "显示日视图",
+              "en": "Show Day view",
+              "tags": []
+            },
+            {
+              "id": "outlook.work-week",
+              "keys": [
+                "⌘",
+                "⌥",
+                "2"
+              ],
+              "zh": "显示工作周视图",
+              "en": "Show Work Week view",
+              "tags": []
+            },
+            {
+              "id": "outlook.week-view",
+              "keys": [
+                "⌘",
+                "⌥",
+                "3"
+              ],
+              "zh": "显示周视图",
+              "en": "Show Week view",
+              "tags": []
+            },
+            {
+              "id": "outlook.month-view",
+              "keys": [
+                "⌘",
+                "⌥",
+                "4"
+              ],
+              "zh": "显示月视图",
+              "en": "Show Month view",
+              "tags": []
+            },
+            {
+              "id": "outlook.next-period",
+              "keys": [
+                "⌘",
+                "→"
+              ],
+              "zh": "转到下一时间段",
+              "en": "Go to next time period",
+              "tags": []
+            },
+            {
+              "id": "outlook.prev-period",
+              "keys": [
+                "⌘",
+                "←"
+              ],
+              "zh": "转到上一时间段",
+              "en": "Go to previous time period",
+              "tags": []
+            },
+            {
+              "id": "outlook.accept",
+              "keys": [
+                "⌘",
+                "⇧",
+                "A"
+              ],
+              "zh": "接受会议邀请",
+              "en": "Accept meeting invitation",
+              "tags": []
+            },
+            {
+              "id": "outlook.decline",
+              "keys": [
+                "⌘",
+                "⇧",
+                "D"
+              ],
+              "zh": "拒绝会议邀请",
+              "en": "Decline meeting invitation",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onenote",
+      "name": "Microsoft OneNote",
+      "vendor": "Microsoft",
+      "accent": "#7719AA",
+      "glyph": "N",
+      "categories": [
+        {
+          "id": "general",
+          "zh": "通用",
+          "en": "General",
+          "items": [
+            {
+              "id": "onenote.new-page",
+              "keys": [
+                "⌘",
+                "N"
+              ],
+              "zh": "新建页面",
+              "en": "Create a new page",
+              "tags": []
+            },
+            {
+              "id": "onenote.new-section",
+              "keys": [
+                "⌘",
+                "⇧",
+                "N"
+              ],
+              "zh": "新建分区",
+              "en": "Create a new section",
+              "tags": []
+            },
+            {
+              "id": "onenote.open",
+              "keys": [
+                "⌘",
+                "O"
+              ],
+              "zh": "打开笔记本",
+              "en": "Open a notebook",
+              "tags": []
+            },
+            {
+              "id": "onenote.close",
+              "keys": [
+                "⌘",
+                "W"
+              ],
+              "zh": "关闭当前窗口",
+              "en": "Close current window",
+              "tags": []
+            },
+            {
+              "id": "onenote.print",
+              "keys": [
+                "⌘",
+                "P"
+              ],
+              "zh": "打印页面",
+              "en": "Print page",
+              "tags": []
+            },
+            {
+              "id": "onenote.undo",
+              "keys": [
+                "⌘",
+                "Z"
+              ],
+              "zh": "撤销",
+              "en": "Undo",
+              "tags": []
+            },
+            {
+              "id": "onenote.redo",
+              "keys": [
+                "⌘",
+                "Y"
+              ],
+              "zh": "重做",
+              "en": "Redo",
+              "tags": []
+            },
+            {
+              "id": "onenote.find",
+              "keys": [
+                "⌘",
+                "F"
+              ],
+              "zh": "在当前页面中查找",
+              "en": "Find on current page",
+              "tags": []
+            },
+            {
+              "id": "onenote.search-all",
+              "keys": [
+                "⌘",
+                "⌥",
+                "F"
+              ],
+              "zh": "搜索所有笔记本",
+              "en": "Search all notebooks",
+              "tags": []
+            },
+            {
+              "id": "onenote.sync",
+              "keys": [
+                "⌘",
+                "S"
+              ],
+              "zh": "同步当前笔记本",
+              "en": "Sync current notebook",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "edit",
+          "zh": "编辑",
+          "en": "Editing",
+          "items": [
+            {
+              "id": "onenote.cut",
+              "keys": [
+                "⌘",
+                "X"
+              ],
+              "zh": "剪切",
+              "en": "Cut",
+              "tags": []
+            },
+            {
+              "id": "onenote.copy",
+              "keys": [
+                "⌘",
+                "C"
+              ],
+              "zh": "复制",
+              "en": "Copy",
+              "tags": []
+            },
+            {
+              "id": "onenote.paste",
+              "keys": [
+                "⌘",
+                "V"
+              ],
+              "zh": "粘贴",
+              "en": "Paste",
+              "tags": []
+            },
+            {
+              "id": "onenote.paste-text",
+              "keys": [
+                "⌘",
+                "⇧",
+                "V"
+              ],
+              "zh": "仅粘贴文字",
+              "en": "Paste text only",
+              "tags": []
+            },
+            {
+              "id": "onenote.select-all",
+              "keys": [
+                "⌘",
+                "A"
+              ],
+              "zh": "选择当前范围或全部内容",
+              "en": "Select current scope or all content",
+              "tags": []
+            },
+            {
+              "id": "onenote.delete-word-left",
+              "keys": [
+                "⌥",
+                "Delete"
+              ],
+              "zh": "删除左侧单词",
+              "en": "Delete word to the left",
+              "tags": []
+            },
+            {
+              "id": "onenote.line-start",
+              "keys": [
+                "Home"
+              ],
+              "zh": "移到行首",
+              "en": "Move to beginning of line",
+              "tags": []
+            },
+            {
+              "id": "onenote.line-end",
+              "keys": [
+                "End"
+              ],
+              "zh": "移到行尾",
+              "en": "Move to end of line",
+              "tags": []
+            },
+            {
+              "id": "onenote.word-left",
+              "keys": [
+                "⌥",
+                "←"
+              ],
+              "zh": "向左移动一个单词",
+              "en": "Move one word left",
+              "tags": []
+            },
+            {
+              "id": "onenote.word-right",
+              "keys": [
+                "⌥",
+                "→"
+              ],
+              "zh": "向右移动一个单词",
+              "en": "Move one word right",
+              "tags": []
+            },
+            {
+              "id": "onenote.hyperlink",
+              "keys": [
+                "⌘",
+                "K"
+              ],
+              "zh": "插入超链接",
+              "en": "Insert hyperlink",
+              "tags": []
+            },
+            {
+              "id": "onenote.date-time",
+              "keys": [
+                "⌘",
+                "⇧",
+                "D"
+              ],
+              "zh": "插入当前日期和时间",
+              "en": "Insert current date and time",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "format",
+          "zh": "格式",
+          "en": "Formatting",
+          "items": [
+            {
+              "id": "onenote.bold",
+              "keys": [
+                "⌘",
+                "B"
+              ],
+              "zh": "加粗",
+              "en": "Bold",
+              "tags": []
+            },
+            {
+              "id": "onenote.italic",
+              "keys": [
+                "⌘",
+                "I"
+              ],
+              "zh": "斜体",
+              "en": "Italic",
+              "tags": []
+            },
+            {
+              "id": "onenote.underline",
+              "keys": [
+                "⌘",
+                "U"
+              ],
+              "zh": "下划线",
+              "en": "Underline",
+              "tags": []
+            },
+            {
+              "id": "onenote.strikethrough",
+              "keys": [
+                "⌘",
+                "-"
+              ],
+              "zh": "删除线",
+              "en": "Strikethrough",
+              "tags": []
+            },
+            {
+              "id": "onenote.superscript",
+              "keys": [
+                "⌘",
+                "⇧",
+                "="
+              ],
+              "zh": "上标",
+              "en": "Superscript",
+              "tags": []
+            },
+            {
+              "id": "onenote.subscript",
+              "keys": [
+                "⌘",
+                "="
+              ],
+              "zh": "下标",
+              "en": "Subscript",
+              "tags": []
+            },
+            {
+              "id": "onenote.align-left",
+              "keys": [
+                "⌘",
+                "L"
+              ],
+              "zh": "左对齐",
+              "en": "Align left",
+              "tags": []
+            },
+            {
+              "id": "onenote.align-center",
+              "keys": [
+                "⌘",
+                "E"
+              ],
+              "zh": "居中对齐",
+              "en": "Center align",
+              "tags": []
+            },
+            {
+              "id": "onenote.align-right",
+              "keys": [
+                "⌘",
+                "R"
+              ],
+              "zh": "右对齐",
+              "en": "Align right",
+              "tags": []
+            },
+            {
+              "id": "onenote.bullets",
+              "keys": [
+                "⌘",
+                "."
+              ],
+              "zh": "应用项目符号列表",
+              "en": "Apply bulleted list",
+              "tags": []
+            },
+            {
+              "id": "onenote.numbering",
+              "keys": [
+                "⌘",
+                "/"
+              ],
+              "zh": "应用编号列表",
+              "en": "Apply numbered list",
+              "tags": []
+            },
+            {
+              "id": "onenote.clear-format",
+              "keys": [
+                "⌘",
+                "⇧",
+                "N"
+              ],
+              "zh": "清除格式",
+              "en": "Clear formatting",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "zh": "笔记导航",
+          "en": "Note Navigation",
+          "items": [
+            {
+              "id": "onenote.next-page",
+              "keys": [
+                "⌘",
+                "Page Down"
+              ],
+              "zh": "转到下一页",
+              "en": "Go to next page",
+              "tags": []
+            },
+            {
+              "id": "onenote.prev-page",
+              "keys": [
+                "⌘",
+                "Page Up"
+              ],
+              "zh": "转到上一页",
+              "en": "Go to previous page",
+              "tags": []
+            },
+            {
+              "id": "onenote.next-section",
+              "keys": [
+                "⌘",
+                "⇧",
+                ">"
+              ],
+              "zh": "转到下一个分区",
+              "en": "Go to next section",
+              "tags": []
+            },
+            {
+              "id": "onenote.prev-section",
+              "keys": [
+                "⌘",
+                "⇧",
+                "<"
+              ],
+              "zh": "转到上一个分区",
+              "en": "Go to previous section",
+              "tags": []
+            },
+            {
+              "id": "onenote.back",
+              "keys": [
+                "⌘",
+                "["
+              ],
+              "zh": "返回上一位置",
+              "en": "Go back to previous location",
+              "tags": []
+            },
+            {
+              "id": "onenote.forward",
+              "keys": [
+                "⌘",
+                "]"
+              ],
+              "zh": "前进到下一位置",
+              "en": "Go forward to next location",
+              "tags": []
+            },
+            {
+              "id": "onenote.page-title",
+              "keys": [
+                "⌘",
+                "⇧",
+                "T"
+              ],
+              "zh": "移到页面标题",
+              "en": "Move to page title",
+              "tags": []
+            },
+            {
+              "id": "onenote.first-note",
+              "keys": [
+                "⌘",
+                "Home"
+              ],
+              "zh": "移到页面第一个笔记容器",
+              "en": "Move to first note container",
+              "tags": []
+            },
+            {
+              "id": "onenote.last-note",
+              "keys": [
+                "⌘",
+                "End"
+              ],
+              "zh": "移到页面最后一个笔记容器",
+              "en": "Move to last note container",
+              "tags": []
+            },
+            {
+              "id": "onenote.next-container",
+              "keys": [
+                "⌃",
+                "Tab"
+              ],
+              "zh": "移到下一个笔记容器",
+              "en": "Move to next note container",
+              "tags": []
+            },
+            {
+              "id": "onenote.prev-container",
+              "keys": [
+                "⌃",
+                "⇧",
+                "Tab"
+              ],
+              "zh": "移到上一个笔记容器",
+              "en": "Move to previous note container",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "notes-tags",
+          "zh": "笔记与标记",
+          "en": "Notes & Tags",
+          "items": [
+            {
+              "id": "onenote.checkbox",
+              "keys": [
+                "⌘",
+                "1"
+              ],
+              "zh": "应用或清除待办标记",
+              "en": "Apply or clear To Do tag",
+              "tags": []
+            },
+            {
+              "id": "onenote.important",
+              "keys": [
+                "⌘",
+                "2"
+              ],
+              "zh": "应用或清除重要标记",
+              "en": "Apply or clear Important tag",
+              "tags": []
+            },
+            {
+              "id": "onenote.question",
+              "keys": [
+                "⌘",
+                "3"
+              ],
+              "zh": "应用或清除问题标记",
+              "en": "Apply or clear Question tag",
+              "tags": []
+            },
+            {
+              "id": "onenote.remember",
+              "keys": [
+                "⌘",
+                "4"
+              ],
+              "zh": "应用或清除后续标记",
+              "en": "Apply or clear Remember for Later tag",
+              "tags": []
+            },
+            {
+              "id": "onenote.definition",
+              "keys": [
+                "⌘",
+                "5"
+              ],
+              "zh": "应用或清除定义标记",
+              "en": "Apply or clear Definition tag",
+              "tags": []
+            },
+            {
+              "id": "onenote.clear-tags",
+              "keys": [
+                "⌘",
+                "0"
+              ],
+              "zh": "清除所有笔记标记",
+              "en": "Clear all note tags",
+              "tags": []
+            },
+            {
+              "id": "onenote.indent",
+              "keys": [
+                "Tab"
+              ],
+              "zh": "增加段落缩进",
+              "en": "Increase paragraph indent",
+              "tags": []
+            },
+            {
+              "id": "onenote.outdent",
+              "keys": [
+                "⇧",
+                "Tab"
+              ],
+              "zh": "减少段落缩进",
+              "en": "Decrease paragraph indent",
+              "tags": []
+            },
+            {
+              "id": "onenote.move-line-up",
+              "keys": [
+                "⌘",
+                "⌥",
+                "↑"
+              ],
+              "zh": "上移当前段落",
+              "en": "Move current paragraph up",
+              "tags": []
+            },
+            {
+              "id": "onenote.move-line-down",
+              "keys": [
+                "⌘",
+                "⌥",
+                "↓"
+              ],
+              "zh": "下移当前段落",
+              "en": "Move current paragraph down",
+              "tags": []
+            },
+            {
+              "id": "onenote.collapse-outline",
+              "keys": [
+                "⌃",
+                "⇧",
+                "-"
+              ],
+              "zh": "折叠当前大纲",
+              "en": "Collapse current outline",
+              "tags": []
+            },
+            {
+              "id": "onenote.expand-outline",
+              "keys": [
+                "⌃",
+                "⇧",
+                "+"
+              ],
+              "zh": "展开当前大纲",
+              "en": "Expand current outline",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

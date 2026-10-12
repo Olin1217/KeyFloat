@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>KeyFloat 管理后台</title>
+    <link rel="icon" href="assets/keyfloat-logo.svg" />
+    <link rel="stylesheet" href="admin.css" />
+    <script src="admin.js" defer></script>
+  </head>
+  <body>
+    <header class="admin-header">
+      <a class="admin-brand" href="/" aria-label="返回 KeyFloat 官网">
+        <img src="assets/keyfloat-logo-white.svg" width="30" height="30" alt="" />
+        <span>KeyFloat</span>
+        <small>管理后台</small>
+      </a>
+      <div class="connection-state" id="connection-state"><i aria-hidden="true"></i><span>正在连接</span></div>
+    </header>
+
+    <main>
+      <section class="login-view" id="login-view" aria-labelledby="login-title">
+        <div class="login-card">
+          <p class="eyebrow">ADMIN ACCESS</p>
+          <h1 id="login-title">管理员登录</h1>
+          <p>输入部署环境中配置的私有管理员口令，进入付款核验工作台。</p>
+          <form id="admin-login-form">
+            <label for="admin-code">管理员口令</label>
+            <input id="admin-code" name="adminCode" type="password" autocomplete="current-password" maxlength="128" required autofocus />
+            <button class="button button-primary" type="submit">登录管理后台</button>
+            <p class="form-status" id="login-status" aria-live="polite"></p>
+          </form>
+          <p class="security-note">口令仅发送至 KeyFloat 服务端，不会保存在浏览器中。</p>
+        </div>
+      </section>
+
+      <section class="dashboard" id="dashboard" hidden aria-labelledby="dashboard-title">
+        <div class="dashboard-heading">
+          <div>
+            <p class="eyebrow">PAYMENT REVIEW</p>
+            <h1 id="dashboard-title">付款核验工作台</h1>
+            <p>人工核对支付宝商家账单后，再确认到账并签发激活码。</p>
+          </div>
+          <div class="header-actions">
+            <button class="button button-secondary" id="refresh-claims" type="button">刷新</button>
+            <button class="button button-secondary" id="logout" type="button">退出登录</button>
+          </div>
+        </div>
+
+        <div class="metrics overview-metrics" aria-label="用户与反馈统计">
+          <article class="metric-card metric-summary"><span>用户数量</span><strong id="user-count">0</strong><small>已验证邮箱</small></article>
+          <article class="metric-card metric-summary"><span>官网访问</span><strong id="visit-count">0</strong><small>登录用户累计</small></article>
+          <article class="metric-card metric-summary"><span>用户反馈</span><strong id="feedback-count">0</strong><small>官网与客户端</small></article>
+        </div>
+
+        <div class="metrics download-metrics" aria-label="软件下载点击统计">
+          <article class="metric-card metric-summary"><span>macOS 下载</span><strong id="macos-download-count">0</strong><small>官网点击累计</small></article>
+          <article class="metric-card metric-summary"><span>Windows 下载</span><strong id="windows-download-count">0</strong><small>官网点击累计</small></article>
+        </div>
+
+        <div class="metrics license-metrics" aria-label="激活券码统计">
+          <button class="metric-card is-active" type="button" data-license-metric-filter="available"><span>可用券码</span><strong id="license-available-count">0</strong><small>尚未核销</small></button>
+          <button class="metric-card" type="button" data-license-metric-filter="redeemed"><span>已核销券码</span><strong id="license-redeemed-count">0</strong><small>已有设备激活</small></button>
+          <button class="metric-card" type="button" data-license-metric-filter="all"><span>券码总数</span><strong id="license-total-count">0</strong><small>全部库存</small></button>
+        </div>
+
+        <section class="review-section" id="licenses-section" aria-labelledby="licenses-title">
+          <div class="review-toolbar">
+            <div>
+              <h2 id="licenses-title">券码管理</h2>
+              <p id="licenses-summary">尚未刷新</p>
+            </div>
+            <div class="license-tools">
+              <label class="license-search">
+                <span class="sr-only">搜索券码</span>
+                <input id="license-search" type="search" autocomplete="off" placeholder="搜索券码、批次或来源" />
+              </label>
+              <div class="filters" role="group" aria-label="筛选激活券码">
+                <button class="filter is-active" type="button" data-license-filter="available">可用</button>
+                <button class="filter" type="button" data-license-filter="redeemed">已核销</button>
+                <button class="filter" type="button" data-license-filter="all">全部</button>
+              </div>
+            </div>
+          </div>
+          <div class="data-table license-table" id="license-list" role="table" aria-label="KeyFloat 激活券码库存"></div>
+          <div class="empty-state" id="licenses-empty" hidden>
+            <strong>当前没有符合条件的券码</strong>
+            <p>新签发和已登记的批量券码会自动显示在这里。</p>
+          </div>
+        </section>
+
+        <section class="review-section" aria-labelledby="users-title">
+          <div class="review-toolbar">
+            <div>
+              <h2 id="users-title">用户数据</h2>
+              <p id="users-updated">尚未刷新</p>
+            </div>
+          </div>
+          <div class="data-table" id="user-list" role="table" aria-label="用户邮箱与官网访问次数"></div>
+          <div class="empty-state" id="users-empty" hidden>
+            <strong>还没有已验证用户</strong>
+            <p>用户通过邮箱验证码登录后，将自动显示在这里。</p>
+          </div>
+        </section>
+
+        <section class="review-section" aria-labelledby="feedback-title">
+          <div class="review-toolbar">
+            <div>
+              <h2 id="feedback-title">用户反馈</h2>
+              <p id="feedback-summary">官网 0 条 · KeyFloat 0 条</p>
+            </div>
+          </div>
+          <div class="feedback-list" id="feedback-list"></div>
+          <div class="empty-state" id="feedback-empty" hidden>
+            <strong>还没有收到用户反馈</strong>
+            <p>官网与 KeyFloat 客户端提交的反馈会统一显示在这里。</p>
+          </div>
+        </section>
+
+        <div class="metrics" aria-label="付款统计">
+          <button class="metric-card is-active" type="button" data-metric-filter="pending"><span>待核验</span><strong id="pending-count">0</strong><small>点击查看</small></button>
+          <button class="metric-card" type="button" data-metric-filter="approved"><span>已发码</span><strong id="approved-count">0</strong><small>点击查看</small></button>
+          <button class="metric-card" type="button" data-metric-filter="all"><span>最近记录</span><strong id="total-count">0</strong><small>点击查看</small></button>
+        </div>
+
+        <section class="review-section" aria-labelledby="review-title">
+          <div class="review-toolbar">
+            <div>
+              <h2 id="review-title">付款记录</h2>
+              <p id="last-updated">尚未刷新</p>
+            </div>
+            <div class="filters" role="group" aria-label="筛选付款记录">
+              <button class="filter is-active" type="button" data-filter="pending">待核验</button>
+              <button class="filter" type="button" data-filter="approved">已完成</button>
+              <button class="filter" type="button" data-filter="all">全部</button>
+            </div>
+          </div>
+          <div class="claim-list" id="claim-list"></div>
+          <div class="empty-state" id="empty-state" hidden>
+            <strong>当前没有对应的付款记录</strong>
+            <p>用户点击“我已完成支付”后，待核验订单会自动出现在这里。</p>
+          </div>
+          <p class="form-status" id="dashboard-status" aria-live="polite"></p>
+        </section>
+      </section>
+    </main>
+
+    <dialog id="approve-dialog" aria-labelledby="approve-title">
+      <form class="confirm-card" method="dialog">
+        <p class="eyebrow">ISSUE VOUCHER</p>
+        <h2 id="approve-title">确认已经收到付款？</h2>
+        <p>请按用户邮箱、提交时间与金额在支付宝商家账单中核对到账情况。确认后将立即生成激活码，无法撤销。</p>
+        <dl>
+          <div><dt>核验编号</dt><dd id="confirm-reference"></dd></div>
+          <div><dt>用户</dt><dd id="confirm-email"></dd></div>
+          <div><dt>金额</dt><dd id="confirm-amount"></dd></div>
+        </dl>
+        <p class="form-status" id="approve-status" aria-live="polite"></p>
+        <div class="confirm-actions">
+          <button class="button button-secondary" value="cancel" type="submit">取消</button>
+          <button class="button button-primary" id="confirm-approve" value="default" type="button">确认到账并发码</button>
+        </div>
+      </form>
+    </dialog>
+  </body>
+</html>

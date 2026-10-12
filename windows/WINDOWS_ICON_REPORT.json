@@ -1,0 +1,1472 @@
+{
+  "generatedAt": "2026-07-26",
+  "iconCount": 209,
+  "totalBytes": 1070687,
+  "canvas": "128x128",
+  "policy": "Transparent square canvas, aspect-fit artwork, optimized PNG; runtime insets preserve the KeyFloat card sizing system.",
+  "icons": [
+    {
+      "id": "adobeacrobat",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/adobeacrobat.png",
+      "bytes": 2697,
+      "pixels": "128x128"
+    },
+    {
+      "id": "adobefirefly",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/adobefirefly.png",
+      "bytes": 1395,
+      "pixels": "128x128"
+    },
+    {
+      "id": "adobexd",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/adobexd.png",
+      "bytes": 2613,
+      "pixels": "128x128"
+    },
+    {
+      "id": "affinitydesigner",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/affinitydesigner.png",
+      "bytes": 3361,
+      "pixels": "128x128"
+    },
+    {
+      "id": "affinityphoto",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/affinityphoto.png",
+      "bytes": 3361,
+      "pixels": "128x128"
+    },
+    {
+      "id": "affinitypublisher",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/affinitypublisher.png",
+      "bytes": 3361,
+      "pixels": "128x128"
+    },
+    {
+      "id": "aftereffects",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/aftereffects.png",
+      "bytes": 2390,
+      "pixels": "128x128"
+    },
+    {
+      "id": "alfred",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/alfred.png",
+      "bytes": 5147,
+      "pixels": "128x128"
+    },
+    {
+      "id": "amplitude",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/amplitude.png",
+      "bytes": 5394,
+      "pixels": "128x128"
+    },
+    {
+      "id": "androidstudio",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/androidstudio.png",
+      "bytes": 5302,
+      "pixels": "128x128"
+    },
+    {
+      "id": "anki",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/anki.png",
+      "bytes": 7101,
+      "pixels": "128x128"
+    },
+    {
+      "id": "apifox",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/apifox.png",
+      "bytes": 3986,
+      "pixels": "128x128"
+    },
+    {
+      "id": "arc",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/arc.png",
+      "bytes": 9152,
+      "pixels": "128x128"
+    },
+    {
+      "id": "archicad",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/archicad.png",
+      "bytes": 4633,
+      "pixels": "128x128"
+    },
+    {
+      "id": "arduinoide",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/arduinoide.png",
+      "bytes": 6174,
+      "pixels": "128x128"
+    },
+    {
+      "id": "audacity",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/audacity.png",
+      "bytes": 2174,
+      "pixels": "128x128"
+    },
+    {
+      "id": "autocad",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/autocad.png",
+      "bytes": 943,
+      "pixels": "128x128"
+    },
+    {
+      "id": "avogadro",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/avogadro.png",
+      "bytes": 7668,
+      "pixels": "128x128"
+    },
+    {
+      "id": "axure",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/axure.png",
+      "bytes": 5410,
+      "pixels": "128x128"
+    },
+    {
+      "id": "bartender",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/bartender.png",
+      "bytes": 5361,
+      "pixels": "128x128"
+    },
+    {
+      "id": "benchling",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/benchling.png",
+      "bytes": 3925,
+      "pixels": "128x128"
+    },
+    {
+      "id": "bitbucket",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/bitbucket.png",
+      "bytes": 1122,
+      "pixels": "128x128"
+    },
+    {
+      "id": "blender",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/blender.png",
+      "bytes": 2852,
+      "pixels": "128x128"
+    },
+    {
+      "id": "brave",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/brave.png",
+      "bytes": 6211,
+      "pixels": "128x128"
+    },
+    {
+      "id": "calibre",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/calibre.png",
+      "bytes": 10143,
+      "pixels": "128x128"
+    },
+    {
+      "id": "canva",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/canva.png",
+      "bytes": 3777,
+      "pixels": "128x128"
+    },
+    {
+      "id": "capcut",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/capcut.png",
+      "bytes": 3792,
+      "pixels": "128x128"
+    },
+    {
+      "id": "chatgpt",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/chatgpt.png",
+      "bytes": 13837,
+      "pixels": "128x128"
+    },
+    {
+      "id": "chemdraw",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/chemdraw.png",
+      "bytes": 6341,
+      "pixels": "128x128"
+    },
+    {
+      "id": "chimerax",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/chimerax.png",
+      "bytes": 19090,
+      "pixels": "128x128"
+    },
+    {
+      "id": "chrome",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/chrome.png",
+      "bytes": 6229,
+      "pixels": "128x128"
+    },
+    {
+      "id": "cinema4d",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/cinema4d.png",
+      "bytes": 10085,
+      "pixels": "128x128"
+    },
+    {
+      "id": "claude",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/claude.png",
+      "bytes": 9184,
+      "pixels": "128x128"
+    },
+    {
+      "id": "clcgenomics",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/clcgenomics.png",
+      "bytes": 9479,
+      "pixels": "128x128"
+    },
+    {
+      "id": "cleanshot",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/cleanshot.png",
+      "bytes": 5383,
+      "pixels": "128x128"
+    },
+    {
+      "id": "clion",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/clion.png",
+      "bytes": 3030,
+      "pixels": "128x128"
+    },
+    {
+      "id": "cloudflare",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/cloudflare.png",
+      "bytes": 4467,
+      "pixels": "128x128"
+    },
+    {
+      "id": "codex",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/codex.png",
+      "bytes": 8483,
+      "pixels": "128x128"
+    },
+    {
+      "id": "comfyui",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/comfyui.png",
+      "bytes": 1651,
+      "pixels": "128x128"
+    },
+    {
+      "id": "comsol",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/comsol.png",
+      "bytes": 2908,
+      "pixels": "128x128"
+    },
+    {
+      "id": "confluence",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/confluence.png",
+      "bytes": 1122,
+      "pixels": "128x128"
+    },
+    {
+      "id": "cursor",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/cursor.png",
+      "bytes": 4009,
+      "pixels": "128x128"
+    },
+    {
+      "id": "datagrip",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/datagrip.png",
+      "bytes": 3501,
+      "pixels": "128x128"
+    },
+    {
+      "id": "davinci",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/davinci.png",
+      "bytes": 3771,
+      "pixels": "128x128"
+    },
+    {
+      "id": "dbeaver",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/dbeaver.png",
+      "bytes": 6767,
+      "pixels": "128x128"
+    },
+    {
+      "id": "deepl",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/deepl.png",
+      "bytes": 6586,
+      "pixels": "128x128"
+    },
+    {
+      "id": "dingtalk",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/dingtalk.png",
+      "bytes": 8779,
+      "pixels": "128x128"
+    },
+    {
+      "id": "discord",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/discord.png",
+      "bytes": 4137,
+      "pixels": "128x128"
+    },
+    {
+      "id": "dockerdesktop",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/dockerdesktop.png",
+      "bytes": 1589,
+      "pixels": "128x128"
+    },
+    {
+      "id": "drawio",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/drawio.png",
+      "bytes": 2000,
+      "pixels": "128x128"
+    },
+    {
+      "id": "dropbox",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/dropbox.png",
+      "bytes": 4123,
+      "pixels": "128x128"
+    },
+    {
+      "id": "eagle",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/eagle.png",
+      "bytes": 946,
+      "pixels": "128x128"
+    },
+    {
+      "id": "eclipse",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/eclipse.png",
+      "bytes": 7539,
+      "pixels": "128x128"
+    },
+    {
+      "id": "edge",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/edge.png",
+      "bytes": 530,
+      "pixels": "128x128"
+    },
+    {
+      "id": "endnote",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/endnote.png",
+      "bytes": 3184,
+      "pixels": "128x128"
+    },
+    {
+      "id": "enscape",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/enscape.png",
+      "bytes": 2937,
+      "pixels": "128x128"
+    },
+    {
+      "id": "envi",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/envi.png",
+      "bytes": 4047,
+      "pixels": "128x128"
+    },
+    {
+      "id": "evernote",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/evernote.png",
+      "bytes": 2327,
+      "pixels": "128x128"
+    },
+    {
+      "id": "excel",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/excel.png",
+      "bytes": 1713,
+      "pixels": "128x128"
+    },
+    {
+      "id": "feishu",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/feishu.png",
+      "bytes": 3643,
+      "pixels": "128x128"
+    },
+    {
+      "id": "figma",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/figma.png",
+      "bytes": 1451,
+      "pixels": "128x128"
+    },
+    {
+      "id": "finalcut",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/finalcut.png",
+      "bytes": 3782,
+      "pixels": "128x128"
+    },
+    {
+      "id": "finder",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/finder.png",
+      "bytes": 6359,
+      "pixels": "128x128"
+    },
+    {
+      "id": "firefox",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/firefox.png",
+      "bytes": 8343,
+      "pixels": "128x128"
+    },
+    {
+      "id": "flowjo",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/flowjo.png",
+      "bytes": 10385,
+      "pixels": "128x128"
+    },
+    {
+      "id": "framer",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/framer.png",
+      "bytes": 1242,
+      "pixels": "128x128"
+    },
+    {
+      "id": "freecad",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/freecad.png",
+      "bytes": 4553,
+      "pixels": "128x128"
+    },
+    {
+      "id": "fusion360",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/fusion360.png",
+      "bytes": 943,
+      "pixels": "128x128"
+    },
+    {
+      "id": "garageband",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/garageband.png",
+      "bytes": 3782,
+      "pixels": "128x128"
+    },
+    {
+      "id": "geneious",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/geneious.png",
+      "bytes": 1811,
+      "pixels": "128x128"
+    },
+    {
+      "id": "github",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/github.png",
+      "bytes": 1709,
+      "pixels": "128x128"
+    },
+    {
+      "id": "githubdesktop",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/githubdesktop.png",
+      "bytes": 2054,
+      "pixels": "128x128"
+    },
+    {
+      "id": "gitlab",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/gitlab.png",
+      "bytes": 3026,
+      "pixels": "128x128"
+    },
+    {
+      "id": "godot",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/godot.png",
+      "bytes": 3472,
+      "pixels": "128x128"
+    },
+    {
+      "id": "goland",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/goland.png",
+      "bytes": 3533,
+      "pixels": "128x128"
+    },
+    {
+      "id": "goodnotes",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/goodnotes.png",
+      "bytes": 3839,
+      "pixels": "128x128"
+    },
+    {
+      "id": "googledocs",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/googledocs.png",
+      "bytes": 5175,
+      "pixels": "128x128"
+    },
+    {
+      "id": "googledrive",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/googledrive.png",
+      "bytes": 11351,
+      "pixels": "128x128"
+    },
+    {
+      "id": "googlesheets",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/googlesheets.png",
+      "bytes": 4698,
+      "pixels": "128x128"
+    },
+    {
+      "id": "googleslides",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/googleslides.png",
+      "bytes": 5969,
+      "pixels": "128x128"
+    },
+    {
+      "id": "grammarly",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/grammarly.png",
+      "bytes": 3443,
+      "pixels": "128x128"
+    },
+    {
+      "id": "graphpadprism",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/graphpadprism.png",
+      "bytes": 9148,
+      "pixels": "128x128"
+    },
+    {
+      "id": "handbrake",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/handbrake.png",
+      "bytes": 26406,
+      "pixels": "128x128"
+    },
+    {
+      "id": "hoppscotch",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/hoppscotch.png",
+      "bytes": 7347,
+      "pixels": "128x128"
+    },
+    {
+      "id": "horos",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/horos.png",
+      "bytes": 6945,
+      "pixels": "128x128"
+    },
+    {
+      "id": "houdini",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/houdini.png",
+      "bytes": 9685,
+      "pixels": "128x128"
+    },
+    {
+      "id": "iina",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/iina.png",
+      "bytes": 4829,
+      "pixels": "128x128"
+    },
+    {
+      "id": "illustrator",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/illustrator.png",
+      "bytes": 1778,
+      "pixels": "128x128"
+    },
+    {
+      "id": "imagej",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/imagej.png",
+      "bytes": 3853,
+      "pixels": "128x128"
+    },
+    {
+      "id": "indesign",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/indesign.png",
+      "bytes": 1760,
+      "pixels": "128x128"
+    },
+    {
+      "id": "insomnia",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/insomnia.png",
+      "bytes": 4555,
+      "pixels": "128x128"
+    },
+    {
+      "id": "intellij",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/intellij.png",
+      "bytes": 3314,
+      "pixels": "128x128"
+    },
+    {
+      "id": "iterm2",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/iterm2.png",
+      "bytes": 2451,
+      "pixels": "128x128"
+    },
+    {
+      "id": "jira",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/jira.png",
+      "bytes": 1122,
+      "pixels": "128x128"
+    },
+    {
+      "id": "jmp",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/jmp.png",
+      "bytes": 4694,
+      "pixels": "128x128"
+    },
+    {
+      "id": "jsdesign",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/jsdesign.png",
+      "bytes": 9480,
+      "pixels": "128x128"
+    },
+    {
+      "id": "jupyter",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/jupyter.png",
+      "bytes": 7544,
+      "pixels": "128x128"
+    },
+    {
+      "id": "keynote",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/keynote.png",
+      "bytes": 4809,
+      "pixels": "128x128"
+    },
+    {
+      "id": "kicad",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/kicad.png",
+      "bytes": 8691,
+      "pixels": "128x128"
+    },
+    {
+      "id": "labview",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/labview.png",
+      "bytes": 1330,
+      "pixels": "128x128"
+    },
+    {
+      "id": "lightroom",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/lightroom.png",
+      "bytes": 1204,
+      "pixels": "128x128"
+    },
+    {
+      "id": "linear",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/linear.png",
+      "bytes": 1595,
+      "pixels": "128x128"
+    },
+    {
+      "id": "lmstudio",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/lmstudio.png",
+      "bytes": 4401,
+      "pixels": "128x128"
+    },
+    {
+      "id": "logicpro",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/logicpro.png",
+      "bytes": 3782,
+      "pixels": "128x128"
+    },
+    {
+      "id": "lottiefiles",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/lottiefiles.png",
+      "bytes": 5071,
+      "pixels": "128x128"
+    },
+    {
+      "id": "ltspice",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/ltspice.png",
+      "bytes": 928,
+      "pixels": "128x128"
+    },
+    {
+      "id": "magnet",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/magnet.png",
+      "bytes": 4186,
+      "pixels": "128x128"
+    },
+    {
+      "id": "maple",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/maple.png",
+      "bytes": 11618,
+      "pixels": "128x128"
+    },
+    {
+      "id": "marvinsketch",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/marvinsketch.png",
+      "bytes": 4139,
+      "pixels": "128x128"
+    },
+    {
+      "id": "mastergo",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/mastergo.png",
+      "bytes": 4371,
+      "pixels": "128x128"
+    },
+    {
+      "id": "mathematica",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/mathematica.png",
+      "bytes": 7590,
+      "pixels": "128x128"
+    },
+    {
+      "id": "matlab",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/matlab.png",
+      "bytes": 6816,
+      "pixels": "128x128"
+    },
+    {
+      "id": "maya",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/maya.png",
+      "bytes": 943,
+      "pixels": "128x128"
+    },
+    {
+      "id": "mega",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/mega.png",
+      "bytes": 3909,
+      "pixels": "128x128"
+    },
+    {
+      "id": "mendeley",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/mendeley.png",
+      "bytes": 4168,
+      "pixels": "128x128"
+    },
+    {
+      "id": "midjourney",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/midjourney.png",
+      "bytes": 1862,
+      "pixels": "128x128"
+    },
+    {
+      "id": "mindnode",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/mindnode.png",
+      "bytes": 7161,
+      "pixels": "128x128"
+    },
+    {
+      "id": "miro",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/miro.png",
+      "bytes": 4766,
+      "pixels": "128x128"
+    },
+    {
+      "id": "mixpanel",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/mixpanel.png",
+      "bytes": 7446,
+      "pixels": "128x128"
+    },
+    {
+      "id": "mongodbcompass",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/mongodbcompass.png",
+      "bytes": 4386,
+      "pixels": "128x128"
+    },
+    {
+      "id": "mplabx",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/mplabx.png",
+      "bytes": 13438,
+      "pixels": "128x128"
+    },
+    {
+      "id": "mysqlworkbench",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/mysqlworkbench.png",
+      "bytes": 6255,
+      "pixels": "128x128"
+    },
+    {
+      "id": "netlify",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/netlify.png",
+      "bytes": 1081,
+      "pixels": "128x128"
+    },
+    {
+      "id": "notion",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/notion.png",
+      "bytes": 3411,
+      "pixels": "128x128"
+    },
+    {
+      "id": "numbers",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/numbers.png",
+      "bytes": 5623,
+      "pixels": "128x128"
+    },
+    {
+      "id": "obsidian",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/obsidian.png",
+      "bytes": 7862,
+      "pixels": "128x128"
+    },
+    {
+      "id": "obsstudio",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/obsstudio.png",
+      "bytes": 10968,
+      "pixels": "128x128"
+    },
+    {
+      "id": "onedrive",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/onedrive.png",
+      "bytes": 530,
+      "pixels": "128x128"
+    },
+    {
+      "id": "onenote",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/onenote.png",
+      "bytes": 13787,
+      "pixels": "128x128"
+    },
+    {
+      "id": "onepassword",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/onepassword.png",
+      "bytes": 2247,
+      "pixels": "128x128"
+    },
+    {
+      "id": "onshape",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/onshape.png",
+      "bytes": 4788,
+      "pixels": "128x128"
+    },
+    {
+      "id": "osirix",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/osirix.png",
+      "bytes": 4689,
+      "pixels": "128x128"
+    },
+    {
+      "id": "outlook",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/outlook.png",
+      "bytes": 5399,
+      "pixels": "128x128"
+    },
+    {
+      "id": "overleaf",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/overleaf.png",
+      "bytes": 2747,
+      "pixels": "128x128"
+    },
+    {
+      "id": "pages",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/pages.png",
+      "bytes": 5479,
+      "pixels": "128x128"
+    },
+    {
+      "id": "paraview",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/paraview.png",
+      "bytes": 2155,
+      "pixels": "128x128"
+    },
+    {
+      "id": "paste",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/paste.png",
+      "bytes": 5586,
+      "pixels": "128x128"
+    },
+    {
+      "id": "pdfexpert",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/pdfexpert.png",
+      "bytes": 13830,
+      "pixels": "128x128"
+    },
+    {
+      "id": "pgadmin",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/pgadmin.png",
+      "bytes": 3475,
+      "pixels": "128x128"
+    },
+    {
+      "id": "photoshop",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/photoshop.png",
+      "bytes": 2433,
+      "pixels": "128x128"
+    },
+    {
+      "id": "pika",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/pika.png",
+      "bytes": 3855,
+      "pixels": "128x128"
+    },
+    {
+      "id": "plecs",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/plecs.png",
+      "bytes": 3798,
+      "pixels": "128x128"
+    },
+    {
+      "id": "postman",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/postman.png",
+      "bytes": 3038,
+      "pixels": "128x128"
+    },
+    {
+      "id": "powerbiweb",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/powerbiweb.png",
+      "bytes": 669,
+      "pixels": "128x128"
+    },
+    {
+      "id": "powerpoint",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/powerpoint.png",
+      "bytes": 2122,
+      "pixels": "128x128"
+    },
+    {
+      "id": "premiere",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/premiere.png",
+      "bytes": 1600,
+      "pixels": "128x128"
+    },
+    {
+      "id": "preview",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/preview.png",
+      "bytes": 8346,
+      "pixels": "128x128"
+    },
+    {
+      "id": "protopie",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/protopie.png",
+      "bytes": 4087,
+      "pixels": "128x128"
+    },
+    {
+      "id": "pycharm",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/pycharm.png",
+      "bytes": 4008,
+      "pixels": "128x128"
+    },
+    {
+      "id": "pymol",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/pymol.png",
+      "bytes": 9399,
+      "pixels": "128x128"
+    },
+    {
+      "id": "qgis",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/qgis.png",
+      "bytes": 1637,
+      "pixels": "128x128"
+    },
+    {
+      "id": "qq",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/qq.png",
+      "bytes": 6052,
+      "pixels": "128x128"
+    },
+    {
+      "id": "raycast",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/raycast.png",
+      "bytes": 1323,
+      "pixels": "128x128"
+    },
+    {
+      "id": "rectangle",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/rectangle.png",
+      "bytes": 5551,
+      "pixels": "128x128"
+    },
+    {
+      "id": "redisinsight",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/redisinsight.png",
+      "bytes": 2988,
+      "pixels": "128x128"
+    },
+    {
+      "id": "rhino",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/rhino.png",
+      "bytes": 5285,
+      "pixels": "128x128"
+    },
+    {
+      "id": "rive",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/rive.png",
+      "bytes": 2456,
+      "pixels": "128x128"
+    },
+    {
+      "id": "rstudio",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/rstudio.png",
+      "bytes": 2508,
+      "pixels": "128x128"
+    },
+    {
+      "id": "runway",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/runway.png",
+      "bytes": 4868,
+      "pixels": "128x128"
+    },
+    {
+      "id": "safari",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/safari.png",
+      "bytes": 12615,
+      "pixels": "128x128"
+    },
+    {
+      "id": "sasstudio",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/sasstudio.png",
+      "bytes": 4174,
+      "pixels": "128x128"
+    },
+    {
+      "id": "scrivener",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/scrivener.png",
+      "bytes": 1801,
+      "pixels": "128x128"
+    },
+    {
+      "id": "shapr3d",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/shapr3d.png",
+      "bytes": 3062,
+      "pixels": "128x128"
+    },
+    {
+      "id": "simulink",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/simulink.png",
+      "bytes": 6816,
+      "pixels": "128x128"
+    },
+    {
+      "id": "sketch",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/sketch.png",
+      "bytes": 6879,
+      "pixels": "128x128"
+    },
+    {
+      "id": "sketchup",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/sketchup.png",
+      "bytes": 8765,
+      "pixels": "128x128"
+    },
+    {
+      "id": "slack",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/slack.png",
+      "bytes": 9429,
+      "pixels": "128x128"
+    },
+    {
+      "id": "slicer",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/slicer.png",
+      "bytes": 2851,
+      "pixels": "128x128"
+    },
+    {
+      "id": "snapgene",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/snapgene.png",
+      "bytes": 1478,
+      "pixels": "128x128"
+    },
+    {
+      "id": "sourcetree",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/sourcetree.png",
+      "bytes": 11576,
+      "pixels": "128x128"
+    },
+    {
+      "id": "spss",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/spss.png",
+      "bytes": 22188,
+      "pixels": "128x128"
+    },
+    {
+      "id": "sqlitestudio",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/sqlitestudio.png",
+      "bytes": 6897,
+      "pixels": "128x128"
+    },
+    {
+      "id": "stablediffusion",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/stablediffusion.png",
+      "bytes": 6897,
+      "pixels": "128x128"
+    },
+    {
+      "id": "stata",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/stata.png",
+      "bytes": 4148,
+      "pixels": "128x128"
+    },
+    {
+      "id": "stm32cubeide",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/stm32cubeide.png",
+      "bytes": 3297,
+      "pixels": "128x128"
+    },
+    {
+      "id": "sublimetext",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/sublimetext.png",
+      "bytes": 3162,
+      "pixels": "128x128"
+    },
+    {
+      "id": "substancepainter",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/substancepainter.png",
+      "bytes": 1891,
+      "pixels": "128x128"
+    },
+    {
+      "id": "supabase",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/supabase.png",
+      "bytes": 6313,
+      "pixels": "128x128"
+    },
+    {
+      "id": "swaggerui",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/swaggerui.png",
+      "bytes": 10890,
+      "pixels": "128x128"
+    },
+    {
+      "id": "tableau",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/tableau.png",
+      "bytes": 20849,
+      "pixels": "128x128"
+    },
+    {
+      "id": "tableplus",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/tableplus.png",
+      "bytes": 6199,
+      "pixels": "128x128"
+    },
+    {
+      "id": "teams",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/teams.png",
+      "bytes": 530,
+      "pixels": "128x128"
+    },
+    {
+      "id": "tencentmeeting",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/tencentmeeting.png",
+      "bytes": 4008,
+      "pixels": "128x128"
+    },
+    {
+      "id": "terminal",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/terminal.png",
+      "bytes": 4539,
+      "pixels": "128x128"
+    },
+    {
+      "id": "texstudio",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/texstudio.png",
+      "bytes": 12045,
+      "pixels": "128x128"
+    },
+    {
+      "id": "ticktick",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/ticktick.png",
+      "bytes": 10096,
+      "pixels": "128x128"
+    },
+    {
+      "id": "todoist",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/todoist.png",
+      "bytes": 2611,
+      "pixels": "128x128"
+    },
+    {
+      "id": "tower",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/tower.png",
+      "bytes": 1860,
+      "pixels": "128x128"
+    },
+    {
+      "id": "trello",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/trello.png",
+      "bytes": 1122,
+      "pixels": "128x128"
+    },
+    {
+      "id": "twinmotion",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/twinmotion.png",
+      "bytes": 1543,
+      "pixels": "128x128"
+    },
+    {
+      "id": "ulysses",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/ulysses.png",
+      "bytes": 17122,
+      "pixels": "128x128"
+    },
+    {
+      "id": "unity",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/unity.png",
+      "bytes": 2108,
+      "pixels": "128x128"
+    },
+    {
+      "id": "unrealengine",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/unrealengine.png",
+      "bytes": 1543,
+      "pixels": "128x128"
+    },
+    {
+      "id": "vectorworks",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/vectorworks.png",
+      "bytes": 2926,
+      "pixels": "128x128"
+    },
+    {
+      "id": "vercel",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/vercel.png",
+      "bytes": 965,
+      "pixels": "128x128"
+    },
+    {
+      "id": "vlc",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/vlc.png",
+      "bytes": 5012,
+      "pixels": "128x128"
+    },
+    {
+      "id": "vmd",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/vmd.png",
+      "bytes": 2386,
+      "pixels": "128x128"
+    },
+    {
+      "id": "vscode",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/vscode.png",
+      "bytes": 6150,
+      "pixels": "128x128"
+    },
+    {
+      "id": "warp",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/warp.png",
+      "bytes": 1126,
+      "pixels": "128x128"
+    },
+    {
+      "id": "webstorm",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/webstorm.png",
+      "bytes": 3946,
+      "pixels": "128x128"
+    },
+    {
+      "id": "wechat",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/wechat.png",
+      "bytes": 3058,
+      "pixels": "128x128"
+    },
+    {
+      "id": "word",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/word.png",
+      "bytes": 1532,
+      "pixels": "128x128"
+    },
+    {
+      "id": "wpsoffice",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/wpsoffice.png",
+      "bytes": 7329,
+      "pixels": "128x128"
+    },
+    {
+      "id": "xcode",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/xcode.png",
+      "bytes": 8112,
+      "pixels": "128x128"
+    },
+    {
+      "id": "xmind",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/xmind.png",
+      "bytes": 3673,
+      "pixels": "128x128"
+    },
+    {
+      "id": "yuque",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/yuque.png",
+      "bytes": 4253,
+      "pixels": "128x128"
+    },
+    {
+      "id": "zbrush",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/zbrush.png",
+      "bytes": 10085,
+      "pixels": "128x128"
+    },
+    {
+      "id": "zoom",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/zoom.png",
+      "bytes": 4852,
+      "pixels": "128x128"
+    },
+    {
+      "id": "zotero",
+      "sourceFormat": "png",
+      "output": "src/KeyFloat.Win/Assets/SoftwareIcons/zotero.png",
+      "bytes": 740,
+      "pixels": "128x128"
+    }
+  ]
+}

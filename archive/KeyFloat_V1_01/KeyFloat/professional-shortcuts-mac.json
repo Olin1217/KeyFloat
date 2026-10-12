@@ -1,0 +1,565 @@
+{
+  "software": [
+    {
+      "id":"autocad","name":"AutoCAD","vendor":"Autodesk","accent":"#E51050","glyph":"A",
+      "categories":[
+        {"id":"draw","zh":"绘图","en":"Draw","items":[
+          {"id":"acad.line","keys":["L","Return"],"zh":"直线","en":"Line","tags":["draw"]},
+          {"id":"acad.polyline","keys":["PL","Return"],"zh":"多段线","en":"Polyline","tags":["draw"]},
+          {"id":"acad.circle","keys":["C","Return"],"zh":"圆","en":"Circle","tags":["draw"]},
+          {"id":"acad.arc","keys":["A","Return"],"zh":"圆弧","en":"Arc","tags":["draw"]},
+          {"id":"acad.rectangle","keys":["REC","Return"],"zh":"矩形","en":"Rectangle","tags":["draw"]},
+          {"id":"acad.polygon","keys":["POL","Return"],"zh":"多边形","en":"Polygon","tags":["draw"]},
+          {"id":"acad.ellipse","keys":["EL","Return"],"zh":"椭圆","en":"Ellipse","tags":["draw"]},
+          {"id":"acad.hatch","keys":["H","Return"],"zh":"图案填充","en":"Hatch","tags":["draw"]},
+          {"id":"acad.text","keys":["T","Return"],"zh":"多行文字","en":"Multiline text","tags":["text"]}
+        ]},
+        {"id":"modify","zh":"修改","en":"Modify","items":[
+          {"id":"acad.erase","keys":["E","Return"],"zh":"删除对象","en":"Erase objects","tags":["edit"]},
+          {"id":"acad.copy","keys":["CO","Return"],"zh":"复制对象","en":"Copy objects","tags":["edit"]},
+          {"id":"acad.move","keys":["M","Return"],"zh":"移动对象","en":"Move objects","tags":["edit"]},
+          {"id":"acad.rotate","keys":["RO","Return"],"zh":"旋转对象","en":"Rotate objects","tags":["edit"]},
+          {"id":"acad.scale","keys":["SC","Return"],"zh":"缩放对象","en":"Scale objects","tags":["edit"]},
+          {"id":"acad.mirror","keys":["MI","Return"],"zh":"镜像对象","en":"Mirror objects","tags":["edit"]},
+          {"id":"acad.offset","keys":["O","Return"],"zh":"偏移对象","en":"Offset objects","tags":["edit"]},
+          {"id":"acad.trim","keys":["TR","Return"],"zh":"修剪对象","en":"Trim objects","tags":["edit"]},
+          {"id":"acad.extend","keys":["EX","Return"],"zh":"延伸对象","en":"Extend objects","tags":["edit"]},
+          {"id":"acad.fillet","keys":["F","Return"],"zh":"圆角","en":"Fillet","tags":["edit"]},
+          {"id":"acad.chamfer","keys":["CHA","Return"],"zh":"倒角","en":"Chamfer","tags":["edit"]},
+          {"id":"acad.explode","keys":["X","Return"],"zh":"分解对象","en":"Explode objects","tags":["edit"]},
+          {"id":"acad.join","keys":["J","Return"],"zh":"合并对象","en":"Join objects","tags":["edit"]},
+          {"id":"acad.stretch","keys":["S","Return"],"zh":"拉伸对象","en":"Stretch objects","tags":["edit"]}
+        ]},
+        {"id":"manage","zh":"视图与管理","en":"View & Manage","items":[
+          {"id":"acad.layer","keys":["LA","Return"],"zh":"打开图层管理器","en":"Open Layer Manager","tags":["layer"]},
+          {"id":"acad.properties","keys":["⌘","1"],"zh":"显示或隐藏特性面板","en":"Toggle Properties palette","tags":["panel"]},
+          {"id":"acad.design-center","keys":["⌘","2"],"zh":"显示或隐藏设计中心","en":"Toggle DesignCenter","tags":["panel"]},
+          {"id":"acad.tool-palettes","keys":["⌘","3"],"zh":"显示或隐藏工具选项板","en":"Toggle Tool Palettes","tags":["panel"]},
+          {"id":"acad.zoom","keys":["Z","Return"],"zh":"缩放视图","en":"Zoom view","tags":["view"]},
+          {"id":"acad.pan","keys":["P","Return"],"zh":"平移视图","en":"Pan view","tags":["view"]},
+          {"id":"acad.regen","keys":["RE","Return"],"zh":"重新生成图形","en":"Regenerate drawing","tags":["view"]},
+          {"id":"acad.distance","keys":["DI","Return"],"zh":"测量距离","en":"Measure distance","tags":["measure"]},
+          {"id":"acad.area","keys":["AA","Return"],"zh":"测量面积","en":"Measure area","tags":["measure"]},
+          {"id":"acad.units","keys":["UN","Return"],"zh":"设置单位","en":"Set drawing units","tags":["settings"]},
+          {"id":"acad.osnap","keys":["F3"],"zh":"切换对象捕捉","en":"Toggle object snap","tags":["snap"]},
+          {"id":"acad.ortho","keys":["F8"],"zh":"切换正交模式","en":"Toggle Ortho mode","tags":["snap"]},
+          {"id":"acad.grid","keys":["F7"],"zh":"切换栅格显示","en":"Toggle grid display","tags":["view"]},
+          {"id":"acad.snap","keys":["F9"],"zh":"切换捕捉模式","en":"Toggle snap mode","tags":["snap"]}
+        ]},
+        {"id":"file","zh":"文件与编辑","en":"File & Edit","items":[
+          {"id":"acad.new","keys":["⌘","N"],"zh":"新建图形","en":"New drawing","tags":[]},
+          {"id":"acad.open","keys":["⌘","O"],"zh":"打开图形","en":"Open drawing","tags":[]},
+          {"id":"acad.save","keys":["⌘","S"],"zh":"保存图形","en":"Save drawing","tags":[]},
+          {"id":"acad.print","keys":["⌘","P"],"zh":"打印图形","en":"Print drawing","tags":[]},
+          {"id":"acad.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"acad.redo","keys":["⌘","Y"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"acad.cancel","keys":["Esc"],"zh":"取消当前命令","en":"Cancel current command","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"sketchup","name":"SketchUp","vendor":"Trimble","accent":"#005F9E","glyph":"Su",
+      "categories":[
+        {"id":"tools","zh":"建模工具","en":"Modeling Tools","items":[
+          {"id":"su.select","keys":["Space"],"zh":"选择工具","en":"Select tool","tags":[]},
+          {"id":"su.line","keys":["L"],"zh":"直线工具","en":"Line tool","tags":[]},
+          {"id":"su.rectangle","keys":["R"],"zh":"矩形工具","en":"Rectangle tool","tags":[]},
+          {"id":"su.circle","keys":["C"],"zh":"圆工具","en":"Circle tool","tags":[]},
+          {"id":"su.arc","keys":["A"],"zh":"圆弧工具","en":"Arc tool","tags":[]},
+          {"id":"su.push-pull","keys":["P"],"zh":"推拉工具","en":"Push/Pull tool","tags":[]},
+          {"id":"su.move","keys":["M"],"zh":"移动工具","en":"Move tool","tags":[]},
+          {"id":"su.rotate","keys":["Q"],"zh":"旋转工具","en":"Rotate tool","tags":[]},
+          {"id":"su.scale","keys":["S"],"zh":"缩放工具","en":"Scale tool","tags":[]},
+          {"id":"su.offset","keys":["F"],"zh":"偏移工具","en":"Offset tool","tags":[]},
+          {"id":"su.tape","keys":["T"],"zh":"卷尺工具","en":"Tape Measure tool","tags":[]},
+          {"id":"su.protractor","keys":["⇧","T"],"zh":"量角器工具","en":"Protractor tool","tags":[]},
+          {"id":"su.paint","keys":["B"],"zh":"材质工具","en":"Paint Bucket tool","tags":[]},
+          {"id":"su.eraser","keys":["E"],"zh":"橡皮擦工具","en":"Eraser tool","tags":[]}
+        ]},
+        {"id":"view","zh":"视图导航","en":"View Navigation","items":[
+          {"id":"su.orbit","keys":["O"],"zh":"环绕观察","en":"Orbit","tags":[]},
+          {"id":"su.pan","keys":["H"],"zh":"平移视图","en":"Pan","tags":[]},
+          {"id":"su.zoom","keys":["Z"],"zh":"缩放视图","en":"Zoom","tags":[]},
+          {"id":"su.zoom-extents","keys":["⇧","Z"],"zh":"充满视窗","en":"Zoom Extents","tags":[]},
+          {"id":"su.look-around","keys":["W"],"zh":"环视工具","en":"Look Around","tags":[]},
+          {"id":"su.position-camera","keys":["⌥","C"],"zh":"定位相机","en":"Position Camera","tags":[]},
+          {"id":"su.walk","keys":["⌥","W"],"zh":"漫游工具","en":"Walk","tags":[]},
+          {"id":"su.perspective","keys":["⌘","⇧","P"],"zh":"切换透视视图","en":"Toggle Perspective","tags":[]}
+        ]},
+        {"id":"edit","zh":"编辑与文件","en":"Edit & File","items":[
+          {"id":"su.group","keys":["⌘","G"],"zh":"创建群组","en":"Make group","tags":[]},
+          {"id":"su.component","keys":["G"],"zh":"创建组件","en":"Make component","tags":[]},
+          {"id":"su.hide","keys":["⌘","E"],"zh":"隐藏选中对象","en":"Hide selected","tags":[]},
+          {"id":"su.unhide-all","keys":["⌘","⇧","E"],"zh":"显示全部对象","en":"Unhide all","tags":[]},
+          {"id":"su.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"su.redo","keys":["⌘","⇧","Z"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"su.copy","keys":["⌘","C"],"zh":"复制","en":"Copy","tags":[]},
+          {"id":"su.paste","keys":["⌘","V"],"zh":"粘贴","en":"Paste","tags":[]},
+          {"id":"su.delete","keys":["Delete"],"zh":"删除选中对象","en":"Delete selected","tags":[]},
+          {"id":"su.new","keys":["⌘","N"],"zh":"新建模型","en":"New model","tags":[]},
+          {"id":"su.open","keys":["⌘","O"],"zh":"打开模型","en":"Open model","tags":[]},
+          {"id":"su.save","keys":["⌘","S"],"zh":"保存模型","en":"Save model","tags":[]},
+          {"id":"su.print","keys":["⌘","P"],"zh":"打印","en":"Print","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"rhino","name":"Rhino","vendor":"McNeel","accent":"#777777","glyph":"R",
+      "categories":[
+        {"id":"create","zh":"创建几何体","en":"Create Geometry","items":[
+          {"id":"rhino.line","keys":["Line","Return"],"zh":"创建直线","en":"Create a line","tags":["command"]},
+          {"id":"rhino.polyline","keys":["Polyline","Return"],"zh":"创建多段线","en":"Create a polyline","tags":["command"]},
+          {"id":"rhino.circle","keys":["Circle","Return"],"zh":"创建圆","en":"Create a circle","tags":["command"]},
+          {"id":"rhino.arc","keys":["Arc","Return"],"zh":"创建圆弧","en":"Create an arc","tags":["command"]},
+          {"id":"rhino.rectangle","keys":["Rectangle","Return"],"zh":"创建矩形","en":"Create a rectangle","tags":["command"]},
+          {"id":"rhino.box","keys":["Box","Return"],"zh":"创建立方体","en":"Create a box","tags":["command"]},
+          {"id":"rhino.sphere","keys":["Sphere","Return"],"zh":"创建球体","en":"Create a sphere","tags":["command"]},
+          {"id":"rhino.extrude","keys":["ExtrudeCrv","Return"],"zh":"挤出曲线","en":"Extrude curves","tags":["command"]},
+          {"id":"rhino.loft","keys":["Loft","Return"],"zh":"放样曲面","en":"Loft surfaces","tags":["command"]},
+          {"id":"rhino.revolve","keys":["Revolve","Return"],"zh":"旋转成形","en":"Revolve profile","tags":["command"]}
+        ]},
+        {"id":"transform","zh":"变换与编辑","en":"Transform & Edit","items":[
+          {"id":"rhino.move","keys":["Move","Return"],"zh":"移动对象","en":"Move objects","tags":["command"]},
+          {"id":"rhino.copy","keys":["Copy","Return"],"zh":"复制对象","en":"Copy objects","tags":["command"]},
+          {"id":"rhino.rotate","keys":["Rotate","Return"],"zh":"旋转对象","en":"Rotate objects","tags":["command"]},
+          {"id":"rhino.scale","keys":["Scale","Return"],"zh":"缩放对象","en":"Scale objects","tags":["command"]},
+          {"id":"rhino.mirror","keys":["Mirror","Return"],"zh":"镜像对象","en":"Mirror objects","tags":["command"]},
+          {"id":"rhino.array","keys":["Array","Return"],"zh":"阵列对象","en":"Array objects","tags":["command"]},
+          {"id":"rhino.trim","keys":["Trim","Return"],"zh":"修剪对象","en":"Trim objects","tags":["command"]},
+          {"id":"rhino.split","keys":["Split","Return"],"zh":"分割对象","en":"Split objects","tags":["command"]},
+          {"id":"rhino.join","keys":["Join","Return"],"zh":"连接对象","en":"Join objects","tags":["command"]},
+          {"id":"rhino.boolean-union","keys":["BooleanUnion","Return"],"zh":"布尔并集","en":"Boolean union","tags":["command"]},
+          {"id":"rhino.boolean-difference","keys":["BooleanDifference","Return"],"zh":"布尔差集","en":"Boolean difference","tags":["command"]},
+          {"id":"rhino.delete","keys":["Delete"],"zh":"删除选中对象","en":"Delete selected objects","tags":[]}
+        ]},
+        {"id":"view-file","zh":"视图与文件","en":"View & File","items":[
+          {"id":"rhino.zoom-selected","keys":["ZS","Return"],"zh":"缩放至选中对象","en":"Zoom selected","tags":["view"]},
+          {"id":"rhino.zoom-extents","keys":["ZE","Return"],"zh":"显示全部对象","en":"Zoom extents","tags":["view"]},
+          {"id":"rhino.pan","keys":["⇧","右键拖动"],"zh":"平移视图","en":"Pan view","tags":["view"]},
+          {"id":"rhino.rotate-view","keys":["右键拖动"],"zh":"旋转透视视图","en":"Rotate perspective view","tags":["view"]},
+          {"id":"rhino.grid-snap","keys":["F9"],"zh":"切换栅格捕捉","en":"Toggle grid snap","tags":["snap"]},
+          {"id":"rhino.ortho","keys":["F8"],"zh":"切换正交模式","en":"Toggle Ortho","tags":["snap"]},
+          {"id":"rhino.planar","keys":["⇧","F7"],"zh":"切换平面模式","en":"Toggle Planar mode","tags":["snap"]},
+          {"id":"rhino.gumball","keys":["Gumball","Return"],"zh":"切换操作轴","en":"Toggle Gumball","tags":["transform"]},
+          {"id":"rhino.new","keys":["⌘","N"],"zh":"新建模型","en":"New model","tags":[]},
+          {"id":"rhino.open","keys":["⌘","O"],"zh":"打开模型","en":"Open model","tags":[]},
+          {"id":"rhino.save","keys":["⌘","S"],"zh":"保存模型","en":"Save model","tags":[]},
+          {"id":"rhino.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"rhino.redo","keys":["⌘","⇧","Z"],"zh":"重做","en":"Redo","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"fusion360","name":"Fusion 360","vendor":"Autodesk","accent":"#F28C28","glyph":"F",
+      "categories":[
+        {"id":"sketch","zh":"草图","en":"Sketch","items":[
+          {"id":"fusion.shortcuts","keys":["S"],"zh":"打开快捷方式工具箱","en":"Open shortcut toolbox","tags":[]},
+          {"id":"fusion.line","keys":["L"],"zh":"直线工具","en":"Line tool","tags":[]},
+          {"id":"fusion.rectangle","keys":["R"],"zh":"两点矩形","en":"Two-point rectangle","tags":[]},
+          {"id":"fusion.circle","keys":["C"],"zh":"中心直径圆","en":"Center diameter circle","tags":[]},
+          {"id":"fusion.dimension","keys":["D"],"zh":"草图尺寸","en":"Sketch dimension","tags":[]},
+          {"id":"fusion.project","keys":["P"],"zh":"投影几何体","en":"Project geometry","tags":[]},
+          {"id":"fusion.offset","keys":["O"],"zh":"偏移草图","en":"Offset sketch","tags":[]},
+          {"id":"fusion.trim","keys":["T"],"zh":"修剪草图","en":"Trim sketch","tags":[]},
+          {"id":"fusion.construction","keys":["X"],"zh":"切换构造线","en":"Toggle construction geometry","tags":[]},
+          {"id":"fusion.constraints","keys":["⌘","点击"],"zh":"选择多个草图约束对象","en":"Select multiple constraint objects","tags":[]}
+        ]},
+        {"id":"model","zh":"实体建模","en":"Solid Modeling","items":[
+          {"id":"fusion.extrude","keys":["E"],"zh":"拉伸","en":"Extrude","tags":[]},
+          {"id":"fusion.press-pull","keys":["Q"],"zh":"按拉","en":"Press Pull","tags":[]},
+          {"id":"fusion.fillet","keys":["F"],"zh":"圆角","en":"Fillet","tags":[]},
+          {"id":"fusion.move","keys":["M"],"zh":"移动或复制","en":"Move or copy","tags":[]},
+          {"id":"fusion.hole","keys":["H"],"zh":"创建孔","en":"Create hole","tags":[]},
+          {"id":"fusion.joint","keys":["J"],"zh":"创建接头","en":"Create joint","tags":[]},
+          {"id":"fusion.as-built-joint","keys":["⇧","J"],"zh":"创建原位接头","en":"Create as-built joint","tags":[]},
+          {"id":"fusion.appearance","keys":["A"],"zh":"打开外观面板","en":"Open Appearance panel","tags":[]},
+          {"id":"fusion.measure","keys":["I"],"zh":"测量","en":"Measure","tags":[]},
+          {"id":"fusion.delete","keys":["Delete"],"zh":"删除选中对象","en":"Delete selected","tags":[]},
+          {"id":"fusion.repeat","keys":["⌘","R"],"zh":"重复上一个命令","en":"Repeat last command","tags":[]}
+        ]},
+        {"id":"view-file","zh":"视图与文件","en":"View & File","items":[
+          {"id":"fusion.orbit","keys":["⇧","中键拖动"],"zh":"环绕视图","en":"Orbit view","tags":[]},
+          {"id":"fusion.pan","keys":["中键拖动"],"zh":"平移视图","en":"Pan view","tags":[]},
+          {"id":"fusion.zoom","keys":["滚轮"],"zh":"缩放视图","en":"Zoom view","tags":[]},
+          {"id":"fusion.home","keys":["F6"],"zh":"返回主视图","en":"Return to home view","tags":[]},
+          {"id":"fusion.fit","keys":["F"],"zh":"将选中对象适合窗口","en":"Fit selected in window","tags":["view"]},
+          {"id":"fusion.new","keys":["⌘","N"],"zh":"新建设计","en":"New design","tags":[]},
+          {"id":"fusion.open","keys":["⌘","O"],"zh":"打开设计","en":"Open design","tags":[]},
+          {"id":"fusion.save","keys":["⌘","S"],"zh":"保存设计","en":"Save design","tags":[]},
+          {"id":"fusion.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"fusion.redo","keys":["⌘","⇧","Z"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"fusion.copy","keys":["⌘","C"],"zh":"复制","en":"Copy","tags":[]},
+          {"id":"fusion.paste","keys":["⌘","V"],"zh":"粘贴","en":"Paste","tags":[]},
+          {"id":"fusion.cancel","keys":["Esc"],"zh":"取消当前命令","en":"Cancel current command","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"freecad","name":"FreeCAD","vendor":"FreeCAD","accent":"#729FCF","glyph":"Fc",
+      "categories":[
+        {"id":"view","zh":"视图","en":"View","items":[
+          {"id":"fc.axon","keys":["0"],"zh":"轴测视图","en":"Axonometric view","tags":[]},
+          {"id":"fc.front","keys":["1"],"zh":"前视图","en":"Front view","tags":[]},
+          {"id":"fc.rear","keys":["2"],"zh":"后视图","en":"Rear view","tags":[]},
+          {"id":"fc.left","keys":["3"],"zh":"左视图","en":"Left view","tags":[]},
+          {"id":"fc.right","keys":["4"],"zh":"右视图","en":"Right view","tags":[]},
+          {"id":"fc.top","keys":["5"],"zh":"顶视图","en":"Top view","tags":[]},
+          {"id":"fc.bottom","keys":["6"],"zh":"底视图","en":"Bottom view","tags":[]},
+          {"id":"fc.fit-all","keys":["V","F"],"zh":"显示全部对象","en":"Fit all objects","tags":[]},
+          {"id":"fc.fit-selection","keys":["V","S"],"zh":"聚焦选中对象","en":"Fit selection","tags":[]},
+          {"id":"fc.ortho","keys":["V","O"],"zh":"切换正交投影","en":"Toggle orthographic projection","tags":[]}
+        ]},
+        {"id":"edit","zh":"对象与编辑","en":"Objects & Edit","items":[
+          {"id":"fc.select-all","keys":["⌘","A"],"zh":"全选","en":"Select all","tags":[]},
+          {"id":"fc.clear-selection","keys":["⌘","⇧","A"],"zh":"清除选择","en":"Clear selection","tags":[]},
+          {"id":"fc.delete","keys":["Delete"],"zh":"删除对象","en":"Delete object","tags":[]},
+          {"id":"fc.copy","keys":["⌘","C"],"zh":"复制","en":"Copy","tags":[]},
+          {"id":"fc.paste","keys":["⌘","V"],"zh":"粘贴","en":"Paste","tags":[]},
+          {"id":"fc.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"fc.redo","keys":["⌘","Y"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"fc.refresh","keys":["F5"],"zh":"刷新文档","en":"Refresh document","tags":[]},
+          {"id":"fc.toggle-visibility","keys":["Space"],"zh":"切换对象可见性","en":"Toggle object visibility","tags":[]},
+          {"id":"fc.recompute","keys":["⌘","R"],"zh":"重新计算文档","en":"Recompute document","tags":[]}
+        ]},
+        {"id":"file","zh":"文件与界面","en":"File & Interface","items":[
+          {"id":"fc.new","keys":["⌘","N"],"zh":"新建文档","en":"New document","tags":[]},
+          {"id":"fc.open","keys":["⌘","O"],"zh":"打开文档","en":"Open document","tags":[]},
+          {"id":"fc.save","keys":["⌘","S"],"zh":"保存文档","en":"Save document","tags":[]},
+          {"id":"fc.save-as","keys":["⌘","⇧","S"],"zh":"另存为","en":"Save as","tags":[]},
+          {"id":"fc.close","keys":["⌘","W"],"zh":"关闭文档","en":"Close document","tags":[]},
+          {"id":"fc.print","keys":["⌘","P"],"zh":"打印","en":"Print","tags":[]},
+          {"id":"fc.fullscreen","keys":["F11"],"zh":"切换全屏","en":"Toggle full screen","tags":[]},
+          {"id":"fc.python-console","keys":["V","P"],"zh":"切换脚本控制台","en":"Toggle Python console","tags":[]},
+          {"id":"fc.report-view","keys":["V","R"],"zh":"切换报告视图","en":"Toggle report view","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"shapr3d","name":"Shapr3D","vendor":"Shapr3D","accent":"#2863FF","glyph":"S",
+      "categories":[
+        {"id":"model","zh":"建模","en":"Modeling","items":[
+          {"id":"shapr.search","keys":["⌘","F"],"zh":"搜索工具或命令","en":"Search tools or commands","tags":[]},
+          {"id":"shapr.add","keys":["A"],"zh":"打开添加菜单","en":"Open Add menu","tags":[]},
+          {"id":"shapr.sketch","keys":["S"],"zh":"进入草图工具","en":"Open sketch tools","tags":[]},
+          {"id":"shapr.move","keys":["M"],"zh":"移动或旋转","en":"Move or rotate","tags":[]},
+          {"id":"shapr.extrude","keys":["E"],"zh":"拉伸","en":"Extrude","tags":[]},
+          {"id":"shapr.offset","keys":["O"],"zh":"偏移面","en":"Offset face","tags":[]},
+          {"id":"shapr.project","keys":["P"],"zh":"投影","en":"Project","tags":[]},
+          {"id":"shapr.fillet","keys":["F"],"zh":"圆角或倒角","en":"Fillet or chamfer","tags":[]},
+          {"id":"shapr.shell","keys":["H"],"zh":"抽壳","en":"Shell","tags":[]},
+          {"id":"shapr.revolve","keys":["V"],"zh":"旋转成形","en":"Revolve","tags":[]},
+          {"id":"shapr.isolate","keys":["I"],"zh":"隔离选中对象","en":"Isolate selected","tags":[]}
+        ]},
+        {"id":"view-edit","zh":"视图与编辑","en":"View & Edit","items":[
+          {"id":"shapr.orbit","keys":["右键拖动"],"zh":"旋转视图","en":"Orbit view","tags":[]},
+          {"id":"shapr.pan","keys":["⇧","右键拖动"],"zh":"平移视图","en":"Pan view","tags":[]},
+          {"id":"shapr.zoom","keys":["滚轮"],"zh":"缩放视图","en":"Zoom view","tags":[]},
+          {"id":"shapr.fit","keys":["F"],"zh":"聚焦选中对象","en":"Fit selected object","tags":["view"]},
+          {"id":"shapr.select-all","keys":["⌘","A"],"zh":"全选","en":"Select all","tags":[]},
+          {"id":"shapr.delete","keys":["Delete"],"zh":"删除选中对象","en":"Delete selected","tags":[]},
+          {"id":"shapr.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"shapr.redo","keys":["⌘","⇧","Z"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"shapr.copy","keys":["⌘","C"],"zh":"复制","en":"Copy","tags":[]},
+          {"id":"shapr.paste","keys":["⌘","V"],"zh":"粘贴","en":"Paste","tags":[]},
+          {"id":"shapr.cancel","keys":["Esc"],"zh":"取消当前操作","en":"Cancel current operation","tags":[]}
+        ]},
+        {"id":"file","zh":"文件","en":"File","items":[
+          {"id":"shapr.new","keys":["⌘","N"],"zh":"新建设计","en":"New design","tags":[]},
+          {"id":"shapr.open","keys":["⌘","O"],"zh":"打开设计","en":"Open design","tags":[]},
+          {"id":"shapr.save","keys":["⌘","S"],"zh":"保存设计","en":"Save design","tags":[]},
+          {"id":"shapr.close","keys":["⌘","W"],"zh":"关闭窗口","en":"Close window","tags":[]},
+          {"id":"shapr.preferences","keys":["⌘",","],"zh":"打开偏好设置","en":"Open preferences","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"maya","name":"Maya","vendor":"Autodesk","accent":"#37A5CC","glyph":"M",
+      "categories":[
+        {"id":"tools","zh":"工具与变换","en":"Tools & Transform","items":[
+          {"id":"maya.select","keys":["Q"],"zh":"选择工具","en":"Select tool","tags":[]},
+          {"id":"maya.move","keys":["W"],"zh":"移动工具","en":"Move tool","tags":[]},
+          {"id":"maya.rotate","keys":["E"],"zh":"旋转工具","en":"Rotate tool","tags":[]},
+          {"id":"maya.scale","keys":["R"],"zh":"缩放工具","en":"Scale tool","tags":[]},
+          {"id":"maya.universal","keys":["T"],"zh":"通用操纵器","en":"Universal manipulator","tags":[]},
+          {"id":"maya.last-tool","keys":["Y"],"zh":"重复上一个工具","en":"Repeat last tool","tags":[]},
+          {"id":"maya.repeat","keys":["G"],"zh":"重复上一个命令","en":"Repeat last command","tags":[]},
+          {"id":"maya.pivot","keys":["D"],"zh":"编辑枢轴","en":"Edit pivot","tags":[]},
+          {"id":"maya.snap-grid","keys":["X"],"zh":"捕捉到栅格","en":"Snap to grid","tags":[]},
+          {"id":"maya.snap-curve","keys":["C"],"zh":"捕捉到曲线","en":"Snap to curve","tags":[]},
+          {"id":"maya.snap-point","keys":["V"],"zh":"捕捉到点","en":"Snap to point","tags":[]},
+          {"id":"maya.discrete-rotate","keys":["J"],"zh":"按步进旋转","en":"Snap rotate increments","tags":[]}
+        ]},
+        {"id":"view","zh":"视图与显示","en":"View & Display","items":[
+          {"id":"maya.hotbox","keys":["Space"],"zh":"显示热盒菜单","en":"Show Hotbox","tags":[]},
+          {"id":"maya.orbit","keys":["⌥","左键拖动"],"zh":"环绕视图","en":"Orbit view","tags":[]},
+          {"id":"maya.pan","keys":["⌥","中键拖动"],"zh":"平移视图","en":"Pan view","tags":[]},
+          {"id":"maya.zoom","keys":["⌥","右键拖动"],"zh":"缩放视图","en":"Zoom view","tags":[]},
+          {"id":"maya.frame-selected","keys":["F"],"zh":"聚焦选中对象","en":"Frame selected","tags":[]},
+          {"id":"maya.frame-all","keys":["A"],"zh":"显示全部对象","en":"Frame all","tags":[]},
+          {"id":"maya.wireframe","keys":["4"],"zh":"线框显示","en":"Wireframe display","tags":[]},
+          {"id":"maya.shaded","keys":["5"],"zh":"着色显示","en":"Shaded display","tags":[]},
+          {"id":"maya.textured","keys":["6"],"zh":"纹理显示","en":"Textured display","tags":[]},
+          {"id":"maya.lighting","keys":["7"],"zh":"使用场景灯光","en":"Use scene lights","tags":[]},
+          {"id":"maya.smooth-preview","keys":["3"],"zh":"平滑网格预览","en":"Smooth mesh preview","tags":[]},
+          {"id":"maya.default-preview","keys":["1"],"zh":"默认网格显示","en":"Default mesh display","tags":[]}
+        ]},
+        {"id":"object","zh":"对象与动画","en":"Objects & Animation","items":[
+          {"id":"maya.duplicate","keys":["⌘","D"],"zh":"复制对象","en":"Duplicate object","tags":[]},
+          {"id":"maya.duplicate-special","keys":["⌘","⇧","D"],"zh":"特殊复制","en":"Duplicate Special","tags":[]},
+          {"id":"maya.group","keys":["⌘","G"],"zh":"编组","en":"Group","tags":[]},
+          {"id":"maya.parent","keys":["P"],"zh":"建立父子关系","en":"Parent","tags":[]},
+          {"id":"maya.unparent","keys":["⇧","P"],"zh":"解除父子关系","en":"Unparent","tags":[]},
+          {"id":"maya.hide","keys":["⌘","H"],"zh":"隐藏选中对象","en":"Hide selected","tags":[]},
+          {"id":"maya.show-last","keys":["⌘","⇧","H"],"zh":"显示上次隐藏对象","en":"Show last hidden","tags":[]},
+          {"id":"maya.set-key","keys":["S"],"zh":"设置关键帧","en":"Set keyframe","tags":["animation"]},
+          {"id":"maya.key-move","keys":["⇧","W"],"zh":"为移动属性设置关键帧","en":"Set key on translate","tags":["animation"]},
+          {"id":"maya.key-rotate","keys":["⇧","E"],"zh":"为旋转属性设置关键帧","en":"Set key on rotate","tags":["animation"]},
+          {"id":"maya.key-scale","keys":["⇧","R"],"zh":"为缩放属性设置关键帧","en":"Set key on scale","tags":["animation"]},
+          {"id":"maya.play","keys":["⌥","V"],"zh":"播放或停止动画","en":"Play or stop animation","tags":["animation"]}
+        ]},
+        {"id":"file","zh":"文件与编辑","en":"File & Edit","items":[
+          {"id":"maya.new","keys":["⌘","N"],"zh":"新建场景","en":"New scene","tags":[]},
+          {"id":"maya.open","keys":["⌘","O"],"zh":"打开场景","en":"Open scene","tags":[]},
+          {"id":"maya.save","keys":["⌘","S"],"zh":"保存场景","en":"Save scene","tags":[]},
+          {"id":"maya.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"maya.redo","keys":["⌘","Y"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"maya.delete","keys":["Delete"],"zh":"删除选中对象","en":"Delete selected","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"cinema4d","name":"Cinema 4D","vendor":"Maxon","accent":"#345DFF","glyph":"C4",
+      "categories":[
+        {"id":"tools","zh":"工具与对象","en":"Tools & Objects","items":[
+          {"id":"c4d.move","keys":["E"],"zh":"移动工具","en":"Move tool","tags":[]},
+          {"id":"c4d.rotate","keys":["R"],"zh":"旋转工具","en":"Rotate tool","tags":[]},
+          {"id":"c4d.scale","keys":["T"],"zh":"缩放工具","en":"Scale tool","tags":[]},
+          {"id":"c4d.live-selection","keys":["9"],"zh":"实时选择工具","en":"Live Selection tool","tags":[]},
+          {"id":"c4d.rectangle-selection","keys":["0"],"zh":"矩形选择工具","en":"Rectangle Selection tool","tags":[]},
+          {"id":"c4d.make-editable","keys":["C"],"zh":"转为可编辑对象","en":"Make editable","tags":[]},
+          {"id":"c4d.extrude","keys":["D"],"zh":"挤出","en":"Extrude","tags":[]},
+          {"id":"c4d.bevel","keys":["M","S"],"zh":"倒角","en":"Bevel","tags":[]},
+          {"id":"c4d.loop-cut","keys":["K","L"],"zh":"循环路径切割","en":"Loop/Path Cut","tags":[]},
+          {"id":"c4d.knife-line","keys":["K","K"],"zh":"线性切刀","en":"Line Cut","tags":[]},
+          {"id":"c4d.loop-select","keys":["U","L"],"zh":"循环选择","en":"Loop Selection","tags":[]},
+          {"id":"c4d.ring-select","keys":["U","B"],"zh":"环状选择","en":"Ring Selection","tags":[]}
+        ]},
+        {"id":"view","zh":"视图导航","en":"View Navigation","items":[
+          {"id":"c4d.pan","keys":["1","拖动"],"zh":"平移视图","en":"Pan view","tags":[]},
+          {"id":"c4d.zoom","keys":["2","拖动"],"zh":"缩放视图","en":"Zoom view","tags":[]},
+          {"id":"c4d.orbit","keys":["3","拖动"],"zh":"旋转视图","en":"Orbit view","tags":[]},
+          {"id":"c4d.frame-selected","keys":["S"],"zh":"聚焦选中对象","en":"Frame selected","tags":[]},
+          {"id":"c4d.frame-all","keys":["H"],"zh":"显示全部对象","en":"Frame all","tags":[]},
+          {"id":"c4d.views","keys":["中键点击"],"zh":"切换单视图与四视图","en":"Toggle single and four views","tags":[]},
+          {"id":"c4d.top","keys":["F2"],"zh":"顶视图","en":"Top view","tags":[]},
+          {"id":"c4d.right","keys":["F3"],"zh":"右视图","en":"Right view","tags":[]},
+          {"id":"c4d.front","keys":["F4"],"zh":"前视图","en":"Front view","tags":[]},
+          {"id":"c4d.perspective","keys":["F1"],"zh":"透视视图","en":"Perspective view","tags":[]}
+        ]},
+        {"id":"edit-file","zh":"编辑与文件","en":"Edit & File","items":[
+          {"id":"c4d.duplicate","keys":["⌘","拖动"],"zh":"拖动复制对象","en":"Duplicate by dragging","tags":[]},
+          {"id":"c4d.group","keys":["⌥","G"],"zh":"对象编组","en":"Group objects","tags":[]},
+          {"id":"c4d.ungroup","keys":["⇧","G"],"zh":"取消对象编组","en":"Ungroup objects","tags":[]},
+          {"id":"c4d.delete","keys":["Delete"],"zh":"删除选中对象","en":"Delete selected","tags":[]},
+          {"id":"c4d.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"c4d.redo","keys":["⌘","Y"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"c4d.new","keys":["⌘","N"],"zh":"新建工程","en":"New project","tags":[]},
+          {"id":"c4d.open","keys":["⌘","O"],"zh":"打开工程","en":"Open project","tags":[]},
+          {"id":"c4d.save","keys":["⌘","S"],"zh":"保存工程","en":"Save project","tags":[]},
+          {"id":"c4d.save-as","keys":["⌘","⇧","S"],"zh":"另存为","en":"Save as","tags":[]},
+          {"id":"c4d.render","keys":["⌘","R"],"zh":"渲染活动视图","en":"Render active view","tags":[]},
+          {"id":"c4d.render-picture","keys":["⇧","R"],"zh":"渲染到图片查看器","en":"Render to Picture Viewer","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"comsol","name":"COMSOL Multiphysics","vendor":"COMSOL","accent":"#0D4A7E","glyph":"C",
+      "categories":[
+        {"id":"model","zh":"模型与求解","en":"Model & Solve","items":[
+          {"id":"comsol.new","keys":["⌘","N"],"zh":"新建模型","en":"New model","tags":[]},
+          {"id":"comsol.open","keys":["⌘","O"],"zh":"打开模型","en":"Open model","tags":[]},
+          {"id":"comsol.save","keys":["⌘","S"],"zh":"保存模型","en":"Save model","tags":[]},
+          {"id":"comsol.build-all","keys":["F8"],"zh":"构建全部几何","en":"Build all geometry","tags":[]},
+          {"id":"comsol.compute","keys":["F5"],"zh":"计算当前研究","en":"Compute current study","tags":[]},
+          {"id":"comsol.update-solution","keys":["F6"],"zh":"更新解","en":"Update solution","tags":[]},
+          {"id":"comsol.cancel","keys":["Esc"],"zh":"取消当前操作","en":"Cancel current operation","tags":[]},
+          {"id":"comsol.delete","keys":["Delete"],"zh":"删除选中节点","en":"Delete selected node","tags":[]}
+        ]},
+        {"id":"edit","zh":"编辑与导航","en":"Edit & Navigate","items":[
+          {"id":"comsol.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"comsol.redo","keys":["⌘","Y"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"comsol.cut","keys":["⌘","X"],"zh":"剪切","en":"Cut","tags":[]},
+          {"id":"comsol.copy","keys":["⌘","C"],"zh":"复制","en":"Copy","tags":[]},
+          {"id":"comsol.paste","keys":["⌘","V"],"zh":"粘贴","en":"Paste","tags":[]},
+          {"id":"comsol.find","keys":["⌘","F"],"zh":"查找模型节点","en":"Find model node","tags":[]},
+          {"id":"comsol.next-field","keys":["Tab"],"zh":"转到下一个输入字段","en":"Move to next input field","tags":[]},
+          {"id":"comsol.prev-field","keys":["⇧","Tab"],"zh":"转到上一个输入字段","en":"Move to previous input field","tags":[]}
+        ]},
+        {"id":"view","zh":"图形视图","en":"Graphics View","items":[
+          {"id":"comsol.rotate","keys":["左键拖动"],"zh":"旋转三维视图","en":"Rotate 3D view","tags":[]},
+          {"id":"comsol.pan","keys":["中键拖动"],"zh":"平移视图","en":"Pan view","tags":[]},
+          {"id":"comsol.zoom","keys":["滚轮"],"zh":"缩放视图","en":"Zoom view","tags":[]},
+          {"id":"comsol.select-multiple","keys":["⌘","点击"],"zh":"添加或移除选择","en":"Add or remove selection","tags":[]},
+          {"id":"comsol.fit","keys":["F"],"zh":"适合窗口","en":"Fit to window","tags":[]},
+          {"id":"comsol.reset-view","keys":["R"],"zh":"重置视图","en":"Reset view","tags":[]},
+          {"id":"comsol.print","keys":["⌘","P"],"zh":"打印当前视图","en":"Print current view","tags":[]},
+          {"id":"comsol.fullscreen","keys":["⌃","⌘","F"],"zh":"切换全屏","en":"Toggle full screen","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"matlab","name":"MATLAB","vendor":"MathWorks","accent":"#E16737","glyph":"M",
+      "categories":[
+        {"id":"editor","zh":"编辑器","en":"Editor","items":[
+          {"id":"matlab.new-script","keys":["⌘","N"],"zh":"新建脚本","en":"New script","tags":[]},
+          {"id":"matlab.open","keys":["⌘","O"],"zh":"打开文件","en":"Open file","tags":[]},
+          {"id":"matlab.save","keys":["⌘","S"],"zh":"保存文件","en":"Save file","tags":[]},
+          {"id":"matlab.find","keys":["⌘","F"],"zh":"在文件中查找","en":"Find in file","tags":[]},
+          {"id":"matlab.find-files","keys":["⌘","⇧","F"],"zh":"在文件中查找内容","en":"Find in files","tags":[]},
+          {"id":"matlab.replace","keys":["⌘","H"],"zh":"查找并替换","en":"Find and replace","tags":[]},
+          {"id":"matlab.comment","keys":["⌘","R"],"zh":"注释选中代码","en":"Comment selected code","tags":[]},
+          {"id":"matlab.uncomment","keys":["⌘","T"],"zh":"取消代码注释","en":"Uncomment selected code","tags":[]},
+          {"id":"matlab.auto-indent","keys":["⌘","I"],"zh":"自动缩进","en":"Auto indent","tags":[]},
+          {"id":"matlab.indent","keys":["Tab"],"zh":"增加缩进","en":"Indent code","tags":[]},
+          {"id":"matlab.outdent","keys":["⇧","Tab"],"zh":"减少缩进","en":"Outdent code","tags":[]},
+          {"id":"matlab.complete","keys":["Tab"],"zh":"补全函数或变量名","en":"Complete function or variable name","tags":["completion"]}
+        ]},
+        {"id":"run-debug","zh":"运行与调试","en":"Run & Debug","items":[
+          {"id":"matlab.run","keys":["F5"],"zh":"运行当前文件","en":"Run current file","tags":[]},
+          {"id":"matlab.run-section","keys":["⌘","Return"],"zh":"运行当前代码节","en":"Run current section","tags":[]},
+          {"id":"matlab.run-advance","keys":["⌘","⇧","Return"],"zh":"运行并前进到下一代码节","en":"Run and advance to next section","tags":[]},
+          {"id":"matlab.evaluate","keys":["F9"],"zh":"运行选中代码","en":"Evaluate selection","tags":[]},
+          {"id":"matlab.breakpoint","keys":["F12"],"zh":"设置或清除断点","en":"Set or clear breakpoint","tags":[]},
+          {"id":"matlab.clear-breakpoints","keys":["⌘","⇧","F12"],"zh":"清除所有断点","en":"Clear all breakpoints","tags":[]},
+          {"id":"matlab.step","keys":["F10"],"zh":"单步执行","en":"Step","tags":[]},
+          {"id":"matlab.step-in","keys":["F11"],"zh":"单步进入","en":"Step in","tags":[]},
+          {"id":"matlab.step-out","keys":["⇧","F11"],"zh":"单步跳出","en":"Step out","tags":[]},
+          {"id":"matlab.continue","keys":["F5"],"zh":"继续调试","en":"Continue debugging","tags":[]},
+          {"id":"matlab.stop-debug","keys":["⇧","F5"],"zh":"停止调试","en":"Stop debugging","tags":[]}
+        ]},
+        {"id":"command","zh":"命令窗口","en":"Command Window","items":[
+          {"id":"matlab.execute","keys":["Return"],"zh":"执行当前命令","en":"Execute current command","tags":[]},
+          {"id":"matlab.cancel","keys":["⌃","C"],"zh":"停止正在运行的命令","en":"Stop running command","tags":[]},
+          {"id":"matlab.previous-command","keys":["↑"],"zh":"调出上一条命令","en":"Recall previous command","tags":[]},
+          {"id":"matlab.next-command","keys":["↓"],"zh":"调出下一条命令","en":"Recall next command","tags":[]},
+          {"id":"matlab.command-start","keys":["⌃","A"],"zh":"移到命令行开头","en":"Move to start of command line","tags":[]},
+          {"id":"matlab.command-end","keys":["⌃","E"],"zh":"移到命令行末尾","en":"Move to end of command line","tags":[]},
+          {"id":"matlab.clear-command","keys":["⌘","K"],"zh":"清除命令窗口","en":"Clear Command Window","tags":[]},
+          {"id":"matlab.workspace","keys":["⌘","⇧","W"],"zh":"切换到工作区","en":"Focus Workspace","tags":[]}
+        ]},
+        {"id":"edit","zh":"通用编辑","en":"General Editing","items":[
+          {"id":"matlab.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"matlab.redo","keys":["⌘","⇧","Z"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"matlab.cut","keys":["⌘","X"],"zh":"剪切","en":"Cut","tags":[]},
+          {"id":"matlab.copy","keys":["⌘","C"],"zh":"复制","en":"Copy","tags":[]},
+          {"id":"matlab.paste","keys":["⌘","V"],"zh":"粘贴","en":"Paste","tags":[]},
+          {"id":"matlab.select-all","keys":["⌘","A"],"zh":"全选","en":"Select all","tags":[]},
+          {"id":"matlab.help","keys":["F1"],"zh":"打开所选内容帮助","en":"Open help for selection","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"simulink","name":"Simulink","vendor":"MathWorks","accent":"#F5A623","glyph":"S",
+      "categories":[
+        {"id":"model","zh":"模型编辑","en":"Model Editing","items":[
+          {"id":"sim.new","keys":["⌘","N"],"zh":"新建模型","en":"New model","tags":[]},
+          {"id":"sim.open","keys":["⌘","O"],"zh":"打开模型","en":"Open model","tags":[]},
+          {"id":"sim.save","keys":["⌘","S"],"zh":"保存模型","en":"Save model","tags":[]},
+          {"id":"sim.search-block","keys":["双击"],"zh":"打开快速插入并搜索模块","en":"Open Quick Insert and search blocks","tags":[]},
+          {"id":"sim.copy","keys":["⌘","C"],"zh":"复制模块","en":"Copy blocks","tags":[]},
+          {"id":"sim.paste","keys":["⌘","V"],"zh":"粘贴模块","en":"Paste blocks","tags":[]},
+          {"id":"sim.duplicate","keys":["⌥","拖动"],"zh":"拖动复制模块","en":"Duplicate blocks by dragging","tags":[]},
+          {"id":"sim.delete","keys":["Delete"],"zh":"删除选中内容","en":"Delete selected","tags":[]},
+          {"id":"sim.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"sim.redo","keys":["⌘","Y"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"sim.select-all","keys":["⌘","A"],"zh":"全选","en":"Select all","tags":[]}
+        ]},
+        {"id":"simulate","zh":"仿真","en":"Simulation","items":[
+          {"id":"sim.run","keys":["⌘","T"],"zh":"运行仿真","en":"Run simulation","tags":[]},
+          {"id":"sim.stop","keys":["⌘","."],"zh":"停止仿真","en":"Stop simulation","tags":[]},
+          {"id":"sim.update","keys":["⌘","D"],"zh":"更新模型图","en":"Update model diagram","tags":[]},
+          {"id":"sim.config","keys":["⌘","E"],"zh":"打开模型配置参数","en":"Open model configuration parameters","tags":[]},
+          {"id":"sim.step-forward","keys":["F10"],"zh":"仿真单步前进","en":"Step simulation forward","tags":[]},
+          {"id":"sim.breakpoint","keys":["F12"],"zh":"切换仿真断点","en":"Toggle simulation breakpoint","tags":[]},
+          {"id":"sim.library","keys":["⌘","⇧","L"],"zh":"打开模块库浏览器","en":"Open Library Browser","tags":[]},
+          {"id":"sim.model-explorer","keys":["⌘","H"],"zh":"打开模型资源管理器","en":"Open Model Explorer","tags":[]}
+        ]},
+        {"id":"view","zh":"视图与层级","en":"View & Hierarchy","items":[
+          {"id":"sim.fit","keys":["Space"],"zh":"模型适合窗口","en":"Fit model to view","tags":[]},
+          {"id":"sim.zoom-in","keys":["⌘","+"],"zh":"放大","en":"Zoom in","tags":[]},
+          {"id":"sim.zoom-out","keys":["⌘","-"],"zh":"缩小","en":"Zoom out","tags":[]},
+          {"id":"sim.pan","keys":["中键拖动"],"zh":"平移模型视图","en":"Pan model view","tags":[]},
+          {"id":"sim.enter-subsystem","keys":["Return"],"zh":"进入选中的子系统","en":"Enter selected subsystem","tags":[]},
+          {"id":"sim.parent","keys":["Esc"],"zh":"返回父系统","en":"Go to parent system","tags":[]},
+          {"id":"sim.find","keys":["⌘","F"],"zh":"在模型中查找","en":"Find in model","tags":[]},
+          {"id":"sim.print","keys":["⌘","P"],"zh":"打印模型","en":"Print model","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"davinci","name":"DaVinci Resolve","vendor":"Blackmagic Design","accent":"#E54B4B","glyph":"D",
+      "categories":[
+        {"id":"playback","zh":"播放与导航","en":"Playback & Navigation","items":[
+          {"id":"resolve.play","keys":["Space"],"zh":"播放或暂停","en":"Play or pause","tags":[]},
+          {"id":"resolve.reverse","keys":["J"],"zh":"反向播放","en":"Play reverse","tags":[]},
+          {"id":"resolve.stop","keys":["K"],"zh":"停止播放","en":"Stop playback","tags":[]},
+          {"id":"resolve.forward","keys":["L"],"zh":"正向播放","en":"Play forward","tags":[]},
+          {"id":"resolve.prev-frame","keys":["←"],"zh":"上一帧","en":"Previous frame","tags":[]},
+          {"id":"resolve.next-frame","keys":["→"],"zh":"下一帧","en":"Next frame","tags":[]},
+          {"id":"resolve.prev-clip","keys":["↑"],"zh":"上一个剪辑或编辑点","en":"Previous clip or edit","tags":[]},
+          {"id":"resolve.next-clip","keys":["↓"],"zh":"下一个剪辑或编辑点","en":"Next clip or edit","tags":[]},
+          {"id":"resolve.in","keys":["I"],"zh":"标记入点","en":"Mark In","tags":[]},
+          {"id":"resolve.out","keys":["O"],"zh":"标记出点","en":"Mark Out","tags":[]},
+          {"id":"resolve.clear-in-out","keys":["⌥","X"],"zh":"清除入点和出点","en":"Clear In and Out","tags":[]},
+          {"id":"resolve.marker","keys":["M"],"zh":"添加标记","en":"Add marker","tags":[]}
+        ]},
+        {"id":"editing","zh":"剪辑","en":"Editing","items":[
+          {"id":"resolve.selection","keys":["A"],"zh":"选择模式","en":"Selection mode","tags":[]},
+          {"id":"resolve.trim","keys":["T"],"zh":"修剪编辑模式","en":"Trim Edit mode","tags":[]},
+          {"id":"resolve.blade","keys":["B"],"zh":"刀片编辑模式","en":"Blade Edit mode","tags":[]},
+          {"id":"resolve.split","keys":["⌘","B"],"zh":"在播放头处分割剪辑","en":"Split clip at playhead","tags":[]},
+          {"id":"resolve.select-all","keys":["⌘","A"],"zh":"全选","en":"Select all","tags":[]},
+          {"id":"resolve.delete","keys":["Delete"],"zh":"删除选中内容","en":"Delete selected","tags":[]},
+          {"id":"resolve.ripple-delete","keys":["⇧","Delete"],"zh":"波纹删除","en":"Ripple delete","tags":[]},
+          {"id":"resolve.insert","keys":["F9"],"zh":"插入编辑","en":"Insert edit","tags":[]},
+          {"id":"resolve.overwrite","keys":["F10"],"zh":"覆盖编辑","en":"Overwrite edit","tags":[]},
+          {"id":"resolve.replace","keys":["F11"],"zh":"替换编辑","en":"Replace edit","tags":[]},
+          {"id":"resolve.place-top","keys":["F12"],"zh":"置于顶层轨道","en":"Place on top","tags":[]},
+          {"id":"resolve.link","keys":["⌘","⇧","L"],"zh":"链接或取消链接剪辑","en":"Link or unlink clips","tags":[]},
+          {"id":"resolve.new-bin","keys":["⌘","⇧","N"],"zh":"新建媒体箱","en":"New bin","tags":[]}
+        ]},
+        {"id":"timeline","zh":"时间线与视图","en":"Timeline & View","items":[
+          {"id":"resolve.zoom-in","keys":["⌘","+"],"zh":"放大时间线","en":"Zoom in timeline","tags":[]},
+          {"id":"resolve.zoom-out","keys":["⌘","-"],"zh":"缩小时间线","en":"Zoom out timeline","tags":[]},
+          {"id":"resolve.fit","keys":["⇧","Z"],"zh":"时间线适合窗口","en":"Fit timeline to window","tags":[]},
+          {"id":"resolve.snapping","keys":["N"],"zh":"切换吸附","en":"Toggle snapping","tags":[]},
+          {"id":"resolve.fullscreen-viewer","keys":["⌘","F"],"zh":"切换全屏查看器","en":"Toggle cinema viewer","tags":[]},
+          {"id":"resolve.source-timeline","keys":["Q"],"zh":"切换源查看器和时间线查看器","en":"Toggle source and timeline viewer","tags":[]},
+          {"id":"resolve.prev-timeline","keys":["⌘","Page Up"],"zh":"切换到上一条时间线","en":"Switch to previous timeline","tags":[]},
+          {"id":"resolve.next-timeline","keys":["⌘","Page Down"],"zh":"切换到下一条时间线","en":"Switch to next timeline","tags":[]},
+          {"id":"resolve.disable-clip","keys":["D"],"zh":"启用或禁用剪辑","en":"Enable or disable clip","tags":[]},
+          {"id":"resolve.change-duration","keys":["⌘","D"],"zh":"更改剪辑持续时间","en":"Change clip duration","tags":[]}
+        ]},
+        {"id":"color","zh":"调色","en":"Color","items":[
+          {"id":"resolve.new-serial","keys":["⌥","S"],"zh":"添加串行节点","en":"Add serial node","tags":[]},
+          {"id":"resolve.new-parallel","keys":["⌥","P"],"zh":"添加并行节点","en":"Add parallel node","tags":[]},
+          {"id":"resolve.bypass-grade","keys":["⇧","D"],"zh":"旁路所有调色和效果","en":"Bypass all grades and effects","tags":[]},
+          {"id":"resolve.grab-still","keys":["⌥","⌘","G"],"zh":"抓取静帧","en":"Grab still","tags":[]},
+          {"id":"resolve.prev-node","keys":["⇧","←"],"zh":"选择上一个节点","en":"Select previous node","tags":[]},
+          {"id":"resolve.next-node","keys":["⇧","→"],"zh":"选择下一个节点","en":"Select next node","tags":[]},
+          {"id":"resolve.reset-node","keys":["⌥","⌘","R"],"zh":"重置选中节点调色","en":"Reset selected node grade","tags":[]},
+          {"id":"resolve.keyframe","keys":["⌘","]"],"zh":"添加动态关键帧","en":"Add dynamic keyframe","tags":[]}
+        ]},
+        {"id":"file","zh":"文件与编辑","en":"File & Edit","items":[
+          {"id":"resolve.new-project","keys":["⌘","N"],"zh":"新建项目","en":"New project","tags":[]},
+          {"id":"resolve.save","keys":["⌘","S"],"zh":"保存项目","en":"Save project","tags":[]},
+          {"id":"resolve.import","keys":["⌘","I"],"zh":"导入媒体","en":"Import media","tags":[]},
+          {"id":"resolve.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"resolve.redo","keys":["⌘","⇧","Z"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"resolve.copy","keys":["⌘","C"],"zh":"复制","en":"Copy","tags":[]},
+          {"id":"resolve.paste","keys":["⌘","V"],"zh":"粘贴","en":"Paste","tags":[]}
+        ]}
+      ]
+    }
+  ]
+}

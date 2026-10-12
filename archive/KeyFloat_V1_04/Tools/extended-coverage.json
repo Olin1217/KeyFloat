@@ -1,0 +1,197 @@
+{
+  "sourceDocument": "/Users/hualong/Downloads/工程师设计师常用软件生态库_扩展版.md",
+  "generatedAt": "2026-07-21",
+  "policy": "Only source-backed macOS shortcuts are emitted; no generic templates.",
+  "addedSoftware": [
+    "labview",
+    "plecs",
+    "benchling",
+    "geneious",
+    "vmd",
+    "avogadro",
+    "slicer",
+    "godot",
+    "eagle",
+    "stm32cubeide",
+    "mplabx",
+    "snapgene",
+    "mega",
+    "clcgenomics",
+    "chimerax",
+    "flowjo",
+    "marvinsketch",
+    "maple",
+    "sasstudio",
+    "osirix",
+    "horos",
+    "envi",
+    "substancepainter",
+    "houdini"
+  ],
+  "addedSoftwareCount": 24,
+  "addedSourceBackedSoftware": [
+    "labview",
+    "plecs",
+    "benchling",
+    "geneious",
+    "vmd",
+    "avogadro",
+    "slicer",
+    "godot"
+  ],
+  "addedCatalogOnlySoftware": [
+    "eagle",
+    "stm32cubeide",
+    "mplabx",
+    "snapgene",
+    "mega",
+    "clcgenomics",
+    "chimerax",
+    "flowjo",
+    "marvinsketch",
+    "maple",
+    "sasstudio",
+    "osirix",
+    "horos",
+    "envi",
+    "substancepainter",
+    "houdini"
+  ],
+  "addedShortcutCount": 319,
+  "alreadyCovered": [
+    "KiCad",
+    "LTspice",
+    "Arduino IDE",
+    "MATLAB",
+    "Simulink",
+    "PyMOL",
+    "ImageJ / Fiji",
+    "GraphPad Prism",
+    "ChemDraw",
+    "Wolfram Mathematica",
+    "RStudio",
+    "JupyterLab",
+    "IBM SPSS Statistics",
+    "QGIS",
+    "Unity",
+    "Unreal Engine",
+    "Zotero",
+    "EndNote",
+    "Mendeley Reference Manager",
+    "Overleaf"
+  ],
+  "mappedToExistingHosts": {
+    "PlatformIO": [
+      "vscode"
+    ],
+    "OpenFOAM": [
+      "terminal",
+      "vscode"
+    ],
+    "Gaussian": [
+      "terminal"
+    ],
+    "ORCA": [
+      "terminal"
+    ],
+    "GROMACS": [
+      "terminal"
+    ],
+    "LAMMPS": [
+      "terminal"
+    ],
+    "Anaconda": [
+      "terminal",
+      "jupyter"
+    ],
+    "PyTorch": [
+      "jupyter",
+      "vscode"
+    ],
+    "TensorFlow": [
+      "jupyter",
+      "vscode"
+    ],
+    "Keras": [
+      "jupyter",
+      "vscode"
+    ],
+    "Pandas": [
+      "jupyter",
+      "vscode"
+    ],
+    "NumPy": [
+      "jupyter",
+      "vscode"
+    ],
+    "Matplotlib": [
+      "jupyter",
+      "vscode"
+    ],
+    "Google Colab": [
+      "jupyter",
+      "chrome"
+    ],
+    "LaTeX": [
+      "texstudio",
+      "overleaf"
+    ],
+    "ArcGIS Online": [
+      "chrome",
+      "safari"
+    ]
+  },
+  "windowsOnlyNotAdded": [
+    "Altium Designer",
+    "Cadence OrCAD",
+    "Cadence Allegro",
+    "Proteus",
+    "Multisim",
+    "Keil MDK",
+    "IAR Embedded Workbench",
+    "PSIM",
+    "Solid Edge",
+    "Autodesk Inventor",
+    "Adams",
+    "HyperMesh",
+    "ANSYS Fluent",
+    "STAR-CCM+",
+    "Materials Studio",
+    "ERDAS Imagine",
+    "ArcGIS Pro",
+    "OriginPro"
+  ],
+  "noIndependentKeyboardUI": [
+    "MSC Nastran",
+    "OpenFOAM",
+    "Gaussian",
+    "ORCA",
+    "GROMACS",
+    "LAMMPS",
+    "PyTorch",
+    "TensorFlow",
+    "Keras",
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "LaTeX"
+  ],
+  "macOSDefaultMapNotPubliclyVerifiable": [
+    "Eagle",
+    "STM32CubeIDE",
+    "MPLAB X IDE",
+    "SnapGene",
+    "MEGA",
+    "CLC Genomics Workbench",
+    "ChimeraX",
+    "FlowJo",
+    "MarvinSketch",
+    "Maple",
+    "SAS Studio",
+    "OsiriX",
+    "Horos",
+    "ENVI",
+    "Substance 3D Painter",
+    "Houdini"
+  ]
+}

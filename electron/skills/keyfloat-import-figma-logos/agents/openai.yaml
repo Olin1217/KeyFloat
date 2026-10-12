@@ -1,0 +1,4 @@
+interface:
+  display_name: "KeyFloat Figma Logo Importer"
+  short_description: "Import and normalize KeyFloat software logos from Figma"
+  default_prompt: "Use $keyfloat-import-figma-logos to import the completed software logos from Figma into KeyFloat and verify their rendering."

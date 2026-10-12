@@ -1,0 +1,269 @@
+{
+  "auditedAt": "2026-07-25",
+  "platform": "macOS",
+  "resources": [
+    "shortcuts-mac.json",
+    "office-shortcuts-mac.json",
+    "professional-shortcuts-mac.json",
+    "productivity-shortcuts-mac.json",
+    "ecosystem-shortcuts-mac.json",
+    "verified-shortcuts-mac.json",
+    "supplemental-shortcuts-mac.json",
+    "browser-reviewed-shortcuts-mac.json",
+    "extended-shortcuts-mac.json",
+    "curated-shortcuts-mac.json",
+    "curated-supplements-mac.json"
+  ],
+  "softwareEntries": 444,
+  "shortcutRows": 14552,
+  "fixApplied": true,
+  "normalizedLabels": {
+    "Backspace → Delete": 18,
+    "Enter → Return": 104
+  },
+  "normalizedBySoftware": {
+    "alfred": {
+      "Enter → Return": 2
+    },
+    "androidstudio": {
+      "Backspace → Delete": 2
+    },
+    "anki": {
+      "Enter → Return": 1
+    },
+    "apifox": {
+      "Enter → Return": 1
+    },
+    "bartender": {
+      "Enter → Return": 1
+    },
+    "bitbucket": {
+      "Enter → Return": 1
+    },
+    "clcgenomics": {
+      "Enter → Return": 1
+    },
+    "clion": {
+      "Backspace → Delete": 2
+    },
+    "cloudflare": {
+      "Enter → Return": 1
+    },
+    "comfyui": {
+      "Enter → Return": 2
+    },
+    "comsol": {
+      "Enter → Return": 1
+    },
+    "confluence": {
+      "Enter → Return": 1
+    },
+    "cursor": {
+      "Enter → Return": 2
+    },
+    "datagrip": {
+      "Backspace → Delete": 2,
+      "Enter → Return": 3
+    },
+    "dbeaver": {
+      "Enter → Return": 2
+    },
+    "dingtalk": {
+      "Enter → Return": 2
+    },
+    "discord": {
+      "Enter → Return": 2
+    },
+    "drawio": {
+      "Enter → Return": 1
+    },
+    "dropbox": {
+      "Enter → Return": 2
+    },
+    "feishu": {
+      "Enter → Return": 2
+    },
+    "flowjo": {
+      "Enter → Return": 1
+    },
+    "github": {
+      "Enter → Return": 1
+    },
+    "githubdesktop": {
+      "Enter → Return": 1
+    },
+    "gitlab": {
+      "Enter → Return": 1
+    },
+    "goland": {
+      "Backspace → Delete": 2
+    },
+    "googledocs": {
+      "Enter → Return": 1
+    },
+    "googlesheets": {
+      "Enter → Return": 1
+    },
+    "googleslides": {
+      "Enter → Return": 1
+    },
+    "graphpadprism": {
+      "Enter → Return": 1
+    },
+    "hoppscotch": {
+      "Enter → Return": 1
+    },
+    "houdini": {
+      "Enter → Return": 1
+    },
+    "imagej": {
+      "Enter → Return": 1
+    },
+    "insomnia": {
+      "Enter → Return": 1
+    },
+    "intellij": {
+      "Backspace → Delete": 2
+    },
+    "iterm2": {
+      "Enter → Return": 2
+    },
+    "jmp": {
+      "Enter → Return": 1
+    },
+    "jupyter": {
+      "Enter → Return": 4
+    },
+    "linear": {
+      "Backspace → Delete": 1,
+      "Enter → Return": 1
+    },
+    "lmstudio": {
+      "Enter → Return": 2
+    },
+    "magnet": {
+      "Enter → Return": 1
+    },
+    "maple": {
+      "Enter → Return": 2
+    },
+    "mathematica": {
+      "Enter → Return": 2
+    },
+    "mendeley": {
+      "Enter → Return": 1
+    },
+    "midjourney": {
+      "Enter → Return": 2
+    },
+    "mindnode": {
+      "Enter → Return": 3
+    },
+    "mysqlworkbench": {
+      "Enter → Return": 2
+    },
+    "netlify": {
+      "Enter → Return": 1
+    },
+    "notion": {
+      "Enter → Return": 2
+    },
+    "onedrive": {
+      "Enter → Return": 1
+    },
+    "onshape": {
+      "Enter → Return": 1
+    },
+    "outlook": {
+      "Enter → Return": 1
+    },
+    "overleaf": {
+      "Enter → Return": 1
+    },
+    "paste": {
+      "Enter → Return": 2
+    },
+    "pika": {
+      "Enter → Return": 2
+    },
+    "postman": {
+      "Enter → Return": 1
+    },
+    "powerbiweb": {
+      "Enter → Return": 1
+    },
+    "pycharm": {
+      "Backspace → Delete": 2
+    },
+    "qq": {
+      "Enter → Return": 2
+    },
+    "raycast": {
+      "Enter → Return": 2
+    },
+    "rectangle": {
+      "Backspace → Delete": 1,
+      "Enter → Return": 1
+    },
+    "redisinsight": {
+      "Enter → Return": 1
+    },
+    "rstudio": {
+      "Enter → Return": 2
+    },
+    "simulink": {
+      "Enter → Return": 1
+    },
+    "slack": {
+      "Enter → Return": 2
+    },
+    "stablediffusion": {
+      "Enter → Return": 2
+    },
+    "swaggerui": {
+      "Enter → Return": 1
+    },
+    "tableplus": {
+      "Enter → Return": 2
+    },
+    "teams": {
+      "Enter → Return": 2
+    },
+    "ticktick": {
+      "Backspace → Delete": 1,
+      "Enter → Return": 2
+    },
+    "todoist": {
+      "Backspace → Delete": 1,
+      "Enter → Return": 1
+    },
+    "tower": {
+      "Enter → Return": 1
+    },
+    "trello": {
+      "Enter → Return": 1
+    },
+    "webstorm": {
+      "Backspace → Delete": 2
+    },
+    "wechat": {
+      "Enter → Return": 2
+    },
+    "wpsoffice": {
+      "Enter → Return": 1
+    },
+    "xcode": {
+      "Enter → Return": 1
+    },
+    "zotero": {
+      "Enter → Return": 1
+    }
+  },
+  "policies": {
+    "platformSelection": "Importers must use macOS columns, macOS-only chapters, or explicitly shared cross-platform defaults.",
+    "keyLabels": "Command, Option, Control, Shift, Return, Delete, and Escape use canonical macOS symbols or names.",
+    "forbidden": "Windows, Win, and Windows-logo key tokens are rejected from every bundled shortcut resource.",
+    "extendedKeyboards": "Insert, Home, End, PageUp, PageDown, and function keys remain valid when a documented Mac app supports an extended keyboard or Fn equivalent."
+  },
+  "errors": []
+}

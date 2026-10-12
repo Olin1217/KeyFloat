@@ -1,0 +1,1483 @@
+{
+  "capturedAt": "2026-07-26",
+  "source": "/Volumes/loong/Product Developer/KeyFloat/KeyFloat-Xcode",
+  "policy": "Read-only baseline used to create KeyFloat Win V1.04. No source or backup file is written by the Windows build.",
+  "fileCount": 295,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "734f217da7db7274841e7744f90fc655aea291e9fc8a740df5178e750f320056",
+      "bytes": 69
+    },
+    {
+      "path": "BROWSER_SOURCED_SHORTCUTS_REVIEW.md",
+      "sha256": "a4e84baaf7cbc98f5f7a57f268bb2e1f87325cf214b75379f762eb3e4328d6d7",
+      "bytes": 7706
+    },
+    {
+      "path": "Brand/KeyFloat App Icon.svg",
+      "sha256": "67ce758a180a5d4da3c7ec1f3fb8ed913a0018806daa81ba117e5c2bdd926b0e",
+      "bytes": 3788
+    },
+    {
+      "path": "CONTINUATION_CHECKPOINT.md",
+      "sha256": "aedab51a975fbd78f773076fd9cfc5692e161c3c8768388cfc5e2d378b2c3e99",
+      "bytes": 3848
+    },
+    {
+      "path": "IconStorageReport.md",
+      "sha256": "b091961e12e475c37a0c42b83d0d8c75dfa3ba023034885a0154aeaf5ccbd4d9",
+      "bytes": 34469
+    },
+    {
+      "path": "KeyFloat/ActivationWindowController.swift",
+      "sha256": "d5e6c42d21155e896c030930acfd190d9ba34b4e5276362e1be2ad723ace03ab",
+      "bytes": 14406
+    },
+    {
+      "path": "KeyFloat/AppDelegate.swift",
+      "sha256": "8e0faf2d75484237f746f5131440b3b34b134f8b2f3020fedf7b5377837dbcd9",
+      "bytes": 5103
+    },
+    {
+      "path": "KeyFloat/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "fd62c72482a200be31beefeacd22582182828322e523947c8d778ac34d4f1c1b",
+      "bytes": 1301
+    },
+    {
+      "path": "KeyFloat/Assets.xcassets/AppIcon.appiconset/icon_128x128.png",
+      "sha256": "ab136bebab929b142e07fc1f42bb502094e07a5f917456c3b0b95442d75b22dc",
+      "bytes": 5964
+    },
+    {
+      "path": "KeyFloat/Assets.xcassets/AppIcon.appiconset/icon_128x128@2x.png",
+      "sha256": "fda38a48c42f68233188ea3a8d9e9a0efbca1b55c302123c69a214310943a356",
+      "bytes": 16815
+    },
+    {
+      "path": "KeyFloat/Assets.xcassets/AppIcon.appiconset/icon_16x16.png",
+      "sha256": "3adac890c6b3421fab9a2d6d039739f9d3fa1156df18cde19b530311334f461f",
+      "bytes": 568
+    },
+    {
+      "path": "KeyFloat/Assets.xcassets/AppIcon.appiconset/icon_16x16@2x.png",
+      "sha256": "12008dbbb174e338bdc25375d8a88a7c0ffa305e109d0c03da33244c2cd4688f",
+      "bytes": 1143
+    },
+    {
+      "path": "KeyFloat/Assets.xcassets/AppIcon.appiconset/icon_256x256.png",
+      "sha256": "fda38a48c42f68233188ea3a8d9e9a0efbca1b55c302123c69a214310943a356",
+      "bytes": 16815
+    },
+    {
+      "path": "KeyFloat/Assets.xcassets/AppIcon.appiconset/icon_256x256@2x.png",
+      "sha256": "62cdee8986ab7eea20640e3d785e2bac19f840e6d09e89fe009b2661de170065",
+      "bytes": 50113
+    },
+    {
+      "path": "KeyFloat/Assets.xcassets/AppIcon.appiconset/icon_32x32.png",
+      "sha256": "12008dbbb174e338bdc25375d8a88a7c0ffa305e109d0c03da33244c2cd4688f",
+      "bytes": 1143
+    },
+    {
+      "path": "KeyFloat/Assets.xcassets/AppIcon.appiconset/icon_32x32@2x.png",
+      "sha256": "cad6f49a591f4e518875c0b6a3d552f89e38758997926cbb7fab15ec7957d217",
+      "bytes": 2431
+    },
+    {
+      "path": "KeyFloat/Assets.xcassets/AppIcon.appiconset/icon_512x512.png",
+      "sha256": "62cdee8986ab7eea20640e3d785e2bac19f840e6d09e89fe009b2661de170065",
+      "bytes": 50113
+    },
+    {
+      "path": "KeyFloat/Assets.xcassets/AppIcon.appiconset/icon_512x512@2x.png",
+      "sha256": "3941685ca691d08fab6c4703719e5e4c37f991dd90a551a44c3133053269c829",
+      "bytes": 155069
+    },
+    {
+      "path": "KeyFloat/Assets.xcassets/Contents.json",
+      "sha256": "0fd49ba3c3585c709678e0046a821c3c60685ec7063720d30d3a3448be3a208b",
+      "bytes": 63
+    },
+    {
+      "path": "KeyFloat/Assets.xcassets/KeyFloatLogo.imageset/Contents.json",
+      "sha256": "a9d77cd6fc5103328d4d82bdeadf2dfce824d61e3acd834a53cd364a028344dd",
+      "bytes": 232
+    },
+    {
+      "path": "KeyFloat/Assets.xcassets/KeyFloatLogo.imageset/KeyFloat Logo.svg",
+      "sha256": "2c3d01bfad298d9b9b9695c0623ba47070b6796c35621a45a8f7eb443f573c3c",
+      "bytes": 3716
+    },
+    {
+      "path": "KeyFloat/Assets.xcassets/KeyFloatWhiteLogo.imageset/Contents.json",
+      "sha256": "50e57828f851d9981a69246f8199808dcec65b6b5c749f41453c22846d27e56c",
+      "bytes": 284
+    },
+    {
+      "path": "KeyFloat/Assets.xcassets/KeyFloatWhiteLogo.imageset/KeyFloat White Logo.svg",
+      "sha256": "1fcbf0e883cde42acd2cdb138b6391b7b588a5fea867b6f17daecf96c0f62e1f",
+      "bytes": 2782
+    },
+    {
+      "path": "KeyFloat/FloatingWindowController.swift",
+      "sha256": "f9af969a609f3917d39dd66e747c53dfb969b62422d93a73a544fb3d2ffd7d27",
+      "bytes": 29487
+    },
+    {
+      "path": "KeyFloat/KeyFloat.entitlements",
+      "sha256": "b746c74b201e6af4e0864fbd1f4f629f96156a7ec4b7208bc995d0a5089bb592",
+      "bytes": 240
+    },
+    {
+      "path": "KeyFloat/KeyFloatApp.swift",
+      "sha256": "03682bb6d9568d147beafa484fd60e7bc711f4779832026e8d1c05a59a3834a2",
+      "bytes": 213
+    },
+    {
+      "path": "KeyFloat/KeyFloatView.swift",
+      "sha256": "feda34af4cf0c1727b21b5a9cfd5d359b5fc4fd3a651a2110263782b0d52e18c",
+      "bytes": 79139
+    },
+    {
+      "path": "KeyFloat/LicenseService.swift",
+      "sha256": "9c3ebd043b6b7fce2649ef9ce0f01d5dc865b6b66154d70b9695f3cb118f8600",
+      "bytes": 7180
+    },
+    {
+      "path": "KeyFloat/ShortcutModels.swift",
+      "sha256": "ac73d4205a6b0b73514d661d58443cbeaf8cabeaa7821242259fb3490f24eecf",
+      "bytes": 8650
+    },
+    {
+      "path": "KeyFloat/ShortcutStore.swift",
+      "sha256": "1e513080630beb18d31ddfe9a8e135362f48c25f4c1e52575f08754a7b3ab6a3",
+      "bytes": 27697
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/adobeacrobat.svg",
+      "sha256": "546f15340e80b44b9ba9e8599d8a5d97bba9fd92f95d5914666eeb4a287fb9b9",
+      "bytes": 1530
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/adobefirefly.svg",
+      "sha256": "0c8237129717f5b6cf389d7c7bd8b72636f664a18ade6c8ceab44f203f1f8b95",
+      "bytes": 1270
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/adobexd.svg",
+      "sha256": "7bb6bc8162d83c0063b2f87cdbd893e4445bc4fbe6400872f66311528ac4d173",
+      "bytes": 1485
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/affinitydesigner.png",
+      "sha256": "db85c986553f8f2a559c939119fd8c72831ff47af4d5eac4ab4c7399f05bb1d2",
+      "bytes": 2246
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/affinityphoto.png",
+      "sha256": "db85c986553f8f2a559c939119fd8c72831ff47af4d5eac4ab4c7399f05bb1d2",
+      "bytes": 2246
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/affinitypublisher.png",
+      "sha256": "db85c986553f8f2a559c939119fd8c72831ff47af4d5eac4ab4c7399f05bb1d2",
+      "bytes": 2246
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/aftereffects.svg",
+      "sha256": "d441a95c68951f58ec1a7aadf99abbd79745e58d07a57a7fbc769e1fe4f754c7",
+      "bytes": 1232
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/alfred.png",
+      "sha256": "f9fabd1a292c828bb56ac88e592d8c3ce07de143f3fc94eb9a3d6058a9b4eb92",
+      "bytes": 3087
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/amplitude.png",
+      "sha256": "0aa80688c90fb084e19f8ae46d38188f14a87b8e9150d9f856223507497cb8ef",
+      "bytes": 2963
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/androidstudio.png",
+      "sha256": "9a3d985bab10e3719e44b23119da1b5a022e576069495fd41f707a8d03b0736e",
+      "bytes": 2903
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/anki.svg",
+      "sha256": "917f1fb9c56930f1c34bed01659ffe53e924c5335ea25b6f1a71a8847f3ab490",
+      "bytes": 3713
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/apifox.png",
+      "sha256": "e6e4404df8836236a00178be0b7f54daeb499a3b48a67d8e1b0494afe0a8cff7",
+      "bytes": 2590
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/arc.png",
+      "sha256": "9db797eaf0db13acb2ae346bf4a93dfe3cc482b0aeae7b8d1eeece010ef92afb",
+      "bytes": 4454
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/archicad.png",
+      "sha256": "658103fec086411b926a35511d5f25f6a0a3c87bcb0d8d754c3dd417a5bc0b8c",
+      "bytes": 2493
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/arduinoide.png",
+      "sha256": "964483b45e23b1a1747f2366e7dc2c101498a86b869221f1f23460056e42247e",
+      "bytes": 3287
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/audacity.svg",
+      "sha256": "ae96201eb0834f337502c3f6ca430b5e07944fd15e15ff8766b7cb63409e8c7d",
+      "bytes": 1504
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/autocad.png",
+      "sha256": "aab2165095c904f5b37fded05d63bca1e7a860faf94d8cb3f61b7c9a588431c2",
+      "bytes": 1688
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/avogadro.png",
+      "sha256": "a6bfd9d9359a0cb8d81a0623d1ce4c77a913a5ee31f2d06796a073c5f22ff042",
+      "bytes": 3693
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/axure.png",
+      "sha256": "a5cd4077f557c7b52476074d6218c04a91a239cc787dcdb0647160f842f20abc",
+      "bytes": 2908
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/bartender.png",
+      "sha256": "1adaa0d0934bbfc45352235561ce089a4e68ad41a223df3b72c4ae73320edb75",
+      "bytes": 3774
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/benchling.png",
+      "sha256": "a16dfe7ea1f3f1b2c27813bb3d7cebb43cd4ef1db5e827140a2e164d0dedf698",
+      "bytes": 2393
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/bitbucket.png",
+      "sha256": "bb834261f7fd86d8d594378a2732d2b6fe354aeecfb39b0f33b779e0504f41da",
+      "bytes": 1723
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/blender.svg",
+      "sha256": "0d50f046687365653d5de2c23b044295fd24080e33a410deedf7d9f91def2573",
+      "bytes": 4091
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/brave.png",
+      "sha256": "42d089192a5e844347648f81628506447c2329ec866b7244b59070323c3ac5cc",
+      "bytes": 3264
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/calibre.svg",
+      "sha256": "9da5bf9f1e7b433665c877b8aeb31044bca046cfa255767dc4e997abada16d1f",
+      "bytes": 15001
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/canva.png",
+      "sha256": "6fdd33d9f42ca5d12fd7a89a2ed48423dd46034e708f86c941f1d3986f393b03",
+      "bytes": 2699
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/capcut.png",
+      "sha256": "d6d389aecfc539d8394870341aa2518b5114b84c34c6e445caa4fa81543482db",
+      "bytes": 2369
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/chatgpt.png",
+      "sha256": "ca6a5513806a04f472820c2731889b7382939a2b4e3cf7e34b0766e61e0108f8",
+      "bytes": 14649
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/chemdraw.svg",
+      "sha256": "df30007dbaaab5ada0b595253f75683607b941fc3442a5bf20c4080d1f31f7e1",
+      "bytes": 9713
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/chimerax.png",
+      "sha256": "23d73a6ca01321724c1e8397edef2daf5ecd2c3158554892e45bc045265eb20f",
+      "bytes": 7686
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/chrome.png",
+      "sha256": "f9cccf045699710bd28ebd0b0475c1c894e02cc1483516fccafe51afbc3ab72f",
+      "bytes": 3374
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/cinema4d.png",
+      "sha256": "c694b86baedf4b0580a94adb62f46c0a05733d4351f8eff1c04bad6da0af4c7b",
+      "bytes": 4193
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/claude.png",
+      "sha256": "39b8b8207617473bc7a00c438538b2b44a0b1875ec258066eea4444357b5cc25",
+      "bytes": 4059
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/clcgenomics.png",
+      "sha256": "2cddbfff22d853066ebc3a75fc8dc3de250ad5e9e286b947119eaba33c491e0f",
+      "bytes": 4298
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/cleanshot.png",
+      "sha256": "60da6aaf38b813db370293cb2713ef0f21cd6a8352200b0c45e08ee06e638806",
+      "bytes": 3147
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/clion.svg",
+      "sha256": "c851db9af7719f253ad9c3bea37faabe8f260055ad47481787a26db355d8ae80",
+      "bytes": 2025
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/cloudflare.png",
+      "sha256": "c3aa3050f74de82c92f73e5e81f42cc8c19f76cb1336b8b05b305b05bd617465",
+      "bytes": 2622
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/codex.png",
+      "sha256": "ae0f2ff77bb43482a365dab678892de6b026e59a7868f1e6f044753a9ecba077",
+      "bytes": 4299
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/comfyui.png",
+      "sha256": "71d12aa70e9a2998186546afc89d773dbf3769eb7bc234789019f4aa36acec35",
+      "bytes": 1680
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/comsol.png",
+      "sha256": "38003190fc1e95be2425cb266e49cc759d27333168951dd6ca1720b29d516abd",
+      "bytes": 1970
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/confluence.png",
+      "sha256": "bb834261f7fd86d8d594378a2732d2b6fe354aeecfb39b0f33b779e0504f41da",
+      "bytes": 1723
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/cursor.png",
+      "sha256": "14e57376e79ea6186892434ede9756f59f3c97095a758eb5fa9de6e0b84544e5",
+      "bytes": 2353
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/datagrip.svg",
+      "sha256": "5a1583b56536f84091e91050edb4a2e1528cc01b54e143ccb25f3a403c729dea",
+      "bytes": 2320
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/davinci.png",
+      "sha256": "8323b9c37fd9403e00f3910f44d2553b775fdb136fe3efca7d8029ce029c1faa",
+      "bytes": 2450
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/dbeaver.svg",
+      "sha256": "822f9ae02cc51f5e4fad06b4e33ea0afb156c38fe160b1ddbf9b2085609cec18",
+      "bytes": 4777
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/deepl.svg",
+      "sha256": "71df5c84f31125f2f585a82489a570efb6fb371c6ca2b8c1deabca4463e601ba",
+      "bytes": 1652
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/dingtalk.png",
+      "sha256": "1250b0187502f6704f4d8949053cc7daf2b7f2bebd745c9d799f0b1a321d3e97",
+      "bytes": 4834
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/discord.png",
+      "sha256": "466d8eefb571f4944c20aecd049f4759b3f6b495a3e758d92a3e99b19ea4a48b",
+      "bytes": 2410
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/dockerdesktop.svg",
+      "sha256": "8c9f562077d4ec6b71fdf7f406d8cb9c46d4b40f396223f4f32099e8fcd4e80e",
+      "bytes": 911
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/drawio.svg",
+      "sha256": "8eb5ea9fc684ee804688a4d5f72aebdf6132d985b4471cdfddac4ee210494ff5",
+      "bytes": 1194
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/dropbox.png",
+      "sha256": "b9c91ffbb0f70b55ae2de3a1a3e49628034369351b8c4922595f17290eca0671",
+      "bytes": 2624
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/eagle.png",
+      "sha256": "4d24b06a5b9ddfeaabe999bbfe8f25e1c78e3fd08bcde3a9a1745290652fbe14",
+      "bytes": 1688
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/eclipse.png",
+      "sha256": "639af43d6f4e1ce5f553597ef08c21cdcd16eb01d1aa6ada52bed529d0c9bdf7",
+      "bytes": 3515
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/edge.png",
+      "sha256": "8df7ae8d403c6c3a7c43a76a55adbed064b84d8a179fdd0ed66871541e6c1d74",
+      "bytes": 1280
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/endnote.svg",
+      "sha256": "4b82414adbe0a9f3e3030fc8381bcc07a8b47f70e7c80e055089d13348ae3299",
+      "bytes": 3898
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/enscape.png",
+      "sha256": "249e8205eb9492780390c12c22be08fe37d5ece4cadd624f77415dd63b474f89",
+      "bytes": 2003
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/envi.png",
+      "sha256": "9f64bcfefb0c3864fdb0b8feeaa195cb5abb99050e7a3ad8d605273314c842e7",
+      "bytes": 2924
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/evernote.svg",
+      "sha256": "bcb4fd6c504e279a4dd70cec4bc8b194f8d5befa1d4eae6df988bc83ec3c56d1",
+      "bytes": 3630
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/excel.svg",
+      "sha256": "14bad3ad9633d7c2b14d4f2a187ff62bcf03e28f1ee744f61d88228c345b29c3",
+      "bytes": 16733
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/feishu.png",
+      "sha256": "be771eed7c863eeae871294bd3e9ff4e295e936e378bcbbcc368ce84e4da4921",
+      "bytes": 2379
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/figma.svg",
+      "sha256": "9798b710e015c7f3fa6101779e323568d6a5a022651d427021262ce850467b07",
+      "bytes": 646
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/finalcut.png",
+      "sha256": "b14ac3059d2976442f97ff84ec1aecc0b19d06e21bdc9f1b2a34499083cd0a25",
+      "bytes": 2478
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/finder.png",
+      "sha256": "903c40643495736e3348d561ed1d546c510f82597844807e534d8421f79bd1cb",
+      "bytes": 3475
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/firefox.png",
+      "sha256": "bbe79278de1a5e15f0ac492d1e915184c3ab06e068ca9655ed00959f80afa730",
+      "bytes": 4331
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/flowjo.png",
+      "sha256": "6bb57f6946ee91246acef7a1ef2036dca38acd2ba49726756889e1911a921de4",
+      "bytes": 4588
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/framer.png",
+      "sha256": "2b8adccbd332f7c3a8eeceba2c9a6b219cf909f08a426a857139279e695fd58c",
+      "bytes": 1630
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/freecad.png",
+      "sha256": "b8112d811e2be3833aa05135a100d61f4383ee3c597c8db13aa847d91e41ea88",
+      "bytes": 2789
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/fusion360.png",
+      "sha256": "aab2165095c904f5b37fded05d63bca1e7a860faf94d8cb3f61b7c9a588431c2",
+      "bytes": 1688
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/garageband.png",
+      "sha256": "b14ac3059d2976442f97ff84ec1aecc0b19d06e21bdc9f1b2a34499083cd0a25",
+      "bytes": 2478
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/geneious.png",
+      "sha256": "d5d8cd3328ae7e1668101d47c4bc23d738e6d85b558404a0d1972b8fe6c8ade6",
+      "bytes": 2268
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/github.svg",
+      "sha256": "693d7abe6f899646cc2e96856723b45e95f71885a54910b2749f6decdf7e1ee1",
+      "bytes": 1559
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/githubdesktop.png",
+      "sha256": "1a0577b2402eea5ba57875a7edb6aeccdd709f25c0e6b994b562347a4b47d8d2",
+      "bytes": 1920
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/gitlab.svg",
+      "sha256": "911de323fa0def29aaf817fca33916653fc92f3ff31647ac41d2c39bbe243edb",
+      "bytes": 1095
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/godot.svg",
+      "sha256": "1443ae974842b81765d5b50e6a729ebbf41eba2e9e515ab0919f2ea5c8b8f475",
+      "bytes": 800
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/goland.svg",
+      "sha256": "ee949d8881515276e9bb56cfc5c154e5334f511ffa58882954827ba64b44cdd4",
+      "bytes": 2521
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/goodnotes.svg",
+      "sha256": "131555e6550ad837a3de7c1cc941b39bc37d75bef4435a8702aeee964ab318d6",
+      "bytes": 5458
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/googledocs.svg",
+      "sha256": "15a52812bbdfec975e1835e063dd17cb5c4b9ed49ee9f56e88579ea7ddb18616",
+      "bytes": 7981
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/googledrive.png",
+      "sha256": "54a577785343365962b3935a185190bb638e48fb2e3a3955fced9bf15f23b102",
+      "bytes": 5531
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/googlesheets.svg",
+      "sha256": "90833e9c30414aef2a9eb62c69778c67c22defbfed6c1da9b0b8db08304413ad",
+      "bytes": 7037
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/googleslides.svg",
+      "sha256": "ba508ac16010e45880adf9fb90a9a008b21cce91cf2a8eaa7feb07bea58044fa",
+      "bytes": 9413
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/grammarly.svg",
+      "sha256": "4325e8204a954c533926498ad0b3ea23cb0e2f75e30f56817af142f8afc0c741",
+      "bytes": 906
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/graphpadprism.png",
+      "sha256": "1c34948b52ac1f251ec86a9458bb7a9fbad01a7aabfbb2614be7235ba7b4a946",
+      "bytes": 4358
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/handbrake.svg",
+      "sha256": "f2c255b4e52c9062fb7f00816e71aeb98722d902c1e87395c0b1c2a2eaa8d9e9",
+      "bytes": 868657
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/hoppscotch.svg",
+      "sha256": "3636dcf914ca48ece25e8d07d8cbfb472348e422d936424b52bfcf6adcab2bd1",
+      "bytes": 6084
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/horos.png",
+      "sha256": "b9cb9127db0006ebef36e96098710a09703e1d31d73ce934561ca658983283ec",
+      "bytes": 3489
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/houdini.png",
+      "sha256": "5358aebb9aa67145b1b4a0e494692774c034017b86832d5948f988d9e0a097ba",
+      "bytes": 4513
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/iina.png",
+      "sha256": "27d4c5f453863b87678354190a89d68ac2b07a4004490f11525ceb076b336742",
+      "bytes": 2860
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/illustrator.svg",
+      "sha256": "0db14c4255c2ced132dcfd10c18341bcd6770d7ddfe7105a6f4ee0b35ec0a8b7",
+      "bytes": 998
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/imagej.svg",
+      "sha256": "36b2b05f93e28fb37085f8d9eedaddcdda7718732bbf3f4ed40e0bd4722babea",
+      "bytes": 4352
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/indesign.svg",
+      "sha256": "441bc630cfc7089eb1abcd9e35c1374bf7df62af0b89c8824fe1e73e160d38a3",
+      "bytes": 1054
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/insomnia.svg",
+      "sha256": "a19543fc42f8cb572c3b6255cc81aa172234f4ac2bdee758baf493204cae1431",
+      "bytes": 1362
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/intellij.svg",
+      "sha256": "c22e855c82efe760822fc9029e96b365cdf64cd07d7752630cf869865876cfa3",
+      "bytes": 1662
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/iterm2.png",
+      "sha256": "78eb5c11db44fff46eed3930ad8bc244b8237ec659a7745845f4be134d9175e3",
+      "bytes": 2246
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/jira.png",
+      "sha256": "bb834261f7fd86d8d594378a2732d2b6fe354aeecfb39b0f33b779e0504f41da",
+      "bytes": 1723
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/jmp.png",
+      "sha256": "75c5d543296ac420e00a2199f9f03ef62358acc35baceeab45aea92e4f760120",
+      "bytes": 2966
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/jsdesign.png",
+      "sha256": "838ebaa401d4ec5d1eaafc8e6751c36551fbeff8289e1b1aafc2403535b97752",
+      "bytes": 4124
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/jupyter.svg",
+      "sha256": "95e108062e4f98c78736cf18f3ca7945719bae2a299ef0adc598fb68b8ba8ecc",
+      "bytes": 4126
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/keynote.svg",
+      "sha256": "c6b97edca17d5c6af9259f9adb02e0b471ff6652826468658df5e4503f6c075b",
+      "bytes": 7441
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/kicad.svg",
+      "sha256": "c2cba660eb4b1a896a945e582f0115c492e0427a15a219ead939a87078046681",
+      "bytes": 166767
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/labview.png",
+      "sha256": "36079ea8f018ca72f7ef89550bf2d0ea41ec84a61098c0030c0a645fa765873a",
+      "bytes": 1535
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/lightroom.svg",
+      "sha256": "7b34d1884f70945a0839b11c4e536d068eada6f4841f58b10d47e8fa134d134a",
+      "bytes": 835
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/linear.svg",
+      "sha256": "5fc068d50c4e31512c8d4f34b098f77cdbd3428eebe751ef14aee2afe428288b",
+      "bytes": 759
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/lmstudio.png",
+      "sha256": "43d7e495224fbfd5d9d98793cb673dd99c10c4dcd4a37f47db8f28f93fcf6c9a",
+      "bytes": 2743
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/logicpro.png",
+      "sha256": "b14ac3059d2976442f97ff84ec1aecc0b19d06e21bdc9f1b2a34499083cd0a25",
+      "bytes": 2478
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/lottiefiles.png",
+      "sha256": "daceccc6832c801bc63a00a910da96741df566dc23e4f55de8737ed58e89a611",
+      "bytes": 2859
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/ltspice.png",
+      "sha256": "700c59a725e8bd3f25d002532c1504f3fb87e488bf87d4b4643660cb43b724a5",
+      "bytes": 1470
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/magnet.png",
+      "sha256": "4705399850a3456b44f24c58b1f6963b251dfd1ed31ff958721d9f362ec47ded",
+      "bytes": 2848
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/maple.png",
+      "sha256": "222dd69321c7fb07b8f745441803a6e416cbe5afc7e4b707f612ba8ea7dd3381",
+      "bytes": 5259
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/marvinsketch.png",
+      "sha256": "81b221ea9323ac89ab21e915be7d2281354b398856e311399baff66eea4bc82f",
+      "bytes": 2493
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/mastergo.png",
+      "sha256": "7156f03784675ddf764f3c77391dada215c1bfcc37025c9b08649a1bda03dfc7",
+      "bytes": 2558
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/mathematica.png",
+      "sha256": "578eb8c2aa04f8bdcb6d2cb4beba8a92bff012fa4c7be5deed39d1c8c601f335",
+      "bytes": 3746
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/matlab.png",
+      "sha256": "f32c18d4f9b6707638bbcd6384456a6b3958442efbfdc287cbd68ea1215abd31",
+      "bytes": 3535
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/maya.png",
+      "sha256": "aab2165095c904f5b37fded05d63bca1e7a860faf94d8cb3f61b7c9a588431c2",
+      "bytes": 1688
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/mega.png",
+      "sha256": "00e3150b7147e3ed4729cb9edcb06b967e10fe6e5a276ad3e690f25ff3728d4e",
+      "bytes": 2918
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/mendeley.svg",
+      "sha256": "caee6d8d271bbe62d155f3186073f06554ed0d1938c618ee270866d277c675f1",
+      "bytes": 5102
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/midjourney.png",
+      "sha256": "c6630afe5e74ae98cf0aa3f3c5a857988eb2689d61c7cb7036b76d7ed7618f01",
+      "bytes": 2274
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/mindnode.svg",
+      "sha256": "5d0db0aa0680b5d08fea682a3c5e5117090c5c7e1631a01b0256b84322f44af8",
+      "bytes": 10498
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/miro.png",
+      "sha256": "29b822a3c816fbbd5167fc1f5191c042332c6bbfc8c07c438158b18d343fb043",
+      "bytes": 2733
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/mixpanel.png",
+      "sha256": "757480b9d7ddf96b069f97b8dbaf8392af3b471608a2b66e81c0e16a07cf769f",
+      "bytes": 3891
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/mongodbcompass.png",
+      "sha256": "12b0212ca36068013c6306a51200c9e4094ec112d1beaa504e298fa7ce0bc77e",
+      "bytes": 2683
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/mplabx.png",
+      "sha256": "0d9d215869c1d9128726a5df3f7598643ec0c7174f4769142b25daf79506509c",
+      "bytes": 5395
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/mysqlworkbench.png",
+      "sha256": "479da2c5c77d35ee8afaf8025b2d0bffd1a2c9f0529066a5d5810ee91be54a69",
+      "bytes": 2812
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/netlify.svg",
+      "sha256": "fb0e8994c35b7a6f45bb2963957eea5f1de2796fc4f072a97bdba06ebc5e7857",
+      "bytes": 1418
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/notion.png",
+      "sha256": "fc28fab74b68af7bfd475baf05768c3e8bbf6ff68ae1eb77b5ed7e462f284625",
+      "bytes": 2353
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/numbers.svg",
+      "sha256": "76348e2e0e9e2addc9cd7e6a58e75be378cf35f0be2993c4a9863947a780ecba",
+      "bytes": 8557
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/obsidian.svg",
+      "sha256": "119b01b96c99f736098742c329f440313b6763bd2aea22cafe08179699431280",
+      "bytes": 4872
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/obsstudio.svg",
+      "sha256": "d879e0ce0d6a181af4fe5582230f63a70f3ed5ff33a09debe0ddd83b239f4b2b",
+      "bytes": 6766
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/onedrive.png",
+      "sha256": "8df7ae8d403c6c3a7c43a76a55adbed064b84d8a179fdd0ed66871541e6c1d74",
+      "bytes": 1280
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/onenote.svg",
+      "sha256": "438d5fad727a9623a89d82a12643eafebccccae3c8ef61ac0f41652b4cb22b93",
+      "bytes": 19541
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/onepassword.svg",
+      "sha256": "d97aaa5d344196b5fb08bcac4b60e25d4364be221719a9987de44d65439d16aa",
+      "bytes": 1156
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/onshape.png",
+      "sha256": "53dc755351be41421f6751b108ff5513dd066f26b5e89aef83b0150cf519c9a3",
+      "bytes": 2665
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/osirix.png",
+      "sha256": "5ce9c3d5da04e549b53c819f8e97a40518bf175d8062f3f159a942257a717b33",
+      "bytes": 2439
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/outlook.svg",
+      "sha256": "744d12966748028169d852270f84b2aeca4c179ad6f972e10b858ae5660e7155",
+      "bytes": 9118
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/overleaf.svg",
+      "sha256": "be3feedb8d68c83a01d495123207a50d346858f0f944dfacb29e821bd0eabd03",
+      "bytes": 4413
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/pages.svg",
+      "sha256": "98309d5a02a80539002bddda3f65c31c099831606d9a582f8bf6aaba35dffa00",
+      "bytes": 8461
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/paraview.svg",
+      "sha256": "54ac2c8184403eb9e30f9476e0d01e6a7976b2ce9510c56af0388285c864ebfc",
+      "bytes": 9019
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/paste.png",
+      "sha256": "9abc6d5f14f944a25a12855e52e7f91d466d26cf852c91724ffa54406a661607",
+      "bytes": 3154
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/pdfexpert.svg",
+      "sha256": "6529d54b8876687a3a32e48c580d09290bfb3814db3ac3b22c7b05ee40b50b84",
+      "bytes": 19878
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/pgadmin.png",
+      "sha256": "8e6f97fd7856ef2b8756988aa8056516b4728c686596a920aa45a405335fed71",
+      "bytes": 2136
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/photoshop.svg",
+      "sha256": "25f5c9f8aa5c2460bcbde9e08ca95a55a9744a9836e7670fa880f7d7a9843218",
+      "bytes": 1461
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/pika.png",
+      "sha256": "e0d6452cf76d7c8d2624f63cd3e1cd3070137ec4daab249a8caef1ed71805f8b",
+      "bytes": 2285
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/plecs.png",
+      "sha256": "d68600940b79fd45a824b777d821c8459d20c9e14e33ae435ad131b0b715b410",
+      "bytes": 2548
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/postman.svg",
+      "sha256": "35c6b05db06456b2fc2b317d06e664b7044f87cc75c2a725549e3bfd0e29f1e6",
+      "bytes": 3605
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/powerbiweb.png",
+      "sha256": "355afde6641019d2a46723935c7e243e818b87bf4c776293f84465262713b06a",
+      "bytes": 1322
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/powerpoint.svg",
+      "sha256": "324deb71c8484182c9927925491b5f1df8368088da1bb88cb0187b36923bf902",
+      "bytes": 1693
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/premiere.svg",
+      "sha256": "afe0900a4e9551b82fd6db49e4647b29452bfbb2d39679e3e09d1853f9f7d61f",
+      "bytes": 1099
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/preview.png",
+      "sha256": "763d3cf5c5ddc1570abffba75080646a0504230ee95525386d727abfaf4a3066",
+      "bytes": 4229
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/protopie.png",
+      "sha256": "f6e3a59944bb898ccdf953a0a721c278d706f8838eac5e39028afd38546ca83a",
+      "bytes": 2551
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/pycharm.svg",
+      "sha256": "c33a65b9af943d9358363acffdacedc060f5c5cced6e5174913ca03ab2bdf6bc",
+      "bytes": 2274
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/pymol.svg",
+      "sha256": "a4406d7143159b8199882f3cffdb960354924bf40818a81ea3013f9b718b18a8",
+      "bytes": 6022
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/qgis.svg",
+      "sha256": "d8216ee349dd0c7f3ea351be8b856d1ceb95099194f20e4fc6e8f21c167f2d96",
+      "bytes": 1091
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/qq.png",
+      "sha256": "cb37f50da18d840caa18604a7493685a2a0c94521e3c7379927ec5bafc5fdfb8",
+      "bytes": 3283
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/raycast.svg",
+      "sha256": "4c2d5420937bf52a2e1013cc2fa3ecf7b5bd84d7d66dae8dbbc6d70a721f385b",
+      "bytes": 936
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/rectangle.png",
+      "sha256": "2f9a81b8e90c1d6894df16b769381ea6b2e3fa49b53ba3c02ddc0ba49664be46",
+      "bytes": 3161
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/redisinsight.svg",
+      "sha256": "d034c0ff473b1169db3de41bd7dc0d85a2241bee726a07b933485e67dda27857",
+      "bytes": 1041
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/rhino.png",
+      "sha256": "51bf56719e5bf1e7713322b256d9b9d5bd40607df9b679bc549755cadb4d16ca",
+      "bytes": 3435
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/rive.png",
+      "sha256": "c5f1ce788c21a01bffbc29c7b59875bd6254b5160c0d74df752b82701c67ae8f",
+      "bytes": 1803
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/rstudio.svg",
+      "sha256": "bac971e9a37260cc0f5a2fd77747a6998a633bec207cc6af851744ecbd118ce5",
+      "bytes": 629
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/runway.png",
+      "sha256": "8b7f6114662683ce7f600db92835fd4d4df0750877f27494a6542454e7bc40e8",
+      "bytes": 2760
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/safari.png",
+      "sha256": "e44c0a1e15826b148557eeea422113ef7f14ef595d447e5fd9b0325e9fb3dcef",
+      "bytes": 5002
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/sasstudio.png",
+      "sha256": "a5bd1a37965efa309b8752cdd06bc9bffe8e514dea7e25bca74b4018d715b1fc",
+      "bytes": 2460
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/scrivener.svg",
+      "sha256": "0a29bf8657a22c728b473582ec147240f8c079211e970006affacb15101ca1db",
+      "bytes": 3002
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/shapr3d.png",
+      "sha256": "eb565827bc293bc83cce7509944c903d6afba7696e57eabdbcd73cfafd497349",
+      "bytes": 2222
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/simulink.png",
+      "sha256": "f32c18d4f9b6707638bbcd6384456a6b3958442efbfdc287cbd68ea1215abd31",
+      "bytes": 3535
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/sketch.png",
+      "sha256": "4a37a43161b3002d9f6a72bd2c35bf3da2d58710c6eb2baa464dd09033de0703",
+      "bytes": 3365
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/sketchup.png",
+      "sha256": "43b9f770078efb1c083fc48e1eda21d42ed5bce1c1c3c9166463148182f208f7",
+      "bytes": 3829
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/slack.png",
+      "sha256": "8fa0725a6df016084cf8cc6b79e9be9a4d749e8bfdd287c57bf1d96cb0ae8015",
+      "bytes": 4657
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/slicer.png",
+      "sha256": "615986fc5928db536ec80b22214d670e68cab93aabffc8516da0424425f0a7b6",
+      "bytes": 1962
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/snapgene.png",
+      "sha256": "a94aaf7972b932543a5a0637a65b043222447194b3cee345aa649dd6798e4866",
+      "bytes": 1691
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/sourcetree.png",
+      "sha256": "1f53d45074982e667da9192aa48cd861145a387f52e666ef337a81617e6a9161",
+      "bytes": 5554
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/spss.svg",
+      "sha256": "b8651b3decb21a825defd90bc0c01a37a0ee0795678d5dd0b1aaa9572532fed3",
+      "bytes": 31826
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/sqlitestudio.png",
+      "sha256": "00743b6e68a29d923b3859e36b8414442ed2991e3d7ec623b1f7ef7ecd1cae29",
+      "bytes": 3311
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/stablediffusion.png",
+      "sha256": "00743b6e68a29d923b3859e36b8414442ed2991e3d7ec623b1f7ef7ecd1cae29",
+      "bytes": 3311
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/stata.png",
+      "sha256": "b6c8cac4e45e308e162536884951b0dada61ee107270f68fedca41eeb3d717cf",
+      "bytes": 2942
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/stm32cubeide.png",
+      "sha256": "60898b386ca8fa9cccb7616384b379b3a548221de6d23f13e624e25e9a51cd81",
+      "bytes": 2273
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/sublimetext.png",
+      "sha256": "c335976848b928c0e5f61fb475f7efdbf8fc341f5e3880f71e402027760fb466",
+      "bytes": 2375
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/substancepainter.svg",
+      "sha256": "85eba7a0c41e8a5b724d920879a9e4ac7bd74dcea47bde05d8220ddd36e61d94",
+      "bytes": 1183
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/supabase.svg",
+      "sha256": "eb9ffcd100ad26228a578100ba7cbfc5b383e4995338d122abdc6a3b4d210ed3",
+      "bytes": 1107
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/swaggerui.png",
+      "sha256": "437fc7222bd3b416948f5a06419a1298721244e52b0c3f0f87be265c4b37451c",
+      "bytes": 4295
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/tableau.png",
+      "sha256": "1d1ffb44ef940a5040437da81ff250f4fa47c6756eb4004b1ebc2e24457729ac",
+      "bytes": 7503
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/tableplus.png",
+      "sha256": "e4d669f2099c7aa731b1f839b05e6408970fb1c4eb973ffb3ff8bb4619cd28ab",
+      "bytes": 3367
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/teams.png",
+      "sha256": "8df7ae8d403c6c3a7c43a76a55adbed064b84d8a179fdd0ed66871541e6c1d74",
+      "bytes": 1280
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/tencentmeeting.png",
+      "sha256": "227e1977c81b97b4c398e31554076770eb5e3a86737a549016552b71e8bd1b16",
+      "bytes": 2629
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/terminal.png",
+      "sha256": "45091ac538a345d2469c450c4bffdaa13136de0fcda5f44aa0732246b43a3f8f",
+      "bytes": 2648
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/texstudio.svg",
+      "sha256": "4f31b8c3a23b7912224ff5bd7a6434438c728aa1476d37d1d13d3e04a5ed3deb",
+      "bytes": 16926
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/ticktick.png",
+      "sha256": "07ababd10fac4b905abadaf1d71a336435015453c423171d6405cf3fb9ceadd4",
+      "bytes": 4656
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/todoist.svg",
+      "sha256": "9adff05124fc2e773bcf4c7fff454ce341899d1806782dee543405bd77d53383",
+      "bytes": 3782
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/tower.png",
+      "sha256": "9edbee266242e187262e181383e11b150e6b815c4427cfd7f5259133f837ebcb",
+      "bytes": 1851
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/trello.png",
+      "sha256": "bb834261f7fd86d8d594378a2732d2b6fe354aeecfb39b0f33b779e0504f41da",
+      "bytes": 1723
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/twinmotion.png",
+      "sha256": "5d5a30613516615470a6b72b46b688c6ca416edafa4dfb24c7273a1b84081527",
+      "bytes": 1949
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/ulysses.svg",
+      "sha256": "7739cdf1ccdd2ecddb68b14caee4d26169edebc4490cc902fe7da94e86cfe15f",
+      "bytes": 24730
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/unity.png",
+      "sha256": "a79cbfa054c51fb360433e06ad74a4600d88fe47ba2f509b1c7080da7df5514e",
+      "bytes": 1858
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/unrealengine.png",
+      "sha256": "5d5a30613516615470a6b72b46b688c6ca416edafa4dfb24c7273a1b84081527",
+      "bytes": 1949
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/vectorworks.png",
+      "sha256": "189c1f2a9a2b024c023039fc3f93179559ff3fe28bb8a14a9d1d49409207e59d",
+      "bytes": 2238
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/vercel.svg",
+      "sha256": "178d63338a92fe0082c9a55623a62367c284aa3376112154abc37d7246a9e13d",
+      "bytes": 173
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/vlc.svg",
+      "sha256": "e73bc8989d937571bd0c8b6af1ac242378fd020698a83cc64e7b850ccdfb1eb9",
+      "bytes": 4943
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/vmd.png",
+      "sha256": "2e87dfd84a8f20d0d633512175f58173e92af068f635c13e4a18313832ae7b7a",
+      "bytes": 1987
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/vscode.svg",
+      "sha256": "fdcd5bc2c2d17343bd7f41fe581d34aa8f2ce3c4953166c4ff44c6c7271e5498",
+      "bytes": 5167
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/warp.png",
+      "sha256": "b9ccb2483f05cb70c82dacc685121a346e40d037a5b9096edab8b790c3e3400c",
+      "bytes": 1531
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/webstorm.svg",
+      "sha256": "06ae14edf6e7e4c5a73ad871edb7f52bd076aeefd4bd4861665ac9a73a971f55",
+      "bytes": 2249
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/wechat.png",
+      "sha256": "5c29c95ad5d949d59fa09dab5c5db07bb50ab831b9ce800c7dc620d9ff35c9eb",
+      "bytes": 2122
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/word.svg",
+      "sha256": "89be0bc3200ed07cdc3687e25726394028b257e8f50064bfaebb0af4e86240dc",
+      "bytes": 1322
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/wpsoffice.png",
+      "sha256": "71131885c17be8e7f6a390181649d9d027219f877b7b31994498e3fb95fa1ca6",
+      "bytes": 4166
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/xcode.png",
+      "sha256": "387019962bfea08f4b82160ab2f3afd2b4cfe956ad18a61172f307a33035806b",
+      "bytes": 3998
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/xmind.svg",
+      "sha256": "81ab1b90efc4dfdf9aca769b314b771c297edbbd87e311857035211711eec922",
+      "bytes": 5574
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/yuque.png",
+      "sha256": "13f115de0ff6b7769719bc1cea5b2ecbd650159ed67d380aea9caae22e4b8936",
+      "bytes": 2421
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/zbrush.png",
+      "sha256": "c694b86baedf4b0580a94adb62f46c0a05733d4351f8eff1c04bad6da0af4c7b",
+      "bytes": 4193
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/zoom.png",
+      "sha256": "c95e46a3ead843941456c193fb984d8a7676e53b53bce47a08c5739e590de338",
+      "bytes": 2907
+    },
+    {
+      "path": "KeyFloat/SoftwareIcons/zotero.svg",
+      "sha256": "e235f8fd14eacebd825a28d5312a909fb9d0e19fef0716f8e49655a82e2c1bd8",
+      "bytes": 283
+    },
+    {
+      "path": "KeyFloat/browser-reviewed-shortcuts-mac.json",
+      "sha256": "9a5cf29e9a7e98e23fa1c5a70bf79634d6bb50fa1fac801ccf4def9fc9ddda49",
+      "bytes": 4110
+    },
+    {
+      "path": "KeyFloat/curated-shortcuts-mac.json",
+      "sha256": "44f704c156a10213d8b8bdadba3ac036cf1af7a3e0787b848608c736a8f15a95",
+      "bytes": 3063071
+    },
+    {
+      "path": "KeyFloat/curated-supplements-mac.json",
+      "sha256": "a496ef45794e687c5c73bb4e20e50071183191d61d0bc809d57c26420a6eef3f",
+      "bytes": 39127
+    },
+    {
+      "path": "KeyFloat/ecosystem-shortcuts-mac.json",
+      "sha256": "944915d680ede55a9c3eb2819ee4292a001ecce3908d41238052b3f211a509c3",
+      "bytes": 111222
+    },
+    {
+      "path": "KeyFloat/extended-shortcuts-mac.json",
+      "sha256": "6b079c0662b518e875d44a1331d523d621c348837ef1ab1fafc0b8520b21cbf7",
+      "bytes": 121732
+    },
+    {
+      "path": "KeyFloat/office-shortcuts-mac.json",
+      "sha256": "122969184fa4a0ae5624d639065bb95b7ab0aa055a46e1bc3e61f47167a1335a",
+      "bytes": 105304
+    },
+    {
+      "path": "KeyFloat/productivity-shortcuts-mac.json",
+      "sha256": "2aa2e396b8adda47a047a79bd5c0241b25c724d9c35a5bdeecb28d9e1feba2fa",
+      "bytes": 52757
+    },
+    {
+      "path": "KeyFloat/professional-shortcuts-mac.json",
+      "sha256": "5f54ce3d1616f14ee354d6c11be8d24cfb5ebdc5a35657d752d3fcef71952df4",
+      "bytes": 160763
+    },
+    {
+      "path": "KeyFloat/shortcuts-mac.json",
+      "sha256": "74f93df17615483a15e12e8b52365994f7a9f8527fee737539296c4978c51f99",
+      "bytes": 116006
+    },
+    {
+      "path": "KeyFloat/supplemental-shortcuts-mac.json",
+      "sha256": "c21a6aff11f9228ea37d1c7ffcb60038cd4be47ba4c2b81e4896dcbe5fa0bdef",
+      "bytes": 2317006
+    },
+    {
+      "path": "KeyFloat/verified-shortcuts-mac.json",
+      "sha256": "acf49f9ace29bd5aa33c0688ed5590b68256a4a18fe6989f1ef55b6b7cac38a5",
+      "bytes": 441601
+    },
+    {
+      "path": "KeyFloat.xcodeproj/project.pbxproj",
+      "sha256": "8f8942cc0b5fccf0070454c31da3fec83755bc80f1ad921b5e72ee99476de789",
+      "bytes": 20871
+    },
+    {
+      "path": "KeyFloat.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f",
+      "bytes": 135
+    },
+    {
+      "path": "MACOS_SHORTCUT_AUDIT.json",
+      "sha256": "2f0098e7c4763fe5c8c66cea56a883ab41a4b8de98da3d1ec9ad02a9a7d0ebaa",
+      "bytes": 5475
+    },
+    {
+      "path": "MARKDOWN_SHORTCUT_ADD_IMPORT_REPORT.json",
+      "sha256": "6b9b06b92851fce0a0e9ef930cad4896c1590db127340389e3ad24dcff0612e9",
+      "bytes": 4098
+    },
+    {
+      "path": "MARKDOWN_SHORTCUT_IMPORT_REPORT.json",
+      "sha256": "fc652495377705ffe1badf20542419f5e61c70fde808b2366ca0119b89866c7e",
+      "bytes": 1487
+    },
+    {
+      "path": "MISSING_SOFTWARE_SVG_LOGOS.md",
+      "sha256": "eb42358aa79c0659cbc7d16d9314259d74da60fa8df06173d435aaef6b0b4f03",
+      "bytes": 6889
+    },
+    {
+      "path": "PRODUCT_AUDIT_2026-07-22.md",
+      "sha256": "44813236d2da312b5e578284dba320cf2cd20d5836dc97e4b3e01686213b70de",
+      "bytes": 8658
+    },
+    {
+      "path": "PRODUCT_AUDIT_V1.02.md",
+      "sha256": "59ef6b8e367ae8befd298be6fb04629fd21cd525aa1d35bd857099f30177fe27",
+      "bytes": 7013
+    },
+    {
+      "path": "README.md",
+      "sha256": "19c895de7e08a241db59dd150460d0250f49c3aafca0ed560b1c716dea7e330c",
+      "bytes": 8021
+    },
+    {
+      "path": "Tools/LicenseSmokeTests.swift",
+      "sha256": "fd78b1d3eeb617f8b2baa1738a53f1818ee1018720921c461c303942955c5709",
+      "bytes": 4519
+    },
+    {
+      "path": "Tools/StoreSmokeTests.swift",
+      "sha256": "c3b36090d61f716da8b526dcbf6a959314948a88c716e3c54248def887f52093",
+      "bytes": 21931
+    },
+    {
+      "path": "Tools/ValidateSVGImages.swift",
+      "sha256": "046f6174862b65d3c4e31d732f65fae132e605119c25d500b1d9546b811cb1b4",
+      "bytes": 1438
+    },
+    {
+      "path": "Tools/__pycache__/generate_ecosystem_shortcuts.cpython-312.pyc",
+      "sha256": "962c1bb18068456de58e20f526ce92d882a00f39190ebe0a93abee8ce139ad39",
+      "bytes": 84241
+    },
+    {
+      "path": "Tools/added-shortcut-translations.json",
+      "sha256": "4554bafb65ec3c57e2a4ebb64489720b7e8b0483f067907b7ea251ce02b4892e",
+      "bytes": 9587
+    },
+    {
+      "path": "Tools/assemble-curated-shortcuts.js",
+      "sha256": "78d20c887a783ebff513d80edce284f43ccc16ce1f5574350655dffac0884339",
+      "bytes": 3182
+    },
+    {
+      "path": "Tools/audit-macos-shortcuts.js",
+      "sha256": "8b4c1ca71d666bd8b1ebaf64420dbe6efc0f1f5ce900efd7c2114a4692b4533f",
+      "bytes": 4657
+    },
+    {
+      "path": "Tools/audit_shortcut_truth.py",
+      "sha256": "ee86b0c3fc09eb5ecdd0e6398c4af7a294433736856debd5ea7327e5d9bc188e",
+      "bytes": 11906
+    },
+    {
+      "path": "Tools/ecosystem-coverage.json",
+      "sha256": "b37ee5eb086be8f7d36f26c63ea6d22ab7a1470c91c575ee7c5547a1b220b918",
+      "bytes": 5601
+    },
+    {
+      "path": "Tools/extended-coverage.json",
+      "sha256": "99a2e1d73d5979c13fedc45d8389292f8ff5a4b1fbf669521813411e4c512b13",
+      "bytes": 3295
+    },
+    {
+      "path": "Tools/generate-icon-storage-report.py",
+      "sha256": "da8284566d3ef041aae3ea705b10159a53106e6a9f01e71348562e64b93f3d4e",
+      "bytes": 6004
+    },
+    {
+      "path": "Tools/generate_browser_review_shortcuts.py",
+      "sha256": "4227433567de0849992947efe4a3ddcd8c90b17ab0c69a92fd236793651126a5",
+      "bytes": 9154
+    },
+    {
+      "path": "Tools/generate_ecosystem_shortcuts.py",
+      "sha256": "6bc4aa5a08a4b0b65803affe936e89f2b3ab71653dc88ab89c13f7b1e410caf4",
+      "bytes": 84998
+    },
+    {
+      "path": "Tools/generate_extended_shortcuts.py",
+      "sha256": "c33b33e85fc5d76a74bed15f5416752ed1959f9b1b7eff1aef274e8d6e1ed684",
+      "bytes": 39682
+    },
+    {
+      "path": "Tools/import-added-markdown-shortcuts.js",
+      "sha256": "9ae3e66e4f887a62916311940db459c0ac37d35dfdbaa4cb6de3389c949b8f5e",
+      "bytes": 35171
+    },
+    {
+      "path": "Tools/import-markdown-shortcuts.js",
+      "sha256": "04be76c84b6839da041d3efd51d711e060024312cad97468a5926200f5cc6fa3",
+      "bytes": 41608
+    },
+    {
+      "path": "Tools/import_official_shortcuts.py",
+      "sha256": "ca392d32d2fab76881145d90ff132e211e4186dfb7c0e1d6bbf208156b2a2e81",
+      "bytes": 94387
+    },
+    {
+      "path": "Tools/official-raster-icon-sources.json",
+      "sha256": "92d3e095e07214d4bcc11b1a2bd532ce9e57be3a2c6b9f6b389ba81bb6d6891e",
+      "bytes": 84864
+    },
+    {
+      "path": "Tools/rebuild-rhino-shortcuts.js",
+      "sha256": "42b50187d7bc95029d357e64827e81afd3d7eff38556545218c5fdf5fd91373d",
+      "bytes": 42766
+    },
+    {
+      "path": "Tools/run-product-iteration.sh",
+      "sha256": "ff6d5dae5e54f87ec5855f60fe3ee5ad8f3b13be759b69b7efb6404aa24770c7",
+      "bytes": 1715
+    },
+    {
+      "path": "Tools/shortcut-truth-audit.json",
+      "sha256": "6ccfafa113741959ebad89d9d861fae1d04eb8d3c29bad5535d93e30c7f1bfa1",
+      "bytes": 90513
+    },
+    {
+      "path": "Tools/shortcut_batches/academic-existing-progress.md",
+      "sha256": "79d02bcc0537b2842aca1f253b88fee61dcdff9a6e3748bc1839b7708503b876",
+      "bytes": 2701
+    },
+    {
+      "path": "Tools/shortcut_batches/academic-existing.json",
+      "sha256": "ee10b77281ff18d0740ddefa0abc86e38c7e8836e01e6f2c52528acb7ab7aa4a",
+      "bytes": 7427
+    },
+    {
+      "path": "Tools/shortcut_batches/academic-progress.md",
+      "sha256": "5b347b480d3d8da57c6a9b4671ea4abca82017b461bb47a9f64dc4d4f5c451d0",
+      "bytes": 14098
+    },
+    {
+      "path": "Tools/shortcut_batches/academic.json",
+      "sha256": "1f96d0cacb52cef0680604610526c60a15ceb84913353fc25dc79d293601364f",
+      "bytes": 614480
+    },
+    {
+      "path": "Tools/shortcut_batches/creative-existing-progress.md",
+      "sha256": "085f4e3137ea4464d0621e5cbd3192bde5b450dbbb0b2109cd1d865cf2f8d2ab",
+      "bytes": 3595
+    },
+    {
+      "path": "Tools/shortcut_batches/creative-existing.json",
+      "sha256": "81d78c5eb4c422d4d1c6b3ac28e1d8ba283485155e4343eec2652489b067ee57",
+      "bytes": 55980
+    },
+    {
+      "path": "Tools/shortcut_batches/creative-progress.md",
+      "sha256": "b3fe71f841b83e1200ea60561a1c34cf5929785dff6ef320bd6f7a6dc4d1a0e7",
+      "bytes": 6786
+    },
+    {
+      "path": "Tools/shortcut_batches/creative.json",
+      "sha256": "7a5af3aa551cdc356f01a766764954d1aefddbade88b1ef3aead21391f54472d",
+      "bytes": 377463
+    },
+    {
+      "path": "Tools/shortcut_batches/technical-existing-progress.md",
+      "sha256": "efc72b50d463beb510dd9ef7bad7360fafe1eb34fba5225e39706aae564ade08",
+      "bytes": 4073
+    },
+    {
+      "path": "Tools/shortcut_batches/technical-existing.json",
+      "sha256": "024eda0eed6a05f6d6f501e05c7388ff9e85731bdc31b6449342896bd64b7766",
+      "bytes": 25314
+    },
+    {
+      "path": "Tools/shortcut_batches/technical-progress.md",
+      "sha256": "5532cc0d4537b2ee09425094e0c002140e890d758fe074e0ef3949f96d9771e5",
+      "bytes": 7829
+    },
+    {
+      "path": "Tools/shortcut_batches/technical.json",
+      "sha256": "ed79249d28c345063e2fb4a8536ad4f0cdca05f62ee8738395caf28dd59ea1b4",
+      "bytes": 543893
+    },
+    {
+      "path": "Tools/validate-icon-library.js",
+      "sha256": "2d0a8293a5db047accbf538ddf75a243d7fc82f7c25aff02b0b8cf125aba441c",
+      "bytes": 4687
+    },
+    {
+      "path": "Tools/validate-shortcuts.js",
+      "sha256": "49d8a2a087fc950a2a1dbf2fadc12fceeed15dd56e6e0c2015cfa1b5f15777d0",
+      "bytes": 15937
+    },
+    {
+      "path": "Untitled.swift",
+      "sha256": "663a570c3f4964d0ec6f4f18c644d03d770e0ad618d495d1b955d99868275a99",
+      "bytes": 79
+    }
+  ]
+}

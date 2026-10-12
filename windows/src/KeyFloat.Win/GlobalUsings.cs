@@ -1,0 +1,14 @@
+global using System.IO;
+global using Application = System.Windows.Application;
+global using Binding = System.Windows.Data.Binding;
+global using Brush = System.Windows.Media.Brush;
+global using Brushes = System.Windows.Media.Brushes;
+global using Button = System.Windows.Controls.Button;
+global using ButtonBase = System.Windows.Controls.Primitives.ButtonBase;
+global using Clipboard = System.Windows.Clipboard;
+global using Color = System.Windows.Media.Color;
+global using ColorConverter = System.Windows.Media.ColorConverter;
+global using MessageBox = System.Windows.MessageBox;
+global using Path = System.IO.Path;
+global using Point = System.Windows.Point;
+global using TextBox = System.Windows.Controls.TextBox;

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "platform": "macOS",
+  "generatedAt": "2026-07-21",
+  "software": [
+    {
+      "id": "figma",
+      "name": "Figma",
+      "vendor": "Figma",
+      "accent": "#A259FF",
+      "glyph": "F",
+      "group": "design",
+      "dataStatus": "manualReview",
+      "categories": [
+        {
+          "id": "browser-reviewed-common",
+          "zh": "常用操作（待人工校验）",
+          "en": "Common — Manual Review",
+          "items": [
+            {
+              "id": "figma.browser-review.select-move",
+              "keys": [
+                "V"
+              ],
+              "zh": "选择或移动",
+              "en": "Select / Move",
+              "tags": [
+                "browser sourced",
+                "manual review",
+                "macOS",
+                "Figma 2026 secondary source"
+              ]
+            },
+            {
+              "id": "figma.browser-review.frame",
+              "keys": [
+                "F"
+              ],
+              "zh": "画框",
+              "en": "Frame",
+              "tags": [
+                "browser sourced",
+                "manual review",
+                "macOS",
+                "Figma 2026 secondary source"
+              ]
+            },
+            {
+              "id": "figma.browser-review.rectangle",
+              "keys": [
+                "R"
+              ],
+              "zh": "矩形",
+              "en": "Rectangle",
+              "tags": [
+                "browser sourced",
+                "manual review",
+                "macOS",
+                "Figma 2026 secondary source"
+              ]
+            },
+            {
+              "id": "figma.browser-review.text",
+              "keys": [
+                "T"
+              ],
+              "zh": "文本",
+              "en": "Text",
+              "tags": [
+                "browser sourced",
+                "manual review",
+                "macOS",
+                "Figma 2026 secondary source"
+              ]
+            },
+            {
+              "id": "figma.browser-review.group",
+              "keys": [
+                "⌘",
+                "G"
+              ],
+              "zh": "编组",
+              "en": "Group",
+              "tags": [
+                "browser sourced",
+                "manual review",
+                "macOS",
+                "Figma 2026 secondary source"
+              ]
+            },
+            {
+              "id": "figma.browser-review.duplicate",
+              "keys": [
+                "⌘",
+                "D"
+              ],
+              "zh": "创建副本",
+              "en": "Duplicate",
+              "tags": [
+                "browser sourced",
+                "manual review",
+                "macOS",
+                "Figma 2026 secondary source"
+              ]
+            },
+            {
+              "id": "figma.browser-review.component",
+              "keys": [
+                "⌘",
+                "⌥",
+                "K"
+              ],
+              "zh": "创建组件",
+              "en": "Component",
+              "tags": [
+                "browser sourced",
+                "manual review",
+                "macOS",
+                "Figma 2026 secondary source"
+              ]
+            },
+            {
+              "id": "figma.browser-review.zoom-to-fit",
+              "keys": [
+                "⇧",
+                "1"
+              ],
+              "zh": "缩放以适应画布",
+              "en": "Zoom to Fit",
+              "tags": [
+                "browser sourced",
+                "manual review",
+                "macOS",
+                "Figma 2026 secondary source"
+              ]
+            }
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceURL": "https://shortcut-tools.com/en/shortcuts/figma/mac/",
+        "sourceTitle": "Figma Keyboard Shortcuts for Mac (2026) — browser secondary source",
+        "appVersion": "Figma current desktop/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "browser-search-manual-review",
+        "platform": "macOS"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "keyfloat-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "node scripts/check-site.mjs && node scripts/check-license-key-sync.mjs && node scripts/check-payment-claim.mjs && node scripts/check-alipay.mjs && node scripts/check-auth.mjs && node scripts/check-analytics-feedback.mjs && node scripts/check-releases.mjs && node scripts/check-smtp.mjs && node scripts/check-store-persistence.mjs",
+    "generate-license-key": "node scripts/generate-license-keypair.mjs",
+    "register-activation-codes": "node scripts/register-activation-codes.mjs",
+    "dev": "node scripts/dev-server.cjs"
+  },
+  "dependencies": {
+    "nodemailer": "^9.0.3",
+    "qrcode": "^1.5.4"
+  }
+}

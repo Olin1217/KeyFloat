@@ -1,0 +1,4740 @@
+{
+  "software": [
+    {
+      "id":"autocad","name":"AutoCAD","vendor":"Autodesk","accent":"#E51050","glyph":"A",
+      "categories":[
+        {"id":"draw","zh":"绘图","en":"Draw","items":[
+          {"id":"acad.line","keys":["L","Return"],"zh":"直线","en":"Line","tags":["draw"]},
+          {"id":"acad.polyline","keys":["PL","Return"],"zh":"多段线","en":"Polyline","tags":["draw"]},
+          {"id":"acad.circle","keys":["C","Return"],"zh":"圆","en":"Circle","tags":["draw"]},
+          {"id":"acad.arc","keys":["A","Return"],"zh":"圆弧","en":"Arc","tags":["draw"]},
+          {"id":"acad.rectangle","keys":["REC","Return"],"zh":"矩形","en":"Rectangle","tags":["draw"]},
+          {"id":"acad.polygon","keys":["POL","Return"],"zh":"多边形","en":"Polygon","tags":["draw"]},
+          {"id":"acad.ellipse","keys":["EL","Return"],"zh":"椭圆","en":"Ellipse","tags":["draw"]},
+          {"id":"acad.hatch","keys":["H","Return"],"zh":"图案填充","en":"Hatch","tags":["draw"]},
+          {"id":"acad.text","keys":["T","Return"],"zh":"多行文字","en":"Multiline text","tags":["text"]}
+        ]},
+        {"id":"modify","zh":"修改","en":"Modify","items":[
+          {"id":"acad.erase","keys":["E","Return"],"zh":"删除对象","en":"Erase objects","tags":["edit"]},
+          {"id":"acad.copy","keys":["CO","Return"],"zh":"复制对象","en":"Copy objects","tags":["edit"]},
+          {"id":"acad.move","keys":["M","Return"],"zh":"移动对象","en":"Move objects","tags":["edit"]},
+          {"id":"acad.rotate","keys":["RO","Return"],"zh":"旋转对象","en":"Rotate objects","tags":["edit"]},
+          {"id":"acad.scale","keys":["SC","Return"],"zh":"缩放对象","en":"Scale objects","tags":["edit"]},
+          {"id":"acad.mirror","keys":["MI","Return"],"zh":"镜像对象","en":"Mirror objects","tags":["edit"]},
+          {"id":"acad.offset","keys":["O","Return"],"zh":"偏移对象","en":"Offset objects","tags":["edit"]},
+          {"id":"acad.trim","keys":["TR","Return"],"zh":"修剪对象","en":"Trim objects","tags":["edit"]},
+          {"id":"acad.extend","keys":["EX","Return"],"zh":"延伸对象","en":"Extend objects","tags":["edit"]},
+          {"id":"acad.fillet","keys":["F","Return"],"zh":"圆角","en":"Fillet","tags":["edit"]},
+          {"id":"acad.chamfer","keys":["CHA","Return"],"zh":"倒角","en":"Chamfer","tags":["edit"]},
+          {"id":"acad.explode","keys":["X","Return"],"zh":"分解对象","en":"Explode objects","tags":["edit"]},
+          {"id":"acad.join","keys":["J","Return"],"zh":"合并对象","en":"Join objects","tags":["edit"]},
+          {"id":"acad.stretch","keys":["S","Return"],"zh":"拉伸对象","en":"Stretch objects","tags":["edit"]}
+        ]},
+        {"id":"manage","zh":"视图与管理","en":"View & Manage","items":[
+          {"id":"acad.layer","keys":["LA","Return"],"zh":"打开图层管理器","en":"Open Layer Manager","tags":["layer"]},
+          {"id":"acad.properties","keys":["⌘","1"],"zh":"显示或隐藏特性面板","en":"Toggle Properties palette","tags":["panel"]},
+          {"id":"acad.design-center","keys":["⌘","2"],"zh":"显示或隐藏设计中心","en":"Toggle DesignCenter","tags":["panel"]},
+          {"id":"acad.tool-palettes","keys":["⌘","3"],"zh":"显示或隐藏工具选项板","en":"Toggle Tool Palettes","tags":["panel"]},
+          {"id":"acad.zoom","keys":["Z","Return"],"zh":"缩放视图","en":"Zoom view","tags":["view"]},
+          {"id":"acad.pan","keys":["P","Return"],"zh":"平移视图","en":"Pan view","tags":["view"]},
+          {"id":"acad.regen","keys":["RE","Return"],"zh":"重新生成图形","en":"Regenerate drawing","tags":["view"]},
+          {"id":"acad.distance","keys":["DI","Return"],"zh":"测量距离","en":"Measure distance","tags":["measure"]},
+          {"id":"acad.area","keys":["AA","Return"],"zh":"测量面积","en":"Measure area","tags":["measure"]},
+          {"id":"acad.units","keys":["UN","Return"],"zh":"设置单位","en":"Set drawing units","tags":["settings"]},
+          {"id":"acad.osnap","keys":["F3"],"zh":"切换对象捕捉","en":"Toggle object snap","tags":["snap"]},
+          {"id":"acad.ortho","keys":["F8"],"zh":"切换正交模式","en":"Toggle Ortho mode","tags":["snap"]},
+          {"id":"acad.grid","keys":["F7"],"zh":"切换栅格显示","en":"Toggle grid display","tags":["view"]},
+          {"id":"acad.snap","keys":["F9"],"zh":"切换捕捉模式","en":"Toggle snap mode","tags":["snap"]}
+        ]},
+        {"id":"file","zh":"文件与编辑","en":"File & Edit","items":[
+          {"id":"acad.new","keys":["⌘","N"],"zh":"新建图形","en":"New drawing","tags":[]},
+          {"id":"acad.open","keys":["⌘","O"],"zh":"打开图形","en":"Open drawing","tags":[]},
+          {"id":"acad.save","keys":["⌘","S"],"zh":"保存图形","en":"Save drawing","tags":[]},
+          {"id":"acad.print","keys":["⌘","P"],"zh":"打印图形","en":"Print drawing","tags":[]},
+          {"id":"acad.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"acad.redo","keys":["⌘","Y"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"acad.cancel","keys":["Esc"],"zh":"取消当前命令","en":"Cancel current command","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"sketchup","name":"SketchUp","vendor":"Trimble","accent":"#005F9E","glyph":"Su",
+      "categories":[
+        {"id":"tools","zh":"建模工具","en":"Modeling Tools","items":[
+          {"id":"su.select","keys":["Space"],"zh":"选择工具","en":"Select tool","tags":[]},
+          {"id":"su.line","keys":["L"],"zh":"直线工具","en":"Line tool","tags":[]},
+          {"id":"su.rectangle","keys":["R"],"zh":"矩形工具","en":"Rectangle tool","tags":[]},
+          {"id":"su.circle","keys":["C"],"zh":"圆工具","en":"Circle tool","tags":[]},
+          {"id":"su.arc","keys":["A"],"zh":"圆弧工具","en":"Arc tool","tags":[]},
+          {"id":"su.push-pull","keys":["P"],"zh":"推拉工具","en":"Push/Pull tool","tags":[]},
+          {"id":"su.move","keys":["M"],"zh":"移动工具","en":"Move tool","tags":[]},
+          {"id":"su.rotate","keys":["Q"],"zh":"旋转工具","en":"Rotate tool","tags":[]},
+          {"id":"su.scale","keys":["S"],"zh":"缩放工具","en":"Scale tool","tags":[]},
+          {"id":"su.offset","keys":["F"],"zh":"偏移工具","en":"Offset tool","tags":[]},
+          {"id":"su.tape","keys":["T"],"zh":"卷尺工具","en":"Tape Measure tool","tags":[]},
+          {"id":"su.protractor","keys":["⇧","T"],"zh":"量角器工具","en":"Protractor tool","tags":[]},
+          {"id":"su.paint","keys":["B"],"zh":"材质工具","en":"Paint Bucket tool","tags":[]},
+          {"id":"su.eraser","keys":["E"],"zh":"橡皮擦工具","en":"Eraser tool","tags":[]}
+        ]},
+        {"id":"view","zh":"视图导航","en":"View Navigation","items":[
+          {"id":"su.orbit","keys":["O"],"zh":"环绕观察","en":"Orbit","tags":[]},
+          {"id":"su.pan","keys":["H"],"zh":"平移视图","en":"Pan","tags":[]},
+          {"id":"su.zoom","keys":["Z"],"zh":"缩放视图","en":"Zoom","tags":[]},
+          {"id":"su.zoom-extents","keys":["⇧","Z"],"zh":"充满视窗","en":"Zoom Extents","tags":[]},
+          {"id":"su.look-around","keys":["W"],"zh":"环视工具","en":"Look Around","tags":[]},
+          {"id":"su.position-camera","keys":["⌥","C"],"zh":"定位相机","en":"Position Camera","tags":[]},
+          {"id":"su.walk","keys":["⌥","W"],"zh":"漫游工具","en":"Walk","tags":[]},
+          {"id":"su.perspective","keys":["⌘","⇧","P"],"zh":"切换透视视图","en":"Toggle Perspective","tags":[]}
+        ]},
+        {"id":"edit","zh":"编辑与文件","en":"Edit & File","items":[
+          {"id":"su.group","keys":["⌘","G"],"zh":"创建群组","en":"Make group","tags":[]},
+          {"id":"su.component","keys":["G"],"zh":"创建组件","en":"Make component","tags":[]},
+          {"id":"su.hide","keys":["⌘","E"],"zh":"隐藏选中对象","en":"Hide selected","tags":[]},
+          {"id":"su.unhide-all","keys":["⌘","⇧","E"],"zh":"显示全部对象","en":"Unhide all","tags":[]},
+          {"id":"su.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"su.redo","keys":["⌘","⇧","Z"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"su.copy","keys":["⌘","C"],"zh":"复制","en":"Copy","tags":[]},
+          {"id":"su.paste","keys":["⌘","V"],"zh":"粘贴","en":"Paste","tags":[]},
+          {"id":"su.delete","keys":["Delete"],"zh":"删除选中对象","en":"Delete selected","tags":[]},
+          {"id":"su.new","keys":["⌘","N"],"zh":"新建模型","en":"New model","tags":[]},
+          {"id":"su.open","keys":["⌘","O"],"zh":"打开模型","en":"Open model","tags":[]},
+          {"id":"su.save","keys":["⌘","S"],"zh":"保存模型","en":"Save model","tags":[]},
+          {"id":"su.print","keys":["⌘","P"],"zh":"打印","en":"Print","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id": "rhino",
+      "name": "Rhino",
+      "vendor": "McNeel",
+      "accent": "#777777",
+      "glyph": "R",
+      "bundleIdentifiers": [
+        "com.mcneel.rhinoceros"
+      ],
+      "group": "architecture",
+      "dataStatus": "curated",
+      "categories": [
+        {
+          "id": "rhino.file-window",
+          "zh": "文件与窗口",
+          "en": "File & Window",
+          "items": [
+            {
+              "id": "rhino.file.new",
+              "keys": [
+                "⌘",
+                "N"
+              ],
+              "zh": "新建文件",
+              "en": "Create a new document",
+              "tags": [
+                "file",
+                "New"
+              ]
+            },
+            {
+              "id": "rhino.file.new-template",
+              "keys": [
+                "⇧",
+                "⌘",
+                "N"
+              ],
+              "zh": "使用模板新建文件",
+              "en": "Create a new document from a template",
+              "tags": [
+                "file",
+                "template"
+              ]
+            },
+            {
+              "id": "rhino.file.open",
+              "keys": [
+                "⌘",
+                "O"
+              ],
+              "zh": "打开文件",
+              "en": "Open a document",
+              "tags": [
+                "file",
+                "Open"
+              ]
+            },
+            {
+              "id": "rhino.file.save",
+              "keys": [
+                "⌘",
+                "S"
+              ],
+              "zh": "保存文件",
+              "en": "Save the document",
+              "tags": [
+                "file",
+                "Save"
+              ]
+            },
+            {
+              "id": "rhino.file.save-as",
+              "keys": [
+                "⌥",
+                "⇧",
+                "⌘",
+                "S"
+              ],
+              "zh": "另存为",
+              "en": "Save the document as",
+              "tags": [
+                "file",
+                "SaveAs"
+              ]
+            },
+            {
+              "id": "rhino.file.duplicate",
+              "keys": [
+                "⇧",
+                "⌘",
+                "S"
+              ],
+              "zh": "复制当前文档",
+              "en": "Duplicate the current document",
+              "tags": [
+                "file",
+                "duplicate"
+              ]
+            },
+            {
+              "id": "rhino.file.print",
+              "keys": [
+                "⌘",
+                "P"
+              ],
+              "zh": "打印",
+              "en": "Print the document",
+              "tags": [
+                "file",
+                "Print"
+              ]
+            },
+            {
+              "id": "rhino.app.quit",
+              "keys": [
+                "⌘",
+                "Q"
+              ],
+              "zh": "退出 Rhino",
+              "en": "Quit Rhino",
+              "tags": [
+                "application"
+              ]
+            },
+            {
+              "id": "rhino.window.close",
+              "keys": [
+                "⌘",
+                "W"
+              ],
+              "zh": "关闭当前窗口",
+              "en": "Close the current window",
+              "tags": [
+                "window"
+              ]
+            },
+            {
+              "id": "rhino.window.close-all",
+              "keys": [
+                "⌥",
+                "⌘",
+                "W"
+              ],
+              "zh": "关闭所有窗口",
+              "en": "Close all windows",
+              "tags": [
+                "window"
+              ]
+            },
+            {
+              "id": "rhino.window.minimize",
+              "keys": [
+                "⌘",
+                "M"
+              ],
+              "zh": "最小化窗口",
+              "en": "Minimize the window",
+              "tags": [
+                "window"
+              ]
+            },
+            {
+              "id": "rhino.app.settings",
+              "keys": [
+                "⌘",
+                ","
+              ],
+              "zh": "打开 Rhino 设置",
+              "en": "Open Rhino Settings",
+              "tags": [
+                "settings",
+                "preferences"
+              ]
+            },
+            {
+              "id": "rhino.window.full-screen",
+              "keys": [
+                "⌃",
+                "⌘",
+                "F"
+              ],
+              "zh": "进入或退出全屏",
+              "en": "Enter or exit full screen",
+              "tags": [
+                "window",
+                "full screen"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rhino.edit-objects",
+          "zh": "编辑与对象",
+          "en": "Edit & Objects",
+          "items": [
+            {
+              "id": "rhino.edit.select-all",
+              "keys": [
+                "⌘",
+                "A"
+              ],
+              "zh": "全选",
+              "en": "Select all objects",
+              "tags": [
+                "edit",
+                "SelAll"
+              ]
+            },
+            {
+              "id": "rhino.edit.copy-clipboard",
+              "keys": [
+                "⌘",
+                "C"
+              ],
+              "zh": "复制到剪贴板",
+              "en": "Copy to the Clipboard",
+              "tags": [
+                "edit",
+                "CopyToClipboard"
+              ]
+            },
+            {
+              "id": "rhino.edit.cut",
+              "keys": [
+                "⌘",
+                "X"
+              ],
+              "zh": "剪切",
+              "en": "Cut the selection",
+              "tags": [
+                "edit",
+                "Cut"
+              ]
+            },
+            {
+              "id": "rhino.edit.paste",
+              "keys": [
+                "⌘",
+                "V"
+              ],
+              "zh": "粘贴",
+              "en": "Paste from the Clipboard",
+              "tags": [
+                "edit",
+                "Paste"
+              ]
+            },
+            {
+              "id": "rhino.edit.undo",
+              "keys": [
+                "⌘",
+                "Z"
+              ],
+              "zh": "撤销",
+              "en": "Undo the last action",
+              "tags": [
+                "edit",
+                "Undo"
+              ]
+            },
+            {
+              "id": "rhino.edit.redo",
+              "keys": [
+                "⇧",
+                "⌘",
+                "Z"
+              ],
+              "zh": "重做",
+              "en": "Redo the last action",
+              "tags": [
+                "edit",
+                "Redo"
+              ]
+            },
+            {
+              "id": "rhino.edit.delete",
+              "keys": [
+                "⌘",
+                "Delete"
+              ],
+              "zh": "删除选中对象",
+              "en": "Delete selected objects",
+              "tags": [
+                "edit",
+                "Delete"
+              ]
+            },
+            {
+              "id": "rhino.object.block",
+              "keys": [
+                "⌘",
+                "B"
+              ],
+              "zh": "创建块",
+              "en": "Create a block",
+              "tags": [
+                "object",
+                "Block"
+              ]
+            },
+            {
+              "id": "rhino.object.insert",
+              "keys": [
+                "⌘",
+                "I"
+              ],
+              "zh": "插入文件或块",
+              "en": "Insert a file or block",
+              "tags": [
+                "object",
+                "Insert"
+              ]
+            },
+            {
+              "id": "rhino.object.join",
+              "keys": [
+                "⌘",
+                "J"
+              ],
+              "zh": "连接对象",
+              "en": "Join objects",
+              "tags": [
+                "object",
+                "Join"
+              ]
+            },
+            {
+              "id": "rhino.object.group",
+              "keys": [
+                "⌘",
+                "G"
+              ],
+              "zh": "编组",
+              "en": "Group objects",
+              "tags": [
+                "object",
+                "Group"
+              ]
+            },
+            {
+              "id": "rhino.object.ungroup",
+              "keys": [
+                "⇧",
+                "⌘",
+                "G"
+              ],
+              "zh": "取消编组",
+              "en": "Ungroup objects",
+              "tags": [
+                "object",
+                "Ungroup"
+              ]
+            },
+            {
+              "id": "rhino.object.lock",
+              "keys": [
+                "⌘",
+                "L"
+              ],
+              "zh": "锁定选中对象",
+              "en": "Lock selected objects",
+              "tags": [
+                "object",
+                "Lock"
+              ]
+            },
+            {
+              "id": "rhino.object.unlock-selected",
+              "keys": [
+                "⇧",
+                "⌘",
+                "L"
+              ],
+              "zh": "解锁选中对象",
+              "en": "Unlock selected objects",
+              "tags": [
+                "object",
+                "UnlockSelected"
+              ]
+            },
+            {
+              "id": "rhino.object.unlock-all",
+              "keys": [
+                "⌥",
+                "⌘",
+                "L"
+              ],
+              "zh": "解锁全部对象",
+              "en": "Unlock all objects",
+              "tags": [
+                "object",
+                "Unlock"
+              ]
+            },
+            {
+              "id": "rhino.object.hide",
+              "keys": [
+                "⌥",
+                "H"
+              ],
+              "zh": "隐藏选中对象",
+              "en": "Hide selected objects",
+              "tags": [
+                "object",
+                "Hide"
+              ]
+            },
+            {
+              "id": "rhino.object.show-selected",
+              "keys": [
+                "⌥",
+                "⇧",
+                "H"
+              ],
+              "zh": "显示指定隐藏对象",
+              "en": "Show selected hidden objects",
+              "tags": [
+                "object",
+                "ShowSelected"
+              ]
+            },
+            {
+              "id": "rhino.object.show-all",
+              "keys": [
+                "⌃",
+                "⌥",
+                "H"
+              ],
+              "zh": "显示全部隐藏对象",
+              "en": "Show all hidden objects",
+              "tags": [
+                "object",
+                "Show"
+              ]
+            },
+            {
+              "id": "rhino.app.hide",
+              "keys": [
+                "⌘",
+                "H"
+              ],
+              "zh": "隐藏 Rhino 应用",
+              "en": "Hide the Rhino application",
+              "tags": [
+                "application"
+              ]
+            },
+            {
+              "id": "rhino.app.hide-others",
+              "keys": [
+                "⌥",
+                "⌘",
+                "H"
+              ],
+              "zh": "隐藏其他应用",
+              "en": "Hide other applications",
+              "tags": [
+                "application"
+              ]
+            },
+            {
+              "id": "rhino.object.trim",
+              "keys": [
+                "⌘",
+                "T"
+              ],
+              "zh": "修剪对象",
+              "en": "Trim objects",
+              "tags": [
+                "object",
+                "Trim"
+              ]
+            },
+            {
+              "id": "rhino.object.split",
+              "keys": [
+                "⌃",
+                "⇧",
+                "S"
+              ],
+              "zh": "分割对象",
+              "en": "Split objects",
+              "tags": [
+                "object",
+                "Split"
+              ]
+            },
+            {
+              "id": "rhino.command.search",
+              "keys": [
+                "⌘",
+                "K"
+              ],
+              "zh": "搜索命令",
+              "en": "Search commands",
+              "tags": [
+                "command",
+                "search"
+              ]
+            },
+            {
+              "id": "rhino.help.topics",
+              "keys": [
+                "⌘",
+                "?"
+              ],
+              "zh": "打开帮助主题",
+              "en": "Open Help topics",
+              "tags": [
+                "help"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rhino.panels-tools",
+          "zh": "侧栏、面板与工具",
+          "en": "Sidebars, Panels & Tools",
+          "items": [
+            {
+              "id": "rhino.panel.left-sidebar",
+              "keys": [
+                "⌘",
+                "0"
+              ],
+              "zh": "显示或隐藏左侧栏",
+              "en": "Show or hide the left sidebar",
+              "tags": [
+                "panel",
+                "sidebar"
+              ]
+            },
+            {
+              "id": "rhino.panel.right-sidebar",
+              "keys": [
+                "⌥",
+                "⌘",
+                "0"
+              ],
+              "zh": "显示或隐藏右侧栏",
+              "en": "Show or hide the right sidebar",
+              "tags": [
+                "panel",
+                "sidebar"
+              ]
+            },
+            {
+              "id": "rhino.panel.layers",
+              "keys": [
+                "⌃",
+                "L"
+              ],
+              "zh": "显示或隐藏图层面板",
+              "en": "Show or hide the Layers panel",
+              "tags": [
+                "panel",
+                "layers"
+              ]
+            },
+            {
+              "id": "rhino.panel.osnap",
+              "keys": [
+                "⌃",
+                "U"
+              ],
+              "zh": "显示或隐藏对象捕捉面板",
+              "en": "Show or hide the Osnap panel",
+              "tags": [
+                "panel",
+                "object snap"
+              ]
+            },
+            {
+              "id": "rhino.panel.osnap-pointer",
+              "keys": [
+                "⌃",
+                "⌥",
+                "U"
+              ],
+              "zh": "在指针位置显示对象捕捉面板",
+              "en": "Show the Osnap panel under the pointer",
+              "tags": [
+                "panel",
+                "object snap"
+              ]
+            },
+            {
+              "id": "rhino.panel.active-tools",
+              "keys": [
+                "⌥",
+                "⇧",
+                "⌘",
+                "K"
+              ],
+              "zh": "显示或隐藏活动工具面板",
+              "en": "Show or hide active tool palettes",
+              "tags": [
+                "panel",
+                "tool palettes"
+              ]
+            },
+            {
+              "id": "rhino.panel.characters",
+              "keys": [
+                "⌥",
+                "⌘",
+                "T"
+              ],
+              "zh": "打开字符面板",
+              "en": "Open the Character palette",
+              "tags": [
+                "panel",
+                "characters"
+              ]
+            },
+            {
+              "id": "rhino.text.spelling-grammar",
+              "keys": [
+                "⌘",
+                ":"
+              ],
+              "zh": "显示拼写和语法",
+              "en": "Show Spelling and Grammar",
+              "tags": [
+                "text",
+                "spelling"
+              ]
+            },
+            {
+              "id": "rhino.text.check-spelling",
+              "keys": [
+                "⌘",
+                ";"
+              ],
+              "zh": "检查拼写",
+              "en": "Check spelling",
+              "tags": [
+                "text",
+                "spelling"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rhino.viewports-display",
+          "zh": "视口与显示",
+          "en": "Viewports & Display",
+          "items": [
+            {
+              "id": "rhino.viewport.maximize",
+              "keys": [
+                "⌥",
+                "⌘",
+                "M"
+              ],
+              "zh": "最大化或恢复当前视口",
+              "en": "Maximize or restore the active viewport",
+              "tags": [
+                "viewport",
+                "MaxViewport"
+              ]
+            },
+            {
+              "id": "rhino.viewport.top",
+              "keys": [
+                "⌘",
+                "F1"
+              ],
+              "zh": "最大化顶视图",
+              "en": "Maximize the Top viewport",
+              "tags": [
+                "viewport",
+                "Top"
+              ]
+            },
+            {
+              "id": "rhino.viewport.front",
+              "keys": [
+                "⌘",
+                "F2"
+              ],
+              "zh": "最大化前视图",
+              "en": "Maximize the Front viewport",
+              "tags": [
+                "viewport",
+                "Front"
+              ]
+            },
+            {
+              "id": "rhino.viewport.right",
+              "keys": [
+                "⌘",
+                "F3"
+              ],
+              "zh": "最大化右视图",
+              "en": "Maximize the Right viewport",
+              "tags": [
+                "viewport",
+                "Right"
+              ]
+            },
+            {
+              "id": "rhino.viewport.perspective",
+              "keys": [
+                "⌘",
+                "F4"
+              ],
+              "zh": "最大化透视视图",
+              "en": "Maximize the Perspective viewport",
+              "tags": [
+                "viewport",
+                "Perspective"
+              ]
+            },
+            {
+              "id": "rhino.viewport.zoom-extents",
+              "keys": [
+                "⇧",
+                "⌘",
+                "E"
+              ],
+              "zh": "当前视口缩放至全部对象",
+              "en": "Zoom the active viewport to all objects",
+              "tags": [
+                "viewport",
+                "Zoom Extents"
+              ]
+            },
+            {
+              "id": "rhino.viewport.zoom-all-extents",
+              "keys": [
+                "⌥",
+                "⌘",
+                "E"
+              ],
+              "zh": "所有视口缩放至全部对象",
+              "en": "Zoom all viewports to all objects",
+              "tags": [
+                "viewport",
+                "Zoom All Extents"
+              ]
+            },
+            {
+              "id": "rhino.display.artistic",
+              "keys": [
+                "⌃",
+                "⌘",
+                "A"
+              ],
+              "zh": "切换为艺术显示模式",
+              "en": "Set Artistic display mode",
+              "tags": [
+                "display",
+                "Artistic"
+              ]
+            },
+            {
+              "id": "rhino.display.ghosted",
+              "keys": [
+                "⌃",
+                "⌘",
+                "G"
+              ],
+              "zh": "切换为幽灵显示模式",
+              "en": "Set Ghosted display mode",
+              "tags": [
+                "display",
+                "Ghosted"
+              ]
+            },
+            {
+              "id": "rhino.display.pen",
+              "keys": [
+                "⌃",
+                "⌘",
+                "P"
+              ],
+              "zh": "切换为钢笔显示模式",
+              "en": "Set Pen display mode",
+              "tags": [
+                "display",
+                "Pen"
+              ]
+            },
+            {
+              "id": "rhino.display.rendered",
+              "keys": [
+                "⌃",
+                "⌘",
+                "R"
+              ],
+              "zh": "切换为渲染显示模式",
+              "en": "Set Rendered display mode",
+              "tags": [
+                "display",
+                "Rendered"
+              ]
+            },
+            {
+              "id": "rhino.display.shaded",
+              "keys": [
+                "⌃",
+                "⌘",
+                "S"
+              ],
+              "zh": "切换为着色显示模式",
+              "en": "Set Shaded display mode",
+              "tags": [
+                "display",
+                "Shaded"
+              ]
+            },
+            {
+              "id": "rhino.display.technical",
+              "keys": [
+                "⌃",
+                "⌘",
+                "T"
+              ],
+              "zh": "切换为技术显示模式",
+              "en": "Set Technical display mode",
+              "tags": [
+                "display",
+                "Technical"
+              ]
+            },
+            {
+              "id": "rhino.display.wireframe",
+              "keys": [
+                "⌃",
+                "⌘",
+                "W"
+              ],
+              "zh": "切换为线框显示模式",
+              "en": "Set Wireframe display mode",
+              "tags": [
+                "display",
+                "Wireframe"
+              ]
+            },
+            {
+              "id": "rhino.display.xray",
+              "keys": [
+                "⌃",
+                "⌘",
+                "X"
+              ],
+              "zh": "切换为 X-Ray 显示模式",
+              "en": "Set X-Ray display mode",
+              "tags": [
+                "display",
+                "XRay"
+              ]
+            },
+            {
+              "id": "rhino.view.undo",
+              "keys": [
+                "Home"
+              ],
+              "zh": "撤销上一次视图变化",
+              "en": "Undo the last view change",
+              "tags": [
+                "view",
+                "UndoView"
+              ]
+            },
+            {
+              "id": "rhino.view.redo",
+              "keys": [
+                "End"
+              ],
+              "zh": "重做上一次视图变化",
+              "en": "Redo the last view change",
+              "tags": [
+                "view",
+                "RedoView"
+              ]
+            },
+            {
+              "id": "rhino.cplane.previous",
+              "keys": [
+                "⇧",
+                "Home"
+              ],
+              "zh": "切换到上一个构造平面",
+              "en": "Switch to the previous construction plane",
+              "tags": [
+                "CPlane",
+                "Undo"
+              ]
+            },
+            {
+              "id": "rhino.cplane.next",
+              "keys": [
+                "⇧",
+                "End"
+              ],
+              "zh": "切换到下一个构造平面",
+              "en": "Switch to the next construction plane",
+              "tags": [
+                "CPlane",
+                "Redo"
+              ]
+            },
+            {
+              "id": "rhino.view.pan-in",
+              "keys": [
+                "⌘",
+                "Page Up"
+              ],
+              "zh": "视图向内平移",
+              "en": "Pan the view inward",
+              "tags": [
+                "view",
+                "Pan In"
+              ]
+            },
+            {
+              "id": "rhino.view.pan-out",
+              "keys": [
+                "⌘",
+                "Page Down"
+              ],
+              "zh": "视图向外平移",
+              "en": "Pan the view outward",
+              "tags": [
+                "view",
+                "Pan Out"
+              ]
+            },
+            {
+              "id": "rhino.view.lens-in",
+              "keys": [
+                "⇧",
+                "Page Up"
+              ],
+              "zh": "增大镜头焦距",
+              "en": "Increase the camera lens length",
+              "tags": [
+                "view",
+                "ZoomLens In"
+              ]
+            },
+            {
+              "id": "rhino.view.lens-out",
+              "keys": [
+                "⇧",
+                "Page Down"
+              ],
+              "zh": "减小镜头焦距",
+              "en": "Decrease the camera lens length",
+              "tags": [
+                "view",
+                "ZoomLens Out"
+              ]
+            },
+            {
+              "id": "rhino.view.tilt-left",
+              "keys": [
+                "⇧",
+                "⌘",
+                "Page Up"
+              ],
+              "zh": "向左倾斜视图",
+              "en": "Tilt the view left",
+              "tags": [
+                "view",
+                "TiltView Left"
+              ]
+            },
+            {
+              "id": "rhino.view.tilt-right",
+              "keys": [
+                "⇧",
+                "⌘",
+                "Page Down"
+              ],
+              "zh": "向右倾斜视图",
+              "en": "Tilt the view right",
+              "tags": [
+                "view",
+                "TiltView Right"
+              ]
+            },
+            {
+              "id": "rhino.autocplane.cycle",
+              "keys": [
+                "⌘",
+                "R"
+              ],
+              "zh": "循环切换自动构造平面对齐模式",
+              "en": "Cycle Auto CPlane alignment modes",
+              "tags": [
+                "Rhino 8",
+                "Auto CPlane"
+              ]
+            },
+            {
+              "id": "rhino.autocplane.lock",
+              "keys": [
+                "⌘",
+                "1"
+              ],
+              "zh": "锁定或解锁当前自动构造平面",
+              "en": "Lock or unlock the active Auto CPlane",
+              "tags": [
+                "Rhino 8",
+                "Auto CPlane"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rhino.function-modeling-aids",
+          "zh": "功能键与建模辅助",
+          "en": "Function Keys & Modeling Aids",
+          "items": [
+            {
+              "id": "rhino.function.command-history",
+              "keys": [
+                "F2"
+              ],
+              "zh": "打开命令历史",
+              "en": "Open Command History",
+              "tags": [
+                "interface",
+                "CommandHistory"
+              ]
+            },
+            {
+              "id": "rhino.function.properties",
+              "keys": [
+                "F3"
+              ],
+              "zh": "打开对象属性",
+              "en": "Open Object Properties",
+              "tags": [
+                "interface",
+                "Properties"
+              ]
+            },
+            {
+              "id": "rhino.function.camera",
+              "keys": [
+                "F6"
+              ],
+              "zh": "显示或隐藏相机",
+              "en": "Show or hide the camera",
+              "tags": [
+                "view",
+                "Camera"
+              ]
+            },
+            {
+              "id": "rhino.function.grid",
+              "keys": [
+                "F7"
+              ],
+              "zh": "显示或隐藏网格",
+              "en": "Show or hide the grid",
+              "tags": [
+                "view",
+                "ShowGrid"
+              ]
+            },
+            {
+              "id": "rhino.function.ortho",
+              "keys": [
+                "F8"
+              ],
+              "zh": "切换正交模式",
+              "en": "Toggle Ortho mode",
+              "tags": [
+                "modeling aid",
+                "Ortho"
+              ]
+            },
+            {
+              "id": "rhino.function.snap",
+              "keys": [
+                "F9"
+              ],
+              "zh": "切换网格捕捉",
+              "en": "Toggle grid snap",
+              "tags": [
+                "modeling aid",
+                "Snap"
+              ]
+            },
+            {
+              "id": "rhino.function.points-on",
+              "keys": [
+                "F10"
+              ],
+              "zh": "打开控制点",
+              "en": "Turn control points on",
+              "tags": [
+                "control point",
+                "PointsOn"
+              ]
+            },
+            {
+              "id": "rhino.function.points-off",
+              "keys": [
+                "F11"
+              ],
+              "zh": "关闭控制点",
+              "en": "Turn control points off",
+              "tags": [
+                "control point",
+                "PointsOff"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rhino.navigation-nudge",
+          "zh": "鼠标导航与微移",
+          "en": "Mouse Navigation & Nudge",
+          "items": [
+            {
+              "id": "rhino.nav.rotate-perspective",
+              "keys": [
+                "Right-drag"
+              ],
+              "keysZh": [
+                "右键拖动"
+              ],
+              "keysEn": [
+                "Right-drag"
+              ],
+              "zh": "旋转透视视图",
+              "en": "Rotate a perspective view",
+              "tags": [
+                "mouse",
+                "viewport"
+              ]
+            },
+            {
+              "id": "rhino.nav.pan-parallel",
+              "keys": [
+                "Right-drag"
+              ],
+              "keysZh": [
+                "右键拖动"
+              ],
+              "keysEn": [
+                "Right-drag"
+              ],
+              "zh": "平移平行视图",
+              "en": "Pan a parallel view",
+              "tags": [
+                "mouse",
+                "viewport"
+              ]
+            },
+            {
+              "id": "rhino.nav.pan-any",
+              "keys": [
+                "⇧",
+                "Right-drag"
+              ],
+              "keysZh": [
+                "⇧",
+                "右键拖动"
+              ],
+              "keysEn": [
+                "⇧",
+                "Right-drag"
+              ],
+              "zh": "平移任意视图",
+              "en": "Pan any view",
+              "tags": [
+                "mouse",
+                "viewport"
+              ]
+            },
+            {
+              "id": "rhino.nav.constrain-drag",
+              "keys": [
+                "⇧",
+                "Right-drag"
+              ],
+              "keysZh": [
+                "⇧",
+                "右键拖动"
+              ],
+              "keysEn": [
+                "⇧",
+                "Right-drag"
+              ],
+              "zh": "将视图旋转或平移约束为水平或垂直方向",
+              "en": "Constrain view rotation or panning horizontally or vertically",
+              "tags": [
+                "mouse",
+                "constraint"
+              ]
+            },
+            {
+              "id": "rhino.nav.zoom-pointer",
+              "keys": [
+                "Mouse wheel"
+              ],
+              "keysZh": [
+                "鼠标滚轮"
+              ],
+              "keysEn": [
+                "Mouse wheel"
+              ],
+              "zh": "以鼠标位置为焦点缩放",
+              "en": "Zoom around the pointer",
+              "tags": [
+                "mouse",
+                "zoom"
+              ]
+            },
+            {
+              "id": "rhino.nav.zoom-center-drag",
+              "keys": [
+                "⌘",
+                "Right-drag vertically"
+              ],
+              "keysZh": [
+                "⌘",
+                "右键上下拖动"
+              ],
+              "keysEn": [
+                "⌘",
+                "Right-drag vertically"
+              ],
+              "zh": "以视图中心为焦点缩放",
+              "en": "Zoom around the view center",
+              "tags": [
+                "mouse",
+                "zoom"
+              ]
+            },
+            {
+              "id": "rhino.nav.zoom-center-wheel",
+              "keys": [
+                "⌘",
+                "Mouse wheel"
+              ],
+              "keysZh": [
+                "⌘",
+                "鼠标滚轮"
+              ],
+              "keysEn": [
+                "⌘",
+                "Mouse wheel"
+              ],
+              "zh": "以视图中心为焦点缩放",
+              "en": "Zoom around the view center with the wheel",
+              "tags": [
+                "mouse",
+                "zoom"
+              ]
+            },
+            {
+              "id": "rhino.nav.zoom-page",
+              "keys": [
+                "Page Up / Page Down"
+              ],
+              "zh": "放大或缩小视图",
+              "en": "Zoom the view in or out",
+              "tags": [
+                "view",
+                "zoom"
+              ]
+            },
+            {
+              "id": "rhino.nav.dolly-drag",
+              "keys": [
+                "⌥",
+                "Right-drag vertically"
+              ],
+              "keysZh": [
+                "⌥",
+                "右键上下拖动"
+              ],
+              "keysEn": [
+                "⌥",
+                "Right-drag vertically"
+              ],
+              "zh": "在透视视图中向内或向外移动",
+              "en": "Dolly in or out in a perspective view",
+              "tags": [
+                "mouse",
+                "dolly"
+              ]
+            },
+            {
+              "id": "rhino.nav.dolly-wheel",
+              "keys": [
+                "⌥",
+                "Mouse wheel"
+              ],
+              "keysZh": [
+                "⌥",
+                "鼠标滚轮"
+              ],
+              "keysEn": [
+                "⌥",
+                "Mouse wheel"
+              ],
+              "zh": "使用滚轮在透视视图中向内或向外移动",
+              "en": "Dolly in or out with the wheel",
+              "tags": [
+                "mouse",
+                "dolly"
+              ]
+            },
+            {
+              "id": "rhino.nav.tilt-drag",
+              "keys": [
+                "⇧",
+                "⌥",
+                "Right-drag"
+              ],
+              "keysZh": [
+                "⇧",
+                "⌥",
+                "右键拖动"
+              ],
+              "keysEn": [
+                "⇧",
+                "⌥",
+                "Right-drag"
+              ],
+              "zh": "倾斜视图",
+              "en": "Tilt the view",
+              "tags": [
+                "mouse",
+                "TiltView"
+              ]
+            },
+            {
+              "id": "rhino.nav.adjust-lens",
+              "keys": [
+                "⌘",
+                "⇧",
+                "⌥",
+                "Right-drag"
+              ],
+              "keysZh": [
+                "⌘",
+                "⇧",
+                "⌥",
+                "右键拖动"
+              ],
+              "keysEn": [
+                "⌘",
+                "⇧",
+                "⌥",
+                "Right-drag"
+              ],
+              "zh": "调整透视相机镜头焦距",
+              "en": "Adjust the perspective camera lens length",
+              "tags": [
+                "mouse",
+                "camera"
+              ]
+            },
+            {
+              "id": "rhino.nav.rotate-camera",
+              "keys": [
+                "⌘",
+                "⌥",
+                "Right-drag"
+              ],
+              "keysZh": [
+                "⌘",
+                "⌥",
+                "右键拖动"
+              ],
+              "keysEn": [
+                "⌘",
+                "⌥",
+                "Right-drag"
+              ],
+              "zh": "旋转相机",
+              "en": "Rotate the camera",
+              "tags": [
+                "mouse",
+                "RotateCamera"
+              ]
+            },
+            {
+              "id": "rhino.nav.rotate-camera-constrained",
+              "keys": [
+                "⌘",
+                "⌥",
+                "⇧",
+                "Right-drag"
+              ],
+              "keysZh": [
+                "⌘",
+                "⌥",
+                "⇧",
+                "右键拖动"
+              ],
+              "keysEn": [
+                "⌘",
+                "⌥",
+                "⇧",
+                "Right-drag"
+              ],
+              "zh": "水平或垂直约束相机旋转",
+              "en": "Constrain camera rotation horizontally or vertically",
+              "tags": [
+                "mouse",
+                "camera",
+                "constraint"
+              ]
+            },
+            {
+              "id": "rhino.nav.force-parallel-rotate",
+              "keys": [
+                "⌘",
+                "⇧",
+                "Right-drag"
+              ],
+              "keysZh": [
+                "⌘",
+                "⇧",
+                "右键拖动"
+              ],
+              "keysEn": [
+                "⌘",
+                "⇧",
+                "Right-drag"
+              ],
+              "zh": "强制旋转平行视图",
+              "en": "Force a parallel view to rotate",
+              "tags": [
+                "mouse",
+                "viewport"
+              ]
+            },
+            {
+              "id": "rhino.toolbar.popup",
+              "keys": [
+                "Middle click"
+              ],
+              "keysZh": [
+                "中键单击"
+              ],
+              "keysEn": [
+                "Middle click"
+              ],
+              "zh": "显示弹出工具栏",
+              "en": "Show the popup toolbar",
+              "tags": [
+                "mouse",
+                "toolbar"
+              ]
+            },
+            {
+              "id": "rhino.nudge.view-arrows",
+              "keys": [
+                "Arrow keys"
+              ],
+              "keysZh": [
+                "方向键"
+              ],
+              "keysEn": [
+                "Arrow keys"
+              ],
+              "zh": "在默认模式下旋转透视视图或平移平行视图",
+              "en": "Rotate a perspective view or pan a parallel view in the default mode",
+              "tags": [
+                "nudge",
+                "default mode"
+              ]
+            },
+            {
+              "id": "rhino.nudge.pan-perspective",
+              "keys": [
+                "⇧",
+                "Arrow keys"
+              ],
+              "keysZh": [
+                "⇧",
+                "方向键"
+              ],
+              "keysEn": [
+                "⇧",
+                "Arrow keys"
+              ],
+              "zh": "在默认模式下平移透视视图",
+              "en": "Pan a perspective view in the default mode",
+              "tags": [
+                "nudge",
+                "default mode"
+              ]
+            },
+            {
+              "id": "rhino.nudge.object-default",
+              "keys": [
+                "⌥",
+                "Arrow keys"
+              ],
+              "keysZh": [
+                "⌥",
+                "方向键"
+              ],
+              "keysEn": [
+                "⌥",
+                "Arrow keys"
+              ],
+              "zh": "在默认模式下微移选中对象",
+              "en": "Nudge selected objects in the default mode",
+              "tags": [
+                "nudge",
+                "default mode"
+              ]
+            },
+            {
+              "id": "rhino.nudge.object-z-default",
+              "keys": [
+                "⌥",
+                "Page Up / Page Down"
+              ],
+              "zh": "在默认模式下沿 Z 方向微移选中对象",
+              "en": "Nudge selected objects along Z in the default mode",
+              "tags": [
+                "nudge",
+                "default mode"
+              ]
+            },
+            {
+              "id": "rhino.nudge.object-mode",
+              "keys": [
+                "Arrow keys"
+              ],
+              "keysZh": [
+                "方向键"
+              ],
+              "keysEn": [
+                "Arrow keys"
+              ],
+              "zh": "在微移模式下微移选中对象",
+              "en": "Nudge selected objects in Nudge mode",
+              "tags": [
+                "nudge",
+                "nudge mode"
+              ]
+            },
+            {
+              "id": "rhino.nudge.object-z-mode",
+              "keys": [
+                "Page Up / Page Down"
+              ],
+              "zh": "在微移模式下沿 Z 方向微移选中对象",
+              "en": "Nudge selected objects along Z in Nudge mode",
+              "tags": [
+                "nudge",
+                "nudge mode"
+              ]
+            },
+            {
+              "id": "rhino.nudge.view-mode",
+              "keys": [
+                "⌥",
+                "Arrow keys"
+              ],
+              "keysZh": [
+                "⌥",
+                "方向键"
+              ],
+              "keysEn": [
+                "⌥",
+                "Arrow keys"
+              ],
+              "zh": "在微移模式下操作视图",
+              "en": "Manipulate the view in Nudge mode",
+              "tags": [
+                "nudge",
+                "nudge mode"
+              ]
+            },
+            {
+              "id": "rhino.nudge.command-step",
+              "keys": [
+                "⌘",
+                "Nudge key"
+              ],
+              "keysZh": [
+                "⌘",
+                "微移键"
+              ],
+              "keysEn": [
+                "⌘",
+                "Nudge key"
+              ],
+              "zh": "使用设置中的 Command 微移步长",
+              "en": "Use the configured Command nudge distance",
+              "tags": [
+                "nudge",
+                "distance"
+              ]
+            },
+            {
+              "id": "rhino.nudge.shift-step",
+              "keys": [
+                "⇧",
+                "Nudge key"
+              ],
+              "keysZh": [
+                "⇧",
+                "微移键"
+              ],
+              "keysEn": [
+                "⇧",
+                "Nudge key"
+              ],
+              "zh": "使用设置中的 Shift 微移步长",
+              "en": "Use the configured Shift nudge distance",
+              "tags": [
+                "nudge",
+                "distance"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rhino.selection",
+          "zh": "选择与子对象",
+          "en": "Selection & Sub-objects",
+          "items": [
+            {
+              "id": "rhino.selection.object",
+              "keys": [
+                "Left click object"
+              ],
+              "keysZh": [
+                "左键单击对象"
+              ],
+              "keysEn": [
+                "Left click object"
+              ],
+              "zh": "选择对象并替换现有选择",
+              "en": "Select an object and replace the current selection",
+              "tags": [
+                "selection",
+                "mouse"
+              ]
+            },
+            {
+              "id": "rhino.selection.add",
+              "keys": [
+                "⇧",
+                "Left click object"
+              ],
+              "keysZh": [
+                "⇧",
+                "左键单击对象"
+              ],
+              "keysEn": [
+                "⇧",
+                "Left click object"
+              ],
+              "zh": "将对象加入当前选择",
+              "en": "Add an object to the current selection",
+              "tags": [
+                "selection",
+                "mouse"
+              ]
+            },
+            {
+              "id": "rhino.selection.remove",
+              "keys": [
+                "⌘",
+                "Left click object"
+              ],
+              "keysZh": [
+                "⌘",
+                "左键单击对象"
+              ],
+              "keysEn": [
+                "⌘",
+                "Left click object"
+              ],
+              "zh": "从当前选择中移除对象",
+              "en": "Remove an object from the current selection",
+              "tags": [
+                "selection",
+                "mouse"
+              ]
+            },
+            {
+              "id": "rhino.selection.subobject",
+              "keys": [
+                "⌘",
+                "⇧",
+                "Left click"
+              ],
+              "keysZh": [
+                "⌘",
+                "⇧",
+                "左键单击"
+              ],
+              "keysEn": [
+                "⌘",
+                "⇧",
+                "Left click"
+              ],
+              "zh": "选择面、边或其他子对象",
+              "en": "Select a face, edge, or other sub-object",
+              "tags": [
+                "selection",
+                "sub-object"
+              ]
+            },
+            {
+              "id": "rhino.selection.add-box",
+              "keys": [
+                "⇧",
+                "Box select"
+              ],
+              "keysZh": [
+                "⇧",
+                "框选"
+              ],
+              "keysEn": [
+                "⇧",
+                "Box select"
+              ],
+              "zh": "将框中的对象加入选择",
+              "en": "Add objects in a selection box",
+              "tags": [
+                "selection",
+                "box"
+              ]
+            },
+            {
+              "id": "rhino.selection.remove-box",
+              "keys": [
+                "⌘",
+                "Box select"
+              ],
+              "keysZh": [
+                "⌘",
+                "框选"
+              ],
+              "keysEn": [
+                "⌘",
+                "Box select"
+              ],
+              "zh": "从选择中移除框选对象或子对象",
+              "en": "Remove boxed objects or sub-objects from the selection",
+              "tags": [
+                "selection",
+                "box"
+              ]
+            },
+            {
+              "id": "rhino.selection.subobject-box",
+              "keys": [
+                "⌘",
+                "⇧",
+                "Box select"
+              ],
+              "keysZh": [
+                "⌘",
+                "⇧",
+                "框选"
+              ],
+              "keysEn": [
+                "⌘",
+                "⇧",
+                "Box select"
+              ],
+              "zh": "框选子对象",
+              "en": "Box-select sub-objects",
+              "tags": [
+                "selection",
+                "sub-object",
+                "box"
+              ]
+            },
+            {
+              "id": "rhino.selection.overlap",
+              "keys": [
+                "⌥",
+                "Left click"
+              ],
+              "keysZh": [
+                "⌥",
+                "左键单击"
+              ],
+              "keysEn": [
+                "⌥",
+                "Left click"
+              ],
+              "zh": "启动重叠对象候选选择",
+              "en": "Open overlapping-object candidate selection",
+              "tags": [
+                "selection",
+                "overlap"
+              ]
+            },
+            {
+              "id": "rhino.selection.window",
+              "keys": [
+                "Drag left to right"
+              ],
+              "keysZh": [
+                "从左向右拖框"
+              ],
+              "keysEn": [
+                "Drag left to right"
+              ],
+              "zh": "执行窗口选择",
+              "en": "Select only objects fully inside the window",
+              "tags": [
+                "selection",
+                "window"
+              ]
+            },
+            {
+              "id": "rhino.selection.crossing",
+              "keys": [
+                "Drag right to left"
+              ],
+              "keysZh": [
+                "从右向左拖框"
+              ],
+              "keysEn": [
+                "Drag right to left"
+              ],
+              "zh": "执行交叉选择",
+              "en": "Select objects inside or crossing the window",
+              "tags": [
+                "selection",
+                "crossing"
+              ]
+            },
+            {
+              "id": "rhino.selection.tangent-chain",
+              "keys": [
+                "Double-click tangent curve"
+              ],
+              "keysZh": [
+                "双击相切曲线"
+              ],
+              "keysEn": [
+                "Double-click tangent curve"
+              ],
+              "zh": "选择相切连续的连接曲线",
+              "en": "Select a tangent chain of joined curves",
+              "tags": [
+                "selection",
+                "Rhino 8",
+                "curve"
+              ]
+            },
+            {
+              "id": "rhino.selection.remove-tangent-chain",
+              "keys": [
+                "⌘",
+                "Double-click curve"
+              ],
+              "keysZh": [
+                "⌘",
+                "双击曲线"
+              ],
+              "keysEn": [
+                "⌘",
+                "Double-click curve"
+              ],
+              "zh": "取消选择相切连续的连接曲线",
+              "en": "Deselect a tangent chain of joined curves",
+              "tags": [
+                "selection",
+                "Rhino 8",
+                "curve"
+              ]
+            },
+            {
+              "id": "rhino.selection.remove-vertex-chain",
+              "keys": [
+                "⌘",
+                "⇧",
+                "Double-click selected vertex"
+              ],
+              "keysZh": [
+                "⌘",
+                "⇧",
+                "双击已选顶点"
+              ],
+              "keysEn": [
+                "⌘",
+                "⇧",
+                "Double-click selected vertex"
+              ],
+              "zh": "取消选择整条 SubD 或网格顶点链",
+              "en": "Deselect an entire SubD or mesh vertex chain",
+              "tags": [
+                "selection",
+                "Rhino 8",
+                "SubD",
+                "mesh"
+              ]
+            },
+            {
+              "id": "rhino.selection.confirm",
+              "keys": [
+                "Space"
+              ],
+              "zh": "确认选择并继续命令",
+              "en": "Confirm the selection and continue the command",
+              "tags": [
+                "selection",
+                "command"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rhino.command-line",
+          "zh": "命令行与精确建模",
+          "en": "Command Line & Precision Modeling",
+          "items": [
+            {
+              "id": "rhino.command.cancel-active",
+              "keys": [
+                "Esc"
+              ],
+              "zh": "取消当前命令",
+              "en": "Cancel the active command",
+              "tags": [
+                "command line",
+                "cancel"
+              ]
+            },
+            {
+              "id": "rhino.command.clear-selection",
+              "keys": [
+                "Esc"
+              ],
+              "zh": "在没有活动命令时取消全部选择",
+              "en": "Clear the selection when no command is active",
+              "tags": [
+                "command line",
+                "selection"
+              ]
+            },
+            {
+              "id": "rhino.command.points-off",
+              "keys": [
+                "Esc"
+              ],
+              "zh": "关闭控制点或编辑点显示",
+              "en": "Turn off control-point or edit-point display",
+              "tags": [
+                "command line",
+                "control point"
+              ]
+            },
+            {
+              "id": "rhino.command.exit-full-screen",
+              "keys": [
+                "Esc"
+              ],
+              "zh": "退出 Rhino 全屏",
+              "en": "Exit Rhino full screen",
+              "tags": [
+                "command line",
+                "full screen"
+              ]
+            },
+            {
+              "id": "rhino.command.accept",
+              "keys": [
+                "Space"
+              ],
+              "zh": "接受当前输入或选项",
+              "en": "Accept the current input or option",
+              "tags": [
+                "command line",
+                "confirm"
+              ]
+            },
+            {
+              "id": "rhino.command.right-click-accept",
+              "keys": [
+                "Right click"
+              ],
+              "keysZh": [
+                "右键单击"
+              ],
+              "keysEn": [
+                "Right click"
+              ],
+              "zh": "确认当前输入或选项",
+              "en": "Accept the current input or option with the right mouse button",
+              "tags": [
+                "command line",
+                "confirm"
+              ]
+            },
+            {
+              "id": "rhino.command.repeat",
+              "keys": [
+                "Right click"
+              ],
+              "keysZh": [
+                "右键单击"
+              ],
+              "keysEn": [
+                "Right click"
+              ],
+              "zh": "空闲时重复上一命令",
+              "en": "Repeat the previous command when idle",
+              "tags": [
+                "command line",
+                "repeat"
+              ]
+            },
+            {
+              "id": "rhino.constraint.temporary-ortho",
+              "keys": [
+                "⇧"
+              ],
+              "zh": "拾取点或绘制时临时切换正交模式",
+              "en": "Temporarily toggle Ortho while picking or drawing",
+              "tags": [
+                "constraint",
+                "Ortho"
+              ]
+            },
+            {
+              "id": "rhino.constraint.view-axis",
+              "keys": [
+                "⇧",
+                "Right-drag"
+              ],
+              "keysZh": [
+                "⇧",
+                "右键拖动"
+              ],
+              "keysEn": [
+                "⇧",
+                "Right-drag"
+              ],
+              "zh": "将视图或相机旋转约束为水平或垂直方向",
+              "en": "Constrain view or camera rotation horizontally or vertically",
+              "tags": [
+                "constraint",
+                "view"
+              ]
+            },
+            {
+              "id": "rhino.constraint.direction-lock",
+              "keys": [
+                "Tab"
+              ],
+              "zh": "锁定当前光标移动方向",
+              "en": "Lock the current cursor direction",
+              "tags": [
+                "constraint",
+                "direction"
+              ]
+            },
+            {
+              "id": "rhino.constraint.circular-lock",
+              "keys": [
+                "Tab",
+                "Tab"
+              ],
+              "zh": "启用圆形方向锁定或锁定半径",
+              "en": "Enable circular direction lock or lock a radius",
+              "tags": [
+                "constraint",
+                "direction"
+              ]
+            },
+            {
+              "id": "rhino.subd.toggle-display",
+              "keys": [
+                "Tab"
+              ],
+              "zh": "切换 SubD 平滑与盒状显示",
+              "en": "Toggle SubD smooth and box display",
+              "tags": [
+                "SubD",
+                "display"
+              ]
+            },
+            {
+              "id": "rhino.elevator.start",
+              "keys": [
+                "⌘",
+                "Left click"
+              ],
+              "keysZh": [
+                "⌘",
+                "左键单击"
+              ],
+              "keysEn": [
+                "⌘",
+                "Left click"
+              ],
+              "zh": "拾取点时启动垂直模式",
+              "en": "Start Elevator mode while picking a point",
+              "tags": [
+                "modeling aid",
+                "Elevator"
+              ]
+            },
+            {
+              "id": "rhino.elevator.drag",
+              "keys": [
+                "⌘",
+                "Drag object"
+              ],
+              "keysZh": [
+                "⌘",
+                "拖动对象"
+              ],
+              "keysEn": [
+                "⌘",
+                "Drag object"
+              ],
+              "zh": "沿构造平面法线方向拖动对象",
+              "en": "Drag an object along the construction-plane normal",
+              "tags": [
+                "modeling aid",
+                "Elevator"
+              ]
+            },
+            {
+              "id": "rhino.copy.drag",
+              "keys": [
+                "⌥",
+                "Tap while dragging"
+              ],
+              "keysZh": [
+                "⌥",
+                "拖动时轻按"
+              ],
+              "keysEn": [
+                "⌥",
+                "Tap while dragging"
+              ],
+              "zh": "拖动对象时复制",
+              "en": "Copy an object while dragging",
+              "tags": [
+                "copy",
+                "drag"
+              ]
+            },
+            {
+              "id": "rhino.copy.option",
+              "keys": [
+                "⌥"
+              ],
+              "zh": "切换命令行复制选项",
+              "en": "Toggle the command-line Copy option",
+              "tags": [
+                "command line",
+                "Copy"
+              ]
+            },
+            {
+              "id": "rhino.curve.pause-auto-close",
+              "keys": [
+                "⌥"
+              ],
+              "zh": "暂停多段线或曲线自动闭合",
+              "en": "Pause automatic closing for polylines and curves",
+              "tags": [
+                "curve",
+                "Polyline",
+                "InterpCrv"
+              ]
+            },
+            {
+              "id": "rhino.coordinate.origin",
+              "keys": [
+                "0"
+              ],
+              "zh": "输入世界或构造平面原点",
+              "en": "Enter the world or construction-plane origin",
+              "tags": [
+                "coordinate",
+                "0,0,0"
+              ]
+            },
+            {
+              "id": "rhino.coordinate.cplane",
+              "keys": [
+                "x,y,z"
+              ],
+              "zh": "输入构造平面坐标",
+              "en": "Enter construction-plane coordinates",
+              "tags": [
+                "coordinate",
+                "Cartesian"
+              ]
+            },
+            {
+              "id": "rhino.coordinate.world",
+              "keys": [
+                "wx,y,z"
+              ],
+              "zh": "输入世界坐标",
+              "en": "Enter world coordinates",
+              "tags": [
+                "coordinate",
+                "world"
+              ]
+            },
+            {
+              "id": "rhino.coordinate.relative",
+              "keys": [
+                "@distance / rdistance"
+              ],
+              "zh": "输入相对坐标或相对距离",
+              "en": "Enter relative coordinates or distance",
+              "tags": [
+                "coordinate",
+                "relative"
+              ]
+            },
+            {
+              "id": "rhino.constraint.angle",
+              "keys": [
+                "<angle"
+              ],
+              "zh": "输入角度约束",
+              "en": "Enter an angle constraint",
+              "tags": [
+                "constraint",
+                "angle"
+              ]
+            },
+            {
+              "id": "rhino.coordinate.relative-angle",
+              "keys": [
+                "@distance<angle"
+              ],
+              "zh": "同时输入相对距离与角度",
+              "en": "Enter a relative distance and angle",
+              "tags": [
+                "coordinate",
+                "relative",
+                "angle"
+              ]
+            },
+            {
+              "id": "rhino.constraint.multiple-distance",
+              "keys": [
+                "-distance"
+              ],
+              "zh": "使用整数倍增量距离约束",
+              "en": "Constrain distance to integer multiples",
+              "tags": [
+                "constraint",
+                "distance"
+              ]
+            },
+            {
+              "id": "rhino.command.option-letter",
+              "keys": [
+                "Underlined option letter"
+              ],
+              "zh": "直接选择命令行选项",
+              "en": "Choose a command-line option by its underlined letter",
+              "tags": [
+                "command line",
+                "option"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rhino.gumball",
+          "zh": "Gumball 操纵器",
+          "en": "Gumball Manipulator",
+          "items": [
+            {
+              "id": "rhino.gumball.numeric",
+              "keys": [
+                "Click handle"
+              ],
+              "keysZh": [
+                "单击手柄"
+              ],
+              "keysEn": [
+                "Click handle"
+              ],
+              "zh": "输入移动距离、旋转角度或缩放倍数",
+              "en": "Enter a distance, angle, or scale value",
+              "tags": [
+                "Gumball",
+                "numeric"
+              ]
+            },
+            {
+              "id": "rhino.gumball.copy-toggle",
+              "keys": [
+                "⌥",
+                "Tap while dragging handle"
+              ],
+              "keysZh": [
+                "⌥",
+                "拖动手柄时轻按"
+              ],
+              "keysEn": [
+                "⌥",
+                "Tap while dragging handle"
+              ],
+              "zh": "切换 Gumball 复制模式",
+              "en": "Toggle Gumball copy mode",
+              "tags": [
+                "Gumball",
+                "copy"
+              ]
+            },
+            {
+              "id": "rhino.gumball.copy-numeric",
+              "keys": [
+                "⌥",
+                "Click handle"
+              ],
+              "keysZh": [
+                "⌥",
+                "单击手柄"
+              ],
+              "keysEn": [
+                "⌥",
+                "Click handle"
+              ],
+              "zh": "复制并输入数值",
+              "en": "Copy and enter a numeric value",
+              "tags": [
+                "Gumball",
+                "copy"
+              ]
+            },
+            {
+              "id": "rhino.gumball.extrude-arrow",
+              "keys": [
+                "⌘",
+                "Drag move arrow"
+              ],
+              "keysZh": [
+                "⌘",
+                "拖动移动箭头"
+              ],
+              "keysEn": [
+                "⌘",
+                "Drag move arrow"
+              ],
+              "zh": "创建封闭挤出",
+              "en": "Create a capped extrusion",
+              "tags": [
+                "Gumball",
+                "extrude"
+              ]
+            },
+            {
+              "id": "rhino.gumball.extrude-plane",
+              "keys": [
+                "⌘",
+                "Drag plane handle"
+              ],
+              "keysZh": [
+                "⌘",
+                "拖动平面手柄"
+              ],
+              "keysEn": [
+                "⌘",
+                "Drag plane handle"
+              ],
+              "zh": "沿平面方向约束挤出",
+              "en": "Extrude constrained to a plane direction",
+              "tags": [
+                "Gumball",
+                "extrude"
+              ]
+            },
+            {
+              "id": "rhino.gumball.scale2d",
+              "keys": [
+                "⇧",
+                "Drag plane handle"
+              ],
+              "keysZh": [
+                "⇧",
+                "拖动平面手柄"
+              ],
+              "keysEn": [
+                "⇧",
+                "Drag plane handle"
+              ],
+              "zh": "执行二维等比缩放",
+              "en": "Scale uniformly in two dimensions",
+              "tags": [
+                "Gumball",
+                "Scale2D"
+              ]
+            },
+            {
+              "id": "rhino.gumball.scale2d-numeric",
+              "keys": [
+                "⇧",
+                "Click plane handle"
+              ],
+              "keysZh": [
+                "⇧",
+                "单击平面手柄"
+              ],
+              "keysEn": [
+                "⇧",
+                "Click plane handle"
+              ],
+              "zh": "输入二维缩放倍数",
+              "en": "Enter a two-dimensional scale factor",
+              "tags": [
+                "Gumball",
+                "Scale2D"
+              ]
+            },
+            {
+              "id": "rhino.gumball.straight-loft",
+              "keys": [
+                "⌘",
+                "Drag rotation arc"
+              ],
+              "keysZh": [
+                "⌘",
+                "拖动旋转弧"
+              ],
+              "keysEn": [
+                "⌘",
+                "Drag rotation arc"
+              ],
+              "zh": "在起止角度之间直线放样",
+              "en": "Create a straight loft between rotation angles",
+              "tags": [
+                "Gumball",
+                "loft"
+              ]
+            },
+            {
+              "id": "rhino.gumball.scale3d",
+              "keys": [
+                "⇧",
+                "Drag scale handle"
+              ],
+              "keysZh": [
+                "⇧",
+                "拖动缩放手柄"
+              ],
+              "keysEn": [
+                "⇧",
+                "Drag scale handle"
+              ],
+              "zh": "执行三维等比缩放",
+              "en": "Scale uniformly in three dimensions",
+              "tags": [
+                "Gumball",
+                "Scale3D"
+              ]
+            },
+            {
+              "id": "rhino.gumball.extrude-scale",
+              "keys": [
+                "⌘",
+                "Drag scale handle"
+              ],
+              "keysZh": [
+                "⌘",
+                "拖动缩放手柄"
+              ],
+              "keysEn": [
+                "⌘",
+                "Drag scale handle"
+              ],
+              "zh": "向内或向外挤出",
+              "en": "Extrude inward or outward",
+              "tags": [
+                "Gumball",
+                "extrude"
+              ]
+            },
+            {
+              "id": "rhino.gumball.force-open",
+              "keys": [
+                "⌘",
+                "Drag extrude handle"
+              ],
+              "keysZh": [
+                "⌘",
+                "拖动挤出手柄"
+              ],
+              "keysEn": [
+                "⌘",
+                "Drag extrude handle"
+              ],
+              "zh": "强制创建开放挤出",
+              "en": "Force an open extrusion",
+              "tags": [
+                "Gumball",
+                "extrude"
+              ]
+            },
+            {
+              "id": "rhino.gumball.extrude-both-sides",
+              "keys": [
+                "⇧",
+                "Drag extrude handle"
+              ],
+              "keysZh": [
+                "⇧",
+                "拖动挤出手柄"
+              ],
+              "keysEn": [
+                "⇧",
+                "Drag extrude handle"
+              ],
+              "zh": "创建双向挤出",
+              "en": "Extrude in both directions",
+              "tags": [
+                "Gumball",
+                "extrude"
+              ]
+            },
+            {
+              "id": "rhino.gumball.extend-plane",
+              "keys": [
+                "⇧",
+                "Drag extrude handle"
+              ],
+              "keysZh": [
+                "⇧",
+                "拖动挤出手柄"
+              ],
+              "keysEn": [
+                "⇧",
+                "Drag extrude handle"
+              ],
+              "zh": "延伸或缩短相邻平面",
+              "en": "Extend or shorten an adjacent planar face",
+              "tags": [
+                "Gumball",
+                "surface"
+              ]
+            },
+            {
+              "id": "rhino.gumball.boss",
+              "keys": [
+                "⌘",
+                "Drag cut handle"
+              ],
+              "keysZh": [
+                "⌘",
+                "拖动切割手柄"
+              ],
+              "keysEn": [
+                "⌘",
+                "Drag cut handle"
+              ],
+              "zh": "执行凸台或布尔并集式添加",
+              "en": "Create a boss or Boolean-union addition",
+              "tags": [
+                "Gumball",
+                "Boolean"
+              ]
+            },
+            {
+              "id": "rhino.gumball.cut-both-sides",
+              "keys": [
+                "⇧",
+                "Drag cut handle"
+              ],
+              "keysZh": [
+                "⇧",
+                "拖动切割手柄"
+              ],
+              "keysEn": [
+                "⇧",
+                "Drag cut handle"
+              ],
+              "zh": "执行双向切割或挤出",
+              "en": "Cut or extrude in both directions",
+              "tags": [
+                "Gumball",
+                "cut"
+              ]
+            },
+            {
+              "id": "rhino.gumball.relocate",
+              "keys": [
+                "Double-click handle"
+              ],
+              "keysZh": [
+                "双击手柄"
+              ],
+              "keysEn": [
+                "Double-click handle"
+              ],
+              "zh": "移动、旋转或缩放 Gumball 本身",
+              "en": "Move, rotate, or scale the Gumball itself",
+              "tags": [
+                "Gumball",
+                "relocate"
+              ]
+            },
+            {
+              "id": "rhino.gumball.relocate-numeric",
+              "keys": [
+                "⌘",
+                "Double-click handle"
+              ],
+              "keysZh": [
+                "⌘",
+                "双击手柄"
+              ],
+              "keysEn": [
+                "⌘",
+                "Double-click handle"
+              ],
+              "zh": "以数值移动、旋转或缩放 Gumball 本身",
+              "en": "Move, rotate, or scale the Gumball numerically",
+              "tags": [
+                "Gumball",
+                "relocate"
+              ]
+            },
+            {
+              "id": "rhino.gumball.reverse-space",
+              "keys": [
+                "⇧",
+                "Space"
+              ],
+              "zh": "输入移动距离时反方向移动",
+              "en": "Move in the opposite direction after entering a distance",
+              "tags": [
+                "Gumball",
+                "direction"
+              ]
+            },
+            {
+              "id": "rhino.gumball.reverse-tab",
+              "keys": [
+                "⇧",
+                "Tab"
+              ],
+              "zh": "输入移动距离时反方向移动",
+              "en": "Move in the opposite direction with Tab after entering a distance",
+              "tags": [
+                "Gumball",
+                "direction"
+              ]
+            },
+            {
+              "id": "rhino.gumball.reverse-rmb",
+              "keys": [
+                "⇧",
+                "Right click"
+              ],
+              "keysZh": [
+                "⇧",
+                "右键单击"
+              ],
+              "keysEn": [
+                "⇧",
+                "Right click"
+              ],
+              "zh": "输入移动距离时反方向移动",
+              "en": "Move in the opposite direction with the right mouse button",
+              "tags": [
+                "Gumball",
+                "direction"
+              ]
+            },
+            {
+              "id": "rhino.gumball.menu",
+              "keys": [
+                "Hold and release right button"
+              ],
+              "keysZh": [
+                "按住并释放右键"
+              ],
+              "keysEn": [
+                "Hold and release right button"
+              ],
+              "zh": "打开 Gumball 菜单",
+              "en": "Open the Gumball menu",
+              "tags": [
+                "Gumball",
+                "menu"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rhino.object-snaps",
+          "zh": "对象捕捉与点过滤",
+          "en": "Object Snaps & Point Filters",
+          "items": [
+            {
+              "id": "rhino.osnap.temporary-toggle",
+              "keys": [
+                "⌥"
+              ],
+              "zh": "拾取点时临时反转对象捕捉状态",
+              "en": "Temporarily invert object snaps while picking a point",
+              "tags": [
+                "Osnap",
+                "temporary"
+              ]
+            },
+            {
+              "id": "rhino.osnap.one-shot",
+              "keys": [
+                "⇧",
+                "Click Osnap"
+              ],
+              "keysZh": [
+                "⇧",
+                "单击捕捉项"
+              ],
+              "keysEn": [
+                "⇧",
+                "Click Osnap"
+              ],
+              "zh": "使用一次性对象捕捉",
+              "en": "Use a one-shot object snap",
+              "tags": [
+                "Osnap",
+                "one-shot"
+              ]
+            },
+            {
+              "id": "rhino.osnap.isolate",
+              "keys": [
+                "Right click Osnap"
+              ],
+              "keysZh": [
+                "右键单击捕捉项"
+              ],
+              "keysEn": [
+                "Right click Osnap"
+              ],
+              "zh": "仅启用指定对象捕捉",
+              "en": "Enable only the selected object snap",
+              "tags": [
+                "Osnap",
+                "isolate"
+              ]
+            },
+            {
+              "id": "rhino.osnap.toggle-all",
+              "keys": [
+                "Right click Disable"
+              ],
+              "keysZh": [
+                "右键单击禁用项"
+              ],
+              "keysEn": [
+                "Right click Disable"
+              ],
+              "zh": "启用或禁用全部持久对象捕捉",
+              "en": "Enable or disable all persistent object snaps",
+              "tags": [
+                "Osnap",
+                "Disable"
+              ]
+            },
+            {
+              "id": "rhino.osnap.drag-from",
+              "keys": [
+                "Hold 0.25 s and drag"
+              ],
+              "keysZh": [
+                "按住左键约 0.25 秒后拖动"
+              ],
+              "keysEn": [
+                "Hold 0.25 s and drag"
+              ],
+              "zh": "从捕捉位置开始拖动",
+              "en": "Start dragging from a snapped location",
+              "tags": [
+                "Osnap",
+                "drag"
+              ]
+            },
+            {
+              "id": "rhino.osnap.end",
+              "keys": [
+                "End / E",
+                "Space"
+              ],
+              "zh": "捕捉到端点",
+              "en": "Snap to an endpoint",
+              "tags": [
+                "Rhino command",
+                "End / E",
+                "Osnap",
+                "endpoint"
+              ]
+            },
+            {
+              "id": "rhino.osnap.near",
+              "keys": [
+                "Near",
+                "Space"
+              ],
+              "zh": "捕捉到最近点",
+              "en": "Snap to the nearest point",
+              "tags": [
+                "Rhino command",
+                "Near",
+                "Osnap",
+                "near"
+              ]
+            },
+            {
+              "id": "rhino.osnap.mid",
+              "keys": [
+                "Mid / Midpoint / MidPt",
+                "Space"
+              ],
+              "zh": "捕捉到中点",
+              "en": "Snap to a midpoint",
+              "tags": [
+                "Rhino command",
+                "Mid / Midpoint / MidPt",
+                "Osnap",
+                "midpoint"
+              ]
+            },
+            {
+              "id": "rhino.osnap.center",
+              "keys": [
+                "Cen / Center",
+                "Space"
+              ],
+              "zh": "捕捉到圆心或中心",
+              "en": "Snap to a center",
+              "tags": [
+                "Rhino command",
+                "Cen / Center",
+                "Osnap",
+                "center"
+              ]
+            },
+            {
+              "id": "rhino.osnap.intersection",
+              "keys": [
+                "Int / Intersection",
+                "Space"
+              ],
+              "zh": "捕捉到交点",
+              "en": "Snap to an intersection",
+              "tags": [
+                "Rhino command",
+                "Int / Intersection",
+                "Osnap",
+                "intersection"
+              ]
+            },
+            {
+              "id": "rhino.osnap.perpendicular",
+              "keys": [
+                "Perp / Perpendicular",
+                "Space"
+              ],
+              "zh": "捕捉到垂直点",
+              "en": "Snap perpendicular to an object",
+              "tags": [
+                "Rhino command",
+                "Perp / Perpendicular",
+                "Osnap",
+                "perpendicular"
+              ]
+            },
+            {
+              "id": "rhino.osnap.tangent",
+              "keys": [
+                "Tan / Tangent",
+                "Space"
+              ],
+              "zh": "捕捉到切点",
+              "en": "Snap tangent to an object",
+              "tags": [
+                "Rhino command",
+                "Tan / Tangent",
+                "Osnap",
+                "tangent"
+              ]
+            },
+            {
+              "id": "rhino.osnap.quadrant",
+              "keys": [
+                "Quad / Quadrant",
+                "Space"
+              ],
+              "zh": "捕捉到象限点",
+              "en": "Snap to a quadrant",
+              "tags": [
+                "Rhino command",
+                "Quad / Quadrant",
+                "Osnap",
+                "quadrant"
+              ]
+            },
+            {
+              "id": "rhino.osnap.knot",
+              "keys": [
+                "Knot",
+                "Space"
+              ],
+              "zh": "捕捉到节点",
+              "en": "Snap to a knot",
+              "tags": [
+                "Rhino command",
+                "Knot",
+                "Osnap",
+                "knot"
+              ]
+            },
+            {
+              "id": "rhino.osnap.point",
+              "keys": [
+                "Point / Pt",
+                "Space"
+              ],
+              "zh": "捕捉到点对象",
+              "en": "Snap to a point object",
+              "tags": [
+                "Rhino command",
+                "Point / Pt",
+                "Osnap",
+                "point"
+              ]
+            },
+            {
+              "id": "rhino.osnap.on-curve",
+              "keys": [
+                "OnCrv / OnCurve",
+                "Space"
+              ],
+              "zh": "约束到曲线上",
+              "en": "Constrain the pick to a curve",
+              "tags": [
+                "Rhino command",
+                "OnCrv / OnCurve",
+                "Osnap",
+                "curve"
+              ]
+            },
+            {
+              "id": "rhino.osnap.on-surface",
+              "keys": [
+                "OnSrf / OnSurface",
+                "Space"
+              ],
+              "zh": "约束到曲面上",
+              "en": "Constrain the pick to a surface",
+              "tags": [
+                "Rhino command",
+                "OnSrf / OnSurface",
+                "Osnap",
+                "surface"
+              ]
+            },
+            {
+              "id": "rhino.osnap.on-polysurface",
+              "keys": [
+                "OnPolySrf / OnPolySurface",
+                "Space"
+              ],
+              "zh": "约束到多重曲面上",
+              "en": "Constrain the pick to a polysurface",
+              "tags": [
+                "Rhino command",
+                "OnPolySrf / OnPolySurface",
+                "Osnap",
+                "polysurface"
+              ]
+            },
+            {
+              "id": "rhino.osnap.no-snap",
+              "keys": [
+                "NoSnap",
+                "Space"
+              ],
+              "zh": "下一次拾取不使用持久对象捕捉",
+              "en": "Disable persistent object snaps for the next pick",
+              "tags": [
+                "Rhino command",
+                "NoSnap",
+                "Osnap",
+                "temporary"
+              ]
+            },
+            {
+              "id": "rhino.osnap.from",
+              "keys": [
+                "From / BasePoint",
+                "Space"
+              ],
+              "zh": "从指定基点开始",
+              "en": "Start from a specified base point",
+              "tags": [
+                "Rhino command",
+                "From / BasePoint",
+                "Osnap",
+                "base point"
+              ]
+            },
+            {
+              "id": "rhino.osnap.between",
+              "keys": [
+                "Between",
+                "Space"
+              ],
+              "zh": "捕捉到两点之间",
+              "en": "Snap between two points",
+              "tags": [
+                "Rhino command",
+                "Between",
+                "Osnap",
+                "between"
+              ]
+            },
+            {
+              "id": "rhino.osnap.along",
+              "keys": [
+                "Along",
+                "Space"
+              ],
+              "zh": "沿指定方向约束",
+              "en": "Constrain along a specified direction",
+              "tags": [
+                "Rhino command",
+                "Along",
+                "Osnap",
+                "direction"
+              ]
+            },
+            {
+              "id": "rhino.osnap.along-perpendicular",
+              "keys": [
+                "AlongPerp / PerpFrom",
+                "Space"
+              ],
+              "zh": "沿垂直方向约束",
+              "en": "Constrain along a perpendicular direction",
+              "tags": [
+                "Rhino command",
+                "AlongPerp / PerpFrom",
+                "Osnap",
+                "perpendicular"
+              ]
+            },
+            {
+              "id": "rhino.osnap.along-tangent",
+              "keys": [
+                "AlongTan / TanFrom",
+                "Space"
+              ],
+              "zh": "沿切线方向约束",
+              "en": "Constrain along a tangent direction",
+              "tags": [
+                "Rhino command",
+                "AlongTan / TanFrom",
+                "Osnap",
+                "tangent"
+              ]
+            },
+            {
+              "id": "rhino.osnap.along-parallel",
+              "keys": [
+                "AlongParallel",
+                "Space"
+              ],
+              "zh": "沿平行方向约束",
+              "en": "Constrain along a parallel direction",
+              "tags": [
+                "Rhino command",
+                "AlongParallel",
+                "Osnap",
+                "parallel"
+              ]
+            },
+            {
+              "id": "rhino.osnap.infinite-plane",
+              "keys": [
+                "IP / InfinitePlane",
+                "Space"
+              ],
+              "zh": "启用无限平面选择",
+              "en": "Enable infinite-plane picking",
+              "tags": [
+                "Rhino command",
+                "IP / InfinitePlane",
+                "Osnap",
+                "plane"
+              ]
+            },
+            {
+              "id": "rhino.filter.single-axis",
+              "keys": [
+                ".x / .y / .z",
+                "Space"
+              ],
+              "zh": "使用单轴点过滤",
+              "en": "Use a single-axis point filter",
+              "tags": [
+                "Rhino command",
+                ".x / .y / .z",
+                "point filter",
+                "axis"
+              ]
+            },
+            {
+              "id": "rhino.filter.multi-axis",
+              "keys": [
+                ".xy / .yz / .zx",
+                "Space"
+              ],
+              "zh": "使用多轴点过滤",
+              "en": "Use a multi-axis point filter",
+              "tags": [
+                "Rhino command",
+                ".xy / .yz / .zx",
+                "point filter",
+                "axis"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rhino.layers",
+          "zh": "图层面板",
+          "en": "Layers Panel",
+          "items": [
+            {
+              "id": "rhino.layer.previous",
+              "keys": [
+                "↑"
+              ],
+              "zh": "向上移动图层选择",
+              "en": "Move the layer selection up",
+              "tags": [
+                "layers",
+                "panel"
+              ]
+            },
+            {
+              "id": "rhino.layer.next",
+              "keys": [
+                "↓"
+              ],
+              "zh": "向下移动图层选择",
+              "en": "Move the layer selection down",
+              "tags": [
+                "layers",
+                "panel"
+              ]
+            },
+            {
+              "id": "rhino.layer.page-up",
+              "keys": [
+                "Page Up"
+              ],
+              "zh": "图层选择向上移动一页",
+              "en": "Move the layer selection up one page",
+              "tags": [
+                "layers",
+                "panel"
+              ]
+            },
+            {
+              "id": "rhino.layer.page-down",
+              "keys": [
+                "Page Down"
+              ],
+              "zh": "图层选择向下移动一页",
+              "en": "Move the layer selection down one page",
+              "tags": [
+                "layers",
+                "panel"
+              ]
+            },
+            {
+              "id": "rhino.layer.first",
+              "keys": [
+                "Home"
+              ],
+              "zh": "移至第一个图层",
+              "en": "Move to the first layer",
+              "tags": [
+                "layers",
+                "panel"
+              ]
+            },
+            {
+              "id": "rhino.layer.last",
+              "keys": [
+                "End"
+              ],
+              "zh": "移至最后一个图层",
+              "en": "Move to the last layer",
+              "tags": [
+                "layers",
+                "panel"
+              ]
+            },
+            {
+              "id": "rhino.layer.add-selection",
+              "keys": [
+                "⌘",
+                "Click layer"
+              ],
+              "keysZh": [
+                "⌘",
+                "单击图层"
+              ],
+              "keysEn": [
+                "⌘",
+                "Click layer"
+              ],
+              "zh": "添加单个图层到选择",
+              "en": "Add one layer to the selection",
+              "tags": [
+                "layers",
+                "selection"
+              ]
+            },
+            {
+              "id": "rhino.layer.range-selection",
+              "keys": [
+                "⇧",
+                "Click layer"
+              ],
+              "keysZh": [
+                "⇧",
+                "单击图层"
+              ],
+              "keysEn": [
+                "⇧",
+                "Click layer"
+              ],
+              "zh": "选择连续范围的图层",
+              "en": "Select a continuous range of layers",
+              "tags": [
+                "layers",
+                "selection"
+              ]
+            },
+            {
+              "id": "rhino.layer.rename",
+              "keys": [
+                "F2"
+              ],
+              "zh": "重命名选中图层",
+              "en": "Rename the selected layer",
+              "tags": [
+                "layers",
+                "rename"
+              ]
+            },
+            {
+              "id": "rhino.layer.refresh",
+              "keys": [
+                "F5"
+              ],
+              "zh": "刷新图层列表",
+              "en": "Refresh the layer list",
+              "tags": [
+                "layers",
+                "refresh"
+              ]
+            },
+            {
+              "id": "rhino.layer.insert",
+              "keys": [
+                "Insert"
+              ],
+              "zh": "在选中图层下方新建图层",
+              "en": "Create a layer below the selected layer",
+              "tags": [
+                "layers",
+                "Rhino 8"
+              ]
+            },
+            {
+              "id": "rhino.layer.accept-new-tab",
+              "keys": [
+                "Tab"
+              ],
+              "zh": "接受当前图层名称并新建图层",
+              "en": "Accept the layer name and create another layer",
+              "tags": [
+                "layers",
+                "edit name"
+              ]
+            },
+            {
+              "id": "rhino.layer.accept-new-insert",
+              "keys": [
+                "Insert"
+              ],
+              "zh": "编辑名称时接受当前名称并新建图层",
+              "en": "Accept the layer name and create another layer while editing",
+              "tags": [
+                "layers",
+                "edit name"
+              ]
+            },
+            {
+              "id": "rhino.layer.expand",
+              "keys": [
+                "+"
+              ],
+              "zh": "展开选中图层",
+              "en": "Expand the selected layer",
+              "tags": [
+                "layers",
+                "expand"
+              ]
+            },
+            {
+              "id": "rhino.layer.expand-all-command",
+              "keys": [
+                "⌘",
+                "Numpad +"
+              ],
+              "zh": "展开选中图层的全部子图层",
+              "en": "Expand all child layers",
+              "tags": [
+                "layers",
+                "expand"
+              ]
+            },
+            {
+              "id": "rhino.layer.expand-all-shift",
+              "keys": [
+                "⇧",
+                "Numpad +"
+              ],
+              "zh": "展开选中图层的全部子图层",
+              "en": "Expand all child layers with Shift",
+              "tags": [
+                "layers",
+                "expand"
+              ]
+            },
+            {
+              "id": "rhino.layer.collapse",
+              "keys": [
+                "-"
+              ],
+              "zh": "折叠选中图层",
+              "en": "Collapse the selected layer",
+              "tags": [
+                "layers",
+                "collapse"
+              ]
+            },
+            {
+              "id": "rhino.layer.collapse-all-command",
+              "keys": [
+                "⌘",
+                "Numpad -"
+              ],
+              "zh": "折叠选中图层的全部子图层",
+              "en": "Collapse all child layers",
+              "tags": [
+                "layers",
+                "collapse"
+              ]
+            },
+            {
+              "id": "rhino.layer.collapse-all-shift",
+              "keys": [
+                "⇧",
+                "Numpad -"
+              ],
+              "zh": "折叠选中图层的全部子图层",
+              "en": "Collapse all child layers with Shift",
+              "tags": [
+                "layers",
+                "collapse"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rhino.curve-commands",
+          "zh": "曲线绘制指令",
+          "en": "Curve Drawing Commands",
+          "items": [
+            {
+              "id": "rhino.command.line",
+              "keys": [
+                "Line",
+                "Space"
+              ],
+              "zh": "绘制直线",
+              "en": "Draw a line",
+              "tags": [
+                "Rhino command",
+                "Line",
+                "curve",
+                "draw"
+              ]
+            },
+            {
+              "id": "rhino.command.polyline",
+              "keys": [
+                "Polyline",
+                "Space"
+              ],
+              "zh": "绘制多段线",
+              "en": "Draw a polyline",
+              "tags": [
+                "Rhino command",
+                "Polyline",
+                "curve",
+                "draw"
+              ]
+            },
+            {
+              "id": "rhino.command.rectangle",
+              "keys": [
+                "Rectangle",
+                "Space"
+              ],
+              "zh": "绘制矩形",
+              "en": "Draw a rectangle",
+              "tags": [
+                "Rhino command",
+                "Rectangle",
+                "curve",
+                "draw"
+              ]
+            },
+            {
+              "id": "rhino.command.circle",
+              "keys": [
+                "Circle",
+                "Space"
+              ],
+              "zh": "绘制圆",
+              "en": "Draw a circle",
+              "tags": [
+                "Rhino command",
+                "Circle",
+                "curve",
+                "draw"
+              ]
+            },
+            {
+              "id": "rhino.command.arc",
+              "keys": [
+                "Arc",
+                "Space"
+              ],
+              "zh": "绘制圆弧",
+              "en": "Draw an arc",
+              "tags": [
+                "Rhino command",
+                "Arc",
+                "curve",
+                "draw"
+              ]
+            },
+            {
+              "id": "rhino.command.curve",
+              "keys": [
+                "Curve",
+                "Space"
+              ],
+              "zh": "绘制控制点曲线",
+              "en": "Draw a control-point curve",
+              "tags": [
+                "Rhino command",
+                "Curve",
+                "curve",
+                "draw"
+              ]
+            },
+            {
+              "id": "rhino.command.interp-crv",
+              "keys": [
+                "InterpCrv",
+                "Space"
+              ],
+              "zh": "绘制插值点曲线",
+              "en": "Draw an interpolated curve",
+              "tags": [
+                "Rhino command",
+                "InterpCrv",
+                "curve",
+                "draw"
+              ]
+            },
+            {
+              "id": "rhino.command.polygon",
+              "keys": [
+                "Polygon",
+                "Space"
+              ],
+              "zh": "绘制多边形",
+              "en": "Draw a polygon",
+              "tags": [
+                "Rhino command",
+                "Polygon",
+                "curve",
+                "draw"
+              ]
+            },
+            {
+              "id": "rhino.command.ellipse",
+              "keys": [
+                "Ellipse",
+                "Space"
+              ],
+              "zh": "绘制椭圆",
+              "en": "Draw an ellipse",
+              "tags": [
+                "Rhino command",
+                "Ellipse",
+                "curve",
+                "draw"
+              ]
+            },
+            {
+              "id": "rhino.command.helix",
+              "keys": [
+                "Helix",
+                "Space"
+              ],
+              "zh": "绘制螺旋线",
+              "en": "Draw a helix",
+              "tags": [
+                "Rhino command",
+                "Helix",
+                "curve",
+                "draw"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rhino.transform-commands",
+          "zh": "变换与编辑指令",
+          "en": "Transform & Edit Commands",
+          "items": [
+            {
+              "id": "rhino.command.move",
+              "keys": [
+                "Move",
+                "Space"
+              ],
+              "zh": "移动对象",
+              "en": "Move objects",
+              "tags": [
+                "Rhino command",
+                "Move",
+                "transform"
+              ]
+            },
+            {
+              "id": "rhino.command.copy",
+              "keys": [
+                "Copy",
+                "Space"
+              ],
+              "zh": "复制对象",
+              "en": "Copy objects",
+              "tags": [
+                "Rhino command",
+                "Copy",
+                "transform"
+              ]
+            },
+            {
+              "id": "rhino.command.rotate",
+              "keys": [
+                "Rotate",
+                "Space"
+              ],
+              "zh": "二维旋转对象",
+              "en": "Rotate objects in two dimensions",
+              "tags": [
+                "Rhino command",
+                "Rotate",
+                "transform"
+              ]
+            },
+            {
+              "id": "rhino.command.rotate3d",
+              "keys": [
+                "Rotate3D",
+                "Space"
+              ],
+              "zh": "三维旋转对象",
+              "en": "Rotate objects in three dimensions",
+              "tags": [
+                "Rhino command",
+                "Rotate3D",
+                "transform"
+              ]
+            },
+            {
+              "id": "rhino.command.scale",
+              "keys": [
+                "Scale",
+                "Space"
+              ],
+              "zh": "三维缩放对象",
+              "en": "Scale objects in three dimensions",
+              "tags": [
+                "Rhino command",
+                "Scale",
+                "transform"
+              ]
+            },
+            {
+              "id": "rhino.command.scale1d",
+              "keys": [
+                "Scale1D",
+                "Space"
+              ],
+              "zh": "单轴缩放对象",
+              "en": "Scale objects in one dimension",
+              "tags": [
+                "Rhino command",
+                "Scale1D",
+                "transform"
+              ]
+            },
+            {
+              "id": "rhino.command.scale2d",
+              "keys": [
+                "Scale2D",
+                "Space"
+              ],
+              "zh": "二维缩放对象",
+              "en": "Scale objects in two dimensions",
+              "tags": [
+                "Rhino command",
+                "Scale2D",
+                "transform"
+              ]
+            },
+            {
+              "id": "rhino.command.mirror",
+              "keys": [
+                "Mirror",
+                "Space"
+              ],
+              "zh": "镜像对象",
+              "en": "Mirror objects",
+              "tags": [
+                "Rhino command",
+                "Mirror",
+                "transform"
+              ]
+            },
+            {
+              "id": "rhino.command.array",
+              "keys": [
+                "Array",
+                "Space"
+              ],
+              "zh": "创建矩形阵列",
+              "en": "Create a rectangular array",
+              "tags": [
+                "Rhino command",
+                "Array",
+                "transform",
+                "array"
+              ]
+            },
+            {
+              "id": "rhino.command.array-polar",
+              "keys": [
+                "ArrayPolar",
+                "Space"
+              ],
+              "zh": "创建环形阵列",
+              "en": "Create a polar array",
+              "tags": [
+                "Rhino command",
+                "ArrayPolar",
+                "transform",
+                "array"
+              ]
+            },
+            {
+              "id": "rhino.command.align",
+              "keys": [
+                "Align",
+                "Space"
+              ],
+              "zh": "对齐对象",
+              "en": "Align objects",
+              "tags": [
+                "Rhino command",
+                "Align",
+                "transform"
+              ]
+            },
+            {
+              "id": "rhino.command.offset",
+              "keys": [
+                "Offset",
+                "Space"
+              ],
+              "zh": "偏移对象",
+              "en": "Offset objects",
+              "tags": [
+                "Rhino command",
+                "Offset",
+                "edit"
+              ]
+            },
+            {
+              "id": "rhino.command.extend",
+              "keys": [
+                "Extend",
+                "Space"
+              ],
+              "zh": "延伸对象",
+              "en": "Extend objects",
+              "tags": [
+                "Rhino command",
+                "Extend",
+                "edit"
+              ]
+            },
+            {
+              "id": "rhino.command.fillet",
+              "keys": [
+                "Fillet",
+                "Space"
+              ],
+              "zh": "为曲线创建圆角",
+              "en": "Fillet curves",
+              "tags": [
+                "Rhino command",
+                "Fillet",
+                "edit",
+                "curve"
+              ]
+            },
+            {
+              "id": "rhino.command.chamfer",
+              "keys": [
+                "Chamfer",
+                "Space"
+              ],
+              "zh": "为曲线创建倒角",
+              "en": "Chamfer curves",
+              "tags": [
+                "Rhino command",
+                "Chamfer",
+                "edit",
+                "curve"
+              ]
+            },
+            {
+              "id": "rhino.command.explode",
+              "keys": [
+                "Explode",
+                "Space"
+              ],
+              "zh": "炸开或分解对象",
+              "en": "Explode objects",
+              "tags": [
+                "Rhino command",
+                "Explode",
+                "edit"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rhino.surface-solid-commands",
+          "zh": "曲面、实体与布尔指令",
+          "en": "Surface, Solid & Boolean Commands",
+          "items": [
+            {
+              "id": "rhino.command.extrude-crv",
+              "keys": [
+                "ExtrudeCrv",
+                "Space"
+              ],
+              "zh": "挤出曲线",
+              "en": "Extrude curves",
+              "tags": [
+                "Rhino command",
+                "ExtrudeCrv",
+                "surface",
+                "solid"
+              ]
+            },
+            {
+              "id": "rhino.command.extrude-srf",
+              "keys": [
+                "ExtrudeSrf",
+                "Space"
+              ],
+              "zh": "挤出曲面",
+              "en": "Extrude surfaces",
+              "tags": [
+                "Rhino command",
+                "ExtrudeSrf",
+                "surface",
+                "solid"
+              ]
+            },
+            {
+              "id": "rhino.command.loft",
+              "keys": [
+                "Loft",
+                "Space"
+              ],
+              "zh": "创建放样曲面",
+              "en": "Create a lofted surface",
+              "tags": [
+                "Rhino command",
+                "Loft",
+                "surface"
+              ]
+            },
+            {
+              "id": "rhino.command.sweep1",
+              "keys": [
+                "Sweep1",
+                "Space"
+              ],
+              "zh": "创建单轨扫掠曲面",
+              "en": "Create a one-rail sweep",
+              "tags": [
+                "Rhino command",
+                "Sweep1",
+                "surface"
+              ]
+            },
+            {
+              "id": "rhino.command.sweep2",
+              "keys": [
+                "Sweep2",
+                "Space"
+              ],
+              "zh": "创建双轨扫掠曲面",
+              "en": "Create a two-rail sweep",
+              "tags": [
+                "Rhino command",
+                "Sweep2",
+                "surface"
+              ]
+            },
+            {
+              "id": "rhino.command.revolve",
+              "keys": [
+                "Revolve",
+                "Space"
+              ],
+              "zh": "旋转成形",
+              "en": "Revolve a profile",
+              "tags": [
+                "Rhino command",
+                "Revolve",
+                "surface",
+                "solid"
+              ]
+            },
+            {
+              "id": "rhino.command.planar-srf",
+              "keys": [
+                "PlanarSrf",
+                "Space"
+              ],
+              "zh": "从平面曲线创建曲面",
+              "en": "Create a surface from planar curves",
+              "tags": [
+                "Rhino command",
+                "PlanarSrf",
+                "surface"
+              ]
+            },
+            {
+              "id": "rhino.command.edge-srf",
+              "keys": [
+                "EdgeSrf",
+                "Space"
+              ],
+              "zh": "从边界曲线创建曲面",
+              "en": "Create a surface from edge curves",
+              "tags": [
+                "Rhino command",
+                "EdgeSrf",
+                "surface"
+              ]
+            },
+            {
+              "id": "rhino.command.patch",
+              "keys": [
+                "Patch",
+                "Space"
+              ],
+              "zh": "创建嵌面",
+              "en": "Create a patch surface",
+              "tags": [
+                "Rhino command",
+                "Patch",
+                "surface"
+              ]
+            },
+            {
+              "id": "rhino.command.offset-srf",
+              "keys": [
+                "OffsetSrf",
+                "Space"
+              ],
+              "zh": "偏移曲面",
+              "en": "Offset a surface",
+              "tags": [
+                "Rhino command",
+                "OffsetSrf",
+                "surface"
+              ]
+            },
+            {
+              "id": "rhino.command.fillet-srf",
+              "keys": [
+                "FilletSrf",
+                "Space"
+              ],
+              "zh": "创建曲面圆角",
+              "en": "Fillet surfaces",
+              "tags": [
+                "Rhino command",
+                "FilletSrf",
+                "surface"
+              ]
+            },
+            {
+              "id": "rhino.command.fillet-edge",
+              "keys": [
+                "FilletEdge",
+                "Space"
+              ],
+              "zh": "创建实体边缘圆角",
+              "en": "Fillet solid edges",
+              "tags": [
+                "Rhino command",
+                "FilletEdge",
+                "solid"
+              ]
+            },
+            {
+              "id": "rhino.command.blend-srf",
+              "keys": [
+                "BlendSrf",
+                "Space"
+              ],
+              "zh": "创建混接曲面",
+              "en": "Blend surfaces",
+              "tags": [
+                "Rhino command",
+                "BlendSrf",
+                "surface"
+              ]
+            },
+            {
+              "id": "rhino.command.cap",
+              "keys": [
+                "Cap",
+                "Space"
+              ],
+              "zh": "封闭平面洞口",
+              "en": "Cap planar holes",
+              "tags": [
+                "Rhino command",
+                "Cap",
+                "surface",
+                "solid"
+              ]
+            },
+            {
+              "id": "rhino.command.shell",
+              "keys": [
+                "Shell",
+                "Space"
+              ],
+              "zh": "为实体抽壳",
+              "en": "Shell a solid",
+              "tags": [
+                "Rhino command",
+                "Shell",
+                "solid"
+              ]
+            },
+            {
+              "id": "rhino.command.boolean-union",
+              "keys": [
+                "BooleanUnion",
+                "Space"
+              ],
+              "zh": "执行布尔并集",
+              "en": "Boolean union",
+              "tags": [
+                "Rhino command",
+                "BooleanUnion",
+                "solid",
+                "Boolean"
+              ]
+            },
+            {
+              "id": "rhino.command.boolean-difference",
+              "keys": [
+                "BooleanDifference",
+                "Space"
+              ],
+              "zh": "执行布尔差集",
+              "en": "Boolean difference",
+              "tags": [
+                "Rhino command",
+                "BooleanDifference",
+                "solid",
+                "Boolean"
+              ]
+            },
+            {
+              "id": "rhino.command.boolean-intersection",
+              "keys": [
+                "BooleanIntersection",
+                "Space"
+              ],
+              "zh": "执行布尔交集",
+              "en": "Boolean intersection",
+              "tags": [
+                "Rhino command",
+                "BooleanIntersection",
+                "solid",
+                "Boolean"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rhino.analysis-commands",
+          "zh": "分析与检查指令",
+          "en": "Analysis & Inspection Commands",
+          "items": [
+            {
+              "id": "rhino.command.distance",
+              "keys": [
+                "Distance",
+                "Space"
+              ],
+              "zh": "测量距离",
+              "en": "Measure distance",
+              "tags": [
+                "Rhino command",
+                "Distance",
+                "analysis",
+                "measure"
+              ]
+            },
+            {
+              "id": "rhino.command.length",
+              "keys": [
+                "Length",
+                "Space"
+              ],
+              "zh": "测量长度",
+              "en": "Measure length",
+              "tags": [
+                "Rhino command",
+                "Length",
+                "analysis",
+                "measure"
+              ]
+            },
+            {
+              "id": "rhino.command.area",
+              "keys": [
+                "Area",
+                "Space"
+              ],
+              "zh": "计算面积",
+              "en": "Calculate area",
+              "tags": [
+                "Rhino command",
+                "Area",
+                "analysis",
+                "measure"
+              ]
+            },
+            {
+              "id": "rhino.command.volume",
+              "keys": [
+                "Volume",
+                "Space"
+              ],
+              "zh": "计算体积",
+              "en": "Calculate volume",
+              "tags": [
+                "Rhino command",
+                "Volume",
+                "analysis",
+                "measure"
+              ]
+            },
+            {
+              "id": "rhino.command.radius",
+              "keys": [
+                "Radius",
+                "Space"
+              ],
+              "zh": "测量半径",
+              "en": "Measure radius",
+              "tags": [
+                "Rhino command",
+                "Radius",
+                "analysis",
+                "measure"
+              ]
+            },
+            {
+              "id": "rhino.command.angle",
+              "keys": [
+                "Angle",
+                "Space"
+              ],
+              "zh": "测量角度",
+              "en": "Measure angle",
+              "tags": [
+                "Rhino command",
+                "Angle",
+                "analysis",
+                "measure"
+              ]
+            },
+            {
+              "id": "rhino.command.show-edges",
+              "keys": [
+                "ShowEdges",
+                "Space"
+              ],
+              "zh": "显示裸边或非流形边",
+              "en": "Show naked or non-manifold edges",
+              "tags": [
+                "Rhino command",
+                "ShowEdges",
+                "analysis",
+                "edge"
+              ]
+            },
+            {
+              "id": "rhino.command.check",
+              "keys": [
+                "Check",
+                "Space"
+              ],
+              "zh": "检查对象",
+              "en": "Check objects",
+              "tags": [
+                "Rhino command",
+                "Check",
+                "analysis",
+                "inspect"
+              ]
+            },
+            {
+              "id": "rhino.command.dir",
+              "keys": [
+                "Dir",
+                "Space"
+              ],
+              "zh": "查看或修改对象方向",
+              "en": "View or modify object direction",
+              "tags": [
+                "Rhino command",
+                "Dir",
+                "analysis",
+                "direction"
+              ]
+            },
+            {
+              "id": "rhino.command.what",
+              "keys": [
+                "What",
+                "Space"
+              ],
+              "zh": "查看对象信息",
+              "en": "View object information",
+              "tags": [
+                "Rhino command",
+                "What",
+                "analysis",
+                "inspect"
+              ]
+            }
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceURL": "https://docs.mcneel.com/rhino/8/help/en-us/user_interface/shortcuts.htm",
+        "sourceTitle": "Rhino 8 official shortcuts, modifiers, Gumball, object snaps, layers, and command reference",
+        "appVersion": "Rhino 8.33 for macOS",
+        "verifiedAt": "2026-07-25",
+        "coverage": "curated-comprehensive-defaults",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id":"fusion360","name":"Fusion 360","vendor":"Autodesk","accent":"#F28C28","glyph":"F",
+      "categories":[
+        {"id":"sketch","zh":"草图","en":"Sketch","items":[
+          {"id":"fusion.shortcuts","keys":["S"],"zh":"打开快捷方式工具箱","en":"Open shortcut toolbox","tags":[]},
+          {"id":"fusion.line","keys":["L"],"zh":"直线工具","en":"Line tool","tags":[]},
+          {"id":"fusion.rectangle","keys":["R"],"zh":"两点矩形","en":"Two-point rectangle","tags":[]},
+          {"id":"fusion.circle","keys":["C"],"zh":"中心直径圆","en":"Center diameter circle","tags":[]},
+          {"id":"fusion.dimension","keys":["D"],"zh":"草图尺寸","en":"Sketch dimension","tags":[]},
+          {"id":"fusion.project","keys":["P"],"zh":"投影几何体","en":"Project geometry","tags":[]},
+          {"id":"fusion.offset","keys":["O"],"zh":"偏移草图","en":"Offset sketch","tags":[]},
+          {"id":"fusion.trim","keys":["T"],"zh":"修剪草图","en":"Trim sketch","tags":[]},
+          {"id":"fusion.construction","keys":["X"],"zh":"切换构造线","en":"Toggle construction geometry","tags":[]},
+          {"id":"fusion.constraints","keys":["⌘","点击"],"zh":"选择多个草图约束对象","en":"Select multiple constraint objects","tags":[]}
+        ]},
+        {"id":"model","zh":"实体建模","en":"Solid Modeling","items":[
+          {"id":"fusion.extrude","keys":["E"],"zh":"拉伸","en":"Extrude","tags":[]},
+          {"id":"fusion.press-pull","keys":["Q"],"zh":"按拉","en":"Press Pull","tags":[]},
+          {"id":"fusion.fillet","keys":["F"],"zh":"圆角","en":"Fillet","tags":[]},
+          {"id":"fusion.move","keys":["M"],"zh":"移动或复制","en":"Move or copy","tags":[]},
+          {"id":"fusion.hole","keys":["H"],"zh":"创建孔","en":"Create hole","tags":[]},
+          {"id":"fusion.joint","keys":["J"],"zh":"创建接头","en":"Create joint","tags":[]},
+          {"id":"fusion.as-built-joint","keys":["⇧","J"],"zh":"创建原位接头","en":"Create as-built joint","tags":[]},
+          {"id":"fusion.appearance","keys":["A"],"zh":"打开外观面板","en":"Open Appearance panel","tags":[]},
+          {"id":"fusion.measure","keys":["I"],"zh":"测量","en":"Measure","tags":[]},
+          {"id":"fusion.delete","keys":["Delete"],"zh":"删除选中对象","en":"Delete selected","tags":[]},
+          {"id":"fusion.repeat","keys":["⌘","R"],"zh":"重复上一个命令","en":"Repeat last command","tags":[]}
+        ]},
+        {"id":"view-file","zh":"视图与文件","en":"View & File","items":[
+          {"id":"fusion.orbit","keys":["⇧","中键拖动"],"zh":"环绕视图","en":"Orbit view","tags":[]},
+          {"id":"fusion.pan","keys":["中键拖动"],"zh":"平移视图","en":"Pan view","tags":[]},
+          {"id":"fusion.zoom","keys":["滚轮"],"zh":"缩放视图","en":"Zoom view","tags":[]},
+          {"id":"fusion.home","keys":["F6"],"zh":"返回主视图","en":"Return to home view","tags":[]},
+          {"id":"fusion.fit","keys":["F"],"zh":"将选中对象适合窗口","en":"Fit selected in window","tags":["view"]},
+          {"id":"fusion.new","keys":["⌘","N"],"zh":"新建设计","en":"New design","tags":[]},
+          {"id":"fusion.open","keys":["⌘","O"],"zh":"打开设计","en":"Open design","tags":[]},
+          {"id":"fusion.save","keys":["⌘","S"],"zh":"保存设计","en":"Save design","tags":[]},
+          {"id":"fusion.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"fusion.redo","keys":["⌘","⇧","Z"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"fusion.copy","keys":["⌘","C"],"zh":"复制","en":"Copy","tags":[]},
+          {"id":"fusion.paste","keys":["⌘","V"],"zh":"粘贴","en":"Paste","tags":[]},
+          {"id":"fusion.cancel","keys":["Esc"],"zh":"取消当前命令","en":"Cancel current command","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"freecad","name":"FreeCAD","vendor":"FreeCAD","accent":"#729FCF","glyph":"Fc",
+      "categories":[
+        {"id":"view","zh":"视图","en":"View","items":[
+          {"id":"fc.axon","keys":["0"],"zh":"轴测视图","en":"Axonometric view","tags":[]},
+          {"id":"fc.front","keys":["1"],"zh":"前视图","en":"Front view","tags":[]},
+          {"id":"fc.rear","keys":["2"],"zh":"后视图","en":"Rear view","tags":[]},
+          {"id":"fc.left","keys":["3"],"zh":"左视图","en":"Left view","tags":[]},
+          {"id":"fc.right","keys":["4"],"zh":"右视图","en":"Right view","tags":[]},
+          {"id":"fc.top","keys":["5"],"zh":"顶视图","en":"Top view","tags":[]},
+          {"id":"fc.bottom","keys":["6"],"zh":"底视图","en":"Bottom view","tags":[]},
+          {"id":"fc.fit-all","keys":["V","F"],"zh":"显示全部对象","en":"Fit all objects","tags":[]},
+          {"id":"fc.fit-selection","keys":["V","S"],"zh":"聚焦选中对象","en":"Fit selection","tags":[]},
+          {"id":"fc.ortho","keys":["V","O"],"zh":"切换正交投影","en":"Toggle orthographic projection","tags":[]}
+        ]},
+        {"id":"edit","zh":"对象与编辑","en":"Objects & Edit","items":[
+          {"id":"fc.select-all","keys":["⌘","A"],"zh":"全选","en":"Select all","tags":[]},
+          {"id":"fc.clear-selection","keys":["⌘","⇧","A"],"zh":"清除选择","en":"Clear selection","tags":[]},
+          {"id":"fc.delete","keys":["Delete"],"zh":"删除对象","en":"Delete object","tags":[]},
+          {"id":"fc.copy","keys":["⌘","C"],"zh":"复制","en":"Copy","tags":[]},
+          {"id":"fc.paste","keys":["⌘","V"],"zh":"粘贴","en":"Paste","tags":[]},
+          {"id":"fc.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"fc.redo","keys":["⌘","Y"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"fc.refresh","keys":["F5"],"zh":"刷新文档","en":"Refresh document","tags":[]},
+          {"id":"fc.toggle-visibility","keys":["Space"],"zh":"切换对象可见性","en":"Toggle object visibility","tags":[]},
+          {"id":"fc.recompute","keys":["⌘","R"],"zh":"重新计算文档","en":"Recompute document","tags":[]}
+        ]},
+        {"id":"file","zh":"文件与界面","en":"File & Interface","items":[
+          {"id":"fc.new","keys":["⌘","N"],"zh":"新建文档","en":"New document","tags":[]},
+          {"id":"fc.open","keys":["⌘","O"],"zh":"打开文档","en":"Open document","tags":[]},
+          {"id":"fc.save","keys":["⌘","S"],"zh":"保存文档","en":"Save document","tags":[]},
+          {"id":"fc.save-as","keys":["⌘","⇧","S"],"zh":"另存为","en":"Save as","tags":[]},
+          {"id":"fc.close","keys":["⌘","W"],"zh":"关闭文档","en":"Close document","tags":[]},
+          {"id":"fc.print","keys":["⌘","P"],"zh":"打印","en":"Print","tags":[]},
+          {"id":"fc.fullscreen","keys":["F11"],"zh":"切换全屏","en":"Toggle full screen","tags":[]},
+          {"id":"fc.python-console","keys":["V","P"],"zh":"切换脚本控制台","en":"Toggle Python console","tags":[]},
+          {"id":"fc.report-view","keys":["V","R"],"zh":"切换报告视图","en":"Toggle report view","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"shapr3d","name":"Shapr3D","vendor":"Shapr3D","accent":"#2863FF","glyph":"S",
+      "categories":[
+        {"id":"model","zh":"建模","en":"Modeling","items":[
+          {"id":"shapr.search","keys":["⌘","F"],"zh":"搜索工具或命令","en":"Search tools or commands","tags":[]},
+          {"id":"shapr.add","keys":["A"],"zh":"打开添加菜单","en":"Open Add menu","tags":[]},
+          {"id":"shapr.sketch","keys":["S"],"zh":"进入草图工具","en":"Open sketch tools","tags":[]},
+          {"id":"shapr.move","keys":["M"],"zh":"移动或旋转","en":"Move or rotate","tags":[]},
+          {"id":"shapr.extrude","keys":["E"],"zh":"拉伸","en":"Extrude","tags":[]},
+          {"id":"shapr.offset","keys":["O"],"zh":"偏移面","en":"Offset face","tags":[]},
+          {"id":"shapr.project","keys":["P"],"zh":"投影","en":"Project","tags":[]},
+          {"id":"shapr.fillet","keys":["F"],"zh":"圆角或倒角","en":"Fillet or chamfer","tags":[]},
+          {"id":"shapr.shell","keys":["H"],"zh":"抽壳","en":"Shell","tags":[]},
+          {"id":"shapr.revolve","keys":["V"],"zh":"旋转成形","en":"Revolve","tags":[]},
+          {"id":"shapr.isolate","keys":["I"],"zh":"隔离选中对象","en":"Isolate selected","tags":[]}
+        ]},
+        {"id":"view-edit","zh":"视图与编辑","en":"View & Edit","items":[
+          {"id":"shapr.orbit","keys":["右键拖动"],"zh":"旋转视图","en":"Orbit view","tags":[]},
+          {"id":"shapr.pan","keys":["⇧","右键拖动"],"zh":"平移视图","en":"Pan view","tags":[]},
+          {"id":"shapr.zoom","keys":["滚轮"],"zh":"缩放视图","en":"Zoom view","tags":[]},
+          {"id":"shapr.fit","keys":["F"],"zh":"聚焦选中对象","en":"Fit selected object","tags":["view"]},
+          {"id":"shapr.select-all","keys":["⌘","A"],"zh":"全选","en":"Select all","tags":[]},
+          {"id":"shapr.delete","keys":["Delete"],"zh":"删除选中对象","en":"Delete selected","tags":[]},
+          {"id":"shapr.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"shapr.redo","keys":["⌘","⇧","Z"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"shapr.copy","keys":["⌘","C"],"zh":"复制","en":"Copy","tags":[]},
+          {"id":"shapr.paste","keys":["⌘","V"],"zh":"粘贴","en":"Paste","tags":[]},
+          {"id":"shapr.cancel","keys":["Esc"],"zh":"取消当前操作","en":"Cancel current operation","tags":[]}
+        ]},
+        {"id":"file","zh":"文件","en":"File","items":[
+          {"id":"shapr.new","keys":["⌘","N"],"zh":"新建设计","en":"New design","tags":[]},
+          {"id":"shapr.open","keys":["⌘","O"],"zh":"打开设计","en":"Open design","tags":[]},
+          {"id":"shapr.save","keys":["⌘","S"],"zh":"保存设计","en":"Save design","tags":[]},
+          {"id":"shapr.close","keys":["⌘","W"],"zh":"关闭窗口","en":"Close window","tags":[]},
+          {"id":"shapr.preferences","keys":["⌘",","],"zh":"打开偏好设置","en":"Open preferences","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"maya","name":"Maya","vendor":"Autodesk","accent":"#37A5CC","glyph":"M",
+      "categories":[
+        {"id":"tools","zh":"工具与变换","en":"Tools & Transform","items":[
+          {"id":"maya.select","keys":["Q"],"zh":"选择工具","en":"Select tool","tags":[]},
+          {"id":"maya.move","keys":["W"],"zh":"移动工具","en":"Move tool","tags":[]},
+          {"id":"maya.rotate","keys":["E"],"zh":"旋转工具","en":"Rotate tool","tags":[]},
+          {"id":"maya.scale","keys":["R"],"zh":"缩放工具","en":"Scale tool","tags":[]},
+          {"id":"maya.universal","keys":["T"],"zh":"通用操纵器","en":"Universal manipulator","tags":[]},
+          {"id":"maya.last-tool","keys":["Y"],"zh":"重复上一个工具","en":"Repeat last tool","tags":[]},
+          {"id":"maya.repeat","keys":["G"],"zh":"重复上一个命令","en":"Repeat last command","tags":[]},
+          {"id":"maya.pivot","keys":["D"],"zh":"编辑枢轴","en":"Edit pivot","tags":[]},
+          {"id":"maya.snap-grid","keys":["X"],"zh":"捕捉到栅格","en":"Snap to grid","tags":[]},
+          {"id":"maya.snap-curve","keys":["C"],"zh":"捕捉到曲线","en":"Snap to curve","tags":[]},
+          {"id":"maya.snap-point","keys":["V"],"zh":"捕捉到点","en":"Snap to point","tags":[]},
+          {"id":"maya.discrete-rotate","keys":["J"],"zh":"按步进旋转","en":"Snap rotate increments","tags":[]}
+        ]},
+        {"id":"view","zh":"视图与显示","en":"View & Display","items":[
+          {"id":"maya.hotbox","keys":["Space"],"zh":"显示热盒菜单","en":"Show Hotbox","tags":[]},
+          {"id":"maya.orbit","keys":["⌥","左键拖动"],"zh":"环绕视图","en":"Orbit view","tags":[]},
+          {"id":"maya.pan","keys":["⌥","中键拖动"],"zh":"平移视图","en":"Pan view","tags":[]},
+          {"id":"maya.zoom","keys":["⌥","右键拖动"],"zh":"缩放视图","en":"Zoom view","tags":[]},
+          {"id":"maya.frame-selected","keys":["F"],"zh":"聚焦选中对象","en":"Frame selected","tags":[]},
+          {"id":"maya.frame-all","keys":["A"],"zh":"显示全部对象","en":"Frame all","tags":[]},
+          {"id":"maya.wireframe","keys":["4"],"zh":"线框显示","en":"Wireframe display","tags":[]},
+          {"id":"maya.shaded","keys":["5"],"zh":"着色显示","en":"Shaded display","tags":[]},
+          {"id":"maya.textured","keys":["6"],"zh":"纹理显示","en":"Textured display","tags":[]},
+          {"id":"maya.lighting","keys":["7"],"zh":"使用场景灯光","en":"Use scene lights","tags":[]},
+          {"id":"maya.smooth-preview","keys":["3"],"zh":"平滑网格预览","en":"Smooth mesh preview","tags":[]},
+          {"id":"maya.default-preview","keys":["1"],"zh":"默认网格显示","en":"Default mesh display","tags":[]}
+        ]},
+        {"id":"object","zh":"对象与动画","en":"Objects & Animation","items":[
+          {"id":"maya.duplicate","keys":["⌘","D"],"zh":"复制对象","en":"Duplicate object","tags":[]},
+          {"id":"maya.duplicate-special","keys":["⌘","⇧","D"],"zh":"特殊复制","en":"Duplicate Special","tags":[]},
+          {"id":"maya.group","keys":["⌘","G"],"zh":"编组","en":"Group","tags":[]},
+          {"id":"maya.parent","keys":["P"],"zh":"建立父子关系","en":"Parent","tags":[]},
+          {"id":"maya.unparent","keys":["⇧","P"],"zh":"解除父子关系","en":"Unparent","tags":[]},
+          {"id":"maya.hide","keys":["⌘","H"],"zh":"隐藏选中对象","en":"Hide selected","tags":[]},
+          {"id":"maya.show-last","keys":["⌘","⇧","H"],"zh":"显示上次隐藏对象","en":"Show last hidden","tags":[]},
+          {"id":"maya.set-key","keys":["S"],"zh":"设置关键帧","en":"Set keyframe","tags":["animation"]},
+          {"id":"maya.key-move","keys":["⇧","W"],"zh":"为移动属性设置关键帧","en":"Set key on translate","tags":["animation"]},
+          {"id":"maya.key-rotate","keys":["⇧","E"],"zh":"为旋转属性设置关键帧","en":"Set key on rotate","tags":["animation"]},
+          {"id":"maya.key-scale","keys":["⇧","R"],"zh":"为缩放属性设置关键帧","en":"Set key on scale","tags":["animation"]},
+          {"id":"maya.play","keys":["⌥","V"],"zh":"播放或停止动画","en":"Play or stop animation","tags":["animation"]}
+        ]},
+        {"id":"file","zh":"文件与编辑","en":"File & Edit","items":[
+          {"id":"maya.new","keys":["⌘","N"],"zh":"新建场景","en":"New scene","tags":[]},
+          {"id":"maya.open","keys":["⌘","O"],"zh":"打开场景","en":"Open scene","tags":[]},
+          {"id":"maya.save","keys":["⌘","S"],"zh":"保存场景","en":"Save scene","tags":[]},
+          {"id":"maya.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"maya.redo","keys":["⌘","Y"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"maya.delete","keys":["Delete"],"zh":"删除选中对象","en":"Delete selected","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"cinema4d","name":"Cinema 4D","vendor":"Maxon","accent":"#345DFF","glyph":"C4",
+      "categories":[
+        {"id":"tools","zh":"工具与对象","en":"Tools & Objects","items":[
+          {"id":"c4d.move","keys":["E"],"zh":"移动工具","en":"Move tool","tags":[]},
+          {"id":"c4d.rotate","keys":["R"],"zh":"旋转工具","en":"Rotate tool","tags":[]},
+          {"id":"c4d.scale","keys":["T"],"zh":"缩放工具","en":"Scale tool","tags":[]},
+          {"id":"c4d.live-selection","keys":["9"],"zh":"实时选择工具","en":"Live Selection tool","tags":[]},
+          {"id":"c4d.rectangle-selection","keys":["0"],"zh":"矩形选择工具","en":"Rectangle Selection tool","tags":[]},
+          {"id":"c4d.make-editable","keys":["C"],"zh":"转为可编辑对象","en":"Make editable","tags":[]},
+          {"id":"c4d.extrude","keys":["D"],"zh":"挤出","en":"Extrude","tags":[]},
+          {"id":"c4d.bevel","keys":["M","S"],"zh":"倒角","en":"Bevel","tags":[]},
+          {"id":"c4d.loop-cut","keys":["K","L"],"zh":"循环路径切割","en":"Loop/Path Cut","tags":[]},
+          {"id":"c4d.knife-line","keys":["K","K"],"zh":"线性切刀","en":"Line Cut","tags":[]},
+          {"id":"c4d.loop-select","keys":["U","L"],"zh":"循环选择","en":"Loop Selection","tags":[]},
+          {"id":"c4d.ring-select","keys":["U","B"],"zh":"环状选择","en":"Ring Selection","tags":[]}
+        ]},
+        {"id":"view","zh":"视图导航","en":"View Navigation","items":[
+          {"id":"c4d.pan","keys":["1","拖动"],"zh":"平移视图","en":"Pan view","tags":[]},
+          {"id":"c4d.zoom","keys":["2","拖动"],"zh":"缩放视图","en":"Zoom view","tags":[]},
+          {"id":"c4d.orbit","keys":["3","拖动"],"zh":"旋转视图","en":"Orbit view","tags":[]},
+          {"id":"c4d.frame-selected","keys":["S"],"zh":"聚焦选中对象","en":"Frame selected","tags":[]},
+          {"id":"c4d.frame-all","keys":["H"],"zh":"显示全部对象","en":"Frame all","tags":[]},
+          {"id":"c4d.views","keys":["中键点击"],"zh":"切换单视图与四视图","en":"Toggle single and four views","tags":[]},
+          {"id":"c4d.top","keys":["F2"],"zh":"顶视图","en":"Top view","tags":[]},
+          {"id":"c4d.right","keys":["F3"],"zh":"右视图","en":"Right view","tags":[]},
+          {"id":"c4d.front","keys":["F4"],"zh":"前视图","en":"Front view","tags":[]},
+          {"id":"c4d.perspective","keys":["F1"],"zh":"透视视图","en":"Perspective view","tags":[]}
+        ]},
+        {"id":"edit-file","zh":"编辑与文件","en":"Edit & File","items":[
+          {"id":"c4d.duplicate","keys":["⌘","拖动"],"zh":"拖动复制对象","en":"Duplicate by dragging","tags":[]},
+          {"id":"c4d.group","keys":["⌥","G"],"zh":"对象编组","en":"Group objects","tags":[]},
+          {"id":"c4d.ungroup","keys":["⇧","G"],"zh":"取消对象编组","en":"Ungroup objects","tags":[]},
+          {"id":"c4d.delete","keys":["Delete"],"zh":"删除选中对象","en":"Delete selected","tags":[]},
+          {"id":"c4d.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"c4d.redo","keys":["⌘","Y"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"c4d.new","keys":["⌘","N"],"zh":"新建工程","en":"New project","tags":[]},
+          {"id":"c4d.open","keys":["⌘","O"],"zh":"打开工程","en":"Open project","tags":[]},
+          {"id":"c4d.save","keys":["⌘","S"],"zh":"保存工程","en":"Save project","tags":[]},
+          {"id":"c4d.save-as","keys":["⌘","⇧","S"],"zh":"另存为","en":"Save as","tags":[]},
+          {"id":"c4d.render","keys":["⌘","R"],"zh":"渲染活动视图","en":"Render active view","tags":[]},
+          {"id":"c4d.render-picture","keys":["⇧","R"],"zh":"渲染到图片查看器","en":"Render to Picture Viewer","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"comsol","name":"COMSOL Multiphysics","vendor":"COMSOL","accent":"#0D4A7E","glyph":"C",
+      "categories":[
+        {"id":"model","zh":"模型与求解","en":"Model & Solve","items":[
+          {"id":"comsol.new","keys":["⌘","N"],"zh":"新建模型","en":"New model","tags":[]},
+          {"id":"comsol.open","keys":["⌘","O"],"zh":"打开模型","en":"Open model","tags":[]},
+          {"id":"comsol.save","keys":["⌘","S"],"zh":"保存模型","en":"Save model","tags":[]},
+          {"id":"comsol.build-all","keys":["F8"],"zh":"构建全部几何","en":"Build all geometry","tags":[]},
+          {"id":"comsol.compute","keys":["F5"],"zh":"计算当前研究","en":"Compute current study","tags":[]},
+          {"id":"comsol.update-solution","keys":["F6"],"zh":"更新解","en":"Update solution","tags":[]},
+          {"id":"comsol.cancel","keys":["Esc"],"zh":"取消当前操作","en":"Cancel current operation","tags":[]},
+          {"id":"comsol.delete","keys":["Delete"],"zh":"删除选中节点","en":"Delete selected node","tags":[]}
+        ]},
+        {"id":"edit","zh":"编辑与导航","en":"Edit & Navigate","items":[
+          {"id":"comsol.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"comsol.redo","keys":["⌘","Y"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"comsol.cut","keys":["⌘","X"],"zh":"剪切","en":"Cut","tags":[]},
+          {"id":"comsol.copy","keys":["⌘","C"],"zh":"复制","en":"Copy","tags":[]},
+          {"id":"comsol.paste","keys":["⌘","V"],"zh":"粘贴","en":"Paste","tags":[]},
+          {"id":"comsol.find","keys":["⌘","F"],"zh":"查找模型节点","en":"Find model node","tags":[]},
+          {"id":"comsol.next-field","keys":["Tab"],"zh":"转到下一个输入字段","en":"Move to next input field","tags":[]},
+          {"id":"comsol.prev-field","keys":["⇧","Tab"],"zh":"转到上一个输入字段","en":"Move to previous input field","tags":[]}
+        ]},
+        {"id":"view","zh":"图形视图","en":"Graphics View","items":[
+          {"id":"comsol.rotate","keys":["左键拖动"],"zh":"旋转三维视图","en":"Rotate 3D view","tags":[]},
+          {"id":"comsol.pan","keys":["中键拖动"],"zh":"平移视图","en":"Pan view","tags":[]},
+          {"id":"comsol.zoom","keys":["滚轮"],"zh":"缩放视图","en":"Zoom view","tags":[]},
+          {"id":"comsol.select-multiple","keys":["⌘","点击"],"zh":"添加或移除选择","en":"Add or remove selection","tags":[]},
+          {"id":"comsol.fit","keys":["F"],"zh":"适合窗口","en":"Fit to window","tags":[]},
+          {"id":"comsol.reset-view","keys":["R"],"zh":"重置视图","en":"Reset view","tags":[]},
+          {"id":"comsol.print","keys":["⌘","P"],"zh":"打印当前视图","en":"Print current view","tags":[]},
+          {"id":"comsol.fullscreen","keys":["⌃","⌘","F"],"zh":"切换全屏","en":"Toggle full screen","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"matlab","name":"MATLAB","vendor":"MathWorks","accent":"#E16737","glyph":"M",
+      "categories":[
+        {"id":"editor","zh":"编辑器","en":"Editor","items":[
+          {"id":"matlab.new-script","keys":["⌘","N"],"zh":"新建脚本","en":"New script","tags":[]},
+          {"id":"matlab.open","keys":["⌘","O"],"zh":"打开文件","en":"Open file","tags":[]},
+          {"id":"matlab.save","keys":["⌘","S"],"zh":"保存文件","en":"Save file","tags":[]},
+          {"id":"matlab.find","keys":["⌘","F"],"zh":"在文件中查找","en":"Find in file","tags":[]},
+          {"id":"matlab.find-files","keys":["⌘","⇧","F"],"zh":"在文件中查找内容","en":"Find in files","tags":[]},
+          {"id":"matlab.replace","keys":["⌘","H"],"zh":"查找并替换","en":"Find and replace","tags":[]},
+          {"id":"matlab.comment","keys":["⌘","R"],"zh":"注释选中代码","en":"Comment selected code","tags":[]},
+          {"id":"matlab.uncomment","keys":["⌘","T"],"zh":"取消代码注释","en":"Uncomment selected code","tags":[]},
+          {"id":"matlab.auto-indent","keys":["⌘","I"],"zh":"自动缩进","en":"Auto indent","tags":[]},
+          {"id":"matlab.indent","keys":["Tab"],"zh":"增加缩进","en":"Indent code","tags":[]},
+          {"id":"matlab.outdent","keys":["⇧","Tab"],"zh":"减少缩进","en":"Outdent code","tags":[]},
+          {"id":"matlab.complete","keys":["Tab"],"zh":"补全函数或变量名","en":"Complete function or variable name","tags":["completion"]}
+        ]},
+        {"id":"run-debug","zh":"运行与调试","en":"Run & Debug","items":[
+          {"id":"matlab.run","keys":["F5"],"zh":"运行当前文件","en":"Run current file","tags":[]},
+          {"id":"matlab.run-section","keys":["⌘","Return"],"zh":"运行当前代码节","en":"Run current section","tags":[]},
+          {"id":"matlab.run-advance","keys":["⌘","⇧","Return"],"zh":"运行并前进到下一代码节","en":"Run and advance to next section","tags":[]},
+          {"id":"matlab.evaluate","keys":["F9"],"zh":"运行选中代码","en":"Evaluate selection","tags":[]},
+          {"id":"matlab.breakpoint","keys":["F12"],"zh":"设置或清除断点","en":"Set or clear breakpoint","tags":[]},
+          {"id":"matlab.clear-breakpoints","keys":["⌘","⇧","F12"],"zh":"清除所有断点","en":"Clear all breakpoints","tags":[]},
+          {"id":"matlab.step","keys":["F10"],"zh":"单步执行","en":"Step","tags":[]},
+          {"id":"matlab.step-in","keys":["F11"],"zh":"单步进入","en":"Step in","tags":[]},
+          {"id":"matlab.step-out","keys":["⇧","F11"],"zh":"单步跳出","en":"Step out","tags":[]},
+          {"id":"matlab.continue","keys":["F5"],"zh":"继续调试","en":"Continue debugging","tags":[]},
+          {"id":"matlab.stop-debug","keys":["⇧","F5"],"zh":"停止调试","en":"Stop debugging","tags":[]}
+        ]},
+        {"id":"command","zh":"命令窗口","en":"Command Window","items":[
+          {"id":"matlab.execute","keys":["Return"],"zh":"执行当前命令","en":"Execute current command","tags":[]},
+          {"id":"matlab.cancel","keys":["⌃","C"],"zh":"停止正在运行的命令","en":"Stop running command","tags":[]},
+          {"id":"matlab.previous-command","keys":["↑"],"zh":"调出上一条命令","en":"Recall previous command","tags":[]},
+          {"id":"matlab.next-command","keys":["↓"],"zh":"调出下一条命令","en":"Recall next command","tags":[]},
+          {"id":"matlab.command-start","keys":["⌃","A"],"zh":"移到命令行开头","en":"Move to start of command line","tags":[]},
+          {"id":"matlab.command-end","keys":["⌃","E"],"zh":"移到命令行末尾","en":"Move to end of command line","tags":[]},
+          {"id":"matlab.clear-command","keys":["⌘","K"],"zh":"清除命令窗口","en":"Clear Command Window","tags":[]},
+          {"id":"matlab.workspace","keys":["⌘","⇧","W"],"zh":"切换到工作区","en":"Focus Workspace","tags":[]}
+        ]},
+        {"id":"edit","zh":"通用编辑","en":"General Editing","items":[
+          {"id":"matlab.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"matlab.redo","keys":["⌘","⇧","Z"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"matlab.cut","keys":["⌘","X"],"zh":"剪切","en":"Cut","tags":[]},
+          {"id":"matlab.copy","keys":["⌘","C"],"zh":"复制","en":"Copy","tags":[]},
+          {"id":"matlab.paste","keys":["⌘","V"],"zh":"粘贴","en":"Paste","tags":[]},
+          {"id":"matlab.select-all","keys":["⌘","A"],"zh":"全选","en":"Select all","tags":[]},
+          {"id":"matlab.help","keys":["F1"],"zh":"打开所选内容帮助","en":"Open help for selection","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"simulink","name":"Simulink","vendor":"MathWorks","accent":"#F5A623","glyph":"S",
+      "categories":[
+        {"id":"model","zh":"模型编辑","en":"Model Editing","items":[
+          {"id":"sim.new","keys":["⌘","N"],"zh":"新建模型","en":"New model","tags":[]},
+          {"id":"sim.open","keys":["⌘","O"],"zh":"打开模型","en":"Open model","tags":[]},
+          {"id":"sim.save","keys":["⌘","S"],"zh":"保存模型","en":"Save model","tags":[]},
+          {"id":"sim.search-block","keys":["双击"],"zh":"打开快速插入并搜索模块","en":"Open Quick Insert and search blocks","tags":[]},
+          {"id":"sim.copy","keys":["⌘","C"],"zh":"复制模块","en":"Copy blocks","tags":[]},
+          {"id":"sim.paste","keys":["⌘","V"],"zh":"粘贴模块","en":"Paste blocks","tags":[]},
+          {"id":"sim.duplicate","keys":["⌥","拖动"],"zh":"拖动复制模块","en":"Duplicate blocks by dragging","tags":[]},
+          {"id":"sim.delete","keys":["Delete"],"zh":"删除选中内容","en":"Delete selected","tags":[]},
+          {"id":"sim.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"sim.redo","keys":["⌘","Y"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"sim.select-all","keys":["⌘","A"],"zh":"全选","en":"Select all","tags":[]}
+        ]},
+        {"id":"simulate","zh":"仿真","en":"Simulation","items":[
+          {"id":"sim.run","keys":["⌘","T"],"zh":"运行仿真","en":"Run simulation","tags":[]},
+          {"id":"sim.stop","keys":["⌘","."],"zh":"停止仿真","en":"Stop simulation","tags":[]},
+          {"id":"sim.update","keys":["⌘","D"],"zh":"更新模型图","en":"Update model diagram","tags":[]},
+          {"id":"sim.config","keys":["⌘","E"],"zh":"打开模型配置参数","en":"Open model configuration parameters","tags":[]},
+          {"id":"sim.step-forward","keys":["F10"],"zh":"仿真单步前进","en":"Step simulation forward","tags":[]},
+          {"id":"sim.breakpoint","keys":["F12"],"zh":"切换仿真断点","en":"Toggle simulation breakpoint","tags":[]},
+          {"id":"sim.library","keys":["⌘","⇧","L"],"zh":"打开模块库浏览器","en":"Open Library Browser","tags":[]},
+          {"id":"sim.model-explorer","keys":["⌘","H"],"zh":"打开模型资源管理器","en":"Open Model Explorer","tags":[]}
+        ]},
+        {"id":"view","zh":"视图与层级","en":"View & Hierarchy","items":[
+          {"id":"sim.fit","keys":["Space"],"zh":"模型适合窗口","en":"Fit model to view","tags":[]},
+          {"id":"sim.zoom-in","keys":["⌘","+"],"zh":"放大","en":"Zoom in","tags":[]},
+          {"id":"sim.zoom-out","keys":["⌘","-"],"zh":"缩小","en":"Zoom out","tags":[]},
+          {"id":"sim.pan","keys":["中键拖动"],"zh":"平移模型视图","en":"Pan model view","tags":[]},
+          {"id":"sim.enter-subsystem","keys":["Return"],"zh":"进入选中的子系统","en":"Enter selected subsystem","tags":[]},
+          {"id":"sim.parent","keys":["Esc"],"zh":"返回父系统","en":"Go to parent system","tags":[]},
+          {"id":"sim.find","keys":["⌘","F"],"zh":"在模型中查找","en":"Find in model","tags":[]},
+          {"id":"sim.print","keys":["⌘","P"],"zh":"打印模型","en":"Print model","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"davinci","name":"DaVinci Resolve","vendor":"Blackmagic Design","accent":"#E54B4B","glyph":"D",
+      "categories":[
+        {"id":"playback","zh":"播放与导航","en":"Playback & Navigation","items":[
+          {"id":"resolve.play","keys":["Space"],"zh":"播放或暂停","en":"Play or pause","tags":[]},
+          {"id":"resolve.reverse","keys":["J"],"zh":"反向播放","en":"Play reverse","tags":[]},
+          {"id":"resolve.stop","keys":["K"],"zh":"停止播放","en":"Stop playback","tags":[]},
+          {"id":"resolve.forward","keys":["L"],"zh":"正向播放","en":"Play forward","tags":[]},
+          {"id":"resolve.prev-frame","keys":["←"],"zh":"上一帧","en":"Previous frame","tags":[]},
+          {"id":"resolve.next-frame","keys":["→"],"zh":"下一帧","en":"Next frame","tags":[]},
+          {"id":"resolve.prev-clip","keys":["↑"],"zh":"上一个剪辑或编辑点","en":"Previous clip or edit","tags":[]},
+          {"id":"resolve.next-clip","keys":["↓"],"zh":"下一个剪辑或编辑点","en":"Next clip or edit","tags":[]},
+          {"id":"resolve.in","keys":["I"],"zh":"标记入点","en":"Mark In","tags":[]},
+          {"id":"resolve.out","keys":["O"],"zh":"标记出点","en":"Mark Out","tags":[]},
+          {"id":"resolve.clear-in-out","keys":["⌥","X"],"zh":"清除入点和出点","en":"Clear In and Out","tags":[]},
+          {"id":"resolve.marker","keys":["M"],"zh":"添加标记","en":"Add marker","tags":[]}
+        ]},
+        {"id":"editing","zh":"剪辑","en":"Editing","items":[
+          {"id":"resolve.selection","keys":["A"],"zh":"选择模式","en":"Selection mode","tags":[]},
+          {"id":"resolve.trim","keys":["T"],"zh":"修剪编辑模式","en":"Trim Edit mode","tags":[]},
+          {"id":"resolve.blade","keys":["B"],"zh":"刀片编辑模式","en":"Blade Edit mode","tags":[]},
+          {"id":"resolve.split","keys":["⌘","B"],"zh":"在播放头处分割剪辑","en":"Split clip at playhead","tags":[]},
+          {"id":"resolve.select-all","keys":["⌘","A"],"zh":"全选","en":"Select all","tags":[]},
+          {"id":"resolve.delete","keys":["Delete"],"zh":"删除选中内容","en":"Delete selected","tags":[]},
+          {"id":"resolve.ripple-delete","keys":["⇧","Delete"],"zh":"波纹删除","en":"Ripple delete","tags":[]},
+          {"id":"resolve.insert","keys":["F9"],"zh":"插入编辑","en":"Insert edit","tags":[]},
+          {"id":"resolve.overwrite","keys":["F10"],"zh":"覆盖编辑","en":"Overwrite edit","tags":[]},
+          {"id":"resolve.replace","keys":["F11"],"zh":"替换编辑","en":"Replace edit","tags":[]},
+          {"id":"resolve.place-top","keys":["F12"],"zh":"置于顶层轨道","en":"Place on top","tags":[]},
+          {"id":"resolve.link","keys":["⌘","⇧","L"],"zh":"链接或取消链接剪辑","en":"Link or unlink clips","tags":[]},
+          {"id":"resolve.new-bin","keys":["⌘","⇧","N"],"zh":"新建媒体箱","en":"New bin","tags":[]}
+        ]},
+        {"id":"timeline","zh":"时间线与视图","en":"Timeline & View","items":[
+          {"id":"resolve.zoom-in","keys":["⌘","+"],"zh":"放大时间线","en":"Zoom in timeline","tags":[]},
+          {"id":"resolve.zoom-out","keys":["⌘","-"],"zh":"缩小时间线","en":"Zoom out timeline","tags":[]},
+          {"id":"resolve.fit","keys":["⇧","Z"],"zh":"时间线适合窗口","en":"Fit timeline to window","tags":[]},
+          {"id":"resolve.snapping","keys":["N"],"zh":"切换吸附","en":"Toggle snapping","tags":[]},
+          {"id":"resolve.fullscreen-viewer","keys":["⌘","F"],"zh":"切换全屏查看器","en":"Toggle cinema viewer","tags":[]},
+          {"id":"resolve.source-timeline","keys":["Q"],"zh":"切换源查看器和时间线查看器","en":"Toggle source and timeline viewer","tags":[]},
+          {"id":"resolve.prev-timeline","keys":["⌘","Page Up"],"zh":"切换到上一条时间线","en":"Switch to previous timeline","tags":[]},
+          {"id":"resolve.next-timeline","keys":["⌘","Page Down"],"zh":"切换到下一条时间线","en":"Switch to next timeline","tags":[]},
+          {"id":"resolve.disable-clip","keys":["D"],"zh":"启用或禁用剪辑","en":"Enable or disable clip","tags":[]},
+          {"id":"resolve.change-duration","keys":["⌘","D"],"zh":"更改剪辑持续时间","en":"Change clip duration","tags":[]}
+        ]},
+        {"id":"color","zh":"调色","en":"Color","items":[
+          {"id":"resolve.new-serial","keys":["⌥","S"],"zh":"添加串行节点","en":"Add serial node","tags":[]},
+          {"id":"resolve.new-parallel","keys":["⌥","P"],"zh":"添加并行节点","en":"Add parallel node","tags":[]},
+          {"id":"resolve.bypass-grade","keys":["⇧","D"],"zh":"旁路所有调色和效果","en":"Bypass all grades and effects","tags":[]},
+          {"id":"resolve.grab-still","keys":["⌥","⌘","G"],"zh":"抓取静帧","en":"Grab still","tags":[]},
+          {"id":"resolve.prev-node","keys":["⇧","←"],"zh":"选择上一个节点","en":"Select previous node","tags":[]},
+          {"id":"resolve.next-node","keys":["⇧","→"],"zh":"选择下一个节点","en":"Select next node","tags":[]},
+          {"id":"resolve.reset-node","keys":["⌥","⌘","R"],"zh":"重置选中节点调色","en":"Reset selected node grade","tags":[]},
+          {"id":"resolve.keyframe","keys":["⌘","]"],"zh":"添加动态关键帧","en":"Add dynamic keyframe","tags":[]}
+        ]},
+        {"id":"file","zh":"文件与编辑","en":"File & Edit","items":[
+          {"id":"resolve.new-project","keys":["⌘","N"],"zh":"新建项目","en":"New project","tags":[]},
+          {"id":"resolve.save","keys":["⌘","S"],"zh":"保存项目","en":"Save project","tags":[]},
+          {"id":"resolve.import","keys":["⌘","I"],"zh":"导入媒体","en":"Import media","tags":[]},
+          {"id":"resolve.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"resolve.redo","keys":["⌘","⇧","Z"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"resolve.copy","keys":["⌘","C"],"zh":"复制","en":"Copy","tags":[]},
+          {"id":"resolve.paste","keys":["⌘","V"],"zh":"粘贴","en":"Paste","tags":[]}
+        ]}
+      ]
+    }
+  ]
+}

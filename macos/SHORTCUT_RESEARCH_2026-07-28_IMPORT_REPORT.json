@@ -1,0 +1,613 @@
+{
+  "importedAt": "2026-07-28",
+  "sourceFile": "/Users/hualong/Documents/loong/shortcut-research-7.28补充快捷键/7.28补充快捷键.md",
+  "dryRun": false,
+  "policy": {
+    "platform": "Only explicit macOS columns or official shared desktop keys were imported.",
+    "exclusions": "iOS/iPadOS-only rows, unconfirmed macOS cells, invalid key expressions, generic fallback rows, Google search placeholders, and inferred modifier substitutions were excluded.",
+    "localization": "Only sections with source-provided Chinese action names and deterministic English labels were applied, preserving language isolation in KeyFloat.",
+    "punctuation": "Shortcut action titles are normalized without terminal Chinese or Western sentence periods and semicolons."
+  },
+  "applied": [
+    {
+      "id": "goodnotes",
+      "name": "Goodnotes",
+      "previousShortcuts": 28,
+      "declaredCrossPlatformMappings": 18,
+      "shortcuts": 14,
+      "categories": 3,
+      "skippedUnknownPlatform": 5,
+      "skippedInvalidKey": 0
+    },
+    {
+      "id": "overleaf",
+      "name": "Overleaf",
+      "previousShortcuts": 17,
+      "declaredCrossPlatformMappings": 17,
+      "shortcuts": 18,
+      "categories": 1,
+      "skippedUnknownPlatform": 0,
+      "skippedInvalidKey": 0
+    },
+    {
+      "id": "texstudio",
+      "name": "TeXstudio",
+      "previousShortcuts": 25,
+      "declaredCrossPlatformMappings": 27,
+      "shortcuts": 29,
+      "categories": 3,
+      "skippedUnknownPlatform": 0,
+      "skippedInvalidKey": 0
+    },
+    {
+      "id": "xmind",
+      "name": "XMind",
+      "previousShortcuts": 21,
+      "declaredCrossPlatformMappings": 38,
+      "shortcuts": 38,
+      "categories": 4,
+      "skippedUnknownPlatform": 0,
+      "skippedInvalidKey": 0
+    },
+    {
+      "id": "mindnode",
+      "name": "MindNode",
+      "previousShortcuts": 22,
+      "declaredCrossPlatformMappings": 91,
+      "shortcuts": 92,
+      "categories": 9,
+      "skippedUnknownPlatform": 0,
+      "skippedInvalidKey": 0
+    }
+  ],
+  "deferred": [
+    {
+      "name": "Adobe Acrobat",
+      "reason": "Official mappings are English-only in the supplied chapter; defer until a verified Chinese title pairing is available."
+    },
+    {
+      "name": "Evernote",
+      "reason": "Official mappings are English-only in the supplied chapter; defer until a verified Chinese title pairing is available."
+    },
+    {
+      "name": "Adobe XD",
+      "reason": "Official mappings are English-only in the supplied chapter; defer until a verified Chinese title pairing is available."
+    },
+    {
+      "name": "Framer",
+      "reason": "Official mappings are English-only in the supplied chapter; defer until a verified Chinese title pairing is available."
+    },
+    {
+      "name": "Axure RP",
+      "reason": "Official mappings are English-only in the supplied chapter; defer until a verified Chinese title pairing is available."
+    },
+    {
+      "name": "MasterGo",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "即时设计",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Adobe InDesign",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Adobe Lightroom",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "ProtoPie",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "draw.io / diagrams.net",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Canva",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Miro",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Affinity Designer 2",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Affinity Photo 2",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Affinity Publisher 2",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "DaVinci Resolve",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Rive",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "LottieFiles",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Final Cut Pro",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Logic Pro",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "GarageBand",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "CapCut",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Audacity",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "OBS Studio",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "IINA",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "VLC media player",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "HandBrake",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Archicad",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Enscape",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Twinmotion",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "QGIS",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Vectorworks",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "ENVI",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Fusion 360",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "FreeCAD",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Shapr3D",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "KiCad",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Onshape",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Maya",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "ZBrush",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "COMSOL Multiphysics",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "MATLAB",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Simulink",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "LTspice",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Xcode",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Android Studio",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "IntelliJ IDEA",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Unity",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Unreal Engine",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Arduino IDE",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Cursor",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "PyCharm",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "WebStorm",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "GoLand",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "CLion",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "iTerm2",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Warp",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Eclipse IDE",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Sublime Text",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Terminal",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "GitHub Desktop",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Sourcetree",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Tower",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "GitHub",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "GitLab",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Bitbucket",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Docker Desktop",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Vercel",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Netlify",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Cloudflare",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Postman",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Insomnia",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Apifox",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Swagger UI",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Hoppscotch",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "DBeaver",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "DataGrip",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "MySQL / MySQL Workbench",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "GraphPad Prism",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Tableau",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Power BI Web",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Amplitude",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Mixpanel",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "ChatGPT",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Claude",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Codex",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "LM Studio",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "ComfyUI",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Stable Diffusion WebUI",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Runway",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Midjourney",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Adobe Firefly",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Pika",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Maple",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "SAS Studio",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "LabVIEW",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "PLECS",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Eagle",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "STM32CubeIDE",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "MPLAB X IDE",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Benchling",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Geneious Prime",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "VMD",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "SnapGene",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "MEGA",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "CLC Genomics Workbench",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "ChimeraX",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "FlowJo",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Avogadro",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "MarvinSketch",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Slack",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Discord",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "WeChat",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Dropbox",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Google Drive",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Microsoft OneDrive",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "腾讯会议",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "钉钉",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "QQ",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Todoist",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "TickTick",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Google Chrome",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Safari",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Arc",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Mozilla Firefox",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Microsoft Edge",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Brave",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Raycast",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Alfred",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "CleanShot X",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Bartender",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Rectangle",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Magnet",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Paste",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "1Password",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    },
+    {
+      "name": "Finder",
+      "reason": "The supplied chapter contains generic fallback rows or search-placeholder evidence and does not pass the source-backed macOS import gate."
+    }
+  ]
+}

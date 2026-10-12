@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>KeyFloat 管理后台</title>
+    <link rel="icon" href="assets/keyfloat-logo.svg" />
+    <link rel="stylesheet" href="admin.css" />
+    <script src="admin.js" defer></script>
+  </head>
+  <body>
+    <header class="admin-header">
+      <a class="admin-brand" href="/" aria-label="返回 KeyFloat 官网">
+        <img src="assets/keyfloat-logo-white.svg" width="30" height="30" alt="" />
+        <span>KeyFloat</span>
+        <small>管理后台</small>
+      </a>
+      <div class="connection-state" id="connection-state"><i aria-hidden="true"></i><span>正在连接</span></div>
+    </header>
+
+    <main>
+      <section class="login-view" id="login-view" aria-labelledby="login-title">
+        <div class="login-card">
+          <p class="eyebrow">ADMIN ACCESS</p>
+          <h1 id="login-title">管理员登录</h1>
+          <p>输入部署环境中配置的私有管理员口令，进入付款核验工作台。</p>
+          <form id="admin-login-form">
+            <label for="admin-code">管理员口令</label>
+            <input id="admin-code" name="adminCode" type="password" autocomplete="current-password" maxlength="128" required autofocus />
+            <button class="button button-primary" type="submit">登录管理后台</button>
+            <p class="form-status" id="login-status" aria-live="polite"></p>
+          </form>
+          <p class="security-note">口令仅发送至 KeyFloat 服务端，不会保存在浏览器中。</p>
+        </div>
+      </section>
+
+      <section class="dashboard" id="dashboard" hidden aria-labelledby="dashboard-title">
+        <div class="dashboard-heading">
+          <div>
+            <p class="eyebrow">PAYMENT REVIEW</p>
+            <h1 id="dashboard-title">付款核验工作台</h1>
+            <p>人工核对支付宝商家账单后，再确认到账并签发券码。</p>
+          </div>
+          <div class="header-actions">
+            <button class="button button-secondary" id="refresh-claims" type="button">刷新</button>
+            <button class="button button-secondary" id="logout" type="button">退出登录</button>
+          </div>
+        </div>
+
+        <div class="metrics" aria-label="付款统计">
+          <button class="metric-card is-active" type="button" data-metric-filter="pending"><span>待核验</span><strong id="pending-count">0</strong><small>点击查看</small></button>
+          <button class="metric-card" type="button" data-metric-filter="approved"><span>已发码</span><strong id="approved-count">0</strong><small>点击查看</small></button>
+          <button class="metric-card" type="button" data-metric-filter="all"><span>最近记录</span><strong id="total-count">0</strong><small>点击查看</small></button>
+        </div>
+
+        <section class="review-section" aria-labelledby="review-title">
+          <div class="review-toolbar">
+            <div>
+              <h2 id="review-title">付款记录</h2>
+              <p id="last-updated">尚未刷新</p>
+            </div>
+            <div class="filters" role="group" aria-label="筛选付款记录">
+              <button class="filter is-active" type="button" data-filter="pending">待核验</button>
+              <button class="filter" type="button" data-filter="approved">已完成</button>
+              <button class="filter" type="button" data-filter="all">全部</button>
+            </div>
+          </div>
+          <div class="claim-list" id="claim-list"></div>
+          <div class="empty-state" id="empty-state" hidden>
+            <strong>当前没有对应的付款记录</strong>
+            <p>用户点击“我已完成支付”后，待核验订单会自动出现在这里。</p>
+          </div>
+          <p class="form-status" id="dashboard-status" aria-live="polite"></p>
+        </section>
+      </section>
+    </main>
+
+    <dialog id="approve-dialog" aria-labelledby="approve-title">
+      <form class="confirm-card" method="dialog">
+        <p class="eyebrow">ISSUE VOUCHER</p>
+        <h2 id="approve-title">确认已经收到付款？</h2>
+        <p>请按用户邮箱、提交时间与金额在支付宝商家账单中核对到账情况。确认后将立即生成券码，无法撤销。</p>
+        <dl>
+          <div><dt>核验编号</dt><dd id="confirm-reference"></dd></div>
+          <div><dt>用户</dt><dd id="confirm-email"></dd></div>
+          <div><dt>金额</dt><dd id="confirm-amount"></dd></div>
+        </dl>
+        <p class="form-status" id="approve-status" aria-live="polite"></p>
+        <div class="confirm-actions">
+          <button class="button button-secondary" value="cancel" type="submit">取消</button>
+          <button class="button button-primary" id="confirm-approve" value="default" type="button">确认到账并发码</button>
+        </div>
+      </form>
+    </dialog>
+  </body>
+</html>

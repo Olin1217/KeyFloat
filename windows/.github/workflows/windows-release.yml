@@ -1,0 +1,51 @@
+name: Build KeyFloat Windows
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "windows-v*"
+
+jobs:
+  build:
+    runs-on: windows-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: Tools/package-lock.json
+      - name: Prepare icon tooling
+        working-directory: Tools
+        run: npm ci
+      - name: Install Pillow
+        run: python -m pip install pillow
+      - name: Install Inno Setup 6
+        shell: pwsh
+        run: choco install innosetup --yes --no-progress
+      - name: Rebuild optimized icon assets
+        working-directory: Tools
+        run: |
+          node render-svg-icons.js
+          python prepare-windows-icons.py
+      - name: Build, test, publish and package
+        shell: pwsh
+        run: ./scripts/build-release.ps1 -Architecture all
+      - name: Verify release outputs
+        shell: pwsh
+        run: ./scripts/verify-release.ps1 -RequireInstallers
+      - name: Upload Windows installers and portable builds
+        uses: actions/upload-artifact@v4
+        with:
+          name: KeyFloat-Windows-1.0.4
+          path: |
+            artifacts/installer/*.exe
+            artifacts/publish/win-x64/**
+            artifacts/publish/win-arm64/**
+          if-no-files-found: error

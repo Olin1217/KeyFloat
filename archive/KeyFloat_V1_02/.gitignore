@@ -1,0 +1,7 @@
+xcuserdata/
+DerivedData/
+build/
+.build/
+*.xcarchive
+*.dSYM
+.DS_Store

@@ -1,0 +1,545 @@
+{
+  "software": [
+    {
+      "id":"vscode","name":"Visual Studio Code","vendor":"Microsoft","accent":"#007ACC","glyph":"V",
+      "categories":[
+        {"id":"general","zh":"通用与文件","en":"General & File","items":[
+          {"id":"vsc.commands","keys":["⌘","⇧","P"],"zh":"打开命令面板","en":"Show Command Palette","tags":["command"]},
+          {"id":"vsc.quick-open","keys":["⌘","P"],"zh":"快速打开文件","en":"Quick Open file","tags":["file"]},
+          {"id":"vsc.new-file","keys":["⌘","N"],"zh":"新建文件","en":"New file","tags":["file"]},
+          {"id":"vsc.open","keys":["⌘","O"],"zh":"打开文件","en":"Open file","tags":["file"]},
+          {"id":"vsc.save","keys":["⌘","S"],"zh":"保存文件","en":"Save file","tags":["file"]},
+          {"id":"vsc.save-all","keys":["⌥","⌘","S"],"zh":"保存全部文件","en":"Save all files","tags":["file"]},
+          {"id":"vsc.close","keys":["⌘","W"],"zh":"关闭编辑器","en":"Close editor","tags":["file"]},
+          {"id":"vsc.new-window","keys":["⌘","⇧","N"],"zh":"新建窗口","en":"New window","tags":["window"]},
+          {"id":"vsc.settings","keys":["⌘",","],"zh":"打开设置","en":"Open Settings","tags":["settings"]},
+          {"id":"vsc.shortcuts","keys":["⌘","K","⌘","S"],"zh":"打开键盘快捷方式","en":"Open Keyboard Shortcuts","tags":["settings"]}
+        ]},
+        {"id":"edit","zh":"代码编辑","en":"Code Editing","items":[
+          {"id":"vsc.move-line-up","keys":["⌥","↑"],"zh":"上移当前行","en":"Move line up","tags":[]},
+          {"id":"vsc.move-line-down","keys":["⌥","↓"],"zh":"下移当前行","en":"Move line down","tags":[]},
+          {"id":"vsc.copy-line-up","keys":["⌥","⇧","↑"],"zh":"向上复制当前行","en":"Copy line up","tags":[]},
+          {"id":"vsc.copy-line-down","keys":["⌥","⇧","↓"],"zh":"向下复制当前行","en":"Copy line down","tags":[]},
+          {"id":"vsc.delete-line","keys":["⌘","⇧","K"],"zh":"删除当前行","en":"Delete line","tags":[]},
+          {"id":"vsc.insert-below","keys":["⌘","Return"],"zh":"在下方插入一行","en":"Insert line below","tags":[]},
+          {"id":"vsc.insert-above","keys":["⌘","⇧","Return"],"zh":"在上方插入一行","en":"Insert line above","tags":[]},
+          {"id":"vsc.match-bracket","keys":["⌘","⇧","\\"],"zh":"跳转到匹配括号","en":"Jump to matching bracket","tags":[]},
+          {"id":"vsc.indent","keys":["⌘","]"],"zh":"增加行缩进","en":"Indent line","tags":[]},
+          {"id":"vsc.outdent","keys":["⌘","["],"zh":"减少行缩进","en":"Outdent line","tags":[]},
+          {"id":"vsc.comment","keys":["⌘","/"],"zh":"切换行注释","en":"Toggle line comment","tags":[]},
+          {"id":"vsc.block-comment","keys":["⌥","⇧","A"],"zh":"切换块注释","en":"Toggle block comment","tags":[]},
+          {"id":"vsc.format","keys":["⌥","⇧","F"],"zh":"格式化文档","en":"Format document","tags":[]},
+          {"id":"vsc.rename","keys":["F2"],"zh":"重命名符号","en":"Rename symbol","tags":[]},
+          {"id":"vsc.suggest","keys":["⌃","Space"],"zh":"触发代码建议","en":"Trigger suggestion","tags":[]}
+        ]},
+        {"id":"navigation","zh":"导航与搜索","en":"Navigation & Search","items":[
+          {"id":"vsc.goto-line","keys":["⌃","G"],"zh":"转到指定行","en":"Go to line","tags":[]},
+          {"id":"vsc.goto-symbol","keys":["⌘","⇧","O"],"zh":"转到文件中的符号","en":"Go to symbol in file","tags":[]},
+          {"id":"vsc.definition","keys":["F12"],"zh":"转到定义","en":"Go to definition","tags":[]},
+          {"id":"vsc.peek-definition","keys":["⌥","F12"],"zh":"速览定义","en":"Peek definition","tags":[]},
+          {"id":"vsc.references","keys":["⇧","F12"],"zh":"显示引用","en":"Show references","tags":[]},
+          {"id":"vsc.back","keys":["⌃","-"],"zh":"返回上一位置","en":"Navigate back","tags":[]},
+          {"id":"vsc.forward","keys":["⌃","⇧","-"],"zh":"前进到下一位置","en":"Navigate forward","tags":[]},
+          {"id":"vsc.find","keys":["⌘","F"],"zh":"在文件中查找","en":"Find in file","tags":[]},
+          {"id":"vsc.replace","keys":["⌥","⌘","F"],"zh":"在文件中替换","en":"Replace in file","tags":[]},
+          {"id":"vsc.find-next","keys":["⌘","G"],"zh":"查找下一个","en":"Find next","tags":[]},
+          {"id":"vsc.find-prev","keys":["⌘","⇧","G"],"zh":"查找上一个","en":"Find previous","tags":[]},
+          {"id":"vsc.search-all","keys":["⌘","⇧","F"],"zh":"在所有文件中搜索","en":"Search across files","tags":[]},
+          {"id":"vsc.replace-all","keys":["⌘","⇧","H"],"zh":"在所有文件中替换","en":"Replace across files","tags":[]}
+        ]},
+        {"id":"multi-terminal","zh":"多光标与终端","en":"Multi-cursor & Terminal","items":[
+          {"id":"vsc.cursor-up","keys":["⌥","⌘","↑"],"zh":"在上方添加光标","en":"Add cursor above","tags":[]},
+          {"id":"vsc.cursor-down","keys":["⌥","⌘","↓"],"zh":"在下方添加光标","en":"Add cursor below","tags":[]},
+          {"id":"vsc.next-match","keys":["⌘","D"],"zh":"将下一个匹配项加入选择","en":"Add next match to selection","tags":[]},
+          {"id":"vsc.all-matches","keys":["⌘","⇧","L"],"zh":"选择所有匹配项","en":"Select all matching occurrences","tags":[]},
+          {"id":"vsc.undo-cursor","keys":["⌘","U"],"zh":"撤销上一次光标操作","en":"Undo last cursor operation","tags":[]},
+          {"id":"vsc.select-line","keys":["⌘","L"],"zh":"选择当前行","en":"Select current line","tags":[]},
+          {"id":"vsc.terminal","keys":["⌃","`"],"zh":"显示或隐藏终端","en":"Toggle integrated terminal","tags":[]},
+          {"id":"vsc.new-terminal","keys":["⌃","⇧","`"],"zh":"新建集成终端","en":"Create integrated terminal","tags":[]},
+          {"id":"vsc.panel","keys":["⌘","J"],"zh":"显示或隐藏面板","en":"Toggle panel","tags":[]},
+          {"id":"vsc.sidebar","keys":["⌘","B"],"zh":"显示或隐藏侧边栏","en":"Toggle sidebar","tags":[]}
+        ]},
+        {"id":"debug","zh":"运行与调试","en":"Run & Debug","items":[
+          {"id":"vsc.debug-start","keys":["F5"],"zh":"开始或继续调试","en":"Start or continue debugging","tags":[]},
+          {"id":"vsc.run-no-debug","keys":["⌃","F5"],"zh":"运行但不调试","en":"Run without debugging","tags":[]},
+          {"id":"vsc.debug-stop","keys":["⇧","F5"],"zh":"停止调试","en":"Stop debugging","tags":[]},
+          {"id":"vsc.breakpoint","keys":["F9"],"zh":"切换断点","en":"Toggle breakpoint","tags":[]},
+          {"id":"vsc.step-over","keys":["F10"],"zh":"单步跳过","en":"Step over","tags":[]},
+          {"id":"vsc.step-into","keys":["F11"],"zh":"单步进入","en":"Step into","tags":[]},
+          {"id":"vsc.step-out","keys":["⇧","F11"],"zh":"单步跳出","en":"Step out","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"xcode","name":"Xcode","vendor":"Apple","accent":"#147EFB","glyph":"X",
+      "categories":[
+        {"id":"project","zh":"项目与文件","en":"Project & File","items":[
+          {"id":"xcode.new-project","keys":["⌘","⇧","N"],"zh":"新建项目","en":"New project","tags":[]},
+          {"id":"xcode.new-file","keys":["⌘","N"],"zh":"新建文件","en":"New file","tags":[]},
+          {"id":"xcode.open","keys":["⌘","O"],"zh":"打开项目或文件","en":"Open project or file","tags":[]},
+          {"id":"xcode.save","keys":["⌘","S"],"zh":"保存文件","en":"Save file","tags":[]},
+          {"id":"xcode.close","keys":["⌘","W"],"zh":"关闭编辑器标签页","en":"Close editor tab","tags":[]},
+          {"id":"xcode.new-tab","keys":["⌘","T"],"zh":"新建标签页","en":"New tab","tags":[]},
+          {"id":"xcode.open-quickly","keys":["⌘","⇧","O"],"zh":"快速打开文件或符号","en":"Open Quickly","tags":[]},
+          {"id":"xcode.reveal","keys":["⌘","⇧","J"],"zh":"在项目导航器中显示当前文件","en":"Reveal current file in Project Navigator","tags":[]},
+          {"id":"xcode.preferences","keys":["⌘",","],"zh":"打开设置","en":"Open Settings","tags":[]}
+        ]},
+        {"id":"build","zh":"构建与运行","en":"Build & Run","items":[
+          {"id":"xcode.build","keys":["⌘","B"],"zh":"构建项目","en":"Build project","tags":[]},
+          {"id":"xcode.run","keys":["⌘","R"],"zh":"构建并运行","en":"Build and run","tags":[]},
+          {"id":"xcode.test","keys":["⌘","U"],"zh":"运行测试","en":"Run tests","tags":[]},
+          {"id":"xcode.profile","keys":["⌘","I"],"zh":"运行性能分析","en":"Profile project","tags":[]},
+          {"id":"xcode.analyze","keys":["⌘","⇧","B"],"zh":"分析项目","en":"Analyze project","tags":[]},
+          {"id":"xcode.clean","keys":["⌘","⇧","K"],"zh":"清理构建文件夹","en":"Clean build folder","tags":[]},
+          {"id":"xcode.stop","keys":["⌘","."],"zh":"停止运行任务","en":"Stop running task","tags":[]},
+          {"id":"xcode.run-no-build","keys":["⌘","⌃","R"],"zh":"不构建直接运行","en":"Run without building","tags":[]},
+          {"id":"xcode.test-current","keys":["⌃","⌥","⌘","U"],"zh":"测试当前作用域","en":"Test current scope","tags":[]}
+        ]},
+        {"id":"navigation","zh":"导航与界面","en":"Navigation & Interface","items":[
+          {"id":"xcode.definition","keys":["⌘","⌃","J"],"zh":"跳转到定义","en":"Jump to definition","tags":[]},
+          {"id":"xcode.back","keys":["⌘","⌃","←"],"zh":"返回上一位置","en":"Go back","tags":[]},
+          {"id":"xcode.forward","keys":["⌘","⌃","→"],"zh":"前进到下一位置","en":"Go forward","tags":[]},
+          {"id":"xcode.project-nav","keys":["⌘","1"],"zh":"打开项目导航器","en":"Show Project Navigator","tags":[]},
+          {"id":"xcode.source-control-nav","keys":["⌘","2"],"zh":"打开源代码管理导航器","en":"Show Source Control Navigator","tags":[]},
+          {"id":"xcode.find-nav","keys":["⌘","3"],"zh":"打开查找导航器","en":"Show Find Navigator","tags":[]},
+          {"id":"xcode.issue-nav","keys":["⌘","5"],"zh":"打开问题导航器","en":"Show Issue Navigator","tags":[]},
+          {"id":"xcode.debug-nav","keys":["⌘","7"],"zh":"打开调试导航器","en":"Show Debug Navigator","tags":[]},
+          {"id":"xcode.navigator","keys":["⌘","0"],"zh":"显示或隐藏导航器","en":"Toggle Navigator area","tags":[]},
+          {"id":"xcode.inspector","keys":["⌘","⌥","0"],"zh":"显示或隐藏检查器","en":"Toggle Inspector area","tags":[]},
+          {"id":"xcode.debug-area","keys":["⌘","⇧","Y"],"zh":"显示或隐藏调试区","en":"Toggle Debug area","tags":[]},
+          {"id":"xcode.canvas","keys":["⌘","⌥","Return"],"zh":"显示或隐藏预览画布","en":"Toggle preview canvas","tags":[]}
+        ]},
+        {"id":"editing","zh":"代码编辑","en":"Code Editing","items":[
+          {"id":"xcode.find","keys":["⌘","F"],"zh":"在文件中查找","en":"Find in file","tags":[]},
+          {"id":"xcode.find-next","keys":["⌘","G"],"zh":"查找下一个","en":"Find next","tags":[]},
+          {"id":"xcode.find-prev","keys":["⌘","⇧","G"],"zh":"查找上一个","en":"Find previous","tags":[]},
+          {"id":"xcode.comment","keys":["⌘","/"],"zh":"切换注释","en":"Toggle comments","tags":[]},
+          {"id":"xcode.reindent","keys":["⌃","I"],"zh":"重新缩进选中代码","en":"Re-indent selected code","tags":[]},
+          {"id":"xcode.move-line-up","keys":["⌘","⌥","["],"zh":"上移当前行","en":"Move line up","tags":[]},
+          {"id":"xcode.move-line-down","keys":["⌘","⌥","]"],"zh":"下移当前行","en":"Move line down","tags":[]},
+          {"id":"xcode.actions","keys":["⌘","⇧","A"],"zh":"显示代码操作","en":"Show code actions","tags":[]},
+          {"id":"xcode.completion","keys":["Esc"],"zh":"显示代码补全","en":"Show code completion","tags":[]},
+          {"id":"xcode.edit-scope","keys":["⌘","⌃","E"],"zh":"编辑作用域中的所有匹配项","en":"Edit all in scope","tags":[]},
+          {"id":"xcode.balance-delimiters","keys":["⌘","⇧","E"],"zh":"选择匹配的分隔范围","en":"Balance delimiters","tags":[]}
+        ]},
+        {"id":"debug","zh":"调试","en":"Debugging","items":[
+          {"id":"xcode.breakpoint","keys":["⌘","\\"],"zh":"添加或移除断点","en":"Add or remove breakpoint","tags":[]},
+          {"id":"xcode.breakpoints-toggle","keys":["⌘","Y"],"zh":"启用或停用所有断点","en":"Activate or deactivate breakpoints","tags":[]},
+          {"id":"xcode.continue","keys":["⌃","⌘","Y"],"zh":"继续程序执行","en":"Continue program execution","tags":[]},
+          {"id":"xcode.step-over","keys":["F6"],"zh":"单步跳过","en":"Step over","tags":[]},
+          {"id":"xcode.step-into","keys":["F7"],"zh":"单步进入","en":"Step into","tags":[]},
+          {"id":"xcode.step-out","keys":["F8"],"zh":"单步跳出","en":"Step out","tags":[]},
+          {"id":"xcode.view-memory","keys":["⌘","⇧","M"],"zh":"打开内存图调试器","en":"Open Memory Graph Debugger","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"androidstudio","name":"Android Studio","vendor":"Google","accent":"#3DDC84","glyph":"AS",
+      "categories":[
+        {"id":"search","zh":"搜索与导航","en":"Search & Navigate","items":[
+          {"id":"as.search-everywhere","keys":["⇧","⇧"],"zh":"全局搜索","en":"Search everywhere","tags":[]},
+          {"id":"as.find-action","keys":["⌘","⇧","A"],"zh":"查找操作","en":"Find action","tags":[]},
+          {"id":"as.class","keys":["⌘","O"],"zh":"转到类","en":"Go to class","tags":[]},
+          {"id":"as.file","keys":["⌘","⇧","O"],"zh":"转到文件","en":"Go to file","tags":[]},
+          {"id":"as.symbol","keys":["⌘","⌥","O"],"zh":"转到符号","en":"Go to symbol","tags":[]},
+          {"id":"as.recent","keys":["⌘","E"],"zh":"显示最近文件","en":"Show recent files","tags":[]},
+          {"id":"as.recent-edits","keys":["⌘","⇧","E"],"zh":"显示最近编辑位置","en":"Show recently edited files","tags":[]},
+          {"id":"as.line","keys":["⌘","L"],"zh":"转到指定行","en":"Go to line","tags":[]},
+          {"id":"as.definition","keys":["⌘","B"],"zh":"转到声明","en":"Go to declaration","tags":[]},
+          {"id":"as.implementation","keys":["⌘","⌥","B"],"zh":"转到实现","en":"Go to implementation","tags":[]},
+          {"id":"as.usages","keys":["⌥","F7"],"zh":"查找用法","en":"Find usages","tags":[]},
+          {"id":"as.back","keys":["⌘","["],"zh":"返回上一位置","en":"Navigate back","tags":[]},
+          {"id":"as.forward","keys":["⌘","]"],"zh":"前进到下一位置","en":"Navigate forward","tags":[]}
+        ]},
+        {"id":"edit","zh":"编辑与重构","en":"Edit & Refactor","items":[
+          {"id":"as.complete","keys":["⌃","Space"],"zh":"基础代码补全","en":"Basic code completion","tags":[]},
+          {"id":"as.smart-complete","keys":["⌃","⇧","Space"],"zh":"智能代码补全","en":"Smart code completion","tags":[]},
+          {"id":"as.complete-statement","keys":["⌘","⇧","Return"],"zh":"完成当前语句","en":"Complete current statement","tags":[]},
+          {"id":"as.intention","keys":["⌥","Return"],"zh":"显示意图操作和快速修复","en":"Show intention actions and quick fixes","tags":[]},
+          {"id":"as.reformat","keys":["⌘","⌥","L"],"zh":"重新格式化代码","en":"Reformat code","tags":[]},
+          {"id":"as.imports","keys":["⌃","⌥","O"],"zh":"优化导入","en":"Optimize imports","tags":[]},
+          {"id":"as.duplicate","keys":["⌘","D"],"zh":"复制当前行或选择","en":"Duplicate line or selection","tags":[]},
+          {"id":"as.delete-line","keys":["⌘","Delete"],"zh":"删除当前行","en":"Delete current line","tags":[]},
+          {"id":"as.comment","keys":["⌘","/"],"zh":"切换行注释","en":"Toggle line comment","tags":[]},
+          {"id":"as.block-comment","keys":["⌘","⌥","/"],"zh":"切换块注释","en":"Toggle block comment","tags":[]},
+          {"id":"as.rename","keys":["⇧","F6"],"zh":"重命名","en":"Rename","tags":[]},
+          {"id":"as.refactor","keys":["⌃","T"],"zh":"打开重构菜单","en":"Open refactor menu","tags":[]},
+          {"id":"as.extract-method","keys":["⌘","⌥","M"],"zh":"提取方法","en":"Extract method","tags":[]},
+          {"id":"as.extract-variable","keys":["⌘","⌥","V"],"zh":"提取变量","en":"Extract variable","tags":[]}
+        ]},
+        {"id":"run","zh":"构建与调试","en":"Build & Debug","items":[
+          {"id":"as.run","keys":["⌃","R"],"zh":"运行应用","en":"Run application","tags":[]},
+          {"id":"as.debug","keys":["⌃","D"],"zh":"调试应用","en":"Debug application","tags":[]},
+          {"id":"as.stop","keys":["⌘","F2"],"zh":"停止运行","en":"Stop running","tags":[]},
+          {"id":"as.build","keys":["⌘","F9"],"zh":"构建项目","en":"Build project","tags":[]},
+          {"id":"as.breakpoint","keys":["⌘","F8"],"zh":"切换行断点","en":"Toggle line breakpoint","tags":[]},
+          {"id":"as.step-over","keys":["F8"],"zh":"单步跳过","en":"Step over","tags":[]},
+          {"id":"as.step-into","keys":["F7"],"zh":"单步进入","en":"Step into","tags":[]},
+          {"id":"as.smart-step","keys":["⇧","F7"],"zh":"智能单步进入","en":"Smart step into","tags":[]},
+          {"id":"as.step-out","keys":["⇧","F8"],"zh":"单步跳出","en":"Step out","tags":[]},
+          {"id":"as.resume","keys":["⌥","⌘","R"],"zh":"继续程序执行","en":"Resume program","tags":[]},
+          {"id":"as.settings","keys":["⌘",","],"zh":"打开设置","en":"Open Settings","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"intellij","name":"IntelliJ IDEA","vendor":"JetBrains","accent":"#FE315D","glyph":"IJ",
+      "categories":[
+        {"id":"search","zh":"搜索与导航","en":"Search & Navigate","items":[
+          {"id":"idea.search-everywhere","keys":["⇧","⇧"],"zh":"全局搜索","en":"Search everywhere","tags":[]},
+          {"id":"idea.find-action","keys":["⌘","⇧","A"],"zh":"查找操作","en":"Find action","tags":[]},
+          {"id":"idea.class","keys":["⌘","O"],"zh":"转到类","en":"Go to class","tags":[]},
+          {"id":"idea.file","keys":["⌘","⇧","O"],"zh":"转到文件","en":"Go to file","tags":[]},
+          {"id":"idea.symbol","keys":["⌘","⌥","O"],"zh":"转到符号","en":"Go to symbol","tags":[]},
+          {"id":"idea.recent","keys":["⌘","E"],"zh":"显示最近文件","en":"Show recent files","tags":[]},
+          {"id":"idea.recent-edits","keys":["⌘","⇧","E"],"zh":"显示最近编辑位置","en":"Show recent edits","tags":[]},
+          {"id":"idea.line","keys":["⌘","L"],"zh":"转到指定行","en":"Go to line","tags":[]},
+          {"id":"idea.declaration","keys":["⌘","B"],"zh":"转到声明","en":"Go to declaration","tags":[]},
+          {"id":"idea.implementation","keys":["⌘","⌥","B"],"zh":"转到实现","en":"Go to implementation","tags":[]},
+          {"id":"idea.usages","keys":["⌥","F7"],"zh":"查找用法","en":"Find usages","tags":[]},
+          {"id":"idea.hierarchy","keys":["⌃","H"],"zh":"显示类型层级","en":"Show type hierarchy","tags":[]},
+          {"id":"idea.back","keys":["⌘","["],"zh":"返回上一位置","en":"Navigate back","tags":[]},
+          {"id":"idea.forward","keys":["⌘","]"],"zh":"前进到下一位置","en":"Navigate forward","tags":[]}
+        ]},
+        {"id":"edit","zh":"编辑与重构","en":"Edit & Refactor","items":[
+          {"id":"idea.complete","keys":["⌃","Space"],"zh":"基础代码补全","en":"Basic code completion","tags":[]},
+          {"id":"idea.smart-complete","keys":["⌃","⇧","Space"],"zh":"智能代码补全","en":"Smart code completion","tags":[]},
+          {"id":"idea.statement","keys":["⌘","⇧","Return"],"zh":"完成当前语句","en":"Complete current statement","tags":[]},
+          {"id":"idea.intention","keys":["⌥","Return"],"zh":"显示意图操作","en":"Show intention actions","tags":[]},
+          {"id":"idea.reformat","keys":["⌘","⌥","L"],"zh":"重新格式化代码","en":"Reformat code","tags":[]},
+          {"id":"idea.imports","keys":["⌃","⌥","O"],"zh":"优化导入","en":"Optimize imports","tags":[]},
+          {"id":"idea.duplicate","keys":["⌘","D"],"zh":"复制当前行或选择","en":"Duplicate line or selection","tags":[]},
+          {"id":"idea.delete-line","keys":["⌘","Delete"],"zh":"删除当前行","en":"Delete current line","tags":[]},
+          {"id":"idea.comment","keys":["⌘","/"],"zh":"切换行注释","en":"Toggle line comment","tags":[]},
+          {"id":"idea.rename","keys":["⇧","F6"],"zh":"重命名","en":"Rename","tags":[]},
+          {"id":"idea.refactor","keys":["⌃","T"],"zh":"打开重构菜单","en":"Open refactor menu","tags":[]},
+          {"id":"idea.extract-method","keys":["⌘","⌥","M"],"zh":"提取方法","en":"Extract method","tags":[]},
+          {"id":"idea.extract-variable","keys":["⌘","⌥","V"],"zh":"提取变量","en":"Extract variable","tags":[]},
+          {"id":"idea.change-signature","keys":["⌘","F6"],"zh":"更改方法签名","en":"Change method signature","tags":[]}
+        ]},
+        {"id":"run","zh":"运行与调试","en":"Run & Debug","items":[
+          {"id":"idea.run","keys":["⌃","R"],"zh":"运行当前配置","en":"Run current configuration","tags":[]},
+          {"id":"idea.debug","keys":["⌃","D"],"zh":"调试当前配置","en":"Debug current configuration","tags":[]},
+          {"id":"idea.stop","keys":["⌘","F2"],"zh":"停止运行","en":"Stop running","tags":[]},
+          {"id":"idea.build","keys":["⌘","F9"],"zh":"构建项目","en":"Build project","tags":[]},
+          {"id":"idea.breakpoint","keys":["⌘","F8"],"zh":"切换行断点","en":"Toggle line breakpoint","tags":[]},
+          {"id":"idea.step-over","keys":["F8"],"zh":"单步跳过","en":"Step over","tags":[]},
+          {"id":"idea.step-into","keys":["F7"],"zh":"单步进入","en":"Step into","tags":[]},
+          {"id":"idea.smart-step","keys":["⇧","F7"],"zh":"智能单步进入","en":"Smart step into","tags":[]},
+          {"id":"idea.step-out","keys":["⇧","F8"],"zh":"单步跳出","en":"Step out","tags":[]},
+          {"id":"idea.resume","keys":["⌥","⌘","R"],"zh":"继续程序执行","en":"Resume program","tags":[]},
+          {"id":"idea.settings","keys":["⌘",","],"zh":"打开设置","en":"Open Settings","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"jupyter","name":"JupyterLab","vendor":"Project Jupyter","accent":"#F37626","glyph":"J",
+      "categories":[
+        {"id":"command","zh":"命令模式","en":"Command Mode","items":[
+          {"id":"jupyter.command-mode","keys":["Esc"],"zh":"进入命令模式","en":"Enter command mode","tags":[]},
+          {"id":"jupyter.edit-mode","keys":["Return"],"zh":"进入编辑模式","en":"Enter edit mode","tags":[]},
+          {"id":"jupyter.run-next","keys":["⇧","Return"],"zh":"运行单元格并选择下一个","en":"Run cell and select next","tags":[]},
+          {"id":"jupyter.run","keys":["⌘","Return"],"zh":"运行当前单元格","en":"Run current cell","tags":[]},
+          {"id":"jupyter.run-insert","keys":["⌥","Return"],"zh":"运行单元格并在下方插入","en":"Run cell and insert below","tags":[]},
+          {"id":"jupyter.insert-above","keys":["A"],"zh":"在上方插入单元格","en":"Insert cell above","tags":[]},
+          {"id":"jupyter.insert-below","keys":["B"],"zh":"在下方插入单元格","en":"Insert cell below","tags":[]},
+          {"id":"jupyter.delete-cell","keys":["D","D"],"zh":"删除选中单元格","en":"Delete selected cells","tags":[]},
+          {"id":"jupyter.undo-delete","keys":["Z"],"zh":"撤销删除单元格","en":"Undo cell deletion","tags":[]},
+          {"id":"jupyter.cut-cell","keys":["X"],"zh":"剪切单元格","en":"Cut selected cells","tags":[]},
+          {"id":"jupyter.copy-cell","keys":["C"],"zh":"复制单元格","en":"Copy selected cells","tags":[]},
+          {"id":"jupyter.paste-below","keys":["V"],"zh":"在下方粘贴单元格","en":"Paste cells below","tags":[]},
+          {"id":"jupyter.paste-above","keys":["⇧","V"],"zh":"在上方粘贴单元格","en":"Paste cells above","tags":[]},
+          {"id":"jupyter.merge","keys":["⇧","M"],"zh":"合并选中单元格","en":"Merge selected cells","tags":[]},
+          {"id":"jupyter.code","keys":["Y"],"zh":"切换为代码单元格","en":"Change to code cell","tags":[]},
+          {"id":"jupyter.markdown","keys":["M"],"zh":"切换为文本单元格","en":"Change to Markdown cell","tags":[]},
+          {"id":"jupyter.raw","keys":["R"],"zh":"切换为原始单元格","en":"Change to raw cell","tags":[]},
+          {"id":"jupyter.heading","keys":["1–6"],"zh":"设置文本标题级别","en":"Set Markdown heading level","tags":[]}
+        ]},
+        {"id":"cell-nav","zh":"单元格导航","en":"Cell Navigation","items":[
+          {"id":"jupyter.up","keys":["K"],"zh":"选择上一个单元格","en":"Select previous cell","tags":[]},
+          {"id":"jupyter.down","keys":["J"],"zh":"选择下一个单元格","en":"Select next cell","tags":[]},
+          {"id":"jupyter.extend-up","keys":["⇧","K"],"zh":"向上扩展单元格选择","en":"Extend cell selection upward","tags":[]},
+          {"id":"jupyter.extend-down","keys":["⇧","J"],"zh":"向下扩展单元格选择","en":"Extend cell selection downward","tags":[]},
+          {"id":"jupyter.select-all","keys":["⌘","A"],"zh":"选择全部单元格","en":"Select all cells","tags":[]},
+          {"id":"jupyter.line-numbers","keys":["L"],"zh":"切换行号","en":"Toggle line numbers","tags":[]},
+          {"id":"jupyter.output","keys":["O"],"zh":"切换输出显示","en":"Toggle output display","tags":[]},
+          {"id":"jupyter.shortcuts","keys":["H"],"zh":"显示键盘快捷方式","en":"Show keyboard shortcuts","tags":[]},
+          {"id":"jupyter.interrupt","keys":["I","I"],"zh":"中断内核","en":"Interrupt kernel","tags":[]},
+          {"id":"jupyter.restart","keys":["0","0"],"zh":"重启内核","en":"Restart kernel","tags":[]}
+        ]},
+        {"id":"edit","zh":"编辑模式","en":"Edit Mode","items":[
+          {"id":"jupyter.complete","keys":["Tab"],"zh":"代码补全或缩进","en":"Code completion or indent","tags":[]},
+          {"id":"jupyter.tooltip","keys":["⇧","Tab"],"zh":"显示函数提示","en":"Show function tooltip","tags":[]},
+          {"id":"jupyter.indent","keys":["⌘","]"],"zh":"增加缩进","en":"Indent selection","tags":[]},
+          {"id":"jupyter.outdent","keys":["⌘","["],"zh":"减少缩进","en":"Dedent selection","tags":[]},
+          {"id":"jupyter.comment","keys":["⌘","/"],"zh":"切换注释","en":"Toggle comment","tags":[]},
+          {"id":"jupyter.delete-line","keys":["⌘","Delete"],"zh":"删除当前行","en":"Delete current line","tags":[]},
+          {"id":"jupyter.doc-start","keys":["⌘","↑"],"zh":"移到单元格开头","en":"Move to cell start","tags":[]},
+          {"id":"jupyter.doc-end","keys":["⌘","↓"],"zh":"移到单元格结尾","en":"Move to cell end","tags":[]},
+          {"id":"jupyter.word-left","keys":["⌥","←"],"zh":"向左移动一个单词","en":"Move one word left","tags":[]},
+          {"id":"jupyter.word-right","keys":["⌥","→"],"zh":"向右移动一个单词","en":"Move one word right","tags":[]},
+          {"id":"jupyter.find","keys":["⌘","F"],"zh":"查找内容","en":"Find content","tags":[]},
+          {"id":"jupyter.save","keys":["⌘","S"],"zh":"保存笔记本","en":"Save notebook","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"spss","name":"IBM SPSS Statistics","vendor":"IBM","accent":"#1F70C1","glyph":"S",
+      "categories":[
+        {"id":"file-edit","zh":"文件与编辑","en":"File & Edit","items":[
+          {"id":"spss.new","keys":["⌘","N"],"zh":"新建数据或语法文件","en":"New data or syntax file","tags":[]},
+          {"id":"spss.open","keys":["⌘","O"],"zh":"打开文件","en":"Open file","tags":[]},
+          {"id":"spss.save","keys":["⌘","S"],"zh":"保存文件","en":"Save file","tags":[]},
+          {"id":"spss.print","keys":["⌘","P"],"zh":"打印","en":"Print","tags":[]},
+          {"id":"spss.undo","keys":["⌘","Z"],"zh":"撤销","en":"Undo","tags":[]},
+          {"id":"spss.redo","keys":["⌘","Y"],"zh":"重做","en":"Redo","tags":[]},
+          {"id":"spss.cut","keys":["⌘","X"],"zh":"剪切","en":"Cut","tags":[]},
+          {"id":"spss.copy","keys":["⌘","C"],"zh":"复制","en":"Copy","tags":[]},
+          {"id":"spss.paste","keys":["⌘","V"],"zh":"粘贴","en":"Paste","tags":[]},
+          {"id":"spss.select-all","keys":["⌘","A"],"zh":"全选","en":"Select all","tags":[]},
+          {"id":"spss.find","keys":["⌘","F"],"zh":"查找","en":"Find","tags":[]}
+        ]},
+        {"id":"data","zh":"数据编辑器","en":"Data Editor","items":[
+          {"id":"spss.goto-case","keys":["⌘","G"],"zh":"转到指定个案","en":"Go to case","tags":[]},
+          {"id":"spss.next-cell","keys":["Tab"],"zh":"移到下一个单元格","en":"Move to next cell","tags":[]},
+          {"id":"spss.prev-cell","keys":["⇧","Tab"],"zh":"移到上一个单元格","en":"Move to previous cell","tags":[]},
+          {"id":"spss.cell-down","keys":["Return"],"zh":"完成输入并下移","en":"Complete entry and move down","tags":[]},
+          {"id":"spss.data-view","keys":["⌘","1"],"zh":"切换到数据视图","en":"Switch to Data View","tags":[]},
+          {"id":"spss.variable-view","keys":["⌘","2"],"zh":"切换到变量视图","en":"Switch to Variable View","tags":[]},
+          {"id":"spss.insert-case","keys":["⌘","⇧","I"],"zh":"插入个案","en":"Insert case","tags":[]},
+          {"id":"spss.insert-variable","keys":["⌘","⌥","I"],"zh":"插入变量","en":"Insert variable","tags":[]}
+        ]},
+        {"id":"syntax","zh":"语法编辑器","en":"Syntax Editor","items":[
+          {"id":"spss.run-selection","keys":["⌘","R"],"zh":"运行选中语法","en":"Run selected syntax","tags":[]},
+          {"id":"spss.run-all","keys":["⌘","⇧","R"],"zh":"运行全部语法","en":"Run all syntax","tags":[]},
+          {"id":"spss.comment","keys":["⌘","/"],"zh":"切换语法注释","en":"Toggle syntax comment","tags":[]},
+          {"id":"spss.complete","keys":["⌃","Space"],"zh":"显示语法补全","en":"Show syntax completion","tags":[]},
+          {"id":"spss.indent","keys":["Tab"],"zh":"增加缩进","en":"Indent syntax","tags":[]},
+          {"id":"spss.outdent","keys":["⇧","Tab"],"zh":"减少缩进","en":"Outdent syntax","tags":[]},
+          {"id":"spss.cancel","keys":["Esc"],"zh":"取消当前操作","en":"Cancel current operation","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"rstudio","name":"RStudio","vendor":"Posit","accent":"#75AADB","glyph":"R",
+      "categories":[
+        {"id":"source","zh":"源码编辑器","en":"Source Editor","items":[
+          {"id":"rstudio.new-script","keys":["⌘","⇧","N"],"zh":"新建脚本","en":"New R script","tags":[]},
+          {"id":"rstudio.open","keys":["⌘","O"],"zh":"打开文件","en":"Open file","tags":[]},
+          {"id":"rstudio.save","keys":["⌘","S"],"zh":"保存文件","en":"Save file","tags":[]},
+          {"id":"rstudio.find","keys":["⌘","F"],"zh":"在文件中查找","en":"Find in file","tags":[]},
+          {"id":"rstudio.replace","keys":["⌘","⇧","F"],"zh":"在文件中查找并替换","en":"Find and replace in file","tags":[]},
+          {"id":"rstudio.comment","keys":["⌘","⇧","C"],"zh":"切换注释","en":"Toggle comment","tags":[]},
+          {"id":"rstudio.reindent","keys":["⌘","I"],"zh":"重新缩进代码","en":"Re-indent code","tags":[]},
+          {"id":"rstudio.format","keys":["⌘","⇧","A"],"zh":"重新格式化代码","en":"Reformat code","tags":[]},
+          {"id":"rstudio.completion","keys":["Tab"],"zh":"代码补全","en":"Code completion","tags":[]},
+          {"id":"rstudio.definition","keys":["F2"],"zh":"转到函数定义","en":"Go to function definition","tags":[]},
+          {"id":"rstudio.document-outline","keys":["⌘","⇧","O"],"zh":"显示文档大纲","en":"Show document outline","tags":[]}
+        ]},
+        {"id":"run","zh":"运行代码","en":"Run Code","items":[
+          {"id":"rstudio.run-selection","keys":["⌘","Return"],"zh":"运行当前行或选中代码","en":"Run current line or selection","tags":[]},
+          {"id":"rstudio.run-document","keys":["⌘","⌥","R"],"zh":"运行整个文档","en":"Run entire document","tags":[]},
+          {"id":"rstudio.source","keys":["⌘","⇧","S"],"zh":"载入当前文档","en":"Source current document","tags":[]},
+          {"id":"rstudio.source-echo","keys":["⌘","⇧","Return"],"zh":"载入文档并显示命令","en":"Source document with echo","tags":[]},
+          {"id":"rstudio.assignment","keys":["⌥","-"],"zh":"插入赋值运算符","en":"Insert assignment operator","tags":[]},
+          {"id":"rstudio.pipe","keys":["⌘","⇧","M"],"zh":"插入管道运算符","en":"Insert pipe operator","tags":[]},
+          {"id":"rstudio.section","keys":["⌘","⇧","R"],"zh":"插入代码节","en":"Insert code section","tags":[]},
+          {"id":"rstudio.knit","keys":["⌘","⇧","K"],"zh":"生成当前文档","en":"Knit current document","tags":[]},
+          {"id":"rstudio.render","keys":["⌘","⇧","K"],"zh":"渲染当前文档","en":"Render current document","tags":[]}
+        ]},
+        {"id":"console","zh":"控制台与界面","en":"Console & Interface","items":[
+          {"id":"rstudio.focus-source","keys":["⌃","1"],"zh":"聚焦源码编辑器","en":"Focus Source editor","tags":[]},
+          {"id":"rstudio.focus-console","keys":["⌃","2"],"zh":"聚焦控制台","en":"Focus Console","tags":[]},
+          {"id":"rstudio.clear-console","keys":["⌃","L"],"zh":"清除控制台","en":"Clear Console","tags":[]},
+          {"id":"rstudio.interrupt","keys":["Esc"],"zh":"中断当前命令","en":"Interrupt current command","tags":[]},
+          {"id":"rstudio.restart","keys":["⌘","⇧","F10"],"zh":"重启运行环境","en":"Restart R session","tags":[]},
+          {"id":"rstudio.previous-command","keys":["↑"],"zh":"调出上一条命令","en":"Recall previous command","tags":[]},
+          {"id":"rstudio.next-command","keys":["↓"],"zh":"调出下一条命令","en":"Recall next command","tags":[]},
+          {"id":"rstudio.history","keys":["⌘","4"],"zh":"打开命令历史","en":"Show History pane","tags":[]},
+          {"id":"rstudio.environment","keys":["⌘","8"],"zh":"打开环境窗格","en":"Show Environment pane","tags":[]},
+          {"id":"rstudio.files","keys":["⌘","5"],"zh":"打开文件窗格","en":"Show Files pane","tags":[]},
+          {"id":"rstudio.help","keys":["F1"],"zh":"打开所选内容帮助","en":"Open help for selection","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"chrome","name":"Google Chrome","vendor":"Google","accent":"#4285F4","glyph":"C",
+      "categories":[
+        {"id":"tabs","zh":"标签页与窗口","en":"Tabs & Windows","items":[
+          {"id":"chrome.new-tab","keys":["⌘","T"],"zh":"新建标签页","en":"New tab","tags":[]},
+          {"id":"chrome.new-window","keys":["⌘","N"],"zh":"新建窗口","en":"New window","tags":[]},
+          {"id":"chrome.incognito","keys":["⌘","⇧","N"],"zh":"新建无痕窗口","en":"New Incognito window","tags":[]},
+          {"id":"chrome.close-tab","keys":["⌘","W"],"zh":"关闭当前标签页","en":"Close current tab","tags":[]},
+          {"id":"chrome.reopen-tab","keys":["⌘","⇧","T"],"zh":"重新打开关闭的标签页","en":"Reopen closed tab","tags":[]},
+          {"id":"chrome.next-tab","keys":["⌃","Tab"],"zh":"切换到下一个标签页","en":"Switch to next tab","tags":[]},
+          {"id":"chrome.prev-tab","keys":["⌃","⇧","Tab"],"zh":"切换到上一个标签页","en":"Switch to previous tab","tags":[]},
+          {"id":"chrome.tab-number","keys":["⌘","1–8"],"zh":"切换到指定编号标签页","en":"Switch to a numbered tab","tags":[]},
+          {"id":"chrome.last-tab","keys":["⌘","9"],"zh":"切换到最后一个标签页","en":"Switch to last tab","tags":[]},
+          {"id":"chrome.minimize","keys":["⌘","M"],"zh":"最小化窗口","en":"Minimize window","tags":[]}
+        ]},
+        {"id":"navigation","zh":"页面导航","en":"Page Navigation","items":[
+          {"id":"chrome.address","keys":["⌘","L"],"zh":"聚焦地址栏","en":"Focus address bar","tags":[]},
+          {"id":"chrome.back","keys":["⌘","["],"zh":"返回上一页","en":"Go back","tags":[]},
+          {"id":"chrome.forward","keys":["⌘","]"],"zh":"前进到下一页","en":"Go forward","tags":[]},
+          {"id":"chrome.reload","keys":["⌘","R"],"zh":"重新加载页面","en":"Reload page","tags":[]},
+          {"id":"chrome.hard-reload","keys":["⌘","⇧","R"],"zh":"忽略缓存重新加载","en":"Reload without cache","tags":[]},
+          {"id":"chrome.stop","keys":["Esc"],"zh":"停止加载页面","en":"Stop loading page","tags":[]},
+          {"id":"chrome.find","keys":["⌘","F"],"zh":"在页面中查找","en":"Find on page","tags":[]},
+          {"id":"chrome.find-next","keys":["⌘","G"],"zh":"查找下一个匹配项","en":"Find next match","tags":[]},
+          {"id":"chrome.find-prev","keys":["⌘","⇧","G"],"zh":"查找上一个匹配项","en":"Find previous match","tags":[]},
+          {"id":"chrome.home","keys":["⌘","⇧","H"],"zh":"打开主页","en":"Open home page","tags":[]}
+        ]},
+        {"id":"tools","zh":"页面与工具","en":"Page & Tools","items":[
+          {"id":"chrome.bookmark","keys":["⌘","D"],"zh":"收藏当前页面","en":"Bookmark current page","tags":[]},
+          {"id":"chrome.bookmarks","keys":["⌘","⌥","B"],"zh":"显示或隐藏书签栏","en":"Toggle bookmarks bar","tags":[]},
+          {"id":"chrome.history","keys":["⌘","Y"],"zh":"打开历史记录","en":"Open History","tags":[]},
+          {"id":"chrome.downloads","keys":["⌘","⇧","J"],"zh":"打开下载内容","en":"Open Downloads","tags":[]},
+          {"id":"chrome.clear-data","keys":["⌘","⇧","Delete"],"zh":"打开清除浏览数据","en":"Open Clear Browsing Data","tags":[]},
+          {"id":"chrome.devtools","keys":["⌘","⌥","I"],"zh":"打开开发者工具","en":"Open Developer Tools","tags":[]},
+          {"id":"chrome.source","keys":["⌘","⌥","U"],"zh":"查看页面源代码","en":"View page source","tags":[]},
+          {"id":"chrome.print","keys":["⌘","P"],"zh":"打印页面","en":"Print page","tags":[]},
+          {"id":"chrome.save","keys":["⌘","S"],"zh":"保存页面","en":"Save page","tags":[]},
+          {"id":"chrome.zoom-in","keys":["⌘","+"],"zh":"放大页面","en":"Zoom in","tags":[]},
+          {"id":"chrome.zoom-out","keys":["⌘","-"],"zh":"缩小页面","en":"Zoom out","tags":[]},
+          {"id":"chrome.zoom-reset","keys":["⌘","0"],"zh":"恢复默认缩放","en":"Reset zoom","tags":[]},
+          {"id":"chrome.fullscreen","keys":["⌃","⌘","F"],"zh":"切换全屏","en":"Toggle full screen","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"safari","name":"Safari","vendor":"Apple","accent":"#0FB5EE","glyph":"S",
+      "categories":[
+        {"id":"tabs","zh":"标签页与窗口","en":"Tabs & Windows","items":[
+          {"id":"safari.new-tab","keys":["⌘","T"],"zh":"新建标签页","en":"New tab","tags":[]},
+          {"id":"safari.new-window","keys":["⌘","N"],"zh":"新建窗口","en":"New window","tags":[]},
+          {"id":"safari.private","keys":["⌘","⇧","N"],"zh":"新建无痕浏览窗口","en":"New Private Window","tags":[]},
+          {"id":"safari.close-tab","keys":["⌘","W"],"zh":"关闭当前标签页","en":"Close current tab","tags":[]},
+          {"id":"safari.reopen-tab","keys":["⌘","⇧","T"],"zh":"重新打开关闭的标签页","en":"Reopen last closed tab","tags":[]},
+          {"id":"safari.next-tab","keys":["⌃","Tab"],"zh":"切换到下一个标签页","en":"Switch to next tab","tags":[]},
+          {"id":"safari.prev-tab","keys":["⌃","⇧","Tab"],"zh":"切换到上一个标签页","en":"Switch to previous tab","tags":[]},
+          {"id":"safari.tab-overview","keys":["⌘","⇧","\\"],"zh":"显示标签页概览","en":"Show Tab Overview","tags":[]},
+          {"id":"safari.minimize","keys":["⌘","M"],"zh":"最小化窗口","en":"Minimize window","tags":[]}
+        ]},
+        {"id":"navigation","zh":"页面导航","en":"Page Navigation","items":[
+          {"id":"safari.address","keys":["⌘","L"],"zh":"聚焦智能搜索栏","en":"Focus Smart Search field","tags":[]},
+          {"id":"safari.back","keys":["⌘","["],"zh":"返回上一页","en":"Go back","tags":[]},
+          {"id":"safari.forward","keys":["⌘","]"],"zh":"前进到下一页","en":"Go forward","tags":[]},
+          {"id":"safari.reload","keys":["⌘","R"],"zh":"重新加载页面","en":"Reload page","tags":[]},
+          {"id":"safari.stop","keys":["Esc"],"zh":"停止加载页面","en":"Stop loading page","tags":[]},
+          {"id":"safari.find","keys":["⌘","F"],"zh":"在页面中查找","en":"Find on page","tags":[]},
+          {"id":"safari.find-next","keys":["⌘","G"],"zh":"查找下一个匹配项","en":"Find next match","tags":[]},
+          {"id":"safari.find-prev","keys":["⌘","⇧","G"],"zh":"查找上一个匹配项","en":"Find previous match","tags":[]},
+          {"id":"safari.home","keys":["⌘","⇧","H"],"zh":"打开主页","en":"Open home page","tags":[]}
+        ]},
+        {"id":"tools","zh":"书签与工具","en":"Bookmarks & Tools","items":[
+          {"id":"safari.bookmark","keys":["⌘","D"],"zh":"添加书签","en":"Add bookmark","tags":[]},
+          {"id":"safari.sidebar","keys":["⌘","⇧","L"],"zh":"显示或隐藏侧边栏","en":"Toggle sidebar","tags":[]},
+          {"id":"safari.history","keys":["⌘","Y"],"zh":"显示历史记录","en":"Show History","tags":[]},
+          {"id":"safari.downloads","keys":["⌘","⌥","L"],"zh":"显示下载列表","en":"Show Downloads list","tags":[]},
+          {"id":"safari.reader","keys":["⌘","⇧","R"],"zh":"显示阅读器","en":"Show Reader","tags":[]},
+          {"id":"safari.web-inspector","keys":["⌘","⌥","I"],"zh":"打开网页检查器","en":"Show Web Inspector","tags":[]},
+          {"id":"safari.source","keys":["⌘","⌥","U"],"zh":"显示页面源代码","en":"Show page source","tags":[]},
+          {"id":"safari.print","keys":["⌘","P"],"zh":"打印页面","en":"Print page","tags":[]},
+          {"id":"safari.zoom-in","keys":["⌘","+"],"zh":"放大页面","en":"Zoom in","tags":[]},
+          {"id":"safari.zoom-out","keys":["⌘","-"],"zh":"缩小页面","en":"Zoom out","tags":[]},
+          {"id":"safari.actual-size","keys":["⌘","0"],"zh":"恢复实际大小","en":"Actual size","tags":[]},
+          {"id":"safari.fullscreen","keys":["⌃","⌘","F"],"zh":"切换全屏","en":"Toggle full screen","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"notion","name":"Notion","vendor":"Notion Labs","accent":"#555555","glyph":"N",
+      "categories":[
+        {"id":"navigation","zh":"页面与导航","en":"Pages & Navigation","items":[
+          {"id":"notion.new-page","keys":["⌘","N"],"zh":"新建页面","en":"Create a new page","tags":[]},
+          {"id":"notion.new-window","keys":["⌘","⇧","N"],"zh":"新建窗口","en":"Open a new window","tags":[]},
+          {"id":"notion.search","keys":["⌘","P"],"zh":"搜索或跳转到页面","en":"Search or jump to a page","tags":[]},
+          {"id":"notion.back","keys":["⌘","["],"zh":"返回上一页","en":"Go back","tags":[]},
+          {"id":"notion.forward","keys":["⌘","]"],"zh":"前进到下一页","en":"Go forward","tags":[]},
+          {"id":"notion.parent","keys":["⌘","⇧","U"],"zh":"转到父页面","en":"Go to parent page","tags":[]},
+          {"id":"notion.sidebar","keys":["⌘","\\"],"zh":"显示或隐藏侧边栏","en":"Toggle sidebar","tags":[]},
+          {"id":"notion.theme","keys":["⌘","⇧","L"],"zh":"切换浅色或深色模式","en":"Toggle light or dark mode","tags":[]},
+          {"id":"notion.close","keys":["⌘","W"],"zh":"关闭窗口","en":"Close window","tags":[]}
+        ]},
+        {"id":"blocks","zh":"内容块","en":"Blocks","items":[
+          {"id":"notion.slash","keys":["/"],"zh":"打开内容块菜单","en":"Open block menu","tags":[]},
+          {"id":"notion.move-up","keys":["⌘","⇧","↑"],"zh":"上移内容块","en":"Move block up","tags":[]},
+          {"id":"notion.move-down","keys":["⌘","⇧","↓"],"zh":"下移内容块","en":"Move block down","tags":[]},
+          {"id":"notion.duplicate","keys":["⌘","D"],"zh":"复制内容块","en":"Duplicate block","tags":[]},
+          {"id":"notion.delete","keys":["⌘","⇧","Delete"],"zh":"删除内容块","en":"Delete block","tags":[]},
+          {"id":"notion.indent","keys":["Tab"],"zh":"嵌套内容块","en":"Indent block","tags":[]},
+          {"id":"notion.outdent","keys":["⇧","Tab"],"zh":"取消嵌套内容块","en":"Outdent block","tags":[]},
+          {"id":"notion.select-block","keys":["Esc"],"zh":"选择当前内容块","en":"Select current block","tags":[]},
+          {"id":"notion.select-all-blocks","keys":["⌘","A","A"],"zh":"选择页面中的全部内容块","en":"Select all blocks on page","tags":[]},
+          {"id":"notion.link-page","keys":["@"],"zh":"提及页面、人员或日期","en":"Mention page, person, or date","tags":[]},
+          {"id":"notion.link","keys":["[["],"zh":"链接到其他页面","en":"Link to another page","tags":[]}
+        ]},
+        {"id":"format","zh":"文字格式","en":"Text Formatting","items":[
+          {"id":"notion.bold","keys":["⌘","B"],"zh":"加粗","en":"Bold","tags":[]},
+          {"id":"notion.italic","keys":["⌘","I"],"zh":"斜体","en":"Italic","tags":[]},
+          {"id":"notion.underline","keys":["⌘","U"],"zh":"下划线","en":"Underline","tags":[]},
+          {"id":"notion.strike","keys":["⌘","⇧","S"],"zh":"删除线","en":"Strikethrough","tags":[]},
+          {"id":"notion.code","keys":["⌘","E"],"zh":"行内代码","en":"Inline code","tags":[]},
+          {"id":"notion.link-text","keys":["⌘","K"],"zh":"添加链接","en":"Add link","tags":[]},
+          {"id":"notion.text","keys":["⌘","⌥","0"],"zh":"转换为正文","en":"Turn into text","tags":[]},
+          {"id":"notion.heading-one","keys":["⌘","⌥","1"],"zh":"转换为一级标题","en":"Turn into heading 1","tags":[]},
+          {"id":"notion.heading-two","keys":["⌘","⌥","2"],"zh":"转换为二级标题","en":"Turn into heading 2","tags":[]},
+          {"id":"notion.heading-three","keys":["⌘","⌥","3"],"zh":"转换为三级标题","en":"Turn into heading 3","tags":[]},
+          {"id":"notion.todo","keys":["⌘","⌥","4"],"zh":"转换为待办事项","en":"Turn into to-do item","tags":[]},
+          {"id":"notion.bullets","keys":["⌘","⌥","5"],"zh":"转换为项目符号列表","en":"Turn into bulleted list","tags":[]},
+          {"id":"notion.numbered","keys":["⌘","⌥","6"],"zh":"转换为编号列表","en":"Turn into numbered list","tags":[]}
+        ]}
+      ]
+    },
+    {
+      "id":"obsidian","name":"Obsidian","vendor":"Obsidian","accent":"#7C3AED","glyph":"O",
+      "categories":[
+        {"id":"notes","zh":"笔记与导航","en":"Notes & Navigation","items":[
+          {"id":"obsidian.new-note","keys":["⌘","N"],"zh":"新建笔记","en":"Create new note","tags":[]},
+          {"id":"obsidian.quick-switcher","keys":["⌘","O"],"zh":"打开快速切换器","en":"Open Quick Switcher","tags":[]},
+          {"id":"obsidian.commands","keys":["⌘","P"],"zh":"打开命令面板","en":"Open Command Palette","tags":[]},
+          {"id":"obsidian.search","keys":["⌘","⇧","F"],"zh":"搜索全部文件","en":"Search all files","tags":[]},
+          {"id":"obsidian.graph","keys":["⌘","G"],"zh":"打开关系图谱","en":"Open graph view","tags":[]},
+          {"id":"obsidian.back","keys":["⌘","⌥","←"],"zh":"返回上一位置","en":"Navigate back","tags":[]},
+          {"id":"obsidian.forward","keys":["⌘","⌥","→"],"zh":"前进到下一位置","en":"Navigate forward","tags":[]},
+          {"id":"obsidian.open-tab","keys":["⌘","点击"],"zh":"在新标签页中打开链接","en":"Open link in new tab","tags":[]},
+          {"id":"obsidian.close-tab","keys":["⌘","W"],"zh":"关闭当前标签页","en":"Close current tab","tags":[]},
+          {"id":"obsidian.next-tab","keys":["⌃","Tab"],"zh":"切换到下一个标签页","en":"Switch to next tab","tags":[]},
+          {"id":"obsidian.prev-tab","keys":["⌃","⇧","Tab"],"zh":"切换到上一个标签页","en":"Switch to previous tab","tags":[]}
+        ]},
+        {"id":"editing","zh":"编辑","en":"Editing","items":[
+          {"id":"obsidian.edit-reading","keys":["⌘","E"],"zh":"切换编辑与阅读视图","en":"Toggle editing and reading view","tags":[]},
+          {"id":"obsidian.bold","keys":["⌘","B"],"zh":"加粗","en":"Bold","tags":[]},
+          {"id":"obsidian.italic","keys":["⌘","I"],"zh":"斜体","en":"Italic","tags":[]},
+          {"id":"obsidian.link","keys":["⌘","K"],"zh":"插入内部链接","en":"Insert internal link","tags":[]},
+          {"id":"obsidian.heading-one","keys":["⌘","⌥","1"],"zh":"设置一级标题","en":"Set heading 1","tags":[]},
+          {"id":"obsidian.heading-two","keys":["⌘","⌥","2"],"zh":"设置二级标题","en":"Set heading 2","tags":[]},
+          {"id":"obsidian.heading-three","keys":["⌘","⌥","3"],"zh":"设置三级标题","en":"Set heading 3","tags":[]},
+          {"id":"obsidian.indent","keys":["Tab"],"zh":"增加缩进","en":"Indent line","tags":[]},
+          {"id":"obsidian.outdent","keys":["⇧","Tab"],"zh":"减少缩进","en":"Outdent line","tags":[]},
+          {"id":"obsidian.move-line-up","keys":["⌥","↑"],"zh":"上移当前行","en":"Move line up","tags":[]},
+          {"id":"obsidian.move-line-down","keys":["⌥","↓"],"zh":"下移当前行","en":"Move line down","tags":[]},
+          {"id":"obsidian.duplicate-line","keys":["⌘","⇧","D"],"zh":"复制当前行","en":"Duplicate current line","tags":[]},
+          {"id":"obsidian.delete-line","keys":["⌘","⇧","K"],"zh":"删除当前行","en":"Delete current line","tags":[]},
+          {"id":"obsidian.find","keys":["⌘","F"],"zh":"在当前笔记中查找","en":"Find in current note","tags":[]},
+          {"id":"obsidian.replace","keys":["⌘","⌥","F"],"zh":"在当前笔记中替换","en":"Replace in current note","tags":[]}
+        ]},
+        {"id":"workspace","zh":"工作区与文件","en":"Workspace & Files","items":[
+          {"id":"obsidian.save","keys":["⌘","S"],"zh":"保存当前笔记","en":"Save current note","tags":[]},
+          {"id":"obsidian.open-vault","keys":["⌘","⇧","O"],"zh":"打开其他仓库","en":"Open another vault","tags":[]},
+          {"id":"obsidian.settings","keys":["⌘",","],"zh":"打开设置","en":"Open Settings","tags":[]},
+          {"id":"obsidian.sidebar-left","keys":["⌘","⇧","L"],"zh":"切换左侧边栏","en":"Toggle left sidebar","tags":[]},
+          {"id":"obsidian.sidebar-right","keys":["⌘","⇧","R"],"zh":"切换右侧边栏","en":"Toggle right sidebar","tags":[]},
+          {"id":"obsidian.file-explorer","keys":["⌘","⇧","E"],"zh":"聚焦文件列表","en":"Focus file explorer","tags":[]},
+          {"id":"obsidian.new-folder","keys":["⌘","⇧","N"],"zh":"新建文件夹","en":"Create new folder","tags":[]},
+          {"id":"obsidian.delete-file","keys":["⌘","Delete"],"zh":"删除当前文件","en":"Delete current file","tags":[]},
+          {"id":"obsidian.rename-file","keys":["F2"],"zh":"重命名当前文件","en":"Rename current file","tags":[]},
+          {"id":"obsidian.reload","keys":["⌘","R"],"zh":"重新加载应用","en":"Reload app","tags":[]},
+          {"id":"obsidian.zoomin","keys":["⌘","+"],"zh":"放大界面","en":"Zoom in","tags":[]},
+          {"id":"obsidian.zoomout","keys":["⌘","-"],"zh":"缩小界面","en":"Zoom out","tags":[]},
+          {"id":"obsidian.resetzoom","keys":["⌘","0"],"zh":"恢复默认缩放","en":"Reset zoom","tags":[]}
+        ]}
+      ]
+    }
+  ]
+}

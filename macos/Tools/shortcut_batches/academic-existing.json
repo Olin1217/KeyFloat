@@ -1,0 +1,71 @@
+{
+  "software": [
+    {
+      "id": "avogadro",
+      "name": "Avogadro",
+      "vendor": "Open Chemistry",
+      "accent": "#2D7DD2",
+      "glyph": "Av",
+      "group": "chemistry",
+      "dataStatus": "curated",
+      "categories": [
+        {
+          "id": "completion-navigation-aliases",
+          "zh": "补全 · 导航别名",
+          "en": "Completion · Navigation Aliases",
+          "items": [
+            {"id":"academic-existing.avogadro.completion.navigation.rotate-up-w","keys":["W"],"zh":"使用导航工具向上旋转","en":"Rotate upward with the Navigation tool","tags":["curated","macOS","official","completion","navigation tool","WASD alias"]},
+            {"id":"academic-existing.avogadro.completion.navigation.rotate-down-j","keys":["J"],"zh":"使用导航工具向下旋转","en":"Rotate downward with the Navigation tool","tags":["curated","macOS","official","completion","navigation tool","HJKL alias"]},
+            {"id":"academic-existing.avogadro.completion.navigation.rotate-left-h","keys":["H"],"zh":"使用导航工具向左旋转","en":"Rotate left with the Navigation tool","tags":["curated","macOS","official","completion","navigation tool","HJKL alias"]},
+            {"id":"academic-existing.avogadro.completion.navigation.rotate-right-d","keys":["D"],"zh":"使用导航工具向右旋转","en":"Rotate right with the Navigation tool","tags":["curated","macOS","official","completion","navigation tool","WASD alias"]},
+            {"id":"academic-existing.avogadro.completion.navigation.rotate-right-l","keys":["L"],"zh":"使用导航工具向右旋转","en":"Rotate right with the Navigation tool","tags":["curated","macOS","official","completion","navigation tool","HJKL alias"]},
+            {"id":"academic-existing.avogadro.completion.templates.previous-tab-bracket","keys":["["],"zh":"切换到上一个模板标签","en":"Switch to the previous template tab","tags":["curated","macOS","official","completion","template tool","tab alias"]},
+            {"id":"academic-existing.avogadro.completion.templates.next-tab-bracket","keys": ["]"],"zh":"切换到下一个模板标签","en":"Switch to the next template tab","tags":["curated","macOS","official","completion","template tool","tab alias"]}
+          ]
+        },
+        {
+          "id": "completion-ligand-templates",
+          "zh": "补全 · 配体模板",
+          "en": "Completion · Ligand Templates",
+          "items": [
+            {"id":"academic-existing.avogadro.completion.templates.aqua-o","keys":["O"],"zh":"插入水配体","en":"Insert an aqua ligand","tags":["curated","macOS","official","completion","template tool","centers tab"]},
+            {"id":"academic-existing.avogadro.completion.templates.dimethylglyoxime","keys":["D","M","G"],"zh":"插入二甲基乙二肟配体","en":"Insert a dimethylglyoxime ligand","tags":["curated","macOS","official","completion","template tool","ligands tab"]},
+            {"id":"academic-existing.avogadro.completion.templates.dmpe","keys":["D","M","P","E"],"zh":"插入二甲基膦基乙烷配体","en":"Insert a dimethylphosphinoethane ligand","tags":["curated","macOS","official","completion","template tool","ligands tab"]},
+            {"id":"academic-existing.avogadro.completion.templates.dppe","keys":["D","P","P","E"],"zh":"插入二苯基膦基乙烷配体","en":"Insert a diphenylphosphinoethane ligand","tags":["curated","macOS","official","completion","template tool","ligands tab"]},
+            {"id":"academic-existing.avogadro.completion.templates.phthalocyanine","keys":["P","C"],"zh":"插入酞菁配体","en":"Insert a phthalocyanine ligand","tags":["curated","macOS","official","completion","template tool","ligands tab"]},
+            {"id":"academic-existing.avogadro.completion.templates.porphin","keys":["P","O","R"],"zh":"插入卟吩配体","en":"Insert a porphin ligand","tags":["curated","macOS","official","completion","template tool","ligands tab"]},
+            {"id":"academic-existing.avogadro.completion.templates.salen","keys":["S","A","L"],"zh":"插入席夫碱配体","en":"Insert a salen ligand","tags":["curated","macOS","official","completion","template tool","ligands tab"]},
+            {"id":"academic-existing.avogadro.completion.templates.allyl","keys":["E","3"],"zh":"插入烯丙基配体","en":"Insert an allyl ligand","tags":["curated","macOS","official","completion","template tool","ligands tab"]},
+            {"id":"academic-existing.avogadro.completion.templates.cyclooctadiene","keys":["E","4"],"zh":"插入环辛二烯配体","en":"Insert a cyclooctadiene ligand","tags":["curated","macOS","official","completion","template tool","ligands tab"]},
+            {"id":"academic-existing.avogadro.completion.templates.cyclopentadienyl-cp","keys":["C","P"],"zh":"插入环戊二烯基配体","en":"Insert a cyclopentadienyl ligand","tags":["curated","macOS","official","completion","template tool","ligands tab","alternate sequence"]}
+          ]
+        },
+        {
+          "id": "completion-functional-and-protecting-groups",
+          "zh": "补全 · 官能团与保护基",
+          "en": "Completion · Functional and Protecting Groups",
+          "items": [
+            {"id":"academic-existing.avogadro.completion.templates.ester","keys":["E"],"zh":"插入酯基","en":"Insert an ester group","tags":["curated","macOS","official","completion","template tool","groups tab"]},
+            {"id":"academic-existing.avogadro.completion.templates.trifluoromethyl","keys":["F"],"zh":"插入三氟甲基","en":"Insert a trifluoromethyl group","tags":["curated","macOS","official","completion","template tool","groups tab"]},
+            {"id":"academic-existing.avogadro.completion.templates.methoxy","keys":["O","M"],"zh":"插入甲氧基","en":"Insert a methoxy group","tags":["curated","macOS","official","completion","template tool","groups tab"]},
+            {"id":"academic-existing.avogadro.completion.templates.mesyl","keys":["M","S"],"zh":"插入甲磺酰保护基","en":"Insert a mesyl protecting group","tags":["curated","macOS","official","completion","template tool","groups tab"]},
+            {"id":"academic-existing.avogadro.completion.templates.trityl","keys":["T","R"],"zh":"插入三苯甲基保护基","en":"Insert a trityl protecting group","tags":["curated","macOS","official","completion","template tool","groups tab"]},
+            {"id":"academic-existing.avogadro.completion.templates.troc","keys":["T","R","O","C"],"zh":"插入三氯乙氧羰基保护基","en":"Insert a TROC protecting group","tags":["curated","macOS","official","completion","template tool","groups tab"]},
+            {"id":"academic-existing.avogadro.completion.templates.tosyl-ts","keys":["T","S"],"zh":"插入对甲苯磺酰保护基","en":"Insert a tosyl protecting group","tags":["curated","macOS","official","completion","template tool","groups tab","alternate sequence"]}
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceURL": "https://raw.githubusercontent.com/avogadro/two.avogadro.cc/main/source/docs/tools/keyboard-shortcuts.md",
+        "sourceTitle": "Avogadro Official Keyboard Shortcuts",
+        "appVersion": "Avogadro 2 documentation main branch",
+        "verifiedAt": "2026-07-22",
+        "coverage": "curated-comprehensive-defaults",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.openchemistry.Avogadro2"
+      ]
+    }
+  ]
+}

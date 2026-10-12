@@ -1,0 +1,1631 @@
+{
+  "auditedAt": "2026-07-21",
+  "policy": {
+    "sourceBacked": "Every emitted row is transcribed from the pack's named official source.",
+    "officialImport": "The pack is reproduced from an official page, installed default preset, or official section named in provenance.",
+    "manualReview": "Browser-sourced secondary data is displayed only with an explicit manual-review status and a review-report entry.",
+    "catalogOnly": "Product remains discoverable, but contains zero shortcut rows until verified.",
+    "legacyReviewed": "Existing hand-curated rows pass structural and macOS-key audits without an official per-pack completeness claim."
+  },
+  "resourceCount": 9,
+  "softwareEntries": 256,
+  "shortcutRows": 5848,
+  "statusCounts": {
+    "legacyReviewed": 34,
+    "catalogOnly": 196,
+    "officialImport": 17,
+    "manualReview": 1,
+    "sourceBacked": 8
+  },
+  "effectiveSoftwareCount": 209,
+  "effectiveShortcutRows": 4204,
+  "effectiveStatusCounts": {
+    "manualReview": 1,
+    "officialImport": 17,
+    "catalogOnly": 183,
+    "sourceBacked": 8
+  },
+  "effectiveLegacyDisplayPacks": [],
+  "sourceBackedPacks": [
+    {
+      "id": "labview",
+      "name": "LabVIEW",
+      "shortcuts": 61,
+      "resource": "extended-shortcuts-mac.json",
+      "sourceURL": "https://www.ni.com/docs/en-US/bundle/labview/page/keyboard-shortcuts.html",
+      "coverage": "official-table-macos-normalized"
+    },
+    {
+      "id": "plecs",
+      "name": "PLECS",
+      "shortcuts": 5,
+      "resource": "extended-shortcuts-mac.json",
+      "sourceURL": "https://www.plexim.com/sites/default/files/plecsmanual.pdf",
+      "coverage": "official-manual-explicit-macos-selection"
+    },
+    {
+      "id": "benchling",
+      "name": "Benchling",
+      "shortcuts": 30,
+      "resource": "extended-shortcuts-mac.json",
+      "sourceURL": "https://help.benchling.com/hc/en-us/articles/39971013709965-Plan-experiments-and-collect-data-in-the-Notebook",
+      "coverage": "complete-official-macos-tables"
+    },
+    {
+      "id": "geneious",
+      "name": "Geneious Prime",
+      "shortcuts": 11,
+      "resource": "extended-shortcuts-mac.json",
+      "sourceURL": "https://manual.geneious.com/en/latest/GettingStarted.html#keyboard-shortcuts",
+      "coverage": "official-manual-explicit-macos-selection"
+    },
+    {
+      "id": "vmd",
+      "name": "VMD",
+      "shortcuts": 47,
+      "resource": "extended-shortcuts-mac.json",
+      "sourceURL": "https://www.ks.uiuc.edu/Research/vmd/current/ug/node34.html",
+      "coverage": "complete-official-hotkey-tables"
+    },
+    {
+      "id": "avogadro",
+      "name": "Avogadro",
+      "shortcuts": 73,
+      "resource": "extended-shortcuts-mac.json",
+      "sourceURL": "https://raw.githubusercontent.com/avogadro/two.avogadro.cc/main/source/docs/tools/keyboard-shortcuts.md",
+      "coverage": "official-page-selection"
+    },
+    {
+      "id": "slicer",
+      "name": "3D Slicer",
+      "shortcuts": 53,
+      "resource": "extended-shortcuts-mac.json",
+      "sourceURL": "https://slicer.readthedocs.io/en/latest/user_guide/user_interface.html#mouse-keyboard-shortcuts",
+      "coverage": "complete-official-macos-section"
+    },
+    {
+      "id": "godot",
+      "name": "Godot Engine",
+      "shortcuts": 39,
+      "resource": "extended-shortcuts-mac.json",
+      "sourceURL": "https://github.com/godotengine/godot/blob/master/editor/editor_node.cpp",
+      "coverage": "official-source-macos-selection"
+    }
+  ],
+  "officialImportPacks": [
+    {
+      "id": "aftereffects",
+      "name": "After Effects",
+      "shortcuts": 717,
+      "resource": "verified-shortcuts-mac.json",
+      "sourceURL": "https://helpx.adobe.com/after-effects/using/keyboard-shortcuts-reference.html",
+      "coverage": "complete-official-installed-default-preset"
+    },
+    {
+      "id": "affinitydesigner",
+      "name": "Affinity Designer 2",
+      "shortcuts": 255,
+      "resource": "supplemental-shortcuts-mac.json",
+      "sourceURL": "https://affinity.help/designer2/en-US.lproj/pages/Workspace/shortcuts.html",
+      "coverage": "complete-official-page"
+    },
+    {
+      "id": "affinityphoto",
+      "name": "Affinity Photo 2",
+      "shortcuts": 272,
+      "resource": "supplemental-shortcuts-mac.json",
+      "sourceURL": "https://affinity.help/photo2/en-US.lproj/pages/Workspace/shortcuts.html",
+      "coverage": "complete-official-page"
+    },
+    {
+      "id": "affinitypublisher",
+      "name": "Affinity Publisher 2",
+      "shortcuts": 204,
+      "resource": "supplemental-shortcuts-mac.json",
+      "sourceURL": "https://affinity.help/publisher2/en-US.lproj/pages/Workspace/shortcuts.html",
+      "coverage": "complete-official-page"
+    },
+    {
+      "id": "terminal",
+      "name": "Terminal",
+      "shortcuts": 98,
+      "resource": "supplemental-shortcuts-mac.json",
+      "sourceURL": "https://support.apple.com/guide/terminal/keyboard-shortcuts-trmlshtcts/mac",
+      "coverage": "complete-official-page"
+    },
+    {
+      "id": "safari",
+      "name": "Safari",
+      "shortcuts": 64,
+      "resource": "supplemental-shortcuts-mac.json",
+      "sourceURL": "https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac",
+      "coverage": "complete-official-page"
+    },
+    {
+      "id": "finder",
+      "name": "Finder",
+      "shortcuts": 78,
+      "resource": "supplemental-shortcuts-mac.json",
+      "sourceURL": "https://support.apple.com/en-us/102650",
+      "coverage": "complete-official-section"
+    },
+    {
+      "id": "illustrator",
+      "name": "Illustrator",
+      "shortcuts": 366,
+      "resource": "supplemental-shortcuts-mac.json",
+      "sourceURL": "https://helpx.adobe.com/illustrator/using/default-keyboard-shortcuts.html",
+      "coverage": "official-page-selection"
+    },
+    {
+      "id": "photoshop",
+      "name": "Photoshop",
+      "shortcuts": 52,
+      "resource": "supplemental-shortcuts-mac.json",
+      "sourceURL": "https://helpx.adobe.com/photoshop/desktop/get-started/settings-and-preferences/view-keyboard-shortcuts.html",
+      "coverage": "official-page-installed-export-selection"
+    },
+    {
+      "id": "matlab",
+      "name": "MATLAB",
+      "shortcuts": 84,
+      "resource": "supplemental-shortcuts-mac.json",
+      "sourceURL": "https://www.mathworks.com/help/matlab/matlab_prog/editor-keyboard-shortcuts.html",
+      "coverage": "complete-official-macos-column"
+    },
+    {
+      "id": "word",
+      "name": "Microsoft Word",
+      "shortcuts": 216,
+      "resource": "supplemental-shortcuts-mac.json",
+      "sourceURL": "https://support.microsoft.com/en-US/accessibility/word/keyboard-shortcuts-in-word",
+      "coverage": "complete-official-macos-tab"
+    },
+    {
+      "id": "excel",
+      "name": "Microsoft Excel",
+      "shortcuts": 273,
+      "resource": "supplemental-shortcuts-mac.json",
+      "sourceURL": "https://support.microsoft.com/en-US/accessibility/excel/keyboard-shortcuts-in-excel",
+      "coverage": "complete-official-macos-tab"
+    },
+    {
+      "id": "powerpoint",
+      "name": "Microsoft PowerPoint",
+      "shortcuts": 135,
+      "resource": "supplemental-shortcuts-mac.json",
+      "sourceURL": "https://support.microsoft.com/en-US/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "coverage": "complete-official-macos-tab"
+    },
+    {
+      "id": "onenote",
+      "name": "Microsoft OneNote",
+      "shortcuts": 84,
+      "resource": "supplemental-shortcuts-mac.json",
+      "sourceURL": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-onenote-44b8b3f4-c274-4bcc-a089-e80fdcc87950",
+      "coverage": "complete-official-macos-tab"
+    },
+    {
+      "id": "pages",
+      "name": "Apple Pages",
+      "shortcuts": 305,
+      "resource": "supplemental-shortcuts-mac.json",
+      "sourceURL": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac",
+      "coverage": "complete-official-page"
+    },
+    {
+      "id": "numbers",
+      "name": "Apple Numbers",
+      "shortcuts": 306,
+      "resource": "supplemental-shortcuts-mac.json",
+      "sourceURL": "https://support.apple.com/guide/numbers/keyboard-shortcuts-tana45192591/mac",
+      "coverage": "complete-official-page"
+    },
+    {
+      "id": "keynote",
+      "name": "Apple Keynote",
+      "shortcuts": 368,
+      "resource": "supplemental-shortcuts-mac.json",
+      "sourceURL": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac",
+      "coverage": "complete-official-page"
+    }
+  ],
+  "manualReviewPacks": [
+    {
+      "id": "figma",
+      "name": "Figma",
+      "shortcuts": 8,
+      "resource": "browser-reviewed-shortcuts-mac.json",
+      "sourceURL": "https://shortcut-tools.com/en/shortcuts/figma/mac/",
+      "coverage": "browser-search-manual-review"
+    }
+  ],
+  "legacyReviewedPacks": [
+    {
+      "id": "figma",
+      "name": "Figma",
+      "shortcuts": 177,
+      "resource": "shortcuts-mac.json"
+    },
+    {
+      "id": "photoshop",
+      "name": "Photoshop",
+      "shortcuts": 57,
+      "resource": "shortcuts-mac.json"
+    },
+    {
+      "id": "illustrator",
+      "name": "Illustrator",
+      "shortcuts": 60,
+      "resource": "shortcuts-mac.json"
+    },
+    {
+      "id": "aftereffects",
+      "name": "After Effects",
+      "shortcuts": 47,
+      "resource": "shortcuts-mac.json"
+    },
+    {
+      "id": "premiere",
+      "name": "Premiere Pro",
+      "shortcuts": 45,
+      "resource": "shortcuts-mac.json"
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "shortcuts": 56,
+      "resource": "shortcuts-mac.json"
+    },
+    {
+      "id": "word",
+      "name": "Microsoft Word",
+      "shortcuts": 84,
+      "resource": "office-shortcuts-mac.json"
+    },
+    {
+      "id": "excel",
+      "name": "Microsoft Excel",
+      "shortcuts": 95,
+      "resource": "office-shortcuts-mac.json"
+    },
+    {
+      "id": "powerpoint",
+      "name": "Microsoft PowerPoint",
+      "shortcuts": 75,
+      "resource": "office-shortcuts-mac.json"
+    },
+    {
+      "id": "outlook",
+      "name": "Microsoft Outlook",
+      "shortcuts": 60,
+      "resource": "office-shortcuts-mac.json"
+    },
+    {
+      "id": "onenote",
+      "name": "Microsoft OneNote",
+      "shortcuts": 57,
+      "resource": "office-shortcuts-mac.json"
+    },
+    {
+      "id": "autocad",
+      "name": "AutoCAD",
+      "shortcuts": 44,
+      "resource": "professional-shortcuts-mac.json"
+    },
+    {
+      "id": "sketchup",
+      "name": "SketchUp",
+      "shortcuts": 35,
+      "resource": "professional-shortcuts-mac.json"
+    },
+    {
+      "id": "rhino",
+      "name": "Rhino",
+      "shortcuts": 35,
+      "resource": "professional-shortcuts-mac.json"
+    },
+    {
+      "id": "fusion360",
+      "name": "Fusion 360",
+      "shortcuts": 34,
+      "resource": "professional-shortcuts-mac.json"
+    },
+    {
+      "id": "freecad",
+      "name": "FreeCAD",
+      "shortcuts": 29,
+      "resource": "professional-shortcuts-mac.json"
+    },
+    {
+      "id": "shapr3d",
+      "name": "Shapr3D",
+      "shortcuts": 27,
+      "resource": "professional-shortcuts-mac.json"
+    },
+    {
+      "id": "maya",
+      "name": "Maya",
+      "shortcuts": 42,
+      "resource": "professional-shortcuts-mac.json"
+    },
+    {
+      "id": "cinema4d",
+      "name": "Cinema 4D",
+      "shortcuts": 34,
+      "resource": "professional-shortcuts-mac.json"
+    },
+    {
+      "id": "comsol",
+      "name": "COMSOL Multiphysics",
+      "shortcuts": 24,
+      "resource": "professional-shortcuts-mac.json"
+    },
+    {
+      "id": "matlab",
+      "name": "MATLAB",
+      "shortcuts": 38,
+      "resource": "professional-shortcuts-mac.json"
+    },
+    {
+      "id": "simulink",
+      "name": "Simulink",
+      "shortcuts": 27,
+      "resource": "professional-shortcuts-mac.json"
+    },
+    {
+      "id": "davinci",
+      "name": "DaVinci Resolve",
+      "shortcuts": 50,
+      "resource": "professional-shortcuts-mac.json"
+    },
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "shortcuts": 55,
+      "resource": "productivity-shortcuts-mac.json"
+    },
+    {
+      "id": "xcode",
+      "name": "Xcode",
+      "shortcuts": 48,
+      "resource": "productivity-shortcuts-mac.json"
+    },
+    {
+      "id": "androidstudio",
+      "name": "Android Studio",
+      "shortcuts": 38,
+      "resource": "productivity-shortcuts-mac.json"
+    },
+    {
+      "id": "intellij",
+      "name": "IntelliJ IDEA",
+      "shortcuts": 39,
+      "resource": "productivity-shortcuts-mac.json"
+    },
+    {
+      "id": "jupyter",
+      "name": "JupyterLab",
+      "shortcuts": 40,
+      "resource": "productivity-shortcuts-mac.json"
+    },
+    {
+      "id": "spss",
+      "name": "IBM SPSS Statistics",
+      "shortcuts": 26,
+      "resource": "productivity-shortcuts-mac.json"
+    },
+    {
+      "id": "rstudio",
+      "name": "RStudio",
+      "shortcuts": 31,
+      "resource": "productivity-shortcuts-mac.json"
+    },
+    {
+      "id": "chrome",
+      "name": "Google Chrome",
+      "shortcuts": 33,
+      "resource": "productivity-shortcuts-mac.json"
+    },
+    {
+      "id": "safari",
+      "name": "Safari",
+      "shortcuts": 30,
+      "resource": "productivity-shortcuts-mac.json"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "shortcuts": 33,
+      "resource": "productivity-shortcuts-mac.json"
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "shortcuts": 39,
+      "resource": "productivity-shortcuts-mac.json"
+    }
+  ],
+  "catalogOnlyPacks": [
+    {
+      "id": "sketch",
+      "name": "Sketch",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "adobexd",
+      "name": "Adobe XD",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "framer",
+      "name": "Framer",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "axure",
+      "name": "Axure RP",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "mastergo",
+      "name": "MasterGo",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "jsdesign",
+      "name": "即时设计",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "indesign",
+      "name": "Adobe InDesign",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "lightroom",
+      "name": "Adobe Lightroom",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "rive",
+      "name": "Rive",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "lottiefiles",
+      "name": "LottieFiles",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "protopie",
+      "name": "ProtoPie",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "finalcut",
+      "name": "Final Cut Pro",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "zbrush",
+      "name": "ZBrush",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "archicad",
+      "name": "Archicad",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "enscape",
+      "name": "Enscape",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "twinmotion",
+      "name": "Twinmotion",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "unrealengine",
+      "name": "Unreal Engine",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "logicpro",
+      "name": "Logic Pro",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "garageband",
+      "name": "GarageBand",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "qgis",
+      "name": "QGIS",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "chemdraw",
+      "name": "ChemDraw",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "pymol",
+      "name": "PyMOL",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "imagej",
+      "name": "ImageJ / Fiji",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "paraview",
+      "name": "ParaView",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "kicad",
+      "name": "KiCad",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "arduinoide",
+      "name": "Arduino IDE",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "ltspice",
+      "name": "LTspice",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "mathematica",
+      "name": "Wolfram Mathematica",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "stata",
+      "name": "Stata",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "jmp",
+      "name": "JMP",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "graphpadprism",
+      "name": "GraphPad Prism",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "pycharm",
+      "name": "PyCharm",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "webstorm",
+      "name": "WebStorm",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "goland",
+      "name": "GoLand",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "clion",
+      "name": "CLion",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "githubdesktop",
+      "name": "GitHub Desktop",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "sourcetree",
+      "name": "Sourcetree",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "tower",
+      "name": "Tower",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "bitbucket",
+      "name": "Bitbucket",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "insomnia",
+      "name": "Insomnia",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "apifox",
+      "name": "Apifox",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "swaggerui",
+      "name": "Swagger UI",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "hoppscotch",
+      "name": "Hoppscotch",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "dockerdesktop",
+      "name": "Docker Desktop",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "dbeaver",
+      "name": "DBeaver",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "datagrip",
+      "name": "DataGrip",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "mysqlworkbench",
+      "name": "MySQL / MySQL Workbench",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "pgadmin",
+      "name": "PostgreSQL / pgAdmin",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "mongodbcompass",
+      "name": "MongoDB Compass",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "redisinsight",
+      "name": "Redis Insight",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "sqlitestudio",
+      "name": "SQLite / SQLiteStudio",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "tableplus",
+      "name": "TablePlus",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "iterm2",
+      "name": "iTerm2",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "warp",
+      "name": "Warp",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "arc",
+      "name": "Arc",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "firefox",
+      "name": "Mozilla Firefox",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "edge",
+      "name": "Microsoft Edge",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "pages",
+      "name": "Apple Pages",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "numbers",
+      "name": "Apple Numbers",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "keynote",
+      "name": "Apple Keynote",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "preview",
+      "name": "Preview",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "pdfexpert",
+      "name": "PDF Expert",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "zotero",
+      "name": "Zotero",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "mendeley",
+      "name": "Mendeley Reference Manager",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "endnote",
+      "name": "EndNote",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "anki",
+      "name": "Anki",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "goodnotes",
+      "name": "Goodnotes",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "overleaf",
+      "name": "Overleaf",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "texstudio",
+      "name": "TeXstudio",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "drawio",
+      "name": "draw.io / diagrams.net",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "xmind",
+      "name": "XMind",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "mindnode",
+      "name": "MindNode",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "miro",
+      "name": "Miro",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "confluence",
+      "name": "Confluence",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "jira",
+      "name": "Jira",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "feishu",
+      "name": "飞书 / Lark",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "yuque",
+      "name": "语雀",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "teams",
+      "name": "Microsoft Teams",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "wechat",
+      "name": "WeChat",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "raycast",
+      "name": "Raycast",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "alfred",
+      "name": "Alfred",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "cleanshot",
+      "name": "CleanShot X",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "bartender",
+      "name": "Bartender",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "rectangle",
+      "name": "Rectangle",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "magnet",
+      "name": "Magnet",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "paste",
+      "name": "Paste",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "onepassword",
+      "name": "1Password",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "tableau",
+      "name": "Tableau",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "powerbiweb",
+      "name": "Power BI (Web)",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "amplitude",
+      "name": "Amplitude",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "mixpanel",
+      "name": "Mixpanel",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "lmstudio",
+      "name": "LM Studio",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "comfyui",
+      "name": "ComfyUI",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "stablediffusion",
+      "name": "Stable Diffusion WebUI",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "adobefirefly",
+      "name": "Adobe Firefly",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "pika",
+      "name": "Pika",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "capcut",
+      "name": "CapCut",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "audacity",
+      "name": "Audacity",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "obsstudio",
+      "name": "OBS Studio",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "iina",
+      "name": "IINA",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "vlc",
+      "name": "VLC media player",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "handbrake",
+      "name": "HandBrake",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "googledocs",
+      "name": "Google Docs",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "googlesheets",
+      "name": "Google Sheets",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "googleslides",
+      "name": "Google Slides",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "wpsoffice",
+      "name": "WPS Office",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "adobeacrobat",
+      "name": "Adobe Acrobat",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "evernote",
+      "name": "Evernote",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "ulysses",
+      "name": "Ulysses",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "scrivener",
+      "name": "Scrivener",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "googledrive",
+      "name": "Google Drive",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "onedrive",
+      "name": "Microsoft OneDrive",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "tencentmeeting",
+      "name": "腾讯会议",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "dingtalk",
+      "name": "钉钉",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "qq",
+      "name": "QQ",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "eclipse",
+      "name": "Eclipse IDE",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "sublimetext",
+      "name": "Sublime Text",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "onshape",
+      "name": "Onshape",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "vectorworks",
+      "name": "Vectorworks",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "calibre",
+      "name": "Calibre",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "ticktick",
+      "name": "TickTick",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "brave",
+      "name": "Brave",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "photoshop",
+      "name": "Photoshop",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "illustrator",
+      "name": "Illustrator",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "aftereffects",
+      "name": "After Effects",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "premiere",
+      "name": "Premiere Pro",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "word",
+      "name": "Microsoft Word",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "excel",
+      "name": "Microsoft Excel",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "powerpoint",
+      "name": "Microsoft PowerPoint",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "outlook",
+      "name": "Microsoft Outlook",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "onenote",
+      "name": "Microsoft OneNote",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "autocad",
+      "name": "AutoCAD",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "sketchup",
+      "name": "SketchUp",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "rhino",
+      "name": "Rhino",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "fusion360",
+      "name": "Fusion 360",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "freecad",
+      "name": "FreeCAD",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "shapr3d",
+      "name": "Shapr3D",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "maya",
+      "name": "Maya",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "cinema4d",
+      "name": "Cinema 4D",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "comsol",
+      "name": "COMSOL Multiphysics",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "matlab",
+      "name": "MATLAB",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "simulink",
+      "name": "Simulink",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "davinci",
+      "name": "DaVinci Resolve",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "xcode",
+      "name": "Xcode",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "androidstudio",
+      "name": "Android Studio",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "intellij",
+      "name": "IntelliJ IDEA",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "jupyter",
+      "name": "JupyterLab",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "spss",
+      "name": "IBM SPSS Statistics",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "rstudio",
+      "name": "RStudio",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "chrome",
+      "name": "Google Chrome",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "safari",
+      "name": "Safari",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "shortcuts": 0,
+      "resource": "ecosystem-shortcuts-mac.json"
+    },
+    {
+      "id": "eagle",
+      "name": "Eagle",
+      "shortcuts": 0,
+      "resource": "extended-shortcuts-mac.json"
+    },
+    {
+      "id": "stm32cubeide",
+      "name": "STM32CubeIDE",
+      "shortcuts": 0,
+      "resource": "extended-shortcuts-mac.json"
+    },
+    {
+      "id": "mplabx",
+      "name": "MPLAB X IDE",
+      "shortcuts": 0,
+      "resource": "extended-shortcuts-mac.json"
+    },
+    {
+      "id": "snapgene",
+      "name": "SnapGene",
+      "shortcuts": 0,
+      "resource": "extended-shortcuts-mac.json"
+    },
+    {
+      "id": "mega",
+      "name": "MEGA",
+      "shortcuts": 0,
+      "resource": "extended-shortcuts-mac.json"
+    },
+    {
+      "id": "clcgenomics",
+      "name": "CLC Genomics Workbench",
+      "shortcuts": 0,
+      "resource": "extended-shortcuts-mac.json"
+    },
+    {
+      "id": "chimerax",
+      "name": "ChimeraX",
+      "shortcuts": 0,
+      "resource": "extended-shortcuts-mac.json"
+    },
+    {
+      "id": "flowjo",
+      "name": "FlowJo",
+      "shortcuts": 0,
+      "resource": "extended-shortcuts-mac.json"
+    },
+    {
+      "id": "marvinsketch",
+      "name": "MarvinSketch",
+      "shortcuts": 0,
+      "resource": "extended-shortcuts-mac.json"
+    },
+    {
+      "id": "maple",
+      "name": "Maple",
+      "shortcuts": 0,
+      "resource": "extended-shortcuts-mac.json"
+    },
+    {
+      "id": "sasstudio",
+      "name": "SAS Studio",
+      "shortcuts": 0,
+      "resource": "extended-shortcuts-mac.json"
+    },
+    {
+      "id": "osirix",
+      "name": "OsiriX",
+      "shortcuts": 0,
+      "resource": "extended-shortcuts-mac.json"
+    },
+    {
+      "id": "horos",
+      "name": "Horos",
+      "shortcuts": 0,
+      "resource": "extended-shortcuts-mac.json"
+    },
+    {
+      "id": "envi",
+      "name": "ENVI",
+      "shortcuts": 0,
+      "resource": "extended-shortcuts-mac.json"
+    },
+    {
+      "id": "substancepainter",
+      "name": "Substance 3D Painter",
+      "shortcuts": 0,
+      "resource": "extended-shortcuts-mac.json"
+    },
+    {
+      "id": "houdini",
+      "name": "Houdini",
+      "shortcuts": 0,
+      "resource": "extended-shortcuts-mac.json"
+    }
+  ],
+  "contextualDuplicateRowsByPack": {
+    "aftereffects": 129
+  },
+  "errors": []
+}

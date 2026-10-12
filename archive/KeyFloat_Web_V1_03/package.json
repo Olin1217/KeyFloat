@@ -1,0 +1,10 @@
+{
+  "name": "keyfloat-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "node scripts/check-site.mjs && node scripts/check-license-key-sync.mjs && node scripts/check-payment-claim.mjs",
+    "generate-license-key": "node scripts/generate-license-keypair.mjs",
+    "dev": "python3 -m http.server 4173"
+  }
+}

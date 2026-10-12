@@ -1,0 +1,51 @@
+{
+  "importedAt": "2026-07-25",
+  "sourceDirectory": "/Users/hualong/Downloads/快捷键md",
+  "policy": {
+    "platform": "Only macOS or cross-platform default shortcuts are imported.",
+    "exclusions": "Windows-only, SketchUp Web, LayOut, Industry Compatible keymap, custom suggestions, and rows without a default shortcut are excluded.",
+    "commandAliases": "AutoCAD command aliases include Space as the explicit confirmation step."
+  },
+  "software": [
+    {
+      "id": "photoshop",
+      "shortcuts": 639,
+      "categories": 19,
+      "skippedNoKey": 7,
+      "skippedPlatform": 0,
+      "source": "Photoshop_快捷键大全_Windows_macOS.md"
+    },
+    {
+      "id": "illustrator",
+      "shortcuts": 393,
+      "categories": 20,
+      "skippedNoKey": 6,
+      "skippedPlatform": 40,
+      "source": "Illustrator_快捷键大全_Windows_macOS.md"
+    },
+    {
+      "id": "autocad",
+      "shortcuts": 547,
+      "categories": 15,
+      "skippedNoKey": 29,
+      "skippedPlatform": 68,
+      "source": "AutoCAD_2026_快捷键大全_Windows_macOS.md"
+    },
+    {
+      "id": "sketchup",
+      "shortcuts": 270,
+      "categories": 19,
+      "skippedNoKey": 129,
+      "skippedPlatform": 163,
+      "source": "SketchUp_2026_快捷键大全_Windows_macOS.md"
+    },
+    {
+      "id": "blender",
+      "shortcuts": 889,
+      "categories": 25,
+      "skippedNoKey": 224,
+      "skippedPlatform": 57,
+      "source": "Blender_5.2_LTS_快捷键大全_Windows_macOS.md"
+    }
+  ]
+}

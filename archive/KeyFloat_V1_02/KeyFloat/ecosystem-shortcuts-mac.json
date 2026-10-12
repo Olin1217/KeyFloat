@@ -1,0 +1,3549 @@
+{
+  "version": 1,
+  "platform": "macOS",
+  "generatedAt": "2026-07-21",
+  "sourceDocument": "/Users/hualong/Downloads/工程师设计师常用软件生态库.md",
+  "software": [
+    {
+      "id": "sketch",
+      "name": "Sketch",
+      "vendor": "Sketch B.V.",
+      "accent": "#FFAE00",
+      "glyph": "S",
+      "group": "design",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.sketch.com/docs/shortcuts/",
+        "sourceTitle": "Sketch product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.bohemiancoding.sketch3"
+      ]
+    },
+    {
+      "id": "adobexd",
+      "name": "Adobe XD",
+      "vendor": "Adobe",
+      "accent": "#FF61F6",
+      "glyph": "XD",
+      "group": "design",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://helpx.adobe.com/xd/help/keyboard-shortcuts.html",
+        "sourceTitle": "Adobe XD product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.adobe.xd"
+      ]
+    },
+    {
+      "id": "framer",
+      "name": "Framer",
+      "vendor": "Framer B.V.",
+      "accent": "#0055FF",
+      "glyph": "Fr",
+      "group": "design",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.framer.com/help/articles/keyboard-shortcuts/",
+        "sourceTitle": "Framer product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.framer.desktop"
+      ]
+    },
+    {
+      "id": "axure",
+      "name": "Axure RP",
+      "vendor": "Axure Software",
+      "accent": "#4A76D1",
+      "glyph": "Ax",
+      "group": "design",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.axure.com/axure-rp/reference/keyboard-shortcuts/",
+        "sourceTitle": "Axure RP product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.axure.AxureRP10",
+        "com.axure.AxureRP9"
+      ]
+    },
+    {
+      "id": "mastergo",
+      "name": "MasterGo",
+      "vendor": "MasterGo",
+      "accent": "#6C5CE7",
+      "glyph": "MG",
+      "group": "design",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://mastergo.com/",
+        "sourceTitle": "MasterGo product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "jsdesign",
+      "name": "即时设计",
+      "vendor": "即时设计",
+      "accent": "#7B61FF",
+      "glyph": "即时",
+      "group": "design",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://js.design/",
+        "sourceTitle": "即时设计 product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "indesign",
+      "name": "Adobe InDesign",
+      "vendor": "Adobe",
+      "accent": "#FF3366",
+      "glyph": "Id",
+      "group": "design",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://helpx.adobe.com/indesign/using/default-keyboard-shortcuts.html",
+        "sourceTitle": "Adobe InDesign product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.adobe.InDesign"
+      ]
+    },
+    {
+      "id": "lightroom",
+      "name": "Adobe Lightroom",
+      "vendor": "Adobe",
+      "accent": "#31A8FF",
+      "glyph": "Lr",
+      "group": "design",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://helpx.adobe.com/lightroom-classic/help/keyboard-shortcuts.html",
+        "sourceTitle": "Adobe Lightroom product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.adobe.LightroomCC",
+        "com.adobe.LightroomClassicCC"
+      ]
+    },
+    {
+      "id": "rive",
+      "name": "Rive",
+      "vendor": "Rive",
+      "accent": "#1D1D1D",
+      "glyph": "R",
+      "group": "media",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://rive.app/docs/editor/shortcuts",
+        "sourceTitle": "Rive product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "lottiefiles",
+      "name": "LottieFiles",
+      "vendor": "LottieFiles",
+      "accent": "#00DDB3",
+      "glyph": "Lf",
+      "group": "media",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://lottiefiles.com/",
+        "sourceTitle": "LottieFiles product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "protopie",
+      "name": "ProtoPie",
+      "vendor": "Studio XID",
+      "accent": "#FF5B5B",
+      "glyph": "PP",
+      "group": "design",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.protopie.io/learn/docs/keyboard-shortcuts",
+        "sourceTitle": "ProtoPie product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "io.protopie.studio"
+      ]
+    },
+    {
+      "id": "finalcut",
+      "name": "Final Cut Pro",
+      "vendor": "Apple",
+      "accent": "#5B5BFF",
+      "glyph": "FCP",
+      "group": "media",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.apple.com/guide/final-cut-pro/keyboard-shortcuts-ver90ba5929/mac",
+        "sourceTitle": "Final Cut Pro product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.apple.FinalCut"
+      ]
+    },
+    {
+      "id": "zbrush",
+      "name": "ZBrush",
+      "vendor": "Maxon",
+      "accent": "#F58220",
+      "glyph": "ZB",
+      "group": "modeling",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://help.maxon.net/zbr/en-us/Content/html/user-guide/keyboard-shortcuts/keyboard-shortcuts.html",
+        "sourceTitle": "ZBrush product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "net.maxon.zbrush"
+      ]
+    },
+    {
+      "id": "archicad",
+      "name": "Archicad",
+      "vendor": "Graphisoft",
+      "accent": "#00AEEF",
+      "glyph": "AC",
+      "group": "architecture",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://help.graphisoft.com/AC/27/INT/_AC27_Help/005_NewFeatures/005_NewFeatures-1.htm",
+        "sourceTitle": "Archicad product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "enscape",
+      "name": "Enscape",
+      "vendor": "Chaos",
+      "accent": "#F36F21",
+      "glyph": "En",
+      "group": "architecture",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://learn.enscape3d.com/blog/knowledgebase/keyboard-shortcuts/",
+        "sourceTitle": "Enscape product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "twinmotion",
+      "name": "Twinmotion",
+      "vendor": "Epic Games",
+      "accent": "#1D9BF0",
+      "glyph": "TM",
+      "group": "architecture",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://dev.epicgames.com/documentation/en-us/twinmotion/keyboard-and-mouse-shortcuts-in-twinmotion",
+        "sourceTitle": "Twinmotion product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "vendor": "Unity Technologies",
+      "accent": "#222C37",
+      "glyph": "U",
+      "group": "development",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.unity3d.com/Manual/UnityHotkeys.html",
+        "sourceTitle": "Unity product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.unity3d.UnityEditor5.x"
+      ]
+    },
+    {
+      "id": "unrealengine",
+      "name": "Unreal Engine",
+      "vendor": "Epic Games",
+      "accent": "#0E1128",
+      "glyph": "UE",
+      "group": "development",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://dev.epicgames.com/documentation/en-us/unreal-engine/keyboard-shortcuts-in-unreal-engine",
+        "sourceTitle": "Unreal Engine product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.epicgames.UnrealEditor"
+      ]
+    },
+    {
+      "id": "logicpro",
+      "name": "Logic Pro",
+      "vendor": "Apple",
+      "accent": "#5A38E8",
+      "glyph": "LP",
+      "group": "media",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.apple.com/guide/logicpro/key-commands-overview-lgcp9cbd0b19/mac",
+        "sourceTitle": "Logic Pro product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.apple.logic10"
+      ]
+    },
+    {
+      "id": "garageband",
+      "name": "GarageBand",
+      "vendor": "Apple",
+      "accent": "#E34B32",
+      "glyph": "GB",
+      "group": "media",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.apple.com/guide/garageband/keyboard-shortcuts-gbnd1b4a4e84/mac",
+        "sourceTitle": "GarageBand product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.apple.garageband10"
+      ]
+    },
+    {
+      "id": "qgis",
+      "name": "QGIS",
+      "vendor": "QGIS.org",
+      "accent": "#589632",
+      "glyph": "QG",
+      "group": "architecture",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.qgis.org/latest/en/docs/user_manual/introduction/qgis_configuration.html#keyboard-shortcuts",
+        "sourceTitle": "QGIS product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.qgis.qgis3"
+      ]
+    },
+    {
+      "id": "chemdraw",
+      "name": "ChemDraw",
+      "vendor": "Revvity Signals",
+      "accent": "#1862AB",
+      "glyph": "CD",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://revvitysignals.com/products/research/chemdraw",
+        "sourceTitle": "ChemDraw product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "pymol",
+      "name": "PyMOL",
+      "vendor": "Schrödinger",
+      "accent": "#2E75B6",
+      "glyph": "Py",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://pymolwiki.org/index.php/Keyboard_Shortcuts",
+        "sourceTitle": "PyMOL product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.pymol.PyMOL"
+      ]
+    },
+    {
+      "id": "imagej",
+      "name": "ImageJ / Fiji",
+      "vendor": "NIH",
+      "accent": "#C53B3B",
+      "glyph": "IJ",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://imagej.net/ij/docs/menus/keyboard.html",
+        "sourceTitle": "ImageJ / Fiji product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "sc.fiji"
+      ]
+    },
+    {
+      "id": "paraview",
+      "name": "ParaView",
+      "vendor": "Kitware",
+      "accent": "#3B6EA8",
+      "glyph": "PV",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.paraview.org/en/latest/ReferenceManual/keyboardShortcuts.html",
+        "sourceTitle": "ParaView product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.paraview.ParaView"
+      ]
+    },
+    {
+      "id": "kicad",
+      "name": "KiCad",
+      "vendor": "KiCad",
+      "accent": "#314CB0",
+      "glyph": "Ki",
+      "group": "engineering",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.kicad.org/8.0/en/pcbnew/pcbnew.html#hotkeys",
+        "sourceTitle": "KiCad product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.kicad.kicad"
+      ]
+    },
+    {
+      "id": "arduinoide",
+      "name": "Arduino IDE",
+      "vendor": "Arduino",
+      "accent": "#00979D",
+      "glyph": "Ar",
+      "group": "development",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-keyboard-shortcuts/",
+        "sourceTitle": "Arduino IDE product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "cc.arduino.IDE2"
+      ]
+    },
+    {
+      "id": "ltspice",
+      "name": "LTspice",
+      "vendor": "Analog Devices",
+      "accent": "#C70000",
+      "glyph": "LT",
+      "group": "simulation",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html",
+        "sourceTitle": "LTspice product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "mathematica",
+      "name": "Wolfram Mathematica",
+      "vendor": "Wolfram",
+      "accent": "#DD1100",
+      "glyph": "W",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://reference.wolfram.com/language/tutorial/KeyboardShortcutListing.html",
+        "sourceTitle": "Wolfram Mathematica product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.wolfram.Mathematica"
+      ]
+    },
+    {
+      "id": "stata",
+      "name": "Stata",
+      "vendor": "StataCorp",
+      "accent": "#1F4E79",
+      "glyph": "St",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.stata.com/manuals/gsw13.pdf",
+        "sourceTitle": "Stata product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "jmp",
+      "name": "JMP",
+      "vendor": "JMP Statistical Discovery",
+      "accent": "#E31837",
+      "glyph": "JMP",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.jmp.com/support/help/en/18.0/jmp/keyboard-shortcuts.shtml",
+        "sourceTitle": "JMP product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "graphpadprism",
+      "name": "GraphPad Prism",
+      "vendor": "Dotmatics",
+      "accent": "#2A6EBB",
+      "glyph": "Pr",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.graphpad.com/guides/prism/latest/user-guide/keyboard_shortcuts.htm",
+        "sourceTitle": "GraphPad Prism product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "vendor": "Anysphere",
+      "accent": "#111111",
+      "glyph": "Cu",
+      "group": "development",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.cursor.com/kbd",
+        "sourceTitle": "Cursor product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.todesktop.230313mzl4w4u92"
+      ]
+    },
+    {
+      "id": "pycharm",
+      "name": "PyCharm",
+      "vendor": "JetBrains",
+      "accent": "#21D789",
+      "glyph": "PC",
+      "group": "development",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html",
+        "sourceTitle": "PyCharm product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.jetbrains.pycharm"
+      ]
+    },
+    {
+      "id": "webstorm",
+      "name": "WebStorm",
+      "vendor": "JetBrains",
+      "accent": "#00CDD7",
+      "glyph": "WS",
+      "group": "development",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.jetbrains.com/help/webstorm/mastering-keyboard-shortcuts.html",
+        "sourceTitle": "WebStorm product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.jetbrains.WebStorm"
+      ]
+    },
+    {
+      "id": "goland",
+      "name": "GoLand",
+      "vendor": "JetBrains",
+      "accent": "#00ADD8",
+      "glyph": "Go",
+      "group": "development",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.jetbrains.com/help/go/mastering-keyboard-shortcuts.html",
+        "sourceTitle": "GoLand product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.jetbrains.goland"
+      ]
+    },
+    {
+      "id": "clion",
+      "name": "CLion",
+      "vendor": "JetBrains",
+      "accent": "#21D789",
+      "glyph": "CL",
+      "group": "development",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.jetbrains.com/help/clion/mastering-keyboard-shortcuts.html",
+        "sourceTitle": "CLion product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.jetbrains.CLion"
+      ]
+    },
+    {
+      "id": "githubdesktop",
+      "name": "GitHub Desktop",
+      "vendor": "GitHub",
+      "accent": "#181717",
+      "glyph": "GH",
+      "group": "versionControl",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.github.com/en/desktop/overview/keyboard-shortcuts",
+        "sourceTitle": "GitHub Desktop product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.github.GitHubClient"
+      ]
+    },
+    {
+      "id": "sourcetree",
+      "name": "Sourcetree",
+      "vendor": "Atlassian",
+      "accent": "#0052CC",
+      "glyph": "ST",
+      "group": "versionControl",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.atlassian.com/sourcetree/docs/keyboard-shortcuts/",
+        "sourceTitle": "Sourcetree product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.torusknot.SourceTreeNotMAS",
+        "com.torusknot.SourceTree"
+      ]
+    },
+    {
+      "id": "tower",
+      "name": "Tower",
+      "vendor": "fournova",
+      "accent": "#F04B3A",
+      "glyph": "Tw",
+      "group": "versionControl",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.git-tower.com/help/mac/faq-and-tips/keyboard-shortcuts",
+        "sourceTitle": "Tower product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.fournova.Tower3",
+        "com.fournova.Tower"
+      ]
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "vendor": "GitHub",
+      "accent": "#181717",
+      "glyph": "GH",
+      "group": "versionControl",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.github.com/en/get-started/accessibility/keyboard-shortcuts",
+        "sourceTitle": "GitHub product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "vendor": "GitLab",
+      "accent": "#FC6D26",
+      "glyph": "GL",
+      "group": "versionControl",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.gitlab.com/user/shortcuts/",
+        "sourceTitle": "GitLab product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "bitbucket",
+      "name": "Bitbucket",
+      "vendor": "Atlassian",
+      "accent": "#0052CC",
+      "glyph": "BB",
+      "group": "versionControl",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.atlassian.com/bitbucket-cloud/docs/keyboard-shortcuts/",
+        "sourceTitle": "Bitbucket product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "vendor": "Postman",
+      "accent": "#FF6C37",
+      "glyph": "Pm",
+      "group": "databaseAPI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://learning.postman.com/docs/getting-started/installation/installation-and-updates/#keyboard-shortcuts",
+        "sourceTitle": "Postman product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.postmanlabs.mac"
+      ]
+    },
+    {
+      "id": "insomnia",
+      "name": "Insomnia",
+      "vendor": "Kong",
+      "accent": "#4000BF",
+      "glyph": "In",
+      "group": "databaseAPI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.insomnia.rest/insomnia/keyboard-shortcuts",
+        "sourceTitle": "Insomnia product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.insomnia.app"
+      ]
+    },
+    {
+      "id": "apifox",
+      "name": "Apifox",
+      "vendor": "Apifox",
+      "accent": "#FF4D4F",
+      "glyph": "AF",
+      "group": "databaseAPI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.apifox.com/keyboard-shortcuts",
+        "sourceTitle": "Apifox product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.apifox.app"
+      ]
+    },
+    {
+      "id": "swaggerui",
+      "name": "Swagger UI",
+      "vendor": "SmartBear",
+      "accent": "#85EA2D",
+      "glyph": "Sw",
+      "group": "databaseAPI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://swagger.io/tools/swagger-ui/",
+        "sourceTitle": "Swagger UI product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "hoppscotch",
+      "name": "Hoppscotch",
+      "vendor": "Hoppscotch",
+      "accent": "#10B981",
+      "glyph": "Hs",
+      "group": "databaseAPI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.hoppscotch.io/documentation/features/shortcuts",
+        "sourceTitle": "Hoppscotch product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "dockerdesktop",
+      "name": "Docker Desktop",
+      "vendor": "Docker",
+      "accent": "#2496ED",
+      "glyph": "D",
+      "group": "versionControl",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.docker.com/desktop/use-desktop/",
+        "sourceTitle": "Docker Desktop product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.docker.docker"
+      ]
+    },
+    {
+      "id": "dbeaver",
+      "name": "DBeaver",
+      "vendor": "DBeaver Corp",
+      "accent": "#382923",
+      "glyph": "DB",
+      "group": "databaseAPI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://dbeaver.com/docs/dbeaver/Shortcuts/",
+        "sourceTitle": "DBeaver product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.jkiss.dbeaver.core.product"
+      ]
+    },
+    {
+      "id": "datagrip",
+      "name": "DataGrip",
+      "vendor": "JetBrains",
+      "accent": "#B345F1",
+      "glyph": "DG",
+      "group": "databaseAPI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.jetbrains.com/help/datagrip/mastering-keyboard-shortcuts.html",
+        "sourceTitle": "DataGrip product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.jetbrains.datagrip"
+      ]
+    },
+    {
+      "id": "mysqlworkbench",
+      "name": "MySQL / MySQL Workbench",
+      "vendor": "Oracle",
+      "accent": "#4479A1",
+      "glyph": "My",
+      "group": "databaseAPI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://dev.mysql.com/doc/workbench/en/wb-keys.html",
+        "sourceTitle": "MySQL / MySQL Workbench product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.oracle.workbench.MySQLWorkbench"
+      ]
+    },
+    {
+      "id": "pgadmin",
+      "name": "PostgreSQL / pgAdmin",
+      "vendor": "pgAdmin",
+      "accent": "#336791",
+      "glyph": "Pg",
+      "group": "databaseAPI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.pgadmin.org/docs/pgadmin4/latest/keyboard_shortcuts.html",
+        "sourceTitle": "PostgreSQL / pgAdmin product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.pgadmin.pgadmin4"
+      ]
+    },
+    {
+      "id": "mongodbcompass",
+      "name": "MongoDB Compass",
+      "vendor": "MongoDB",
+      "accent": "#47A248",
+      "glyph": "Mo",
+      "group": "databaseAPI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.mongodb.com/docs/compass/current/keyboard-shortcuts/",
+        "sourceTitle": "MongoDB Compass product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.mongodb.compass"
+      ]
+    },
+    {
+      "id": "redisinsight",
+      "name": "Redis Insight",
+      "vendor": "Redis",
+      "accent": "#DC382D",
+      "glyph": "Ri",
+      "group": "databaseAPI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://redis.io/docs/latest/develop/tools/insight/",
+        "sourceTitle": "Redis Insight product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.redis.RedisInsight"
+      ]
+    },
+    {
+      "id": "sqlitestudio",
+      "name": "SQLite / SQLiteStudio",
+      "vendor": "SQLiteStudio",
+      "accent": "#0F80CC",
+      "glyph": "Sq",
+      "group": "databaseAPI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://github.com/pawelsalawa/sqlitestudio/wiki/User_Manual",
+        "sourceTitle": "SQLite / SQLiteStudio product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "tableplus",
+      "name": "TablePlus",
+      "vendor": "TablePlus",
+      "accent": "#F2C94C",
+      "glyph": "T+",
+      "group": "databaseAPI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.tableplus.com/gui-tools/shortcut-keys",
+        "sourceTitle": "TablePlus product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.tinyapp.TablePlus"
+      ]
+    },
+    {
+      "id": "iterm2",
+      "name": "iTerm2",
+      "vendor": "George Nachman",
+      "accent": "#111111",
+      "glyph": "iT",
+      "group": "development",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://iterm2.com/documentation-one-page.html",
+        "sourceTitle": "iTerm2 product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.googlecode.iterm2"
+      ]
+    },
+    {
+      "id": "warp",
+      "name": "Warp",
+      "vendor": "Warp",
+      "accent": "#01A4FF",
+      "glyph": "Wa",
+      "group": "development",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.warp.dev/features/keyboard-shortcuts",
+        "sourceTitle": "Warp product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "dev.warp.Warp-Stable"
+      ]
+    },
+    {
+      "id": "arc",
+      "name": "Arc",
+      "vendor": "The Browser Company",
+      "accent": "#7C5CFC",
+      "glyph": "A",
+      "group": "browser",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://resources.arc.net/hc/en-us/articles/20595231349911-Keyboard-Shortcuts",
+        "sourceTitle": "Arc product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "company.thebrowser.Browser"
+      ]
+    },
+    {
+      "id": "firefox",
+      "name": "Mozilla Firefox",
+      "vendor": "Mozilla",
+      "accent": "#FF7139",
+      "glyph": "Fx",
+      "group": "browser",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.mozilla.org/kb/keyboard-shortcuts-perform-firefox-tasks-quickly",
+        "sourceTitle": "Mozilla Firefox product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.mozilla.firefox"
+      ]
+    },
+    {
+      "id": "edge",
+      "name": "Microsoft Edge",
+      "vendor": "Microsoft",
+      "accent": "#0A84FF",
+      "glyph": "Ed",
+      "group": "browser",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.microsoft.com/topic/keyboard-shortcuts-in-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad",
+        "sourceTitle": "Microsoft Edge product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.microsoft.edgemac"
+      ]
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "vendor": "Supabase",
+      "accent": "#3ECF8E",
+      "glyph": "Su",
+      "group": "databaseAPI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://supabase.com/dashboard",
+        "sourceTitle": "Supabase product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "vendor": "Vercel",
+      "accent": "#000000",
+      "glyph": "V",
+      "group": "versionControl",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://vercel.com/dashboard",
+        "sourceTitle": "Vercel product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "vendor": "Netlify",
+      "accent": "#00C7B7",
+      "glyph": "Ne",
+      "group": "versionControl",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://app.netlify.com/",
+        "sourceTitle": "Netlify product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "vendor": "Cloudflare",
+      "accent": "#F38020",
+      "glyph": "CF",
+      "group": "versionControl",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://dash.cloudflare.com/",
+        "sourceTitle": "Cloudflare product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "pages",
+      "name": "Apple Pages",
+      "vendor": "Apple",
+      "accent": "#FF9F0A",
+      "glyph": "Pa",
+      "group": "office",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.apple.com/guide/pages/keyboard-shortcuts-tan4f2501bf/mac",
+        "sourceTitle": "Apple Pages product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.apple.iWork.Pages"
+      ]
+    },
+    {
+      "id": "numbers",
+      "name": "Apple Numbers",
+      "vendor": "Apple",
+      "accent": "#34C759",
+      "glyph": "Nu",
+      "group": "office",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.apple.com/guide/numbers/keyboard-shortcuts-tan9efc4a98f/mac",
+        "sourceTitle": "Apple Numbers product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.apple.iWork.Numbers"
+      ]
+    },
+    {
+      "id": "keynote",
+      "name": "Apple Keynote",
+      "vendor": "Apple",
+      "accent": "#0A84FF",
+      "glyph": "Ke",
+      "group": "office",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tan3a8c1a6b/mac",
+        "sourceTitle": "Apple Keynote product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.apple.iWork.Keynote"
+      ]
+    },
+    {
+      "id": "preview",
+      "name": "Preview",
+      "vendor": "Apple",
+      "accent": "#0A84FF",
+      "glyph": "Pr",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.apple.com/guide/preview/keyboard-shortcuts-cpprvw0003/mac",
+        "sourceTitle": "Preview product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.apple.Preview"
+      ]
+    },
+    {
+      "id": "pdfexpert",
+      "name": "PDF Expert",
+      "vendor": "Readdle",
+      "accent": "#E53935",
+      "glyph": "PDF",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.readdle.com/pdfexpert/en_US/keyboard-shortcuts",
+        "sourceTitle": "PDF Expert product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.readdle.PDFExpert-Mac"
+      ]
+    },
+    {
+      "id": "zotero",
+      "name": "Zotero",
+      "vendor": "Corporation for Digital Scholarship",
+      "accent": "#CC2936",
+      "glyph": "Z",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.zotero.org/support/kb/keyboard_shortcuts",
+        "sourceTitle": "Zotero product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.zotero.zotero"
+      ]
+    },
+    {
+      "id": "mendeley",
+      "name": "Mendeley Reference Manager",
+      "vendor": "Elsevier",
+      "accent": "#9D162E",
+      "glyph": "M",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://service.elsevier.com/app/answers/detail/a_id/33564/supporthub/mendeley/",
+        "sourceTitle": "Mendeley Reference Manager product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.elsevier.mendeley"
+      ]
+    },
+    {
+      "id": "endnote",
+      "name": "EndNote",
+      "vendor": "Clarivate",
+      "accent": "#D74B4B",
+      "glyph": "EN",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.endnote.com/docs/endnote/2025/v1/macos/en/content/17keyboard_shortcuts/keyboard_shortcuts.htm",
+        "sourceTitle": "EndNote product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.ThomsonResearchSoft.EndNote"
+      ]
+    },
+    {
+      "id": "anki",
+      "name": "Anki",
+      "vendor": "Anki",
+      "accent": "#49A4DB",
+      "glyph": "An",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.ankiweb.net/studying.html#keyboard-shortcuts",
+        "sourceTitle": "Anki product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "net.ankiweb.dtop"
+      ]
+    },
+    {
+      "id": "goodnotes",
+      "name": "Goodnotes",
+      "vendor": "Goodnotes",
+      "accent": "#4A90E2",
+      "glyph": "GN",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.goodnotes.com/hc/en-us/articles/7353694456399-Keyboard-shortcuts",
+        "sourceTitle": "Goodnotes product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.goodnotesapp.x"
+      ]
+    },
+    {
+      "id": "overleaf",
+      "name": "Overleaf",
+      "vendor": "Overleaf",
+      "accent": "#47A141",
+      "glyph": "Ov",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.overleaf.com/learn/how-to/Keyboard_shortcuts",
+        "sourceTitle": "Overleaf product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "texstudio",
+      "name": "TeXstudio",
+      "vendor": "TeXstudio",
+      "accent": "#6A7E95",
+      "glyph": "TeX",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://texstudio-org.github.io/advanced.html#shortcuts",
+        "sourceTitle": "TeXstudio product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.texstudio.TeXstudio"
+      ]
+    },
+    {
+      "id": "drawio",
+      "name": "draw.io / diagrams.net",
+      "vendor": "JGraph",
+      "accent": "#F08705",
+      "glyph": "dI",
+      "group": "design",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.drawio.com/doc/faq/shortcuts",
+        "sourceTitle": "draw.io / diagrams.net product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "xmind",
+      "name": "XMind",
+      "vendor": "XMind",
+      "accent": "#F45B69",
+      "glyph": "X",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://xmind.com/user-guide/shortcuts-new/",
+        "sourceTitle": "XMind product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "net.xmind.XMind"
+      ]
+    },
+    {
+      "id": "mindnode",
+      "name": "MindNode",
+      "vendor": "IdeasOnCanvas",
+      "accent": "#E34856",
+      "glyph": "MN",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://mindnode.com/support/keyboard-shortcuts",
+        "sourceTitle": "MindNode product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.ideasoncanvas.mindnode.macos"
+      ]
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "vendor": "Canva",
+      "accent": "#00C4CC",
+      "glyph": "Ca",
+      "group": "design",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.canva.com/help/keyboard-shortcuts/",
+        "sourceTitle": "Canva product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "miro",
+      "name": "Miro",
+      "vendor": "Miro",
+      "accent": "#FFD02F",
+      "glyph": "Mi",
+      "group": "design",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://help.miro.com/hc/en-us/articles/360018052233-Shortcuts-and-hotkeys",
+        "sourceTitle": "Miro product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.electron.realtimeboard"
+      ]
+    },
+    {
+      "id": "confluence",
+      "name": "Confluence",
+      "vendor": "Atlassian",
+      "accent": "#172B4D",
+      "glyph": "Co",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.atlassian.com/confluence-cloud/docs/keyboard-shortcuts-markdown-and-autocomplete/",
+        "sourceTitle": "Confluence product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "jira",
+      "name": "Jira",
+      "vendor": "Atlassian",
+      "accent": "#0052CC",
+      "glyph": "Ji",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.atlassian.com/jira-software-cloud/docs/use-keyboard-shortcuts/",
+        "sourceTitle": "Jira product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "vendor": "Linear",
+      "accent": "#5E6AD2",
+      "glyph": "Li",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://linear.app/docs/keyboard-shortcuts",
+        "sourceTitle": "Linear product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "vendor": "Atlassian",
+      "accent": "#0079BF",
+      "glyph": "Tr",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.atlassian.com/trello/docs/using-keyboard-shortcuts-in-trello/",
+        "sourceTitle": "Trello product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "feishu",
+      "name": "飞书 / Lark",
+      "vendor": "ByteDance",
+      "accent": "#3370FF",
+      "glyph": "飞书",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.feishu.cn/hc/zh-CN/articles/360049067485",
+        "sourceTitle": "飞书 / Lark product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "yuque",
+      "name": "语雀",
+      "vendor": "Ant Group",
+      "accent": "#25B864",
+      "glyph": "语雀",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.yuque.com/yuque/help/keyboard-shortcuts",
+        "sourceTitle": "语雀 product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "teams",
+      "name": "Microsoft Teams",
+      "vendor": "Microsoft",
+      "accent": "#6264A7",
+      "glyph": "T",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.microsoft.com/office/keyboard-shortcuts-for-microsoft-teams-2e8e2a70-e8d8-4a19-949b-4c36dd5292d2",
+        "sourceTitle": "Microsoft Teams product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.microsoft.teams2",
+        "com.microsoft.teams"
+      ]
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "vendor": "Zoom",
+      "accent": "#2D8CFF",
+      "glyph": "Z",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067050",
+        "sourceTitle": "Zoom product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "us.zoom.xos"
+      ]
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "vendor": "Salesforce",
+      "accent": "#4A154B",
+      "glyph": "Sl",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://slack.com/help/articles/201374536-Slack-keyboard-shortcuts",
+        "sourceTitle": "Slack product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.tinyspeck.slackmacgap"
+      ]
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "vendor": "Discord",
+      "accent": "#5865F2",
+      "glyph": "Di",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.discord.com/hc/en-us/articles/225977308-Keyboard-Navigation-FAQ",
+        "sourceTitle": "Discord product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.hnc.Discord"
+      ]
+    },
+    {
+      "id": "wechat",
+      "name": "WeChat",
+      "vendor": "Tencent",
+      "accent": "#07C160",
+      "glyph": "微",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://mac.weixin.qq.com/",
+        "sourceTitle": "WeChat product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.tencent.xinWeChat"
+      ]
+    },
+    {
+      "id": "raycast",
+      "name": "Raycast",
+      "vendor": "Raycast",
+      "accent": "#FF6363",
+      "glyph": "Ra",
+      "group": "macUtility",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://manual.raycast.com/keyboard-shortcuts",
+        "sourceTitle": "Raycast product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.raycast.macos"
+      ]
+    },
+    {
+      "id": "alfred",
+      "name": "Alfred",
+      "vendor": "Running with Crayons",
+      "accent": "#6F4E9C",
+      "glyph": "Al",
+      "group": "macUtility",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.alfredapp.com/help/getting-started/cheatsheet/",
+        "sourceTitle": "Alfred product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.runningwithcrayons.Alfred"
+      ]
+    },
+    {
+      "id": "cleanshot",
+      "name": "CleanShot X",
+      "vendor": "Make The Web",
+      "accent": "#7C5CFC",
+      "glyph": "CS",
+      "group": "macUtility",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://cleanshot.com/help/",
+        "sourceTitle": "CleanShot X product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "pl.maketheweb.cleanshotx"
+      ]
+    },
+    {
+      "id": "bartender",
+      "name": "Bartender",
+      "vendor": "Surtees Studios",
+      "accent": "#505050",
+      "glyph": "B",
+      "group": "macUtility",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.macbartender.com/Bartender5/Support/",
+        "sourceTitle": "Bartender product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.surteesstudios.Bartender"
+      ]
+    },
+    {
+      "id": "rectangle",
+      "name": "Rectangle",
+      "vendor": "Ryan Hanson",
+      "accent": "#2F80ED",
+      "glyph": "Re",
+      "group": "macUtility",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://github.com/rxhanson/Rectangle/blob/main/README.md#keyboard-shortcuts",
+        "sourceTitle": "Rectangle product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.knollsoft.Rectangle"
+      ]
+    },
+    {
+      "id": "magnet",
+      "name": "Magnet",
+      "vendor": "Crowdcafe",
+      "accent": "#E94E3D",
+      "glyph": "Ma",
+      "group": "macUtility",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://magnet.crowdcafe.com/",
+        "sourceTitle": "Magnet product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.crowdcafe.windowmagnet"
+      ]
+    },
+    {
+      "id": "paste",
+      "name": "Paste",
+      "vendor": "Paste Team",
+      "accent": "#6C5CE7",
+      "glyph": "Pa",
+      "group": "macUtility",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://pasteapp.io/help",
+        "sourceTitle": "Paste product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.wiheads.paste"
+      ]
+    },
+    {
+      "id": "onepassword",
+      "name": "1Password",
+      "vendor": "1Password",
+      "accent": "#0572EC",
+      "glyph": "1P",
+      "group": "macUtility",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.1password.com/keyboard-shortcuts/",
+        "sourceTitle": "1Password product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.1password.1password"
+      ]
+    },
+    {
+      "id": "tableau",
+      "name": "Tableau",
+      "vendor": "Salesforce",
+      "accent": "#E97627",
+      "glyph": "Tb",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://help.tableau.com/current/pro/desktop/en-us/shortcut.htm",
+        "sourceTitle": "Tableau product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "powerbiweb",
+      "name": "Power BI (Web)",
+      "vendor": "Microsoft",
+      "accent": "#F2C811",
+      "glyph": "BI",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://learn.microsoft.com/power-bi/create-reports/desktop-accessibility-keyboard-shortcuts",
+        "sourceTitle": "Power BI (Web) product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "amplitude",
+      "name": "Amplitude",
+      "vendor": "Amplitude",
+      "accent": "#1C64F2",
+      "glyph": "Am",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://amplitude.com/docs",
+        "sourceTitle": "Amplitude product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "mixpanel",
+      "name": "Mixpanel",
+      "vendor": "Mixpanel",
+      "accent": "#7856FF",
+      "glyph": "Mx",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.mixpanel.com/docs",
+        "sourceTitle": "Mixpanel product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "vendor": "OpenAI",
+      "accent": "#10A37F",
+      "glyph": "GPT",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://help.openai.com/en/articles/7996703-troubleshooting-chatgpt-error-messages",
+        "sourceTitle": "ChatGPT product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.openai.chat"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "vendor": "Anthropic",
+      "accent": "#D97757",
+      "glyph": "Cl",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.anthropic.com/",
+        "sourceTitle": "Claude product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.anthropic.claudefordesktop"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "vendor": "OpenAI",
+      "accent": "#111111",
+      "glyph": "Cx",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://developers.openai.com/codex/",
+        "sourceTitle": "Codex product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "lmstudio",
+      "name": "LM Studio",
+      "vendor": "LM Studio",
+      "accent": "#5C6AC4",
+      "glyph": "LM",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://lmstudio.ai/docs",
+        "sourceTitle": "LM Studio product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "ai.elementlabs.lmstudio"
+      ]
+    },
+    {
+      "id": "comfyui",
+      "name": "ComfyUI",
+      "vendor": "Comfy Org",
+      "accent": "#222222",
+      "glyph": "CU",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.comfy.org/interface/shortcuts",
+        "sourceTitle": "ComfyUI product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "stablediffusion",
+      "name": "Stable Diffusion WebUI",
+      "vendor": "Community",
+      "accent": "#7B61FF",
+      "glyph": "SD",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki",
+        "sourceTitle": "Stable Diffusion WebUI product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "vendor": "Runway",
+      "accent": "#111111",
+      "glyph": "Rw",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://help.runwayml.com/hc/en-us",
+        "sourceTitle": "Runway product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "vendor": "Midjourney",
+      "accent": "#111111",
+      "glyph": "MJ",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.midjourney.com/",
+        "sourceTitle": "Midjourney product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "adobefirefly",
+      "name": "Adobe Firefly",
+      "vendor": "Adobe",
+      "accent": "#FF4F64",
+      "glyph": "Fi",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://helpx.adobe.com/firefly/using/keyboard-shortcuts.html",
+        "sourceTitle": "Adobe Firefly product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "pika",
+      "name": "Pika",
+      "vendor": "Pika Labs",
+      "accent": "#6C5CE7",
+      "glyph": "Pi",
+      "group": "dataAI",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://pika.art/",
+        "sourceTitle": "Pika product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "capcut",
+      "name": "CapCut",
+      "vendor": "ByteDance",
+      "accent": "#111111",
+      "glyph": "CC",
+      "group": "media",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.capcut.com/resource/capcut-keyboard-shortcuts",
+        "sourceTitle": "CapCut product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.lemon.lv"
+      ]
+    },
+    {
+      "id": "audacity",
+      "name": "Audacity",
+      "vendor": "Muse Group",
+      "accent": "#0000CC",
+      "glyph": "Au",
+      "group": "media",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://manual.audacityteam.org/man/keyboard_shortcut_reference.html",
+        "sourceTitle": "Audacity product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.audacityteam.audacity"
+      ]
+    },
+    {
+      "id": "obsstudio",
+      "name": "OBS Studio",
+      "vendor": "OBS Project",
+      "accent": "#302E31",
+      "glyph": "OBS",
+      "group": "media",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://obsproject.com/kb/hotkeys-in-obs-studio",
+        "sourceTitle": "OBS Studio product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.obsproject.obs-studio"
+      ]
+    },
+    {
+      "id": "iina",
+      "name": "IINA",
+      "vendor": "IINA",
+      "accent": "#393A3C",
+      "glyph": "I",
+      "group": "media",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://docs.iina.io/",
+        "sourceTitle": "IINA product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.colliderli.iina"
+      ]
+    },
+    {
+      "id": "vlc",
+      "name": "VLC media player",
+      "vendor": "VideoLAN",
+      "accent": "#FF8800",
+      "glyph": "VLC",
+      "group": "media",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://wiki.videolan.org/Hotkeys_table/",
+        "sourceTitle": "VLC media player product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.videolan.vlc"
+      ]
+    },
+    {
+      "id": "handbrake",
+      "name": "HandBrake",
+      "vendor": "HandBrake Team",
+      "accent": "#6E9F18",
+      "glyph": "HB",
+      "group": "media",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://handbrake.fr/docs/en/latest/technical/keyboard-shortcuts.html",
+        "sourceTitle": "HandBrake product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "fr.handbrake.HandBrake"
+      ]
+    },
+    {
+      "id": "googledocs",
+      "name": "Google Docs",
+      "vendor": "Google",
+      "accent": "#4285F4",
+      "glyph": "Gd",
+      "group": "office",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.google.com/docs/answer/179738",
+        "sourceTitle": "Google Docs product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "googlesheets",
+      "name": "Google Sheets",
+      "vendor": "Google",
+      "accent": "#0F9D58",
+      "glyph": "Gs",
+      "group": "office",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.google.com/docs/answer/181110",
+        "sourceTitle": "Google Sheets product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "googleslides",
+      "name": "Google Slides",
+      "vendor": "Google",
+      "accent": "#F4B400",
+      "glyph": "GSl",
+      "group": "office",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.google.com/docs/answer/1696717",
+        "sourceTitle": "Google Slides product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "wpsoffice",
+      "name": "WPS Office",
+      "vendor": "Kingsoft",
+      "accent": "#E53935",
+      "glyph": "WPS",
+      "group": "office",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://help.wps.com/articles/keyboard-shortcuts-in-wps-office",
+        "sourceTitle": "WPS Office product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.kingsoft.wpsoffice.mac"
+      ]
+    },
+    {
+      "id": "adobeacrobat",
+      "name": "Adobe Acrobat",
+      "vendor": "Adobe",
+      "accent": "#EC1C24",
+      "glyph": "Ac",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://helpx.adobe.com/acrobat/using/keyboard-shortcuts.html",
+        "sourceTitle": "Adobe Acrobat product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.adobe.Acrobat.Pro",
+        "com.adobe.Reader"
+      ]
+    },
+    {
+      "id": "evernote",
+      "name": "Evernote",
+      "vendor": "Evernote",
+      "accent": "#00A82D",
+      "glyph": "Ev",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://help.evernote.com/hc/en-us/articles/208313358-Keyboard-shortcuts-in-Evernote-for-Mac",
+        "sourceTitle": "Evernote product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.evernote.Evernote"
+      ]
+    },
+    {
+      "id": "ulysses",
+      "name": "Ulysses",
+      "vendor": "Ulysses GmbH",
+      "accent": "#E6A700",
+      "glyph": "Ul",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://help.ulysses.app/kb/guide/en/keyboard-shortcuts-X6Kf9pG0RI/Steps/1905337",
+        "sourceTitle": "Ulysses product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.soulmen.ulysses3"
+      ]
+    },
+    {
+      "id": "scrivener",
+      "name": "Scrivener",
+      "vendor": "Literature & Latte",
+      "accent": "#2F4F4F",
+      "glyph": "Sc",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.literatureandlatte.com/learn-and-support/user-guides",
+        "sourceTitle": "Scrivener product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.literatureandlatte.scrivener3"
+      ]
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "vendor": "Dropbox",
+      "accent": "#0061FF",
+      "glyph": "Db",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://help.dropbox.com/view-edit/keyboard-shortcuts",
+        "sourceTitle": "Dropbox product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.getdropbox.dropbox"
+      ]
+    },
+    {
+      "id": "googledrive",
+      "name": "Google Drive",
+      "vendor": "Google",
+      "accent": "#4285F4",
+      "glyph": "GD",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.google.com/drive/answer/2563044",
+        "sourceTitle": "Google Drive product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "onedrive",
+      "name": "Microsoft OneDrive",
+      "vendor": "Microsoft",
+      "accent": "#0078D4",
+      "glyph": "OD",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.microsoft.com/office/keyboard-shortcuts-for-onedrive-for-work-or-school-1a4b3253-f3a8-44ca-a30b-6aa5a5b6a693",
+        "sourceTitle": "Microsoft OneDrive product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.microsoft.OneDrive"
+      ]
+    },
+    {
+      "id": "tencentmeeting",
+      "name": "腾讯会议",
+      "vendor": "Tencent",
+      "accent": "#1F7CF0",
+      "glyph": "会",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://meeting.tencent.com/support.html",
+        "sourceTitle": "腾讯会议 product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.tencent.meeting"
+      ]
+    },
+    {
+      "id": "dingtalk",
+      "name": "钉钉",
+      "vendor": "Alibaba",
+      "accent": "#0089FF",
+      "glyph": "钉",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://page.dingtalk.com/wow/dingtalk/act/help",
+        "sourceTitle": "钉钉 product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.alibaba.DingTalkMac"
+      ]
+    },
+    {
+      "id": "qq",
+      "name": "QQ",
+      "vendor": "Tencent",
+      "accent": "#12B7F5",
+      "glyph": "Q",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://im.qq.com/macqq/",
+        "sourceTitle": "QQ product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.tencent.qq"
+      ]
+    },
+    {
+      "id": "eclipse",
+      "name": "Eclipse IDE",
+      "vendor": "Eclipse Foundation",
+      "accent": "#2C2255",
+      "glyph": "Ec",
+      "group": "development",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.user/reference/ref-keybindings.htm",
+        "sourceTitle": "Eclipse IDE product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "org.eclipse.platform.ide"
+      ]
+    },
+    {
+      "id": "sublimetext",
+      "name": "Sublime Text",
+      "vendor": "Sublime HQ",
+      "accent": "#FF9800",
+      "glyph": "ST",
+      "group": "development",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.sublimetext.com/docs/keyboard_shortcuts.html",
+        "sourceTitle": "Sublime Text product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.sublimetext.4",
+        "com.sublimetext.3"
+      ]
+    },
+    {
+      "id": "onshape",
+      "name": "Onshape",
+      "vendor": "PTC",
+      "accent": "#1B5FAA",
+      "glyph": "On",
+      "group": "engineering",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://cad.onshape.com/help/Content/shortcut_keys.htm",
+        "sourceTitle": "Onshape product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "vectorworks",
+      "name": "Vectorworks",
+      "vendor": "Vectorworks",
+      "accent": "#D71920",
+      "glyph": "VW",
+      "group": "architecture",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://app-help.vectorworks.net/2025/eng/VW2025_Guide/Start/Keyboard_shortcuts.htm",
+        "sourceTitle": "Vectorworks product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "calibre",
+      "name": "Calibre",
+      "vendor": "Kovid Goyal",
+      "accent": "#1B6AC9",
+      "glyph": "Cb",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://manual.calibre-ebook.com/keyboard_shortcuts.html",
+        "sourceTitle": "Calibre product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "net.kovidgoyal.calibre"
+      ]
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "vendor": "DeepL",
+      "accent": "#0F2B46",
+      "glyph": "DL",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.deepl.com/hc/en-us/articles/4407580229522-DeepL-for-Mac",
+        "sourceTitle": "DeepL product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.linguee.DeepLCopyTranslator"
+      ]
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "vendor": "Grammarly",
+      "accent": "#15C39A",
+      "glyph": "Gr",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.grammarly.com/hc/en-us/articles/360049763572-Grammarly-for-Mac-user-guide",
+        "sourceTitle": "Grammarly product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.grammarly.ProjectLlama"
+      ]
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "vendor": "Doist",
+      "accent": "#E44332",
+      "glyph": "Td",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://todoist.com/help/articles/use-keyboard-shortcuts-in-todoist-Wyovn2",
+        "sourceTitle": "Todoist product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.todoist.mac.Todoist"
+      ]
+    },
+    {
+      "id": "ticktick",
+      "name": "TickTick",
+      "vendor": "Appest",
+      "accent": "#4772FA",
+      "glyph": "Tk",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://help.ticktick.com/articles/7055782407851413504",
+        "sourceTitle": "TickTick product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.TickTick.task.mac"
+      ]
+    },
+    {
+      "id": "brave",
+      "name": "Brave",
+      "vendor": "Brave Software",
+      "accent": "#FB542B",
+      "glyph": "Br",
+      "group": "browser",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://support.brave.com/hc/en-us/articles/360032272171-What-keyboard-shortcuts-can-I-use-in-Brave",
+        "sourceTitle": "Brave product catalog entry",
+        "appVersion": "Current macOS/web edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      },
+      "bundleIdentifiers": [
+        "com.brave.Browser"
+      ]
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "vendor": "Figma",
+      "accent": "#a970ff",
+      "glyph": "F",
+      "group": "design",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.figma.com/",
+        "sourceTitle": "Figma verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "photoshop",
+      "name": "Photoshop",
+      "vendor": "Adobe",
+      "accent": "#31a8ff",
+      "glyph": "Ps",
+      "group": "design",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.adobe.com/products/photoshop.html",
+        "sourceTitle": "Photoshop verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "illustrator",
+      "name": "Illustrator",
+      "vendor": "Adobe",
+      "accent": "#ff9a00",
+      "glyph": "Ai",
+      "group": "design",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.adobe.com/products/illustrator.html",
+        "sourceTitle": "Illustrator verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "aftereffects",
+      "name": "After Effects",
+      "vendor": "Adobe",
+      "accent": "#9999ff",
+      "glyph": "Ae",
+      "group": "media",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.adobe.com/products/aftereffects.html",
+        "sourceTitle": "After Effects verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "premiere",
+      "name": "Premiere Pro",
+      "vendor": "Adobe",
+      "accent": "#e47bff",
+      "glyph": "Pr",
+      "group": "media",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.adobe.com/products/premiere.html",
+        "sourceTitle": "Premiere Pro verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "vendor": "Blender Foundation",
+      "accent": "#f5792a",
+      "glyph": "Bl",
+      "group": "modeling",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.blender.org/",
+        "sourceTitle": "Blender verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "word",
+      "name": "Microsoft Word",
+      "vendor": "Microsoft",
+      "accent": "#2B579A",
+      "glyph": "W",
+      "group": "office",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.microsoft.com/microsoft-365/word",
+        "sourceTitle": "Microsoft Word verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "excel",
+      "name": "Microsoft Excel",
+      "vendor": "Microsoft",
+      "accent": "#217346",
+      "glyph": "X",
+      "group": "office",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.microsoft.com/microsoft-365/excel",
+        "sourceTitle": "Microsoft Excel verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "powerpoint",
+      "name": "Microsoft PowerPoint",
+      "vendor": "Microsoft",
+      "accent": "#D24726",
+      "glyph": "P",
+      "group": "office",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.microsoft.com/microsoft-365/powerpoint",
+        "sourceTitle": "Microsoft PowerPoint verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "outlook",
+      "name": "Microsoft Outlook",
+      "vendor": "Microsoft",
+      "accent": "#0078D4",
+      "glyph": "O",
+      "group": "office",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.microsoft.com/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+        "sourceTitle": "Microsoft Outlook verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "onenote",
+      "name": "Microsoft OneNote",
+      "vendor": "Microsoft",
+      "accent": "#7719AA",
+      "glyph": "N",
+      "group": "office",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.onenote.com/",
+        "sourceTitle": "Microsoft OneNote verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "autocad",
+      "name": "AutoCAD",
+      "vendor": "Autodesk",
+      "accent": "#E51050",
+      "glyph": "A",
+      "group": "architecture",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.autodesk.com/products/autocad/overview",
+        "sourceTitle": "AutoCAD verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "sketchup",
+      "name": "SketchUp",
+      "vendor": "Trimble",
+      "accent": "#005F9E",
+      "glyph": "Su",
+      "group": "architecture",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.sketchup.com/",
+        "sourceTitle": "SketchUp verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "rhino",
+      "name": "Rhino",
+      "vendor": "McNeel",
+      "accent": "#777777",
+      "glyph": "R",
+      "group": "architecture",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.rhino3d.com/",
+        "sourceTitle": "Rhino verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "fusion360",
+      "name": "Fusion 360",
+      "vendor": "Autodesk",
+      "accent": "#F28C28",
+      "glyph": "F",
+      "group": "engineering",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.autodesk.com/products/fusion-360/overview",
+        "sourceTitle": "Fusion 360 verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "freecad",
+      "name": "FreeCAD",
+      "vendor": "FreeCAD",
+      "accent": "#729FCF",
+      "glyph": "Fc",
+      "group": "engineering",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.freecad.org/",
+        "sourceTitle": "FreeCAD verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "shapr3d",
+      "name": "Shapr3D",
+      "vendor": "Shapr3D",
+      "accent": "#2863FF",
+      "glyph": "S",
+      "group": "engineering",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.shapr3d.com/",
+        "sourceTitle": "Shapr3D verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "maya",
+      "name": "Maya",
+      "vendor": "Autodesk",
+      "accent": "#37A5CC",
+      "glyph": "M",
+      "group": "modeling",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.autodesk.com/products/maya/overview",
+        "sourceTitle": "Maya verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "cinema4d",
+      "name": "Cinema 4D",
+      "vendor": "Maxon",
+      "accent": "#345DFF",
+      "glyph": "C4",
+      "group": "modeling",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.maxon.net/en/cinema-4d",
+        "sourceTitle": "Cinema 4D verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "comsol",
+      "name": "COMSOL Multiphysics",
+      "vendor": "COMSOL",
+      "accent": "#0D4A7E",
+      "glyph": "C",
+      "group": "simulation",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.comsol.com/comsol-multiphysics",
+        "sourceTitle": "COMSOL Multiphysics verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "matlab",
+      "name": "MATLAB",
+      "vendor": "MathWorks",
+      "accent": "#E16737",
+      "glyph": "M",
+      "group": "simulation",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.mathworks.com/products/matlab.html",
+        "sourceTitle": "MATLAB verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "simulink",
+      "name": "Simulink",
+      "vendor": "MathWorks",
+      "accent": "#F5A623",
+      "glyph": "S",
+      "group": "simulation",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.mathworks.com/products/simulink.html",
+        "sourceTitle": "Simulink verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "davinci",
+      "name": "DaVinci Resolve",
+      "vendor": "Blackmagic Design",
+      "accent": "#E54B4B",
+      "glyph": "D",
+      "group": "media",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.blackmagicdesign.com/products/davinciresolve",
+        "sourceTitle": "DaVinci Resolve verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "vendor": "Microsoft",
+      "accent": "#007ACC",
+      "glyph": "V",
+      "group": "development",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://code.visualstudio.com/",
+        "sourceTitle": "Visual Studio Code verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "xcode",
+      "name": "Xcode",
+      "vendor": "Apple",
+      "accent": "#147EFB",
+      "glyph": "X",
+      "group": "development",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://developer.apple.com/xcode/",
+        "sourceTitle": "Xcode verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "androidstudio",
+      "name": "Android Studio",
+      "vendor": "Google",
+      "accent": "#3DDC84",
+      "glyph": "AS",
+      "group": "development",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://developer.android.com/studio",
+        "sourceTitle": "Android Studio verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "intellij",
+      "name": "IntelliJ IDEA",
+      "vendor": "JetBrains",
+      "accent": "#FE315D",
+      "glyph": "IJ",
+      "group": "development",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.jetbrains.com/idea/",
+        "sourceTitle": "IntelliJ IDEA verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "jupyter",
+      "name": "JupyterLab",
+      "vendor": "Project Jupyter",
+      "accent": "#F37626",
+      "glyph": "J",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://jupyter.org/",
+        "sourceTitle": "JupyterLab verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "spss",
+      "name": "IBM SPSS Statistics",
+      "vendor": "IBM",
+      "accent": "#1F70C1",
+      "glyph": "S",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.ibm.com/products/spss-statistics",
+        "sourceTitle": "IBM SPSS Statistics verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "rstudio",
+      "name": "RStudio",
+      "vendor": "Posit",
+      "accent": "#75AADB",
+      "glyph": "R",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://posit.co/products/open-source/rstudio/",
+        "sourceTitle": "RStudio verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "chrome",
+      "name": "Google Chrome",
+      "vendor": "Google",
+      "accent": "#4285F4",
+      "glyph": "C",
+      "group": "browser",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.google.com/chrome/",
+        "sourceTitle": "Google Chrome verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "safari",
+      "name": "Safari",
+      "vendor": "Apple",
+      "accent": "#0FB5EE",
+      "glyph": "S",
+      "group": "browser",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.apple.com/safari/",
+        "sourceTitle": "Safari verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "vendor": "Notion Labs",
+      "accent": "#555555",
+      "glyph": "N",
+      "group": "collaboration",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://www.notion.com/product",
+        "sourceTitle": "Notion verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "vendor": "Obsidian",
+      "accent": "#7C3AED",
+      "glyph": "O",
+      "group": "study",
+      "dataStatus": "catalogOnly",
+      "categories": [],
+      "provenance": {
+        "sourceURL": "https://obsidian.md/",
+        "sourceTitle": "Obsidian verification-pending catalog entry",
+        "appVersion": "Current macOS edition",
+        "verifiedAt": "2026-07-21",
+        "coverage": "catalog-only-unverified-shortcuts-removed",
+        "platform": "macOS"
+      }
+    }
+  ]
+}

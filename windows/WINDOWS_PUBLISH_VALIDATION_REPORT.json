@@ -1,0 +1,24 @@
+{
+  "validatedAt": "2026-07-26",
+  "results": [
+    {
+      "target": "win-x64",
+      "machine": "0x8664",
+      "executableBytes": 194309053,
+      "dataBytes": 3216482,
+      "software": 209,
+      "shortcuts": 10969,
+      "icons": 209
+    },
+    {
+      "target": "win-arm64",
+      "machine": "0xaa64",
+      "executableBytes": 207326021,
+      "dataBytes": 3216482,
+      "software": 209,
+      "shortcuts": 10969,
+      "icons": 209
+    }
+  ],
+  "errors": []
+}

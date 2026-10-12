@@ -1,0 +1,45 @@
+{
+  "name": "keyfloat",
+  "version": "0.1.0",
+  "description": "A bilingual floating shortcut companion for design and creative software.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "check": "node --check main.js && node --check preload.js && node --check renderer.js && node --check data/shortcuts.js && node scripts/validate-data.js",
+    "pack": "electron-builder --mac --dir",
+    "dist": "electron-builder --mac"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.keyfloat.desktop",
+    "productName": "KeyFloat",
+    "asar": true,
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "index.html",
+      "styles.css",
+      "data/**/*"
+    ],
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "dmg": {
+      "title": "KeyFloat ${version}"
+    }
+  },
+  "allowScripts": {
+    "electron@31.7.7": true
+  }
+}
